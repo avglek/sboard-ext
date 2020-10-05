@@ -1,38 +1,122 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 97vh;
+  display: grid;
+  grid-template-areas:
+    "left main pict"
+    "left marq pict";
+  margin: 0;
+  /* grid-template-columns: 4fr 700px 300px; */
+  grid-template-columns: 4fr 11fr 300px;
+  grid-template-rows: 1fr 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Левая панель */
+.left_box {
+  grid-area: left;
+  padding: 10px;
+  min-height: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Область карты */
+.main_box {
+  grid-area: main;
+  overflow: hidden;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Область информации*/
+.inform_box {
+  grid-area: pict;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
+  overflow-y: hidden;
+}
+
+/* Бегущая строка */
+.mq_conteiner {
+  grid-area: marq;
+  width: 800px;
+  /* border: 1px solid blue; */
+  margin: auto;
+}
+
+.mq_box {
+  color: red;
+  white-space: nowrap;
+}
+
+/* Меню с предприятиями */
+.context {
+  position: absolute;
+  font: 12px sans-serif;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow-y: hidden;
+
+  visibility: hidden;
+  z-index: 2;
+}
+
+/* Подсказка по предприятиям */
+.stooltip {
+  position: absolute;
+  text-align: center;
+  min-width: 60px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: rgba(255, 235, 58, 0.7);
+  border: 1px solid black;
+  border-radius: 5px;
+  pointer-events: none;
+  visibility: hidden;
+  z-index: 2;
+}
+.stooltip hr {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+.context div {
+  color: black;
+  /* цвет текста */
+  text-decoration: none;
+  /* убирать подчёркивание у ссылок */
+  user-select: none;
+  /* убирать выделение текста */
+  cursor: default;
+}
+
+/* Кнопка меню */
+div.node {
+  min-height: 15px;
+  max-height: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: black;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/* Цвет меню */
+.bgcolor {
+  background: rgb(221, 219, 195);
+}
+
+.bgcolor:hover {
+  background: rgb(171, 169, 145);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

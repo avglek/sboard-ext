@@ -1,0 +1,125 @@
+{
+    "left_box": [
+        {
+            "id": 16,
+            "name": "История железной дороги",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_history.php",
+            "order_num": 2,
+            "style": "bg-blue"
+        },
+        {
+            "id": 17,
+            "name": "Показатели деятельности",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_work_evaluations.php",
+            "order_num": 3,
+            "style": "bg-blue"
+        },
+        {
+            "id": 2,
+            "name": "Отчетность Н",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_n.php",
+            "order_num": 4,
+            "style": "bg-violet"
+        },
+        {
+            "id": 12,
+            "name": "Отчетность  НЗ-1",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_nz1.php",
+            "order_num": 5,
+            "style": "bg-violet"
+        },
+        {
+            "id": 18,
+            "name": "Безопасность движения",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=18",
+            "order_num": 6,
+            "style": "bg-blue"
+        },
+        {
+            "id": 19,
+            "name": "Безопасность процессов",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=19",
+            "order_num": 7,
+            "style": "bg-blue"
+        },
+        {
+            "id": 25,
+            "name": "Управление персоналом",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=25",
+            "order_num": 8,
+            "style": "bg-blue"
+        },
+        {
+            "id": 32,
+            "name": "ОТС и ТН",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=32",
+            "order_num": 9,
+            "style": "bg-blue"
+        },
+        {
+            "id": 29,
+            "name": "Грузовые перевозки",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=29",
+            "order_num": 10,
+            "style": "bg-blue"
+        },
+        {
+            "id": 27,
+            "name": "Пассажирские перевозки",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=27",
+            "order_num": 11,
+            "style": "bg-blue"
+        },
+        {
+            "id": 30,
+            "name": "Инфраструктура",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=30",
+            "order_num": 12,
+            "style": "bg-blue"
+        },
+        {
+            "id": 33,
+            "name": "Локомотивный комплекс",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=33",
+            "order_num": 13,
+            "style": "bg-blue"
+        },
+        {
+            "id": 28,
+            "name": "Инновационная деятельность",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=28",
+            "order_num": 14,
+            "style": "bg-blue"
+        },
+        {
+            "id": 31,
+            "name": "Рейтинговая оценка",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=31",
+            "order_num": 15,
+            "style": "bg-blue"
+        },
+        {
+            "id": 34,
+            "name": "Полезная информация",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=34",
+            "order_num": 16,
+            "style": "bg-blue"
+        },
+        {
+            "id": 15,
+            "name": "Новости табло",
+            "path": "/merp40/map_ozd/orw_tablo/orw_tablo_news.php",
+            "order_num": 17,
+            "style": "bg-grey"
+        }
+    ],
+    "right_box": [
+        {
+            "id": null,
+            "name": "Выход",
+            "path": "./orw_tablo.php?exit_user",
+            "order_num": 1,
+            "style": "bg-red"
+        }
+    ]
+}

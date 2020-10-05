@@ -1,0 +1,29 @@
+/* стиль карты */
+svg {
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+.tools {
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  z-index: 1;
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.tools-button {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background: rgba(217, 217, 217, 0.5);
+  margin-left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
