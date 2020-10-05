@@ -1,7 +1,0 @@
-{
-  "divisions": "./data/load_divisions.json",
-  "menu": "./data/load_menu.json",
-  "data_division": "./data/load_pred_pokaz.json",
-  "dv2": "./data/dvs_2.json",
-  "pokaz": "http://localhost:4000/users?id="
-}
