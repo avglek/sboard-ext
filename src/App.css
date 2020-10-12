@@ -28,14 +28,14 @@
 /* Область информации*/
 .inform_box {
   grid-area: pict;
-  padding-top: 50px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  align-items: left;
+  justify-content: space-between;
   overflow-y: hidden;
 }
 

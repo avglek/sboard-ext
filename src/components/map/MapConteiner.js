@@ -13,6 +13,7 @@ import {
   informSpecKey,
 } from "../../store/actions/informActions";
 import { modalFetchData, ModalIsOpen } from "../../store/actions/modalAction";
+import { forecastFetchData, forecastClose } from "../../store/actions/forecastAction";
 
 const mapStateToProps = (state) => {
   return {
@@ -28,6 +29,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     fetchData: (url) => dispatch(modalFetchData(url)),
+    forecastFetchData: (url) => dispatch(forecastFetchData(url)),
+    forecastClose: () => dispatch(forecastClose()),
     postLegend: (imgName) => dispatch(informLegendKey(imgName)),
     postSpec: (imgName) => dispatch(informSpecKey(imgName)),
     openModal: (isOpen) => dispatch(ModalIsOpen(isOpen)),

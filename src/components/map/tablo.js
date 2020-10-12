@@ -95,6 +95,7 @@ function loadRegions(url_reg) {
     close_btn
       .on("click", () => {
         parentProps.postSpec(null);
+        parentProps.forecastClose();
         loadMapORW(parentProps);
       })
       .on("mouseenter", () => close_btn.attr("opacity", "0.98"))
@@ -132,6 +133,10 @@ function go_reg_click() {
   if (typeof item !== "undefined") {
     parentProps.postLegend(item.img_leg);
     parentProps.postSpec(item.img_spec ? item.img_spec : null);
+
+    const prognozUrl = config.prognoz.toString() + item.id;
+    parentProps.forecastFetchData(prognozUrl);
+
     loadRegions(item.url);
   }
 }
@@ -224,13 +229,9 @@ function st_click() {
 function node_click() {
   //let url = 'http://localhost:4000/users?id=' + this.id;
   let url = config.pokaz.toString() + this.id;
-  //let url = config.pokaz.toString();
-  //console.log("url_list:", url);
 
   parentProps.openModal(true);
-  //d3.select(".smodal").style("visibility", "visible");
   parentProps.fetchData(url);
-  //d3.select(".btn-close").on("click", () => d3.select(".smodal").style("visibility", "hidden"));
 }
 
 function getCodeStn(element) {
@@ -261,6 +262,10 @@ function reg_click() {
       parentProps.postSpec(
         regions[node].img_spec ? regions[node].img_spec : null
       );
+
+      const prognozUrl = config.prognoz.toString() + regions[node].id;
+      parentProps.forecastFetchData(prognozUrl);
+
       loadRegions(url);
     }
   } else {

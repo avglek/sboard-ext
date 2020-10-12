@@ -4,6 +4,7 @@ var initialState = {
     menu: "./data/load_menu.json",
     pokaz: "http://localhost:8080/orw_tablo/load_pred_pokaz.php?code_pred=",
     piket: "http://localhost:8080/orw_tablo/load_piket.php",
+    prognoz: "http://localhost:8080/orw_tablo/load_prognoz.php?region=",
   },
 
   main: {

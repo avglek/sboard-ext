@@ -807,8 +807,8 @@
                 <tspan x="398" y="18">ДТВУ-4</tspan>
             </text>
             <text id="ДТВУ-3-Санкт-Петербу" font-family="Helvetica-Bold, Helvetica" font-size="16" font-weight="bold" fill="#3776E2">
-                <tspan x="83" y="889">ДТВУ-3 Санкт-Петербургский</tspan>
-                <tspan x="83" y="908">территориальный участок</tspan>
+                <tspan x="85" y="857">ДТВУ-3 Санкт-Петербургский</tspan>
+                <tspan x="85" y="876">территориальный участок</tspan>
             </text>
             <g id="cow" transform="translate(381.000000, 51.000000)">
                 <circle id="Oval" fill="#FFFFFF" cx="5" cy="5" r="5"></circle>
@@ -1323,7 +1323,10 @@
                 <circle id="Oval" fill="#0074FA" cx="5" cy="5" r="3"></circle>
                 <circle id="Oval" fill="#10C600" cx="11" cy="5" r="3"></circle>
             </g>
-            <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#10C600" cx="190" cy="233" r="7"></circle>
+            <g id="wo" transform="translate(185.000000, 238.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="5" cy="5" r="5"></circle>
+                <circle id="Oval" fill="#10C600" cx="5" cy="5" r="3"></circle>
+            </g>
             <g id="cw" transform="translate(240.000000, 351.000000)">
                 <circle id="Oval" fill="#FFFFFF" cx="5" cy="5" r="5"></circle>
                 <circle id="Oval" fill="#0074FA" cx="5" cy="5" r="3"></circle>
@@ -1523,7 +1526,7 @@
                 </g>
             </g>
             <g id="ech_14" transform="translate(170.000000, 426.000000)">
-                <polygon id="Path-161" stroke="#5382F8" stroke-width="3" fill-opacity="0.1" fill="#5382F8" points="102 0 122 4 144.0625 65.5058594 236.25 44.3632813 314 105 280 175.603516 302.5 214.092593 290.5 237.402062 258 211.092593 196.5 309.559603 170.982746 237 213.652344 175.802403 155.482746 108.092593 134 120"></polygon>
+                <polygon id="Path-161" stroke="#5382F8" stroke-width="3" fill-opacity="0.1" fill="#5382F8" points="102 0 122 4 144.0625 65.5058594 236.25 44.3632812 314 105 280 175.603516 302.5 214.092593 290.5 237.402062 258 211.092593 196.5 309.559603 170.982746 237 213.652344 175.802403 155.482746 108.092593 134 120"></polygon>
                 <polygon id="Path-162" stroke="#5382F8" stroke-width="3" fill-opacity="0.1" fill="#5382F8" points="89.4882812 101.496098 57 122.5 93.2717908 375 11 345.787006 0.5 372.306641 115.071068 413.287109 166 342 153 305 120.5 355.548342 90.965491 133 98 131"></polygon>
                 <g id="Group-5" transform="translate(2.000000, 23.000000)">
                     <rect id="Rectangle" fill="#5382F8" transform="translate(263.627417, 49.627417) rotate(-45.000000) translate(-263.627417, -49.627417) " x="247.627417" y="33.627417" width="32" height="32" rx="3"></rect>
@@ -1552,6 +1555,13 @@
                     </text>
                 </g>
             </g>
+        </g>
+        <g id="ngch" opacity="0" transform="translate(14.000000, 27.000000)">
+            <path d="M396,801.212994 C407.335248,819.046886 439.600073,828.212142 495.650879,862 C539.611829,888.5 680.420638,973.187672 713.5,944 C730.5,929 693.5,768.108897 688,738.554448 C682.5,709 559.032116,348.207856 538.516058,261.767502 C518,175.327148 507.257161,-5.81931278 452.372583,1 C438.722981,2.69593915 358.662656,46.0784817 292.340586,95 C245.519647,129.53679 207.293791,143.130523 210,191.5 C213.69792,257.594836 293.822478,336.733186 339.695846,356 C389.695846,377 458.731694,449.540261 473,481.320313 C487.293818,513.157188 457.25,529.5 450.25,538 C443.25,546.5 460,645.165301 451,666.5 C442,687.834699 372.482746,764.212994 396,801.212994 Z" id="Path-185" stroke="#609FFF" stroke-width="2" fill-opacity="0.15" fill="#659EF5" stroke-dasharray="4"></path>
+            <text id="Санкт-Петербургская" font-family="AvenirNext-DemiBoldItalic, Avenir Next" font-size="16" font-style="italic" font-weight="500" fill="#1A6BE7">
+                <tspan x="9.172" y="300">Санкт-Петербургская дистанция гражданских </tspan>
+                <tspan x="110.572" y="322">сооружений (НГЧ-3)</tspan>
+            </text>
         </g>
         <g id="stations" transform="translate(123.000000, 13.000000)">
             <g id="st_04584" opacity="0.499975" transform="translate(442.000000, 522.000000)">
@@ -3506,7 +3516,7 @@
                     <polygon id="Path-82" fill="#555555" points="0 3.28515625 6 3.28515625 6 1.83171402 3 2.22044605e-16 1.08317522e-12 1.83171402"></polygon>
                 </g>
             </g>
-            <g id="piket_03000_1" opacity="0.404206" transform="translate(0.000000, 552.000000)">
+            <g id="piket_03000_1" opacity="0.404206" transform="translate(0.000000, 555.000000)">
                 <g id="term">
                     <polygon id="Path-80" stroke="#555555" stroke-width="1" fill="#FFFFFF" points="2.72848411e-12 22.2089844 6 22.2089844 6 1.90373969 3 -1.95399252e-14 2.72848411e-12 1.90373969"></polygon>
                     <polygon id="Path-82" fill="#555555" points="2.72848411e-12 14.8476563 6 17.5202637 6 14.4768066 2.72848411e-12 11.5942383"></polygon>
@@ -3577,6 +3587,149 @@
                     <polygon id="Path-83" fill="#555555" points="6 21.0639648 6 22.2089844 2.72848411e-12 22.2089844 2.72848411e-12 18.5864258"></polygon>
                     <polygon id="Path-82" fill="#555555" points="0 3.28515625 6 3.28515625 6 1.83171402 3 2.22044605e-16 1.08317522e-12 1.83171402"></polygon>
                 </g>
+            </g>
+        </g>
+        <g id="spec_trains" opacity="0" transform="translate(28.000000, 202.000000)">
+            <g id="Group-4" transform="translate(296.000000, 0.000000)">
+                <g id="train_restore" transform="translate(24.000000, 0.000000)">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#0790F6" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                    <polygon id="Path-226" fill="#FFD100" points="1 23 4 29 6 29 3 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" points="5 23 8 29 10 29 7 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(16.500000, 26.000000) scale(-1, 1) translate(-16.500000, -26.000000) " points="14 23 17 29 19 29 16 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(12.500000, 26.000000) scale(-1, 1) translate(-12.500000, -26.000000) " points="10 23 13 29 15 29 12 23"></polygon>
+                </g>
+                <text id="4024" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#0790F6">
+                    <tspan x="47.496" y="21">4024</tspan>
+                </text>
+                <g id="train_fire">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(382.000000, 245.000000)">
+                <g id="train_restore" transform="translate(25.000000, 0.000000)">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#0790F6" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                    <polygon id="Path-226" fill="#FFD100" points="1 23 4 29 6 29 3 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" points="5 23 8 29 10 29 7 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(16.500000, 26.000000) scale(-1, 1) translate(-16.500000, -26.000000) " points="14 23 17 29 19 29 16 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(12.500000, 26.000000) scale(-1, 1) translate(-12.500000, -26.000000) " points="10 23 13 29 15 29 12 23"></polygon>
+                </g>
+                <text id="3024" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#0790F6">
+                    <tspan x="20.496" y="41">3024</tspan>
+                </text>
+                <g id="train_fire">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(0.000000, 304.000000)">
+                <g id="train_restore" transform="translate(36.000000, 0.000000)">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#0790F6" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                    <polygon id="Path-226" fill="#FFD100" points="1 23 4 29 6 29 3 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" points="5 23 8 29 10 29 7 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(16.500000, 26.000000) scale(-1, 1) translate(-16.500000, -26.000000) " points="14 23 17 29 19 29 16 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(12.500000, 26.000000) scale(-1, 1) translate(-12.500000, -26.000000) " points="10 23 13 29 15 29 12 23"></polygon>
+                </g>
+                <text id="3024" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#0790F6">
+                    <tspan x="0.496" y="20">3024</tspan>
+                </text>
+                <g id="train_fire" transform="translate(61.000000, 0.000000)">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(149.000000, 390.000000)">
+                <g id="train_restore" transform="translate(24.000000, 0.000000)">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#0790F6" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                    <polygon id="Path-226" fill="#FFD100" points="1 23 4 29 6 29 3 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" points="5 23 8 29 10 29 7 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(16.500000, 26.000000) scale(-1, 1) translate(-16.500000, -26.000000) " points="14 23 17 29 19 29 16 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(12.500000, 26.000000) scale(-1, 1) translate(-12.500000, -26.000000) " points="10 23 13 29 15 29 12 23"></polygon>
+                </g>
+                <text id="3023" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#0790F6">
+                    <tspan x="48.496" y="22">3023</tspan>
+                </text>
+                <g id="train_fire">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(422.000000, 306.000000)">
+                <g id="train_restore" transform="translate(24.000000, 0.000000)">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#0790F6" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                    <polygon id="Path-226" fill="#FFD100" points="1 23 4 29 6 29 3 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" points="5 23 8 29 10 29 7 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(16.500000, 26.000000) scale(-1, 1) translate(-16.500000, -26.000000) " points="14 23 17 29 19 29 16 23"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(12.500000, 26.000000) scale(-1, 1) translate(-12.500000, -26.000000) " points="10 23 13 29 15 29 12 23"></polygon>
+                </g>
+                <text id="3023" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#0790F6">
+                    <tspan x="18.496" y="41">3023</tspan>
+                </text>
+                <g id="train_fire">
+                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
+                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                    <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+                </g>
+            </g>
+            <g id="train_fire" transform="translate(619.000000, 443.000000)">
+                <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
+                <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+            </g>
+            <g id="train_fire" transform="translate(569.000000, 645.000000)">
+                <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
+                <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
+                <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
             </g>
         </g>
         <g id="dolb" opacity="0" transform="translate(167.000000, 125.000000)">

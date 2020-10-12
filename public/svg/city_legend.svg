@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="250px" height="324px" viewBox="0 0 250 324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>city_legend</title>
-    <desc>Created with Sketch.</desc>
     <g id="city_legend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#DEDEDE" stroke-width="3" fill="#FFFFFF" x="1.5" y="1.5" width="247" height="321" rx="8"></rect>
+        <rect id="Rectangle" stroke="#B3BDC7" stroke-width="3" fill="#FFFFFF" x="1.5" y="1.5" width="247" height="321" rx="8"></rect>
         <text id="Пути-без-электрифика" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#B1B1B1">
             <tspan x="60.54" y="275">Пути без электрификации</tspan>
         </text>

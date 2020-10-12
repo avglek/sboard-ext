@@ -48,4 +48,16 @@ export const layersInit = [
     name: "ЭЧ",
     visible: "visible",
   },
+  {
+    layer: "spec_trains",
+    show: false,
+    name: "Восстановительные и пожарные поезда",
+    visible: "visible",
+  },
+  {
+    layer: "ngch",
+    show: false,
+    name: "НГЧ, дистанция гражданских сооружений",
+    visible: "visible",
+  },
 ];
