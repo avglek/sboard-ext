@@ -1,26 +1,22 @@
-import {
-  ITEMS_SHOW_LAYER,
-  ITEMS_IS_REFRESH_LAYER,
-} from "../actions/actionTypes";
+import { LAYER_SHOW_CHECKED, LAYER_REFRESH } from "../actions/actionTypes";
 
 const initialState = {
   layers: [],
-  refresh: false,
 };
 
 export default function layerReduser(state = initialState, action) {
-  //  console.log("Reduser:", action)
+  //console.log("Reduser:", action);
   switch (action.type) {
-    case ITEMS_SHOW_LAYER:
+    case LAYER_SHOW_CHECKED:
       return {
         ...state,
         layers: action.layers,
       };
-    case ITEMS_IS_REFRESH_LAYER:
-      //console.log("Reduser get ITEMS_IS_MODAL_OPEN", action.isModalOpen);
+    case LAYER_REFRESH:
+      console.log("Reduser layers", action.layers);
       return {
         ...state,
-        refresh: action.isRefreshLayer,
+        layers: action.layers,
       };
 
     default:

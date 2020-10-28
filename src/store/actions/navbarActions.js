@@ -1,3 +1,4 @@
+import DataService from "../../services/DataService"
 import {
   NAVBAR_FETCH_ERRORED,
   NAVBAR_FETCH_DATA_SUCCESS,
@@ -5,6 +6,8 @@ import {
 } from "./actionTypes";
 
 const KEY = "left_box";
+
+const dataService = new DataService()
 
 export function navbarFetchError(error) {
   return {
@@ -35,21 +38,19 @@ export function navbarFetchDataSlow(url) {
   };
 }
 
-export function navbarFetchData(url) {
+
+export function navbarFetchData() {
   return async (dispatch) => {
-    dispatch(navbarStartLoading());
 
+    dispatch(navbarStartLoading())
     try {
-      const response = await fetch(url);
-
-      if (!response.ok) {
-        throw Error(response.statusText);
-      } else {
-        const body = await response.json();
-        dispatch(navbarFetchDataSuccess(body[KEY]));
-      }
-    } catch (err) {
-      dispatch(navbarFetchError(err));
+      const data = await dataService.getMenu()
+       dispatch(navbarFetchDataSuccess(data[KEY]))
+    } catch (error) {
+      console.log("Error:", error)
+      dispatch(navbarFetchError(error))
     }
-  };
+
+  }
 }
+

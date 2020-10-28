@@ -61,7 +61,6 @@
   flex-direction: column;
   align-items: stretch;
   overflow-y: hidden;
-
   visibility: hidden;
   z-index: 2;
 }

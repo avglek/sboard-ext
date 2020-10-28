@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="20px" viewBox="0 0 30 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 34</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-34">
+            <path d="M5,20 L4.78311038,19.9953805 C2.12230671,19.8818181 -5.32907052e-15,17.6887547 -5.32907052e-15,15 C-5.32907052e-15,12.2385763 2.23857625,10 5,10 C5.01850369,10 5.03698391,10.0001005 5.05544013,10.000301 C5.01869746,9.67281389 5,9.33859046 5,9 C5,4.02943725 9.02943725,0 14,0 C17.9254967,0 21.2640103,2.51317376 22.4943337,6.01831428 C22.6608253,6.00608127 22.8297025,6 23,6 C26.8659932,6 30,9.13400675 30,13 C30,16.8659932 26.8659932,20 23,20 L23,20 L5,20 Z" id="Combined-Shape" fill="#BC00FF"></path>
+            <g id="Group-4" transform="translate(10.000000, 2.000000)" stroke="#FFFFFF" stroke-width="2">
+                <polyline id="Path-12" points="4.37727273 9.16363636 4.37727273 4.82735263 4.37727273 4.65082518e-14"></polyline>
+                <polyline id="Path-12" transform="translate(4.377273, 4.581818) rotate(-60.000000) translate(-4.377273, -4.581818) " points="4.37727273 9.16363636 4.37727273 4.82735263 4.37727273 4.00634071e-14"></polyline>
+                <polyline id="Path-12" transform="translate(4.377273, 4.581818) rotate(-120.000000) translate(-4.377273, -4.581818) " points="4.37727273 9.16363636 4.37727273 4.82735263 4.37727273 -1.08421353e-13"></polyline>
+            </g>
+            <g id="Group-4" transform="translate(20.000000, 9.000000)" stroke="#FFFFFF" stroke-width="2">
+                <polyline id="Path-12" points="3.89090909 8.14545455 3.89090909 4.29098011 3.89090909 4.13406683e-14"></polyline>
+                <polyline id="Path-12" transform="translate(3.890909, 4.072727) rotate(-60.000000) translate(-3.890909, -4.072727) " points="3.89090909 8.14545455 3.89090909 4.29098011 3.89090909 1.93312033e-13"></polyline>
+                <polyline id="Path-12" transform="translate(3.890909, 4.072727) rotate(-120.000000) translate(-3.890909, -4.072727) " points="3.89090909 8.14545455 3.89090909 4.29098011 3.89090909 4.57896347e-14"></polyline>
+            </g>
+            <g id="Group-4" transform="translate(4.000000, 11.000000)" stroke="#FFFFFF" stroke-width="2">
+                <polyline id="Path-12" points="3.40454545 7.12727273 3.40454545 3.7546076 3.40454545 3.61730847e-14"></polyline>
+                <polyline id="Path-12" transform="translate(3.404545, 3.563636) rotate(-60.000000) translate(-3.404545, -3.563636) " points="3.40454545 7.12727273 3.40454545 3.7546076 3.40454545 1.41220369e-13"></polyline>
+                <polyline id="Path-12" transform="translate(3.404545, 3.563636) rotate(-120.000000) translate(-3.404545, -3.563636) " points="3.40454545 7.12727273 3.40454545 3.7546076 3.40454545 -7.32252642e-14"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,9 +1,12 @@
+import DataService from "../../services/DataService"
 import {
   MODAL_IS_OPEN,
   MODAL_FETCH_ERRORED,
   MODAL_START_LOADING,
   MODAL_FETCH_DATA_SUCCESS,
 } from "./actionTypes";
+
+const dataService = new DataService()
 
 export function ModalIsOpen(bool) {
   // console.log("action open modal:", bool);
@@ -33,21 +36,30 @@ export function modalFetchDataSuccess(items) {
   };
 }
 
-export function modalFetchData(url) {
+export function modalFetchData(id) {
+  return async (dispatch) => {
+
+    dispatch(modalStartLoading())
+    try {
+      const data = await dataService.getPokaz(id)
+       dispatch(modalFetchDataSuccess(data))
+    } catch (error) {
+      console.log("Error:", error)
+      dispatch(modalFetchError(error))
+    }
+
+  }
+}
+
+export function modalStormFetchData(id) {
   return async (dispatch) => {
     dispatch(modalStartLoading());
-
     try {
-      const response = await fetch(url);
-      //console.log("response server:", response);
-      if (!response.ok) {
-        throw Error(response.statusText);
-      } else {
-        const body = await response.json();
-        dispatch(modalFetchDataSuccess(body));
-      }
-    } catch (e) {
-      dispatch(modalFetchError(e));
+      const data = await dataService.getStormPokaz(id);
+      dispatch(modalFetchDataSuccess(data));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
     }
   };
 }

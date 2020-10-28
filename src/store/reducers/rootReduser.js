@@ -4,6 +4,8 @@ import informReduser from "./informReduser";
 import layerReduser from "./layerReduser";
 import navbarReduser from "./navbarReduser";
 import forecastReduser from "./forecatsReduser";
+import stormReduser from "./stormReduser";
+import tabloReduser from "./tabloReduser";
 
 export default combineReducers({
   modal: modalReduser,
@@ -11,4 +13,6 @@ export default combineReducers({
   layer: layerReduser,
   navbar: navbarReduser,
   forecast: forecastReduser,
+  storm: stormReduser,
+  tablo: tabloReduser,
 });

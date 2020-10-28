@@ -35,7 +35,8 @@ const TabEnterprises = (props) => {
     return null;
   }
 
-  if (props.isLoading && props.items.length !== 0) {
+  //if (props.isLoading && props.items.length !== 0) {
+  if (props.isLoading) {
     return (
       <div>
         <LoaderConteiner />

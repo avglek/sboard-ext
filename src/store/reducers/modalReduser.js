@@ -7,8 +7,8 @@ import {
 
 const initialState = {
   isModalOpen: false,
-  loading: false,
-  error: null,  
+  loading: true,
+  error: null,
   items: [],
 };
 
@@ -28,13 +28,13 @@ export default function modalReduser(state = initialState, action) {
       return {
         ...state,
         items: action.items,
-        loading: false
+        loading: false,
       };
     case MODAL_FETCH_ERRORED:
       return {
         ...state,
         error: action.error,
-        loading: false
+        loading: false,
       };
 
     default:

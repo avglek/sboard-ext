@@ -5,9 +5,6 @@ import NavButton from "./NavButton/NavButton";
 import classes from "./NavBar.module.css";
 import { navbarFetchData } from "../../store/actions/navbarActions";
 
-const applicationInitialState = window.__INITIAL_STATE__;
-const config = applicationInitialState.config;
-
 // Замена наименования стиля с "bg-blue" на "bgBlue"
 const translate = (name) => {
   const str = name.match(/-(\D)/);
@@ -24,30 +21,31 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    fetchData: (url) => dispatch(navbarFetchData(url)),
+    fetchData: () => dispatch(navbarFetchData()),
   };
 };
 
-const NavBar = (props) => {
-  useEffect(() => {
-    props.fetchData(config.menu);
-    // eslint-disable-next-line
-  }, []);
+const NavBar = ({fetchData,isLoading,items,hasErrored,className}) => {
 
-  if (props.hasErrored) {
-    console.log("Error:", props.hasErrored);
+  useEffect(() =>
+  {
+    fetchData(); 
+  }, [fetchData]);
+
+  if (hasErrored) {
+    console.log("Error:", hasErrored);
     return <div>Error</div>;
   }
 
-  if (props.isLoading && props.items.length !== 0) {
+  if (isLoading && items.length !== 0) {
     return <div>LOADING</div>;
   } else {
-    const leftBox = props.items;
+    const leftBox = items;
 
     leftBox.sort((a, b) => a.order_num - b.order_num);
 
     return (
-      <div className={props.className + " " + classes.NavBar}>
+      <div className={className + " " + classes.NavBar}>
         {leftBox.map((item, index) => {
           return (
             <NavButton

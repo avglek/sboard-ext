@@ -1,14 +1,25 @@
+import DataService from "../../services/DataService";
 import {
   FORECAST_FETCH_ERRORED,
   FORECAST_START_LOADING,
   FORECAST_CLOSE,
+  FORECAST_OPEN,
   FORECAST_FETCH_DATA_SUCCESS,
 } from "./actionTypes";
+
+const dataService = new DataService();
 
 export function forecastClose() {
   // console.log("action open modal:", bool);
   return {
     type: FORECAST_CLOSE,
+  };
+}
+
+export function forecastOpen() {
+  // console.log("action open modal:", bool);
+  return {
+    type: FORECAST_OPEN,
   };
 }
 
@@ -32,21 +43,15 @@ export function forecastFetchDataSuccess(items) {
   };
 }
 
-export function forecastFetchData(url) {
+export function forecastFetchData(id) {
   return async (dispatch) => {
     dispatch(forecastStartLoading());
-
     try {
-      const response = await fetch(url);
-      //console.log("response server:", response);
-      if (!response.ok) {
-        throw Error(response.statusText);
-      } else {
-        const body = await response.json();
-        dispatch(forecastFetchDataSuccess(body));
-      }
-    } catch (e) {
-      dispatch(forecastFetchError(e));
+      const data = await dataService.getPrognoz(id);
+      dispatch(forecastFetchDataSuccess(data));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(forecastFetchError(error));
     }
   };
 }

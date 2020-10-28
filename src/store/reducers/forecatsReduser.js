@@ -3,6 +3,7 @@ import {
   FORECAST_START_LOADING,
   FORECAST_CLOSE,
   FORECAST_FETCH_DATA_SUCCESS,
+  FORECAST_OPEN,
 } from "../actions/actionTypes";
 
 const initialState = {
@@ -14,6 +15,11 @@ const initialState = {
 
 export default function forecastReduser(state = initialState, action) {
   switch (action.type) {
+    case FORECAST_OPEN:
+      return {
+        ...state,
+        isOpen: true,
+      };
     case FORECAST_CLOSE:
       return {
         ...state,
@@ -23,21 +29,18 @@ export default function forecastReduser(state = initialState, action) {
       return {
         ...state,
         loading: true,
-        isOpen: false,
       };
     case FORECAST_FETCH_DATA_SUCCESS:
       return {
         ...state,
         items: action.items,
         loading: false,
-        isOpen: true,
       };
     case FORECAST_FETCH_ERRORED:
       return {
         ...state,
         error: action.error,
         loading: false,
-        isOpen: false,
       };
 
     default:

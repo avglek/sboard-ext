@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1050px" height="1000px" viewBox="0 0 1050 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>Artboard</title>
-    <desc>Created with Sketch.</desc>
     <defs>
         <filter x="-0.3%" y="-0.3%" width="100.6%" height="100.7%" filterUnits="objectBoundingBox" id="filter-1">
             <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
@@ -396,8 +394,9 @@
                 <text id="Костомукша" transform="translate(37.500000, 38.500000) rotate(-50.000000) translate(-37.500000, -38.500000) " font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#6D7C8A">
                     <tspan x="-3.807" y="43">Костомукша</tspan>
                 </text>
-                <g id="st" transform="translate(0.000000, 76.000000)" fill="#FFFDFD" stroke="#6EA8F0" stroke-width="2">
-                    <circle id="Oval" cx="8" cy="8" r="7"></circle>
+                <g id="st" transform="translate(0.000000, 76.000000)">
+                    <circle id="Oval" stroke="#6EA8F0" stroke-width="1" fill="#FFFDFD" cx="8" cy="8" r="7.5"></circle>
+                    <circle id="Oval" fill="#6EA8F0" cx="8" cy="8" r="5"></circle>
                 </g>
             </g>
             <g id="st_01239" transform="translate(414.000000, 72.000000)">
@@ -418,7 +417,7 @@
             </g>
         </g>
         <g id="st_murm" transform="translate(662.000000, 14.000000)">
-            <g id="st_01810" transform="translate(32.000000, 0.000000)">
+            <g id="st_01810" transform="translate(30.000000, 0.000000)">
                 <text id="Заполярная" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#6D7C8A">
                     <tspan x="0.422" y="19">Заполярная</tspan>
                 </text>
@@ -557,7 +556,7 @@
                     <circle id="Oval" cx="4" cy="4" r="3.5"></circle>
                 </g>
             </g>
-            <g id="st_04500" transform="translate(59.000000, 126.000000)">
+            <g id="st_04500" transform="translate(59.000000, 127.000000)">
                 <text id="Будогощь" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
                     <tspan x="0.08" y="16">Будогощь</tspan>
                 </text>
@@ -928,7 +927,7 @@
                     <circle id="Oval" cx="8" cy="8" r="7"></circle>
                 </g>
             </g>
-            <g id="st_06700" transform="translate(156.000000, 366.000000)">
+            <g id="st_06710" transform="translate(156.000000, 366.000000)">
                 <text id="Невель-2" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#6D7C8A">
                     <tspan x="14.32" y="14">Невель 2</tspan>
                 </text>
@@ -1963,6 +1962,48 @@
                     <polygon id="Path-82" fill="#0064FF" points="0.453369141 13.274292 5.47900391 15.6799316 5.47900391 10.6809082 0.453369141 7.84667969"></polygon>
                     <polygon id="Path-83" fill="#555555" points="6 21.0639648 6 22.2089844 2.72848411e-12 22.2089844 2.72848411e-12 18.5864258"></polygon>
                     <polygon id="Path-82" fill="#555555" points="2.72848411e-12 2.66052246 6 5.83911133 6 1.83171402 3 7.46069873e-14 1.08317522e-12 1.83171402"></polygon>
+                </g>
+            </g>
+        </g>
+        <g id="trains_distantions" opacity="0.87234933" transform="translate(282.000000, 92.000000)">
+            <g id="dist_5" transform="translate(413.000000, 0.000000)">
+                <g id="icon">
+                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+                </g>
+            </g>
+            <g id="dist_4" transform="translate(506.000000, 272.000000)">
+                <g id="icon">
+                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+                </g>
+            </g>
+            <g id="dist_6" transform="translate(506.000000, 541.000000)">
+                <g id="icon">
+                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+                </g>
+            </g>
+            <g id="dist_3" transform="translate(198.000000, 503.000000)">
+                <g id="icon">
+                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+                </g>
+            </g>
+            <g id="dist_7" transform="translate(68.000000, 453.000000)">
+                <g id="icon">
+                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+                </g>
+            </g>
+            <g id="dist_7" transform="translate(0.000000, 99.000000)">
+                <g id="icon">
+                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+                </g>
+            </g>
+            <g id="dist_2" transform="translate(18.000000, 735.000000)">
+                <g id="icon">
+                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+                </g>
+            </g>
+            <g id="dist_1" transform="translate(482.000000, 778.000000)">
+                <g id="icon">
+                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 </g>
             </g>
         </g>

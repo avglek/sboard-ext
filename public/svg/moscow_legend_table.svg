@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="320px" height="300px" viewBox="0 0 320 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>moscow_legend_table</title>
-    <desc>Created with Sketch.</desc>
     <g id="moscow_legend_table" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#B3BDC7" stroke-width="3" fill="#FFFFFF" x="1.5" y="1.5" width="317" height="297" rx="8"></rect>
         <text id="131-ед." font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
             <tspan x="255.438" y="277">131 ед.</tspan>
         </text>
-        <text id="239-ед." font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="255.438" y="230">239 ед.</tspan>
+        <text id="280-ед." font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="255.438" y="230">280 ед.</tspan>
         </text>
         <text id="737-ед." font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
             <tspan x="255.438" y="179">737 ед.</tspan>

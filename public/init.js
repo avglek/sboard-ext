@@ -5,10 +5,18 @@ var initialState = {
     pokaz: "http://localhost:8080/orw_tablo/load_pred_pokaz.php?code_pred=",
     piket: "http://localhost:8080/orw_tablo/load_piket.php",
     prognoz: "http://localhost:8080/orw_tablo/load_prognoz.php?region=",
+    storm_region: "http://localhost:8080/orw_tablo/load_storm.php?region=",
+    storm_all: "http://localhost:8080/orw_tablo//load_storm.php",
+    storm_uch: "http://localhost:8080/orw_tablo/load_storm.php?map=",
+  },
+
+  wsocket: {
+    endpoint: "http://localhost:4000",
   },
 
   main: {
-    tablo: "./svg/tablo.svg",
+    map: "./svg/tablo.svg",
+    big_map: "./svg/big_tablo.svg",
   },
 
   regions: {

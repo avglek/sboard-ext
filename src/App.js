@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import MapBox from "./components/map/MapBox";
+import MapConteiner from "./components/map/MapConteiner";
 import ModalEnterprases from "./components/DisplayEnterprises/ModalEnterprises";
 import Inform from "./components/inform/Inform";
 import Drawer from "./components/SidePanel/Drawer/Drawer";
@@ -23,7 +23,7 @@ function App() {
       <div className="stooltip"></div>
       <ModalEnterprases />
       <MarqueeAlert className="mq_box" />
-      <MapBox className="main_box" />
+      <MapConteiner className="main_box" />
       <NavBar className="left_box" />
       <Inform className="inform_box" />
       <Drawer isOpen={menu} onToggleHandle={toggleMenuHandler} />

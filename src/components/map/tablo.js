@@ -1,11 +1,19 @@
 import * as d3 from "d3";
+//import socketIOClient from "socket.io-client";
 import Stantion from "./Stantion";
 import Piket from "./Piket";
+import DataService from "../../services/DataService";
+import {
+  showToolTip,
+  hiddenTootTip,
+  getCodeStn,
+  getCodePiket,
+} from "../../utils/tabloUtils";
 
 const applicationInitialState = window.__INITIAL_STATE__;
-const config = applicationInitialState.config;
 const regions = applicationInitialState.regions;
-const mainmap = applicationInitialState.main;
+//const mainmap = applicationInitialState.main;
+//const wsocket = applicationInitialState.wsocket;
 
 let stantion = {};
 let pikets = {};
@@ -13,7 +21,10 @@ let parentProps;
 
 hideDivision();
 
-d3.json(config.divisions).then((json) => {
+const dataService = new DataService();
+//const socket = socketIOClient(wsocket.endpoint);
+
+dataService.getDivisions().then((json) => {
   for (const t of json) {
     let key = t.ks.substr(0, 5);
     let stn = new Stantion(t.ks, t.ms, t.km, t.nodes);
@@ -21,7 +32,7 @@ d3.json(config.divisions).then((json) => {
   }
 });
 
-d3.json(config.piket).then((json) => {
+dataService.getPiket().then((json) => {
   for (const t of json.data) {
     let code = t.code;
     let id_piket = t.id_piket;
@@ -35,12 +46,6 @@ d3.json(config.piket).then((json) => {
   }
 });
 
-function hideDivision() {
-  d3.select("body").on("click", () => {
-    d3.select(".context").style("visibility", "hidden");
-  });
-}
-
 export function ShowLayer(layers) {
   //console.log("ShowLayer in param:", layers);
   if (Array.isArray(layers)) {
@@ -48,12 +53,12 @@ export function ShowLayer(layers) {
       if (element.show) {
         element.layer.split(" ").forEach((text) => {
           const selectLayer = d3.selectAll("#" + text.trim());
-          selectLayer.style("opacity", "1");
+          selectLayer.attr("opacity", "1");
         });
       } else {
         element.layer.split(" ").forEach((text) => {
           const selectLayer = d3.selectAll("#" + text.trim());
-          selectLayer.style("opacity", "0");
+          selectLayer.attr("opacity", "0");
         });
       }
     });
@@ -62,9 +67,10 @@ export function ShowLayer(layers) {
 
 export function loadMapORW(fprops) {
   parentProps = fprops;
+  const mainUrl = parentProps.tabloUrl;
   parentProps.postLegend("./svg/legend.svg");
 
-  d3.xml(mainmap.tablo).then((xml) => {
+  d3.xml(mainUrl).then((xml) => {
     let box = document.querySelector("#map");
     box.innerHTML = "";
     let svg = xml.documentElement;
@@ -73,14 +79,34 @@ export function loadMapORW(fprops) {
     box.appendChild(xml.documentElement);
     d3.selectAll("title").remove();
 
+    parentProps.postStorm(0, clickStormFromORW);
+
     eventDivisions();
     eventRegion();
     eventPiket();
   });
 }
 
-function loadRegions(url_reg) {
-  parentProps.postRefreshLayer(false);
+function clickStormFromORW(uid) {
+  const selectRegion = `nod${uid}`;
+  const url = regions[selectRegion].url;
+
+  if (typeof url !== undefined) {
+    let img = regions[selectRegion].img_leg;
+    parentProps.postLegend(img);
+    parentProps.postSpec(
+      regions[selectRegion].img_spec ? regions[selectRegion].img_spec : null
+    );
+
+    parentProps.forecastFetchData(regions[selectRegion].id);
+    parentProps.forecastOpen();
+
+    loadRegions(url, regions[selectRegion].id);
+  }
+}
+
+function loadRegions(url_reg, idRegion) {
+
   d3.xml(url_reg).then((xml) => {
     let box = document.querySelector("#map");
     box.innerHTML = "";
@@ -89,13 +115,15 @@ function loadRegions(url_reg) {
     svg.setAttribute("preserveAspectRatio", "xMidYMin");
     box.appendChild(xml.documentElement);
     d3.selectAll("title").remove();
-    parentProps.postRefreshLayer(true);
+
+    parentProps.postStorm(idRegion, clickStormFromRegion);
 
     let close_btn = d3.select("#close_button");
     close_btn
       .on("click", () => {
         parentProps.postSpec(null);
         parentProps.forecastClose();
+
         loadMapORW(parentProps);
       })
       .on("mouseenter", () => close_btn.attr("opacity", "0.98"))
@@ -106,6 +134,58 @@ function loadRegions(url_reg) {
     eventPiket();
   });
 }
+
+function clickStormFromRegion(uid) {
+  parentProps.openModal(true);
+  parentProps.fetchStormData(uid);
+}
+
+//=========== Region ======
+
+function eventRegion() {
+  const regions = d3.select("#buttons").selectAll("g");
+
+  regions
+    .on("mouseenter", reg_mousein)
+    .on("mouseleave", reg_mouseout)
+    .on("click", reg_click);
+}
+
+function reg_click() {
+  let node = d3.select(this).attr("id");
+
+  if (node != null) {
+    //console.log("Load regions:", regions);
+    let url = regions[node].url;
+    if (typeof url !== undefined) {
+      let img = regions[node].img_leg;
+      parentProps.postLegend(img);
+      parentProps.postSpec(
+        regions[node].img_spec ? regions[node].img_spec : null
+      );
+
+      // const prognozUrl = config.prognoz.toString() + regions[node].id;
+      // parentProps.forecastFetchData(prognozUrl);
+      parentProps.forecastFetchData(regions[node].id);
+      parentProps.forecastOpen();
+      //parentProps.postStormIconsFetch(regions[node].id);
+      loadRegions(url, regions[node].id);
+    }
+  } else {
+    //console.log("node: " + node + " url: " + regions[node]);
+  }
+}
+
+function reg_mouseout() {
+  d3.select(this).selectAll("rect").attr("fill-opacity", "0.35");
+}
+
+function reg_mousein() {
+  let d = d3.select(this).selectAll("rect");
+  d.attr("fill-opacity", "1");
+}
+
+//========== go Regions ==========
 
 function go_region() {
   const go_regions = d3.select("#go_region").selectAll("*");
@@ -134,12 +214,16 @@ function go_reg_click() {
     parentProps.postLegend(item.img_leg);
     parentProps.postSpec(item.img_spec ? item.img_spec : null);
 
-    const prognozUrl = config.prognoz.toString() + item.id;
-    parentProps.forecastFetchData(prognozUrl);
+    // const prognozUrl = config.prognoz.toString() + item.id;
+    // parentProps.forecastFetchData(prognozUrl);
+    parentProps.forecastFetchData(item.id);
+    parentProps.forecastOpen();
 
-    loadRegions(item.url);
+    loadRegions(item.url, item.id);
   }
 }
+
+//============= Stantions =======
 
 function eventDivisions() {
   const stansions = d3.selectAll("#st");
@@ -162,28 +246,12 @@ function st_mousein() {
       txt = txt + " <br> <hr>  " + km;
     }
 
-    d3.select(".stooltip").html(txt);
-    let x = parseInt(d3.event.pageX);
-    let y = parseInt(d3.event.pageY);
-    let h = d3.select(".stooltip").style("height");
-    let dy = Number.parseInt(h.substr(0, h.length - 2)) + 15;
-
-    if (y - (dy + 5) < 0) {
-      d3.select(".stooltip").style("top", y + 15 + "px");
-      d3.select(".stooltip").style("left", x + "px");
-      d3.select(".stooltip").style("visibility", "visible");
-    } else {
-      d3.select(".stooltip").style("top", y - dy + "px");
-      d3.select(".stooltip").style("left", x + "px");
-      d3.select(".stooltip").style("visibility", "visible");
-    }
+    showToolTip(txt);
   }
 }
 
 function st_mouseout() {
-  d3.select(".stooltip").style("visibility", "hidden");
-  d3.select(".stooltip").html("");
-  d3.select(".stooltip").style("heigth", "");
+  hiddenTootTip();
 }
 
 function st_click() {
@@ -227,61 +295,17 @@ function st_click() {
 }
 
 function node_click() {
-  //let url = 'http://localhost:4000/users?id=' + this.id;
-  let url = config.pokaz.toString() + this.id;
-
   parentProps.openModal(true);
-  parentProps.fetchData(url);
+  parentProps.fetchData(this.id);
 }
 
-function getCodeStn(element) {
-  let el1 = d3.select(element.parentElement);
-
-  let stn = el1.attr("id");
-  return stn.substr(3, stn.length);
+function hideDivision() {
+  d3.select("body").on("click", () => {
+    d3.select(".context").style("visibility", "hidden");
+  });
 }
 
-function eventRegion() {
-  const regions = d3.select("#buttons").selectAll("g");
-
-  regions
-    .on("mouseenter", reg_mousein)
-    .on("mouseleave", reg_mouseout)
-    .on("click", reg_click);
-}
-
-function reg_click() {
-  let node = d3.select(this).attr("id");
-
-  if (node != null) {
-    //console.log("Load regions:", regions);
-    let url = regions[node].url;
-    if (typeof url !== undefined) {
-      let img = regions[node].img_leg;
-      parentProps.postLegend(img);
-      parentProps.postSpec(
-        regions[node].img_spec ? regions[node].img_spec : null
-      );
-
-      const prognozUrl = config.prognoz.toString() + regions[node].id;
-      parentProps.forecastFetchData(prognozUrl);
-
-      loadRegions(url);
-    }
-  } else {
-    console.log("node: " + node + " url: " + regions[node]);
-  }
-}
-
-function reg_mouseout() {
-  d3.select(this).selectAll("rect").attr("fill-opacity", "0.35");
-}
-
-function reg_mousein() {
-  let d = d3.select(this).selectAll("rect");
-  d.attr("fill-opacity", "1");
-}
-
+//============= Piket =======
 function eventPiket() {
   const piketElements = d3.selectAll("#terms > *");
   piketElements
@@ -292,9 +316,10 @@ function eventPiket() {
 
 function piketMouseLeave() {
   this.setAttribute("opacity", "0.4");
-  d3.select(".stooltip").style("visibility", "hidden");
-  d3.select(".stooltip").html("");
-  d3.select(".stooltip").style("heigth", "");
+  hiddenTootTip();
+  // d3.select(".stooltip").style("visibility", "hidden");
+  // d3.select(".stooltip").html("");
+  // d3.select(".stooltip").style("heigth", "");
 }
 
 function piketMouseIn() {
@@ -305,22 +330,7 @@ function piketMouseIn() {
     let txt = pikets[code].getParamsTxt();
     txt = txt.replace(/,/g, "<br>");
 
-    d3.select(".stooltip").html(txt);
-
-    let x = parseInt(d3.event.pageX);
-    let y = parseInt(d3.event.pageY);
-    let h = d3.select(".stooltip").style("height");
-    let dy = Number.parseInt(h.substr(0, h.length - 2)) + 15;
-
-    if (y - (dy + 5) < 0) {
-      d3.select(".stooltip").style("top", y + 15 + "px");
-      d3.select(".stooltip").style("left", x + "px");
-      d3.select(".stooltip").style("visibility", "visible");
-    } else {
-      d3.select(".stooltip").style("top", y - dy + "px");
-      d3.select(".stooltip").style("left", x + "px");
-      d3.select(".stooltip").style("visibility", "visible");
-    }
+    showToolTip(txt);
   }
 }
 
@@ -328,8 +338,6 @@ function piketClick() {
   getCodePiket(this);
 }
 
-function getCodePiket(element) {
-  let el1 = d3.select(element);
-  let piket = el1.attr("id");
-  return piket;
-}
+// function postStormFromSocket(id) {
+//   console.log("post storm from socket id:", id);
+// }

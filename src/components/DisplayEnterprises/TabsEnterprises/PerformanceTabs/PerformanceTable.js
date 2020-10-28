@@ -1,6 +1,6 @@
 import React from "react";
 import DataTable from "react-data-table-component";
-import { customStyles } from "./CustomStyles";
+import { customStyles as defaultStyles } from "./CustomStyles";
 
 const calcWidths = (size, lenDev, cols) => {
   const ret = cols.map((item, index) => {
@@ -26,7 +26,8 @@ const calcWidths = (size, lenDev, cols) => {
   return ret;
 };
 
-const PerformanceTable = ({ items }) => {
+const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
+  //  console.log("Table props:", customStyles);
   if (items === undefined) {
     return <div></div>;
   } else {

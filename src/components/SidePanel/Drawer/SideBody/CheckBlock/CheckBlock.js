@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { itemsShowLayer } from "../../../../../store/actions/layerAction";
+import {
+  postShowLayer,
+  postRefreshLayer,
+} from "../../../../../store/actions/layerAction";
 import Checkbox from "rc-checkbox";
 import classes from "./CheckBlock.module.css";
 import { layersInit } from "./layersInit";
@@ -13,38 +16,52 @@ const mapStateToProps = (state) => {
 };
 const mapDispatchToProps = (dispatch) => {
   return {
-    postShowLayer: (layers) => dispatch(itemsShowLayer(layers)),
+    postShowLayer: (layers) => dispatch(postShowLayer(layers)),
+    postRefreshLayer: (layers) => dispatch(postRefreshLayer(layers)),
   };
 };
 
-const CheckBlock = (props) => {
+const CheckBlock = ({
+  postShowLayer,
+  ShowLayers,
+  SpecKey,
+  postRefreshLayer,
+}) => {
   useEffect(() => {
-    props.postShowLayer(layersInit);
+    postShowLayer(layersInit);
+
     return undefined;
-    // eslint-disable-next-line
-  }, []);
+  }, [postShowLayer]);
+
+  // useEffect(() => {
+  //   console.log("refresh checkbox");
+  //  postRefreshLayer(ShowLayers);
+  // }, [SpecKey]);
 
   const onChange = (e) => {
     let id = Number(e.target.index);
 
-    const layers = props.ShowLayers.map((item, index) => {
+    const layers = ShowLayers.map((item, index) => {
       if (index === id) {
         return {
-          layer: item.layer,
+          ...item,
           show: e.target.checked,
-          name: layersInit[index].name,
         };
       } else {
         return item;
       }
     });
-    props.postShowLayer(layers);
+    postShowLayer(layers);
   };
+
+  ShowLayers.sort((a, b) => {
+    return a.id - b.id;
+  });
 
   return (
     <div className={classes.CheckBlock}>
       <ul className="ulapp">
-        {props.ShowLayers.map((item, index) => {
+        {ShowLayers.map((item, index) => {
           return (
             <li key={index} style={{ visibility: item.visible }}>
               <label>
@@ -53,7 +70,7 @@ const CheckBlock = (props) => {
                   onChange={onChange}
                   name={item.layer}
                   index={index}
-                  disabled={!props.SpecKey}
+                  disabled={item.disabled} //{!props.SpecKey}
                 />
 
                 <span style={{ paddingLeft: "0.5rem" }}></span>
