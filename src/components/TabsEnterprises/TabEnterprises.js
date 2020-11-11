@@ -4,8 +4,9 @@ import Tab from "react-bootstrap/Tab";
 import InformTabs from "./InformTabs/InformTabs";
 import TableConteiner from "./PerformanceTabs/TableConteiner";
 import { connect } from "react-redux";
+import ModalWin from "../ModalWin/ModalWin";
 
-import LoaderConteiner from "../../LoaderSpinner/LoaderConteiner";
+import LoaderConteiner from "../LoaderSpinner/LoaderConteiner";
 
 const mapStateToProps = (state) => {
   return {
@@ -16,6 +17,7 @@ const mapStateToProps = (state) => {
 };
 
 const TabEnterprises = (props) => {
+  console.log("items:", props.items);
   const keys = Object.keys(props.items);
   const activs = keys.filter((item) => item !== "info");
 
@@ -27,31 +29,33 @@ const TabEnterprises = (props) => {
     );
   });
 
-  if (props.hasErrored) {
-    return <p>Ошибка загрузки данных: {props.hasErrored}</p>;
-  }
+  const contentRender = () => {
+    console.log("props:", props);
+    if (props.hasErrored) {
+      return <p>Ошибка загрузки данных: {props.hasErrored}</p>;
+    }
 
-  if (!props.isShow) {
-    return null;
-  }
+    if (props.isLoading) {
+      console.log("loading");
+      return (
+        <div>
+          <LoaderConteiner />
+        </div>
+      );
+    } else {
+      console.log("tabs");
+      return (
+        <Tabs defaultActiveKey="info" id="uncontrolled-tab-example">
+          <Tab eventKey="info" title="Информация">
+            <InformTabs items={props.items.info} />
+          </Tab>
+          {customTabs}
+        </Tabs>
+      );
+    }
+  };
 
-  //if (props.isLoading && props.items.length !== 0) {
-  if (props.isLoading) {
-    return (
-      <div>
-        <LoaderConteiner />
-      </div>
-    );
-  } else {
-    return (
-      <Tabs defaultActiveKey="info" id="uncontrolled-tab-example">
-        <Tab eventKey="info" title="Информация">
-          <InformTabs items={props.items.info} />
-        </Tab>
-        {customTabs}
-      </Tabs>
-    );
-  }
+  return <ModalWin>{contentRender()}</ModalWin>;
 };
 
 export default connect(mapStateToProps, null)(TabEnterprises);

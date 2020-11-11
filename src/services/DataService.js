@@ -73,20 +73,30 @@ class DataService {
     const data = await this.getResurce(config.storm_all);
 
     const result = data.map((item) => {
-      //   const firstUch = item.data.filter((item) => {
-      //     const num = item.map.charAt(2);
-      //     return num === "1";
-      //   });
-
+      const isCritical = this.getCriticalEvent(item);
       const res = {
         id: item.region,
         //hits: firstUch.length > 0 ? firstUch[0].data : [],
         hits: [],
+        isCritical,
       };
       return res;
     });
-
     return result;
+  }
+
+  getCriticalEvent({ data }) {
+    let bool = false;
+    data.forEach((item) => {
+      const { data } = item;
+      data.forEach((item) => {
+        const { event } = item;
+        event.forEach((item) => {
+          if (item["type_critical"]) bool = true;
+        });
+      });
+    });
+    return bool;
   }
 
   async getStormRegion(id) {
@@ -94,16 +104,23 @@ class DataService {
 
     if (data.length > 0) {
       const dataTrains = data[0].data.map((item) => {
+        let isCritical = false;
         const arr = item.data.map((ev) => {
+          const critical = ev.event.filter((item) => item["type_critical"]);
+          if (critical.length > 0) {
+            isCritical = true;
+          }
           return {
             period: ev.period,
             data: ev.data,
+            critical: critical,
           };
         });
 
         return {
           id: item.map,
           hits: arr,
+          isCritical,
         };
       });
       return dataTrains;

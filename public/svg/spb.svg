@@ -34,12 +34,12 @@
             <use xlink:href="#image-15" transform="scale(0.354304636,0.354304636)"></use>
         </pattern>
         <image id="image-15" width="100" height="100" xlink:href="data:image/png;base64,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"></image>
-        <path d="M4,17 C19.119033,53.6666667 28.7856996,79.3333333 33,94 C39.3214506,116 41.5404285,129.268748 57.5,135 C72.9917127,140.563239 91.977966,122.423493 136,139 C187.439587,158.369588 207,208.563239 227,221 C247,233.436761 264.58636,229.287184 285.720943,226.608289 C290.913848,225.950066 300.727859,222.149365 315.162977,215.206186 C324.020195,207.905901 330.632536,201.139641 335,194.907407 C339.367464,188.675174 341.283806,173.418307 340.749025,149.136806 C340.749025,116.8134 340.749025,85.9294987 340.749025,56.4851008 C340.749025,35.4438164 321.086467,47.4222069 312.029991,24.5542871 C309.618776,18.4658841 310.663105,11.311986 315.162977,3.09259259 L367,3.09259259 C375.284271,3.09259259 382,9.80832135 382,18.0925926 L382,243.972304 L382,243.972304 C377.713449,246.052497 374.371733,247.092593 371.974854,247.092593 C369.577976,247.092593 365.749451,246.052497 360.489281,243.972304 C353.683642,238.325052 349.116065,232.537047 346.786549,226.608289 C344.457033,220.67953 342.444525,215.968426 340.749025,212.474978 C325.650378,221.608369 313.900703,228.013459 305.5,231.690249 C292.898946,237.205434 244.267698,246.5 219.339522,230.5 C194.411345,214.5 182.761093,170.019118 132,152 C80.0242266,133.549696 30.3328158,185.578284 25,191.5 C11.4917127,206.5 19.815463,243.252998 15.0073614,248.092593 C9.69039019,253.44439 5.68793638,254.355106 3,250.824742 L4,17 Z" id="path-16"></path>
-        <pattern id="pattern-17" width="34.7682119" height="34.7682119" x="-31.7682119" y="-31.6756193" patternUnits="userSpaceOnUse">
+        <path d="M4,17 C19.119033,53.6666667 28.7856996,79.3333333 33,94 C39.3214506,116 41.5404285,129.268748 57.5,135 C72.9917127,140.563239 91.977966,122.423493 136,139 C187.439587,158.369588 207,208.563239 227,221 C247,233.436761 264.58636,229.287184 285.720943,226.608289 C290.913848,225.950066 300.727859,222.149365 315.162977,215.206186 C324.020195,207.905901 330.632536,201.139641 335,194.907407 C339.367464,188.675174 341.283806,173.418307 340.749025,149.136806 C340.749025,116.8134 340.749025,85.9294987 340.749025,56.4851008 C340.749025,35.4438164 321.086467,47.4222069 312.029991,24.5542871 C309.618776,18.4658841 310.663105,10.808671 315.162977,1.58264766 L366.054966,1.97683486 C374.317668,2.04083416 380.972573,8.77506884 380.938659,17.0379495 L380,245.737206 L380,245.737206 C377.046782,246.640797 374.371733,247.092593 371.974854,247.092593 C369.577976,247.092593 365.749451,246.052497 360.489281,243.972304 C353.683642,238.325052 349.116065,232.537047 346.786549,226.608289 C344.457033,220.67953 342.444525,215.968426 340.749025,212.474978 C325.650378,221.608369 313.900703,228.013459 305.5,231.690249 C292.898946,237.205434 244.267698,246.5 219.339522,230.5 C194.411345,214.5 182.761093,170.019118 132,152 C80.0242266,133.549696 30.3328158,185.578284 25,191.5 C11.4917127,206.5 19.815463,243.252998 15.0073614,248.092593 C9.69039019,253.44439 5.68793638,254.355106 3,250.824742 L4,17 Z" id="path-16"></path>
+        <pattern id="pattern-17" width="34.7682119" height="34.7682119" x="-31.7682119" y="-33.1855643" patternUnits="userSpaceOnUse">
             <use xlink:href="#image-18" transform="scale(0.347682119,0.347682119)"></use>
         </pattern>
         <image id="image-18" width="100" height="100" xlink:href="data:image/png;base64,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"></image>
-        <path d="M17.0394562,0.0395600735 L367.039456,0.960206777 C375.308294,0.981957287 382,7.69128805 382,15.9601549 L382,405 C382,413.284271 375.284271,420 367,420 L17,420 C8.71572875,420 2,413.284271 2,405 L2,15.0395082 C2,6.75523693 8.71572875,0.0395081805 17,0.0395081805 C17.0131521,0.0395081805 17.0263041,0.0395254782 17.0394562,0.0395600735 Z" id="path-19"></path>
+        <path d="M17,-2.27373675e-13 L366,-2.27373675e-13 C374.284271,-2.28895471e-13 381,6.71572875 381,15 L381,405 C381,413.284271 374.284271,420 366,420 L17,420 C8.71572875,420 2,413.284271 2,405 L2,15 C2,6.71572875 8.71572875,-2.2585188e-13 17,-2.27373675e-13 Z" id="path-19"></path>
         <filter x="-0.9%" y="-0.8%" width="101.8%" height="101.7%" filterUnits="objectBoundingBox" id="filter-20">
             <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
             <feGaussianBlur stdDeviation="2" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
@@ -1324,9 +1324,9 @@
                     <circle id="Oval" stroke-width="2" cx="6" cy="6" r="5"></circle>
                 </g>
             </g>
-            <g id="Group-13" transform="translate(510.000000, 843.000000)">
-                <path d="M1.68454235,4.05703383 L8.68454235,0.641799453 C9.51474419,0.236751762 10.4852558,0.236751762 11.3154576,0.641799453 L18.3154576,4.05703383 C19.3461695,4.55990846 20,5.60640467 20,6.75324806 L20,17 C20,18.6568542 18.6568542,20 17,20 L3,20 C1.34314575,20 2.02906125e-16,18.6568542 0,17 L0,6.75324806 C3.03641401e-16,5.60640467 0.653830531,4.55990846 1.68454235,4.05703383 Z" id="Rectangle" fill="#494949"></path>
-                <path d="M9.93386643,4 C7.89542845,7.89479034 6.74513765,10.2138724 6.48299402,10.9572462 C6.08977858,12.0723069 4.62893998,16.7128943 9.93386643,16.7128943 C15.2387929,16.7128943 13.8256268,12.0731457 13.3661452,10.9572462 C13.0598241,10.2133132 11.9157312,7.89423114 9.93386643,4 Z" id="Path-181" fill="#FFFFFF"></path>
+            <g id="Group-10" transform="translate(510.000000, 843.000000)">
+                <path d="M1.68454235,4.05703383 L8.68454235,0.641799453 C9.51474419,0.236751762 10.4852558,0.236751762 11.3154576,0.641799453 L18.3154576,4.05703383 C19.3461695,4.55990846 20,5.60640467 20,6.75324806 L20,17 C20,18.6568542 18.6568542,20 17,20 L3,20 C1.34314575,20 2.02906125e-16,18.6568542 0,17 L0,6.75324806 C3.03641401e-16,5.60640467 0.653830531,4.55990846 1.68454235,4.05703383 Z" id="Rectangle" fill="#6DB4F4"></path>
+                <path d="M7.80302952,18 C5.93434317,17.0597333 5,15.647492 5,13.7632762 C5,10.9369525 7.62919985,9.04046323 8.24871975,7.40971841 C8.66173301,6.3225552 8.51316961,4.85264906 7.80302952,3 C12.0115319,5.93981228 14.3755577,8.73099644 14.8951069,11.3735525 C15.4146562,14.0161086 14.0041583,16.2249244 10.6636134,18 C12.06528,16.7001896 12.7661133,15.2879484 12.7661133,13.7632762 C12.7661133,12.2386041 12.06528,10.6658193 10.6636134,9.04492187 C10.8127989,10.2264984 10.8127989,11.1202159 10.6636134,11.7260742 C10.5144279,12.3319326 10.1730249,12.8246897 9.6394043,13.2043457 C9.69860284,12.8721813 9.69860284,12.5992321 9.6394043,12.385498 C9.58020575,12.171764 9.41117906,11.8344488 9.13232422,11.3735525 C9.04625796,12.370673 8.60315973,13.3683072 7.80302952,14.3664551 C7.00289932,15.3646029 7.00289932,16.5757846 7.80302952,18 Z" id="Path-178" fill="#FFFFFF"></path>
             </g>
             <g id="artez" transform="translate(635.000000, 820.000000)">
                 <path d="M6.48274551,2.66453526e-15 C6.7042571,2.66453526e-15 6.92318072,0.0110803972 7.13899235,0.0327171665 L7.93633112,2.50630636 L10.1379769,1.12435821 C10.5008076,1.37154802 10.8373147,1.65451132 11.1424238,1.96817371 L10.1633535,4.375 L12.7389077,4.7302344 C12.8561949,5.14567364 12.9332163,5.5780038 12.965491,6.02274383 L10.6681785,7.23800476 L12.4124331,9.1663972 C12.2314874,9.56816995 12.0109079,9.94824293 11.7556756,10.301635 L9.21459285,9.75568888 L9.3101499,12.3544977 C8.91978814,12.5433684 8.50767145,12.6943471 8.07857689,12.8026566 L6.48274551,10.75 L4.88685803,12.8026424 C4.45742546,12.6942435 4.04499783,12.5431081 3.65436357,12.3540246 L3.75089817,9.75568888 L1.20981539,10.301635 C0.954796416,9.94853828 0.734372299,9.56880523 0.553511658,9.1674045 L2.29731256,7.23800476 L-7.27681902e-05,6.02374763 C0.0321331316,5.57900907 0.109085123,5.14667589 0.226302788,4.73122851 L2.80213754,4.375 L1.82306725,1.96817371 C2.12835475,1.65432789 2.46507702,1.37121707 2.82815076,1.12392456 L5.0291599,2.50630636 L5.82749474,0.0326173795 C6.04298392,0.0110463299 6.26157471,2.66453526e-15 6.48274551,2.66453526e-15 Z" id="Combined-Shape" fill="#7776F8" fill-rule="evenodd"></path>
@@ -1390,8 +1390,8 @@
                 <path d="M1.68454235,4.05703383 L8.68454235,0.641799453 C9.51474419,0.236751762 10.4852558,0.236751762 11.3154576,0.641799453 L18.3154576,4.05703383 C19.3461695,4.55990846 20,5.60640467 20,6.75324806 L20,17 C20,18.6568542 18.6568542,20 17,20 L3,20 C1.34314575,20 2.02906125e-16,18.6568542 0,17 L0,6.75324806 C3.03641401e-16,5.60640467 0.653830531,4.55990846 1.68454235,4.05703383 Z" id="Rectangle" fill="#494949"></path>
                 <path d="M9.93386643,4 C7.89542845,7.89479034 6.74513765,10.2138724 6.48299402,10.9572462 C6.08977858,12.0723069 4.62893998,16.7128943 9.93386643,16.7128943 C15.2387929,16.7128943 13.8256268,12.0731457 13.3661452,10.9572462 C13.0598241,10.2133132 11.9157312,7.89423114 9.93386643,4 Z" id="Path-181" fill="#FFFFFF"></path>
             </g>
-            <g id="Group-9" transform="translate(26.000000, 158.000000)">
-                <path d="M1.68454235,4.05703383 L8.68454235,0.641799453 C9.51474419,0.236751762 10.4852558,0.236751762 11.3154576,0.641799453 L18.3154576,4.05703383 C19.3461695,4.55990846 20,5.60640467 20,6.75324806 L20,17 C20,18.6568542 18.6568542,20 17,20 L3,20 C1.34314575,20 2.02906125e-16,18.6568542 0,17 L0,6.75324806 C3.03641401e-16,5.60640467 0.653830531,4.55990846 1.68454235,4.05703383 Z" id="Rectangle" fill="#1CA600"></path>
+            <g id="Group-13" transform="translate(26.000000, 158.000000)">
+                <path d="M1.68454235,4.05703383 L8.68454235,0.641799453 C9.51474419,0.236751762 10.4852558,0.236751762 11.3154576,0.641799453 L18.3154576,4.05703383 C19.3461695,4.55990846 20,5.60640467 20,6.75324806 L20,17 C20,18.6568542 18.6568542,20 17,20 L3,20 C1.34314575,20 2.02906125e-16,18.6568542 0,17 L0,6.75324806 C3.03641401e-16,5.60640467 0.653830531,4.55990846 1.68454235,4.05703383 Z" id="Rectangle" fill="#494949"></path>
                 <path d="M9.93386643,4 C7.89542845,7.89479034 6.74513765,10.2138724 6.48299402,10.9572462 C6.08977858,12.0723069 4.62893998,16.7128943 9.93386643,16.7128943 C15.2387929,16.7128943 13.8256268,12.0731457 13.3661452,10.9572462 C13.0598241,10.2133132 11.9157312,7.89423114 9.93386643,4 Z" id="Path-181" fill="#FFFFFF"></path>
             </g>
             <g id="chow" transform="translate(139.000000, 157.000000)">
@@ -1481,7 +1481,7 @@
                 <rect id="Rectangle" fill="#E55900" x="3" y="7" width="10" height="10" rx="2"></rect>
             </g>
             <g id="dtvu_legend" transform="translate(539.000000, 0.000000)">
-                <rect id="Rectangle" stroke="#9E9E9E" fill="#FFFFFF" x="0.5" y="0.5" width="219" height="359" rx="5"></rect>
+                <rect id="Rectangle" stroke="#9E9E9E" fill-opacity="0.8" fill="#FFFFFF" x="0.5" y="0.5" width="219" height="359" rx="5"></rect>
                 <g id="Group-10" transform="translate(9.000000, 36.000000)">
                     <path d="M1.68454235,4.05703383 L8.68454235,0.641799453 C9.51474419,0.236751762 10.4852558,0.236751762 11.3154576,0.641799453 L18.3154576,4.05703383 C19.3461695,4.55990846 20,5.60640467 20,6.75324806 L20,17 C20,18.6568542 18.6568542,20 17,20 L3,20 C1.34314575,20 2.02906125e-16,18.6568542 0,17 L0,6.75324806 C3.03641401e-16,5.60640467 0.653830531,4.55990846 1.68454235,4.05703383 Z" id="Rectangle" fill="#6DB4F4"></path>
                     <path d="M7.80302952,18 C5.93434317,17.0597333 5,15.647492 5,13.7632762 C5,10.9369525 7.62919985,9.04046323 8.24871975,7.40971841 C8.66173301,6.3225552 8.51316961,4.85264906 7.80302952,3 C12.0115319,5.93981228 14.3755577,8.73099644 14.8951069,11.3735525 C15.4146562,14.0161086 14.0041583,16.2249244 10.6636134,18 C12.06528,16.7001896 12.7661133,15.2879484 12.7661133,13.7632762 C12.7661133,12.2386041 12.06528,10.6658193 10.6636134,9.04492187 C10.8127989,10.2264984 10.8127989,11.1202159 10.6636134,11.7260742 C10.5144279,12.3319326 10.1730249,12.8246897 9.6394043,13.2043457 C9.69860284,12.8721813 9.69860284,12.5992321 9.6394043,12.385498 C9.58020575,12.171764 9.41117906,11.8344488 9.13232422,11.3735525 C9.04625796,12.370673 8.60315973,13.3683072 7.80302952,14.3664551 C7.00289932,15.3646029 7.00289932,16.5757846 7.80302952,18 Z" id="Path-178" fill="#FFFFFF"></path>
@@ -1522,13 +1522,13 @@
                     <rect id="Rectangle" fill="#E55900" x="3" y="7" width="10" height="10" rx="2"></rect>
                 </g>
                 <text id="Котельная-встроенная" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="35.162" y="154">Котельная встроенная</tspan>
+                    <tspan x="35.162" y="155">Котельная встроенная</tspan>
                 </text>
                 <text id="Котельная-мазутная" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
                     <tspan x="35.186" y="130">Котельная мазутная</tspan>
                 </text>
                 <text id="Котельная-дизельная" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="35.242" y="102">Котельная дизельная</tspan>
+                    <tspan x="35.242" y="103">Котельная дизельная</tspan>
                 </text>
                 <text id="Шахтно-питьевые-коло" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#6D7C8A">
                     <tspan x="34.155" y="348">Шахтно-питьевые колодцы</tspan>
@@ -1542,7 +1542,7 @@
                     <circle id="Oval" fill="#FF0000" cx="5" cy="5" r="3"></circle>
                 </g>
                 <text id="Станции-с-об.-теплос" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="32.085" y="209">Станции с об. теплоснобжения</tspan>
+                    <tspan x="33.085" y="209">Станции с об. теплоснобжения</tspan>
                 </text>
                 <g id="wo" transform="translate(14.000000, 218.000000)">
                     <circle id="Oval" fill="#FFFFFF" cx="5" cy="5" r="5"></circle>
@@ -1593,8 +1593,8 @@
                     <circle id="Oval" fill="#FFFFFF" cx="5" cy="5" r="5"></circle>
                     <circle id="Oval" fill="#0074FA" cx="5" cy="5" r="3"></circle>
                 </g>
-                <text id="Станции-с-об.-водосн" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="32.825" y="192">Станции с об. водоснабжения</tspan>
+                <text id="Ст.-с-объектами-(об." font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#6D7C8A">
+                    <tspan x="32.985" y="192">Ст. с объектами (об.) водоснабжения</tspan>
                 </text>
                 <g id="col" transform="translate(13.000000, 339.000000)" fill="#FFFFFF" stroke="#0057CF">
                     <g id="Group">
@@ -2674,7 +2674,7 @@
             </g>
             <g id="Rectangle">
                 <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
-                <path stroke="#B0B0B0" stroke-width="2" d="M16.9973697,1.03950472 C13.1340068,1.03950818 9.63400675,2.60651156 7.10050506,5.14001324 C4.56700338,7.67351493 3,11.1735149 3,15.0395082 L3,405 C3,408.865993 4.56700338,412.365993 7.10050506,414.899495 C9.63400675,417.432997 13.1340068,419 17,419 L367,419 C370.865993,419 374.365993,417.432997 376.899495,414.899495 C379.432997,412.365993 381,408.865993 381,405 L381,15.9601549 C381,12.1013504 379.438602,8.60643759 376.912506,6.07368839 C374.38641,3.54093918 370.895617,1.97035356 367.036826,1.96020332 L16.9973697,1.03950472 Z" stroke-linejoin="square"></path>
+                <path stroke="#B0B0B0" stroke-width="2" d="M366,1 L17,1 C13.1340068,1 9.63400675,2.56700338 7.10050506,5.10050506 C4.56700338,7.63400675 3,11.1340068 3,15 L3,405 C3,408.865993 4.56700338,412.365993 7.10050506,414.899495 C9.63400675,417.432997 13.1340068,419 17,419 L366,419 C369.865993,419 373.365993,417.432997 375.899495,414.899495 C378.432997,412.365993 380,408.865993 380,405 L380,15 C380,11.1340068 378.432997,7.63400675 375.899495,5.10050506 C373.365993,2.56700338 369.865993,1 366,1 Z" stroke-linejoin="square"></path>
             </g>
             <g id="dtv" opacity="0" transform="translate(5.000000, 3.000000)">
                 <g id="chow" transform="translate(195.000000, 88.000000)">
@@ -3484,7 +3484,7 @@
                 </g>
             </g>
         </g>
-        <g id="close_button" opacity="0.602260045" transform="translate(853.000000, 15.000000)" stroke="#B6B6B6" stroke-width="3">
+        <g id="close_button" opacity="0.745117188" transform="translate(853.000000, 15.000000)" stroke="#B6B6B6" stroke-width="3">
             <line x1="24" y1="8" x2="8" y2="24" id="Path-14"></line>
             <line x1="8.05599869" y1="8.12187357" x2="23.7483064" y2="23.8141813" id="Path-14"></line>
             <rect id="Rectangle" fill-opacity="0.35" fill="#D8D8D8" x="1.5" y="1.5" width="29" height="29" rx="5"></rect>
@@ -3655,8 +3655,8 @@
                 </g>
             </g>
         </g>
-        <g id="spec_trains" opacity="0" transform="translate(57.000000, 202.000000)">
-            <g id="Group-4" transform="translate(267.000000, 0.000000)">
+        <g id="spec_trains" opacity="0" transform="translate(11.000000, 202.000000)">
+            <g id="Group-4" transform="translate(313.000000, 0.000000)">
                 <g id="train_restore" transform="translate(24.000000, 0.000000)">
                     <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
                     <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
@@ -3681,7 +3681,7 @@
                     <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
                 </g>
             </g>
-            <g id="Group-4" transform="translate(353.000000, 245.000000)">
+            <g id="Group-4" transform="translate(399.000000, 245.000000)">
                 <g id="train_restore" transform="translate(25.000000, 0.000000)">
                     <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
                     <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
@@ -3706,7 +3706,7 @@
                     <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
                 </g>
             </g>
-            <g id="Group-4" transform="translate(0.000000, 328.000000)">
+            <g id="Group-4" transform="translate(46.000000, 328.000000)">
                 <g id="train_restore" transform="translate(36.000000, 0.000000)">
                     <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
                     <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
@@ -3731,7 +3731,7 @@
                     <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
                 </g>
             </g>
-            <g id="Group-4" transform="translate(131.000000, 423.000000)">
+            <g id="Group-4" transform="translate(177.000000, 423.000000)">
                 <g id="train_restore" transform="translate(24.000000, 0.000000)">
                     <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
                     <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
@@ -3756,7 +3756,7 @@
                     <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
                 </g>
             </g>
-            <g id="Group-4" transform="translate(393.000000, 306.000000)">
+            <g id="Group-4" transform="translate(439.000000, 306.000000)">
                 <g id="train_restore" transform="translate(24.000000, 0.000000)">
                     <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
                     <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
@@ -3781,7 +3781,7 @@
                     <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
                 </g>
             </g>
-            <g id="train_fire" transform="translate(590.000000, 443.000000)">
+            <g id="train_fire" transform="translate(636.000000, 443.000000)">
                 <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
                 <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
                 <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
@@ -3789,13 +3789,42 @@
                 <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
                 <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
             </g>
-            <g id="train_fire" transform="translate(540.000000, 645.000000)">
+            <g id="train_fire" transform="translate(586.000000, 645.000000)">
                 <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
                 <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
                 <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
                 <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
                 <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
                 <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+            </g>
+            <g id="legend" transform="translate(0.000000, 133.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="189" height="64" rx="9"></rect>
+                <text id="Восстановительный-по" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
+                    <tspan x="30.708" y="51">Восстановительный поезд</tspan>
+                </text>
+                <text id="Пожарный-поезд" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
+                    <tspan x="31.232" y="24">Пожарный поезд</tspan>
+                </text>
+                <g id="train_restore" transform="translate(8.000000, 34.000000)">
+                    <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#0790F6"></path>
+                    <path d="M0,18.4 L16,18.4 L16,20.2 C16,21.8568542 14.6568542,23.2 13,23.2 L3,23.2 C1.34314575,23.2 2.02906125e-16,21.8568542 0,20.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#2E2E2E"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                    <circle id="Oval" stroke="#0790F6" stroke-width="1" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+                    <polygon id="Path-226" fill="#FFD100" points="0.8 18.4 3.2 23.2 4.8 23.2 2.4 18.4"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" points="4 18.4 6.4 23.2 8 23.2 5.6 18.4"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(13.200000, 20.800000) scale(-1, 1) translate(-13.200000, -20.800000) " points="11.2 18.4 13.6 23.2 15.2 23.2 12.8 18.4"></polygon>
+                    <polygon id="Path-226" fill="#FFD100" transform="translate(10.000000, 20.800000) scale(-1, 1) translate(-10.000000, -20.800000) " points="8 18.4 10.4 23.2 12 23.2 9.6 18.4"></polygon>
+                </g>
+                <g id="train_fire" transform="translate(8.000000, 6.000000)">
+                    <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#FF4141"></path>
+                    <path d="M0,18.4 L16,18.4 L16,20.2 C16,21.8568542 14.6568542,23.2 13,23.2 L3,23.2 C1.34314575,23.2 2.02906125e-16,21.8568542 0,20.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#FF4141"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                    <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+                </g>
             </g>
         </g>
         <g id="dolb" opacity="0" transform="translate(150.000000, 125.000000)">
@@ -3839,7 +3868,7 @@
                 <circle id="Oval" stroke="#1A00FF" fill="#001EFF" cx="10" cy="10" r="9.5"></circle>
                 <path d="M5.31858347,7.35853631 L9.31858347,3.6344188 C9.70253722,3.27694659 10.2974628,3.27694659 10.6814165,3.6344188 L14.6814165,7.35853631 C14.8845983,7.54770456 15,7.81282185 15,8.09043215 L15,14.0513916 C15,14.6036764 14.5522847,15.0513916 14,15.0513916 L6,15.0513916 C5.44771525,15.0513916 5,14.6036764 5,14.0513916 L5,8.09043215 C5,7.81282185 5.11540165,7.54770456 5.31858347,7.35853631 Z" id="Rectangle" fill="#FFFFFF"></path>
             </g>
-            <g id="dolb_legend" transform="translate(150.000000, 798.000000)">
+            <g id="dolb_legend" transform="translate(140.000000, 799.000000)">
                 <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="189" height="64" rx="9"></rect>
                 <g id="room" transform="translate(11.000000, 35.000000)">
                     <circle id="Oval" stroke="#D700FF" stroke-width="1" fill="#C30BFF" cx="10" cy="10" r="9.5"></circle>

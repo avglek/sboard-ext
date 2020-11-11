@@ -92,7 +92,7 @@ export const layersInit = [
   {
     layer: "trains_distantions",
     show: true,
-    name: "Штормовое пердупреждение",
+    name: "Штормовое предупреждение",
     visible: "visible",
     disabled: false,
     id: 11,

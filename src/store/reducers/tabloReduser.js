@@ -2,12 +2,19 @@ import { TABLO_TOGGLE_MAIN_MAP } from "../actions/actionTypes";
 const applicationInitialState = window.__INITIAL_STATE__;
 const mainmap = applicationInitialState.main;
 
-const initialState = {
-  url: mainmap.map,
-  img: "./svg/icons/button/flat.svg",
-  toggle: true,
-  name: "Geo map",
-};
+const mapLocal = localStorage.getItem("map");
+console.log("map:", mapLocal);
+let initialState = {};
+
+if (mapLocal) {
+  initialState = JSON.parse(mapLocal);
+} else
+  initialState = {
+    url: mainmap.map,
+    img: "./svg/icons/button/flat.svg",
+    toggle: true,
+    name: "Geo map",
+  };
 
 export default function tabloReduser(state = initialState, action) {
   //  console.log("Reduser:", action)

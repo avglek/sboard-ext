@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MapConteiner from "./components/map/MapConteiner";
-import ModalEnterprases from "./components/DisplayEnterprises/ModalEnterprises";
 import Inform from "./components/inform/Inform";
 import Drawer from "./components/SidePanel/Drawer/Drawer";
 import MarqueeAlert from "./components/Marquee/MarqueeAlert";
 import NavBar from "./components/NavBar/NavBar";
+import TabEnterprises from "./components/TabsEnterprises/TabEnterprises";
 
 //import SimpleModal from './components/simpleModal/SimpleModal'
 
@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <div className="context"></div>
       <div className="stooltip"></div>
-      <ModalEnterprases />
+      <TabEnterprises />
       <MarqueeAlert className="mq_box" />
       <MapConteiner className="main_box" />
       <NavBar className="left_box" />

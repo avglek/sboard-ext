@@ -27,3 +27,11 @@ svg {
   align-items: center;
   justify-content: center;
 }
+
+.storm-icon {
+  --fill-icon: #bc00ff;
+}
+
+.storm-icon:hover {
+  --fill-icon: #f06bb8;
+}
