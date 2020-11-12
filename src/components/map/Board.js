@@ -38,7 +38,7 @@ const Board = (props) => {
 
   useEffect(() => {
     loadMapORW(props);
-    //console.log("load map url:", props.tabloUrl);
+
     // eslint-disable-next-line
   }, [props.tabloUrl]);
 

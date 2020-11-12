@@ -47,7 +47,7 @@ dataService.getPiket().then((json) => {
 });
 
 export function ShowLayer(layers) {
-  //console.log("ShowLayer in param:", layers);
+
   if (Array.isArray(layers)) {
     layers.forEach((element) => {
       if (element.show) {
@@ -155,7 +155,7 @@ function reg_click() {
   let node = d3.select(this).attr("id");
 
   if (node != null) {
-    //console.log("Load regions:", regions);
+    
     let url = regions[node].url;
     if (typeof url !== undefined) {
       let img = regions[node].img_leg;
@@ -171,9 +171,7 @@ function reg_click() {
       //parentProps.postStormIconsFetch(regions[node].id);
       loadRegions(url, regions[node].id);
     }
-  } else {
-    //console.log("node: " + node + " url: " + regions[node]);
-  }
+  } 
 }
 
 function reg_mouseout() {
@@ -337,7 +335,3 @@ function piketMouseIn() {
 function piketClick() {
   getCodePiket(this);
 }
-
-// function postStormFromSocket(id) {
-//   console.log("post storm from socket id:", id);
-// }

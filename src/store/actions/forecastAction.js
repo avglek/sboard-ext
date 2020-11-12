@@ -10,14 +10,12 @@ import {
 const dataService = new DataService();
 
 export function forecastClose() {
-  // console.log("action open modal:", bool);
   return {
     type: FORECAST_CLOSE,
   };
 }
 
 export function forecastOpen() {
-  // console.log("action open modal:", bool);
   return {
     type: FORECAST_OPEN,
   };

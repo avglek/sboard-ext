@@ -33,11 +33,6 @@ const CheckBlock = ({
     return undefined;
   }, [postShowLayer]);
 
-  // useEffect(() => {
-  //   console.log("refresh checkbox");
-  //  postRefreshLayer(ShowLayers);
-  // }, [SpecKey]);
-
   const onChange = (e) => {
     let id = Number(e.target.index);
 

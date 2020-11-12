@@ -131,7 +131,7 @@ class DataService {
 
   getStormActions(id) {
     const data = this.getResurce(config.storm_uch);
-    //  console.log(id, data);
+  
     return data;
   }
 

@@ -9,9 +9,6 @@ export function postShowLayer(layers) {
 }
 
 export function postRefreshLayer(layers) {
-  // console.log("action open modal:", bool);
-  //const newLayers = scanLayer(layers);
-
   return {
     type: LAYER_REFRESH,
     layers: scanLayer(layers),
@@ -19,7 +16,6 @@ export function postRefreshLayer(layers) {
 }
 
 function scanLayer(layers) {
-  console.log("old:", layers);
   const newLayers = layers.map((item) => {
     let dis = item.disabled;
     item.layer.split(" ").forEach((text) => {
@@ -32,8 +28,6 @@ function scanLayer(layers) {
     });
     return { ...item, disabled: dis };
   });
-
-  console.log("new:", newLayers);
 
   return newLayers;
 }

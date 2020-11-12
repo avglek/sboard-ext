@@ -27,7 +27,6 @@ const calcWidths = (size, lenDev, cols) => {
 };
 
 const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
-  //  console.log("Table props:", customStyles);
   if (items === undefined) {
     return <div></div>;
   } else {

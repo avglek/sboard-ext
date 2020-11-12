@@ -17,7 +17,6 @@ const mapStateToProps = (state) => {
 };
 
 const TabEnterprises = (props) => {
-  console.log("items:", props.items);
   const keys = Object.keys(props.items);
   const activs = keys.filter((item) => item !== "info");
 
@@ -30,20 +29,17 @@ const TabEnterprises = (props) => {
   });
 
   const contentRender = () => {
-    console.log("props:", props);
     if (props.hasErrored) {
       return <p>Ошибка загрузки данных: {props.hasErrored}</p>;
     }
 
     if (props.isLoading) {
-      console.log("loading");
       return (
         <div>
           <LoaderConteiner />
         </div>
       );
     } else {
-      console.log("tabs");
       return (
         <Tabs defaultActiveKey="info" id="uncontrolled-tab-example">
           <Tab eventKey="info" title="Информация">

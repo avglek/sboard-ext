@@ -24,10 +24,9 @@ export const strToDate = (dateString) => {
   const arrAll = dateString.trim().split(" ");
   const arrDate = arrAll[0].split("-");
   const strDate = `${arrDate[2]}-${arrDate[1]}-${arrDate[0]}`;
-  //console.log("DT:", strDate, arrAll);
+
   const date = new Date(`${strDate}T${arrAll[1]}`);
   return date;
-  //return ;
 };
 
 export const dateToStr = (date) => {

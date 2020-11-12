@@ -1,4 +1,4 @@
-import DataService from "../../services/DataService"
+import DataService from "../../services/DataService";
 import {
   MODAL_IS_OPEN,
   MODAL_FETCH_ERRORED,
@@ -6,10 +6,9 @@ import {
   MODAL_FETCH_DATA_SUCCESS,
 } from "./actionTypes";
 
-const dataService = new DataService()
+const dataService = new DataService();
 
 export function ModalIsOpen(bool) {
-  // console.log("action open modal:", bool);
   return {
     type: MODAL_IS_OPEN,
     isModalOpen: bool,
@@ -38,17 +37,15 @@ export function modalFetchDataSuccess(items) {
 
 export function modalFetchData(id) {
   return async (dispatch) => {
-
-    dispatch(modalStartLoading())
+    dispatch(modalStartLoading());
     try {
-      const data = await dataService.getPokaz(id)
-       dispatch(modalFetchDataSuccess(data))
+      const data = await dataService.getPokaz(id);
+      dispatch(modalFetchDataSuccess(data));
     } catch (error) {
-      console.log("Error:", error)
-      dispatch(modalFetchError(error))
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
     }
-
-  }
+  };
 }
 
 export function modalStormFetchData(id) {

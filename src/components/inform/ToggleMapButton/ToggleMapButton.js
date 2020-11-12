@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import classes from "./ToggleMapButton.module.css";
 import { toggleMainMap } from "../../../store/actions/tabloAction";
+import { hiddenTootTip, showToolTip } from "../../../utils/tabloUtils";
 
 const applicationInitialState = window.__INITIAL_STATE__;
 const mainmap = applicationInitialState.main;
@@ -25,9 +26,28 @@ const ToggleMapButton = ({ toggleMainMap, name, img, toggle }) => {
     }
   };
 
+  const handleMouseEnter = (e) => {
+    const x = e.pageX;
+    const y = e.pageY;
+
+    const text = "Переключение<br/>вида карты";
+
+    showToolTip(text, x, y, "down");
+  };
+
+  const handleMouseLeave = () => {
+    hiddenTootTip();
+  };
+
   return (
     <div className={classes.ToggleMapButton}>
-      <img src={img} alt={name} onClick={handleToggleButton} />
+      <img
+        src={img}
+        alt={name}
+        onClick={handleToggleButton}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      />
     </div>
   );
 };
