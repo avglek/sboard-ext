@@ -9,7 +9,8 @@ if (mapLocal) {
   initialState = JSON.parse(mapLocal);
 } else
   initialState = {
-    url: mainmap.map,
+    url: mainmap.map.url,
+    legend: mainmap.map.img_leg,
     img: "./svg/icons/button/flat.svg",
     toggle: true,
     name: "Geo map",

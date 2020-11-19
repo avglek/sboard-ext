@@ -11,14 +11,16 @@ const ToggleMapButton = ({ toggleMainMap, name, img, toggle }) => {
   const handleToggleButton = () => {
     if (toggle) {
       toggleMainMap({
-        url: mainmap.big_map,
+        url: mainmap.big_map.url,
+        legend: mainmap.big_map.img_leg,
         img: "./svg/icons/button/map.svg",
         toggle: false,
         name: "Symbol map",
       });
     } else {
       toggleMainMap({
-        url: mainmap.map,
+        url: mainmap.map.url,
+        legend: mainmap.map.img_leg,
         img: "./svg/icons/button/flat.svg",
         toggle: true,
         name: "Geo map",

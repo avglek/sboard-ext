@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>legend</title>
-    <g id="legend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#B3BDC7" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="198" height="198" rx="8"></rect>
+<svg width="200px" height="235px" viewBox="0 0 200 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>big_legend</title>
+    <g id="big_legend" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#B3BDC7" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="198" height="233" rx="8"></rect>
+        <g id="Group-5" transform="translate(16.000000, 209.000000)">
+            <text id="Двухпутный-участок-п" font-family="AvenirNext-Regular, Avenir Next" font-size="11" font-weight="normal" fill="#6D7C8A">
+                <tspan x="36" y="11">Двухпутный участок пути</tspan>
+            </text>
+            <g id="Group" transform="translate(0.000000, 2.000000)">
+                <line x1="25" y1="6" x2="0" y2="5.75" id="Path-5" stroke="#D0D0D0" stroke-width="10"></line>
+                <line x1="25" y1="1" x2="7.89491929e-14" y2="1" id="Path-13" stroke="#797979" stroke-width="2"></line>
+            </g>
+        </g>
+        <g id="Group-3" transform="translate(16.000000, 190.000000)">
+            <text id="Однопутный-участок-п" font-family="AvenirNext-Regular, Avenir Next" font-size="11" font-weight="normal" fill="#6D7C8A">
+                <tspan x="35.5" y="11">Однопутный участок пути</tspan>
+            </text>
+            <line x1="25" y1="6" x2="-3.74700271e-16" y2="6" id="Path-5" stroke="#D0D0D0" stroke-width="10"></line>
+        </g>
         <g id="Group-2" transform="translate(21.000000, 61.000000)">
             <circle id="Oval" stroke="#6EA8F0" fill="#FFFDFD" cx="8" cy="8" r="7.5"></circle>
             <circle id="Oval" fill="#6EA8F0" cx="8" cy="8" r="5"></circle>

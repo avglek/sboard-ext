@@ -47,7 +47,6 @@ dataService.getPiket().then((json) => {
 });
 
 export function ShowLayer(layers) {
-
   if (Array.isArray(layers)) {
     layers.forEach((element) => {
       if (element.show) {
@@ -68,7 +67,7 @@ export function ShowLayer(layers) {
 export function loadMapORW(fprops) {
   parentProps = fprops;
   const mainUrl = parentProps.tabloUrl;
-  parentProps.postLegend("./svg/legend.svg");
+  parentProps.postLegend(parentProps.tabloLegend);
 
   d3.xml(mainUrl).then((xml) => {
     let box = document.querySelector("#map");
@@ -106,7 +105,6 @@ function clickStormFromORW(uid) {
 }
 
 function loadRegions(url_reg, idRegion) {
-
   d3.xml(url_reg).then((xml) => {
     let box = document.querySelector("#map");
     box.innerHTML = "";
@@ -155,7 +153,6 @@ function reg_click() {
   let node = d3.select(this).attr("id");
 
   if (node != null) {
-    
     let url = regions[node].url;
     if (typeof url !== undefined) {
       let img = regions[node].img_leg;
@@ -171,7 +168,7 @@ function reg_click() {
       //parentProps.postStormIconsFetch(regions[node].id);
       loadRegions(url, regions[node].id);
     }
-  } 
+  }
 }
 
 function reg_mouseout() {

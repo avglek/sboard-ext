@@ -73,6 +73,7 @@ const mapStateToProps = (state) => {
     stormLoading: state.storm.loading,
     stormRegionID: state.storm.id,
     tabloUrl: state.tablo.url,
+    tabloLegend: state.tablo.legend,
   };
 };
 

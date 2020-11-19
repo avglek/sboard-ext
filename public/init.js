@@ -15,8 +15,14 @@ var initialState = {
   },
 
   main: {
-    map: "./svg/tablo.svg",
-    big_map: "./svg/big_tablo.svg",
+    map: {
+      url: "./svg/tablo.svg",
+      img_leg: "./svg/legend.svg",
+    },
+    big_map: {
+      url: "./svg/big_tablo.svg",
+      img_leg: "./svg/big_legend.svg",
+    },
   },
 
   regions: {

@@ -95,6 +95,14 @@ export const layersInit = [
     name: "Штормовое предупреждение",
     visible: "visible",
     disabled: false,
+    id: 12,
+  },
+  {
+    layer: "rcs",
+    show: false,
+    name: "Границы РЦС, поездная радиосвязь",
+    visible: "visible",
+    disabled: false,
     id: 11,
   },
 ];
