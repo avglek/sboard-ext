@@ -66,8 +66,10 @@ export function ShowLayer(layers) {
 
 export function loadMapORW(fprops) {
   parentProps = fprops;
-  const mainUrl = parentProps.tabloUrl;
-  parentProps.postLegend(parentProps.tabloLegend);
+  const mainUrl = parentProps.tabloUrl || "./svg/tablo.svg";
+  const legendURL = parentProps.tabloLegend || "./svg/legend.svg";
+
+  parentProps.postLegend(legendURL);
 
   d3.xml(mainUrl).then((xml) => {
     let box = document.querySelector("#map");
