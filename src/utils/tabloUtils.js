@@ -51,3 +51,11 @@ export function getCodePiket(element) {
   let piket = el1.attr("id");
   return piket;
 }
+
+export function addToolTip(elementId, text) {
+  const nodes = document.querySelectorAll(elementId);
+
+  nodes.forEach((item) => {
+    console.dir(item);
+  });
+}

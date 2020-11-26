@@ -132,6 +132,7 @@ function loadRegions(url_reg, idRegion) {
     go_region();
     eventDivisions();
     eventPiket();
+    //addToolTip("#train_fire");
   });
 }
 
