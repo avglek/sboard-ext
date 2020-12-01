@@ -113,4 +113,12 @@ export const layersInit = [
     disabled: false,
     id: 12,
   },
+  {
+    layer: "snow_tech",
+    show: false,
+    name: "Снегоуборочная техника",
+    visible: "visible",
+    disabled: false,
+    id: 14,
+  },
 ];
