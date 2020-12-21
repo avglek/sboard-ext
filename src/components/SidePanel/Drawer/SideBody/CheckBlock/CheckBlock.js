@@ -6,7 +6,7 @@ import {
 } from "../../../../../store/actions/layerAction";
 import Checkbox from "rc-checkbox";
 import classes from "./CheckBlock.module.css";
-import { layersInit } from "./layersInit";
+import { layersInit } from "../../../../../config/layersInit";
 
 const mapStateToProps = (state) => {
   return {

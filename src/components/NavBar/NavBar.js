@@ -25,11 +25,9 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-const NavBar = ({fetchData,isLoading,items,hasErrored,className}) => {
-
-  useEffect(() =>
-  {
-    fetchData(); 
+const NavBar = ({ fetchData, isLoading, items, hasErrored, className }) => {
+  useEffect(() => {
+    fetchData();
   }, [fetchData]);
 
   if (hasErrored) {
@@ -53,6 +51,7 @@ const NavBar = ({fetchData,isLoading,items,hasErrored,className}) => {
               styleButton={translate(item.style)}
               path={item.path}
               name={item.name}
+              disabled={item.disabled}
             />
           );
         })}

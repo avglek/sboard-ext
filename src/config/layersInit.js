@@ -65,12 +65,20 @@ export const layersInit = [
     id: 7,
   },
   {
+    layer: "loco_pass",
+    show: false,
+    name: "Локомотивные плечи для пассажирских поездов",
+    visible: "visible",
+    disabled: false,
+    id: 8,
+  },
+  {
     layer: "spec_trains",
     show: false,
     name: "Восстановительные и пожарные поезда",
     visible: "visible",
     disabled: false,
-    id: 8,
+    id: 9,
   },
   {
     layer: "dtv",
@@ -78,7 +86,7 @@ export const layersInit = [
     name: "ДТВУ",
     visible: "visible",
     disabled: false,
-    id: 9,
+    id: 10,
   },
 
   {
@@ -87,15 +95,7 @@ export const layersInit = [
     name: "НГЧ, дистанция гражданских сооружений",
     visible: "visible",
     disabled: false,
-    id: 10,
-  },
-  {
-    layer: "trains_distantions",
-    show: true,
-    name: "Штормовое предупреждение",
-    visible: "visible",
-    disabled: false,
-    id: 13,
+    id: 11,
   },
   {
     layer: "rcs",
@@ -103,22 +103,32 @@ export const layersInit = [
     name: "Границы РЦС, поездная радиосвязь",
     visible: "visible",
     disabled: false,
-    id: 11,
+    id: 12,
   },
+
   {
     layer: "mls",
     show: false,
     name: "Границы РЦС, линии связи",
     visible: "visible",
     disabled: false,
-    id: 12,
+    id: 13,
   },
+  {
+    layer: "trains_distantions",
+    show: true,
+    name: "Штормовое предупреждение",
+    visible: "visible",
+    disabled: false,
+    id: 14,
+  },
+
   {
     layer: "snow_tech",
     show: false,
     name: "Снегоуборочная техника",
     visible: "visible",
     disabled: false,
-    id: 14,
+    id: 15,
   },
 ];

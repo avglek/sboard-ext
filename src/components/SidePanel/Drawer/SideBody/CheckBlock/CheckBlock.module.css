@@ -13,7 +13,7 @@
 .CheckBlock li {
   margin: 0;
   color: #6d7c8a;
-  font: 1em sans-serif;
+  font: 0.8rem sans-serif;
   margin-top: 1rem;
 }
 .CheckBlock.ulapp {

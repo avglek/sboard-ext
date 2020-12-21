@@ -35,3 +35,18 @@ svg {
 .storm-icon:hover {
   --fill-icon: #f06bb8;
 }
+
+/*fill="#375AF6"  sdpm_2305 */
+g[id^="sdpm_"] {
+  --fill-sdpm-blue: #375af6;
+  cursor: default;
+}
+
+g[id^="sdpm_"]:focus {
+  --fill-sdpm-blue: #a7b3e7;
+  cursor: pointer;
+}
+
+g[id^="sdpm_"]:hover {
+  cursor: pointer;
+}

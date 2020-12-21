@@ -7,10 +7,13 @@ import { hiddenTootTip, showToolTip } from "../../../utils/tabloUtils";
 const applicationInitialState = window.__INITIAL_STATE__;
 const mainmap = applicationInitialState.main;
 
+let initStorage = {};
+
 function loadStorage() {
   const mapLocal = localStorage.getItem("map");
+
   if (mapLocal) {
-    const initStorage = JSON.parse(mapLocal);
+    initStorage = JSON.parse(mapLocal);
 
     if (!initStorage.legend) {
       console.log("clear storage");
@@ -25,11 +28,14 @@ function loadStorage() {
       const mapRaw = JSON.stringify(initStorage);
       localStorage.setItem("map", mapRaw);
     }
-
-    return initStorage;
   } else {
-    return null;
+    initStorage.url = mainmap.map.url;
+    initStorage.legend = mainmap.map.img_leg;
+    initStorage.img = "./svg/icons/button/flat.svg";
+    initStorage.toggle = true;
+    initStorage.name = "Geo map";
   }
+  return initStorage;
 }
 
 const ToggleMapButton = ({ toggleMainMap, name, img, toggle }) => {

@@ -1,5 +1,6 @@
 import * as d3 from "d3";
 //import socketIOClient from "socket.io-client";
+import { addEventLayer, removeEventLayer } from "./layerEvents";
 import Stantion from "./Stantion";
 import Piket from "./Piket";
 import DataService from "../../services/DataService";
@@ -46,16 +47,20 @@ dataService.getPiket().then((json) => {
   }
 });
 
-export function ShowLayer(layers) {
+export function ShowLayer(props)
+{
+  const layers = props.showLayer;
   if (Array.isArray(layers)) {
     layers.forEach((element) => {
       if (element.show) {
         element.layer.split(" ").forEach((text) => {
+          addEventLayer(text.trim(),props);
           const selectLayer = d3.selectAll("#" + text.trim());
           selectLayer.attr("opacity", "1");
         });
       } else {
         element.layer.split(" ").forEach((text) => {
+          removeEventLayer(text.trim(),props);
           const selectLayer = d3.selectAll("#" + text.trim());
           selectLayer.attr("opacity", "0");
         });
@@ -132,6 +137,7 @@ function loadRegions(url_reg, idRegion) {
     go_region();
     eventDivisions();
     eventPiket();
+    //  eventLayer("snow_tech");
     //addToolTip("#train_fire");
   });
 }

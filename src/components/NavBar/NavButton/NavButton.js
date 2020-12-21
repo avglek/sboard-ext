@@ -9,6 +9,10 @@ import classes from "./NavButton.module.css";
 const NavButton = (props) => {
   let style_button = classes["link"] + " " + classes[props.styleButton];
 
+  const disabled = props.disabled;
+
+  console.log(`Button ${props.name} disabled ${disabled}`);
+
   const handleClick = () => {
     const screenWidth = Dimensions.get("screen").width;
     const screenHeight = Dimensions.get("screen").height;
@@ -32,11 +36,15 @@ const NavButton = (props) => {
     );
   };
 
-  return (
-    <div className={style_button} onClick={handleClick}>
-      {props.name}
-    </div>
-  );
+  if (disabled === "true") {
+    return <div className={classes.disabled}>{props.name}</div>;
+  } else {
+    return (
+      <div className={style_button} onClick={handleClick}>
+        {props.name}
+      </div>
+    );
+  }
 };
 
 export default NavButton;

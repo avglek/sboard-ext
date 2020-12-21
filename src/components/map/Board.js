@@ -43,10 +43,13 @@ const Board = (props) => {
   }, [props.tabloUrl]);
 
   useEffect(() => {
-    ShowLayer(props.showLayer);
+    ShowLayer(props);
     //  initLayer(this.props.showLayer);
-    showStorm(props.stormClick, props.stormItems, 2);
   });
+
+  useEffect(() => {
+    showStorm(props.stormClick, props.stormItems, 2);
+  }, [props.stormItems, props.stormClick]);
 
   return (
     <div

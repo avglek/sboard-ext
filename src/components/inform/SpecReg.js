@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 const SpecReg = (props) => {
-  // console.log("SpecReg props:", props)
+  
   if (props.SpecKey) {
     return (
       <div className={props.className}>

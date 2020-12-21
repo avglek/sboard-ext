@@ -10,6 +10,30 @@ export function showStorm(handleClick, data = []) {
   showLayer(handleClick, data);
 }
 
+export function clearStormEvents() {
+  // console.log("clear storm events");
+  // const trains = d3.selectAll("#trains_distantions > *").selectAll("#icon");
+  // const icons = trains.selectAll("use");
+
+  // icons.on("click", null).on("mouseenter", null).on("mouseleave", null);
+  // console.log(icons);
+  clearLayer();
+}
+
+export function resetEvents() {
+  d3.selectAll("#trains_distantions")
+    .selectAll("#icon")
+    .selectAll("use")
+    .on("mouseenter", null)
+    .on("mouseleave", null)
+    .on("click", null);
+}
+
+export function addedEvents({ stormClick, stormItems }) {
+  //  console.log("add evend");
+  showLayer(stormClick, stormItems);
+}
+
 const showLayer = (handleClick, data) => {
   data.forEach((item) => {
     const res = {
@@ -63,6 +87,7 @@ function showStormIcon(iconsMap) {
     .on("click", () => eventClick(train))
     .on("mouseenter", () => showToolTip(info))
     .on("mouseleave", () => hiddenTootTip());
+  // console.log("add event storm");
 
   critical.forEach((item, index) => {
     const itemNode = anchorNode.append("use");
@@ -83,6 +108,8 @@ function showStormIcon(iconsMap) {
       .on("mouseleave", () => hiddenTootTip());
   });
 }
+
+//function addEventToSprite(res) {}
 
 const getCriticalEvent = (data) => {
   const buff = [];
