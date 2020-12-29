@@ -11,8 +11,6 @@ const NavButton = (props) => {
 
   const disabled = props.disabled;
 
-  console.log(`Button ${props.name} disabled ${disabled}`);
-
   const handleClick = () => {
     const screenWidth = Dimensions.get("screen").width;
     const screenHeight = Dimensions.get("screen").height;

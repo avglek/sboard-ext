@@ -6,7 +6,7 @@
       "path": "http://web-ozd.orw.oao.rzd/merp40/map_ozd/orw_tablo/orw_tablo_history.php",
       "order_num": 2,
       "style": "bg-blue",
-      "disabled": "true"
+      "disabled": "false"
     },
     {
       "id": 17,
@@ -30,7 +30,7 @@
       "path": "http://tep-01.orw.oao.rzd:777/trains1/hot.asp",
       "order_num": 5,
       "style": "bg-violet",
-      "disabled": "true"
+      "disabled": "false"
     },
     {
       "id": 12,
@@ -46,7 +46,7 @@
       "path": "http://web-ozd.orw.oao.rzd/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=18",
       "order_num": 7,
       "style": "bg-blue",
-      "disabled": "true"
+      "disabled": "false"
     },
     {
       "id": 19,
@@ -54,7 +54,7 @@
       "path": "http://web-ozd.orw.oao.rzd/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=19",
       "order_num": 8,
       "style": "bg-blue",
-      "disabled": "true"
+      "disabled": "false"
     },
     {
       "id": 25,
@@ -62,7 +62,7 @@
       "path": "http://web-ozd.orw.oao.rzd/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=25",
       "order_num": 9,
       "style": "bg-blue",
-      "disabled": "true"
+      "disabled": "false"
     },
     {
       "id": 32,
@@ -118,7 +118,7 @@
       "path": "http://web-ozd.orw.oao.rzd/merp40/map_ozd/orw_tablo/orw_tablo_razdel.php?razdel=31",
       "order_num": 16,
       "style": "bg-blue",
-      "disabled": "true"
+      "disabled": "false"
     },
     {
       "id": 34,

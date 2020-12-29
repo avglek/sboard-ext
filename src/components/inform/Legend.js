@@ -2,11 +2,15 @@ import React from "react";
 import { connect } from "react-redux";
 
 const Legend = (props) => {
-  return (
-    <div className={props.className}>
-      <img src={props.legendKey} alt="legend" width="100%" />
-    </div>
-  );
+  if (props.legendKey) {
+    return (
+      <div className={props.className}>
+        <img src={props.legendKey} alt="legend" width="100%" />
+      </div>
+    );
+  } else {
+    return <div className={props.className}></div>;
+  }
 };
 
 const mapStateToProps = (state) => {

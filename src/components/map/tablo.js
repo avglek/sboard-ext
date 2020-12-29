@@ -13,7 +13,7 @@ import {
 
 const applicationInitialState = window.__INITIAL_STATE__;
 const regions = applicationInitialState.regions;
-//const mainmap = applicationInitialState.main;
+const ports = applicationInitialState.ports;
 //const wsocket = applicationInitialState.wsocket;
 
 let stantion = {};
@@ -47,20 +47,19 @@ dataService.getPiket().then((json) => {
   }
 });
 
-export function ShowLayer(props)
-{
+export function ShowLayer(props) {
   const layers = props.showLayer;
   if (Array.isArray(layers)) {
     layers.forEach((element) => {
       if (element.show) {
         element.layer.split(" ").forEach((text) => {
-          addEventLayer(text.trim(),props);
+          addEventLayer(text.trim(), props);
           const selectLayer = d3.selectAll("#" + text.trim());
           selectLayer.attr("opacity", "1");
         });
       } else {
         element.layer.split(" ").forEach((text) => {
-          removeEventLayer(text.trim(),props);
+          removeEventLayer(text.trim(), props);
           const selectLayer = d3.selectAll("#" + text.trim());
           selectLayer.attr("opacity", "0");
         });
@@ -90,6 +89,7 @@ export function loadMapORW(fprops) {
     eventDivisions();
     eventRegion();
     eventPiket();
+    eventPorts(0);
   });
 }
 
@@ -137,6 +137,7 @@ function loadRegions(url_reg, idRegion) {
     go_region();
     eventDivisions();
     eventPiket();
+    eventPorts(idRegion);
     //  eventLayer("snow_tech");
     //addToolTip("#train_fire");
   });
@@ -340,4 +341,74 @@ function piketMouseIn() {
 
 function piketClick() {
   getCodePiket(this);
+}
+
+function eventPorts(parent) {
+  const portsElements = d3.selectAll('g[id^="port"]');
+  portsElements
+    .on("mouseenter", portMouseIn)
+    .on("mouseleave", portMouseLeave)
+    .on("click", function () {
+      portClick(this, parent);
+    });
+}
+
+function portMouseIn() {
+  const circle = this.children[0];
+  circle.setAttribute("fill", "#ff0000");
+}
+
+function portMouseLeave() {
+  const circle = this.children[0];
+  circle.setAttribute("fill", "#ffffff");
+}
+
+function portClick(element, parentId) {
+  const stn = element.parentElement;
+  const id = stn.getAttribute("id");
+  if (id) {
+    const urlPorts = ports[id].url;
+    if (urlPorts) {
+      parentProps.forecastFetchData(ports[id].region);
+      parentProps.forecastOpen();
+      loadPortMap(urlPorts, parentId);
+    }
+  }
+}
+
+function loadPortMap(url, parentId) {
+  parentProps.postLegend(null);
+  parentProps.postSpec(null);
+
+  d3.xml(url).then((xml) => {
+    let box = document.querySelector("#map");
+    box.innerHTML = "";
+
+    let svg = xml.documentElement;
+    svg.setAttribute("preserveAspectRatio", "xMidYMin");
+    box.appendChild(xml.documentElement);
+    d3.selectAll("title").remove();
+
+    const close_btn = d3.select("#close_button");
+    close_btn
+      .on("click", () => {
+        if (parentId === 0) {
+          parentProps.postSpec(null);
+          parentProps.forecastClose();
+          loadMapORW(parentProps);
+        } else {
+          const node = `nod${parentId}`;
+          const urlNode = regions[node].url;
+          const img = regions[node].img_leg;
+          parentProps.postLegend(img);
+          parentProps.postSpec(
+            regions[node].img_spec ? regions[node].img_spec : null
+          );
+
+          loadRegions(urlNode, parentId);
+        }
+      })
+      .on("mouseenter", () => close_btn.attr("opacity", "0.98"))
+      .on("mouseleave", () => close_btn.attr("opacity", "0.595982143"));
+  });
 }

@@ -109,6 +109,16 @@ var initialState = {
       id: "7",
     },
   },
+  ports: {
+    st_07630: {
+      url: "./svg/ust-luga.svg",
+      region: "2",
+    },
+    st_02060: {
+      url: "./svg/vysotsk.svg",
+      region: "3",
+    },
+  },
 };
 
 window.__INITIAL_STATE__ = initialState;
