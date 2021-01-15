@@ -68,6 +68,7 @@ const getHitsText = (data) => {
 
 function showStormIcon(iconsMap) {
   const { train, icon, eventClick, info, critical } = iconsMap;
+  //console.log(iconsMap);
   const trainNode = d3.select(`#dist_${train}`);
   trainNode.attr("opacity", "1");
 
@@ -119,7 +120,10 @@ const getCriticalEvent = (data) => {
         id: item.code,
         info: item.name_event,
       };
-      buff.push(obj);
+      const res = buff.filter((i) => i.id === obj.id);
+      if (res.length === 0) {
+        buff.push(obj);
+      }
     });
   });
   return buff;

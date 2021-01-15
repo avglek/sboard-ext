@@ -118,6 +118,10 @@ var initialState = {
       url: "./svg/vysotsk.svg",
       region: "3",
     },
+    st_01490: {
+      url: "./svg/kandalaksha.svg",
+      region: "5",
+    },
   },
 };
 

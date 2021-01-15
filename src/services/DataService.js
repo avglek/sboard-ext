@@ -123,6 +123,7 @@ class DataService {
           isCritical,
         };
       });
+      //console.log(dataTrains);
       return dataTrains;
     } else {
       return [];
@@ -131,7 +132,7 @@ class DataService {
 
   getStormActions(id) {
     const data = this.getResurce(config.storm_uch);
-  
+
     return data;
   }
 

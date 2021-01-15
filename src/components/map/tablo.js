@@ -355,7 +355,7 @@ function eventPorts(parent) {
 
 function portMouseIn() {
   const circle = this.children[0];
-  circle.setAttribute("fill", "#ff0000");
+  circle.setAttribute("fill", "#d0f0ff");
 }
 
 function portMouseLeave() {
@@ -366,7 +366,7 @@ function portMouseLeave() {
 function portClick(element, parentId) {
   const stn = element.parentElement;
   const id = stn.getAttribute("id");
-  if (id) {
+  if (ports[id]) {
     const urlPorts = ports[id].url;
     if (urlPorts) {
       parentProps.forecastFetchData(ports[id].region);
