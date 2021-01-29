@@ -33,6 +33,7 @@ const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
     const columns = [];
 
     for (const [key, value] of Object.entries(items.title)) {
+      let col;
       if (typeof value === "object") {
         let rb = false;
         let cb = true;
@@ -42,23 +43,28 @@ const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
           cb = value.align === "center";
         }
 
-        columns.push({
+        col = {
           selector: key,
           name: value.name,
           wrap: true,
           width: value.width,
           right: rb,
           center: cb,
-        });
+        };
       } else {
-        columns.push({
+        col = {
           selector: key,
           name: value,
           wrap: true,
           right: false,
           center: true,
-        });
+        };
       }
+
+      if (key === "link") {
+        col.cell = (row) => <img alt={row.name} src={row.link} />;
+      }
+      columns.push(col);
     }
 
     const data = items.data;

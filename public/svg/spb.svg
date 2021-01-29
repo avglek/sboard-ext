@@ -5083,5 +5083,34 @@
                 </text>
             </g>
         </g>
+        <g id="weather_st" opacity="0.99" transform="translate(8.000000, 50.000000)" fill="#64AAFF">
+            <g id="wst_58" opacity="0" transform="translate(148.000000, 33.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_59" opacity="0" transform="translate(0.000000, 54.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_60" opacity="0" transform="translate(3.000000, 160.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_18" opacity="0" transform="translate(125.000000, 147.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_23" opacity="0" transform="translate(370.000000, 357.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_25" opacity="0" transform="translate(543.000000, 419.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_27" opacity="0" transform="translate(700.000000, 569.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_32" opacity="0" transform="translate(513.000000, 825.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_26" opacity="0" transform="translate(508.000000, 615.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+        </g>
     </g>
 </svg>

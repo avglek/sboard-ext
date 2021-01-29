@@ -139,4 +139,12 @@ export const layersInit = [
     disabled: false,
     id: 16,
   },
+  {
+    layer: "weather_st",
+    show: false,
+    name: "Фактическая погода",
+    visible: "visible",
+    disabled: false,
+    id: 17,
+  },
 ];

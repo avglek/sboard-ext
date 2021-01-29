@@ -14,6 +14,7 @@ class DataService {
 
   getPokaz(id) {
     return this.getResurce(`${config.pokaz}${id}`);
+    //return this.getResurce(`${config.pokaz}`);
   }
 
   async getStormPokaz(id) {
@@ -142,6 +143,10 @@ class DataService {
 
   getPrognoz(id) {
     return this.getResurce(`${config.prognoz}${id}`);
+  }
+
+  getWeather(id) {
+    return this.getResurce(`${config.weather_region}${id}`);
   }
 
   async getResurce(url) {

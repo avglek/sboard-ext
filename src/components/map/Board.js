@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import socketIOClient from "socket.io-client";
 import { loadMapORW, ShowLayer } from "./tablo";
 import { showStorm } from "../../utils/stormUtils";
+//import { showWeather } from "../../utils/weatherUtils";
 import {
   postShowLayer,
   //postRefreshLayer,
@@ -27,13 +28,21 @@ import {
   stormUpdateData,
 } from "../../store/actions/stormAction";
 
+import {
+  weatherFetchData,
+  weatherWinOpen,
+} from "../../store/actions/weatherAction";
+
 const applicationInitialState = window.__INITIAL_STATE__;
 const wsocket = applicationInitialState.wsocket;
 
 const Board = (props) => {
   useEffect(() => {
     const socket = socketIOClient(wsocket.endpoint);
-    socket.on("storm", () => this.updateStorm());
+    socket.on("storm", () => {
+      //console.log(props);
+      //this.updateStorm();
+    });
   }, []);
 
   useEffect(() => {
@@ -50,6 +59,10 @@ const Board = (props) => {
   useEffect(() => {
     showStorm(props.stormClick, props.stormItems, 2);
   }, [props.stormItems, props.stormClick]);
+
+  // useEffect(() => {
+  //   showWeather(props.weatherItems);
+  // }, [props.weatherItems]);
 
   return (
     <div
@@ -77,6 +90,9 @@ const mapStateToProps = (state) => {
     stormRegionID: state.storm.id,
     tabloUrl: state.tablo.url,
     tabloLegend: state.tablo.legend,
+    weatherItems: state.weather.items,
+    weatherLoad: state.weather.loading,
+    weatherRegion: state.weather.region,
   };
 };
 
@@ -92,9 +108,11 @@ const mapDispatchToProps = (dispatch) => {
     //postRefreshLayer: (isRefresh) => dispatch(postRefreshLayer(isRefresh)),
     postStorm: (id, clickFunction) =>
       dispatch(stormFetchData(id, clickFunction)),
+    postWeather: (id) => dispatch(weatherFetchData(id)),
     fetchStormData: (id) => dispatch(modalStormFetchData(id)),
     updateStormData: (id) => dispatch(stormUpdateData(id)),
     postLegend: (imgName) => dispatch(informLegendKey(imgName)),
+    weatherWinOpen: (x,y) => dispatch(weatherWinOpen(x,y)),
   };
 };
 

@@ -1644,8 +1644,8 @@
                 </text>
             </g>
         </g>
-        <g id="spec_trains" opacity="0" transform="translate(136.000000, 192.000000)">
-            <g id="Group-4" transform="translate(275.000000, 433.000000)">
+        <g id="spec_trains" opacity="0" transform="translate(136.000000, 191.000000)">
+            <g id="Group-4" transform="translate(275.000000, 434.000000)">
                 <g id="train_restore" transform="translate(25.000000, 0.000000)">
                     <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
                     <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
@@ -1670,7 +1670,7 @@
                     <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
                 </g>
             </g>
-            <g id="Group-4" transform="translate(502.000000, 18.000000)">
+            <g id="Group-4" transform="translate(549.000000, 0.000000)">
                 <g id="train_restore" transform="translate(25.000000, 0.000000)">
                     <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
                     <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
@@ -1695,7 +1695,7 @@
                     <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
                 </g>
             </g>
-            <g id="legend">
+            <g id="legend" transform="translate(0.000000, 1.000000)">
                 <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="189" height="64" rx="9"></rect>
                 <text id="Восстановительный-по" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
                     <tspan x="30.708" y="51">Восстановительный поезд</tspan>
@@ -1726,9 +1726,9 @@
             </g>
         </g>
         <g id="snow_tech" opacity="0" transform="translate(132.000000, 5.000000)">
-            <path d="M430.352463,198.025031 L484.5,228.708635 L484.5,311 C484.5,312.242641 485.00368,313.367641 485.818019,314.181981 C486.632359,314.99632 487.757359,315.5 489,315.5 L557,315.5 C558.242641,315.5 559.367641,314.99632 560.181981,314.181981 C560.99632,313.367641 561.5,312.242641 561.5,311 L561.5,212 C561.5,210.757359 560.99632,209.632359 560.181981,208.818019 C559.367641,208.00368 558.242641,207.5 557,207.5 L489,207.5 C487.757359,207.5 486.632359,208.00368 485.818019,208.818019 C485.00368,209.632359 484.5,210.757359 484.5,212 L484.5,219.232816 L430.352463,198.025031 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M428.353359,194.218823 L476.5,231.755817 L476.5,314 C476.5,315.242641 477.00368,316.367641 477.818019,317.181981 C478.632359,317.99632 479.757359,318.5 481,318.5 L549,318.5 C550.242641,318.5 551.367641,317.99632 552.181981,317.181981 C552.99632,316.367641 553.5,315.242641 553.5,314 L553.5,215 C553.5,213.757359 552.99632,212.632359 552.181981,211.818019 C551.367641,211.00368 550.242641,210.5 549,210.5 L481,210.5 C479.757359,210.5 478.632359,211.00368 477.818019,211.818019 C477.00368,212.632359 476.5,213.757359 476.5,215 L476.5,222.371568 L428.353359,194.218823 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M459,591.18595 L391,591.18595 C389.757359,591.18595 388.632359,591.68963 387.818019,592.50397 C387.00368,593.31831 386.5,594.44331 386.5,595.68595 L386.498837,605.119331 L377.687809,595.161917 L386.498999,615.671088 L386.5,709.999995 C386.5,711.242641 387.00368,712.367641 387.818019,713.181981 C388.632359,713.99632 389.757359,714.5 391,714.5 L459,714.5 C460.242641,714.5 461.367641,713.99632 462.181981,713.181981 C462.99632,712.367641 463.5,711.242641 463.5,710 L463.5,595.68595 C463.5,594.44331 462.99632,593.31831 462.181981,592.50397 C461.367641,591.68963 460.242641,591.18595 459,591.18595 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M362,629.615702 L294,629.615702 C292.757359,629.615702 291.632359,630.119382 290.818019,630.933722 C290.00368,631.748062 289.5,632.873062 289.5,634.115702 L289.49887,638.289816 L274.02629,638.918128 L289.498995,646.346103 L289.5,715.999993 C289.5,717.242641 290.00368,718.367641 290.818019,719.181981 C291.632359,719.99632 292.757359,720.5 294,720.5 L362,720.5 C363.242641,720.5 364.367641,719.99632 365.181981,719.181981 C365.99632,718.367641 366.5,717.242641 366.5,716 L366.5,634.115702 C366.5,632.873062 365.99632,631.748062 365.181981,630.933722 C364.367641,630.119382 363.242641,629.615702 362,629.615702 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M272.732251,647.432735 L305.5,668.387407 L305.5,738 C305.5,739.242641 306.00368,740.367641 306.818019,741.181981 C307.632359,741.99632 308.757359,742.5 310,742.5 L378,742.5 C379.242641,742.5 380.367641,741.99632 381.181981,741.181981 C381.99632,740.367641 382.5,739.242641 382.5,738 L382.5,656.115702 C382.5,654.873062 381.99632,653.748062 381.181981,652.933722 C380.367641,652.119382 379.242641,651.615702 378,651.615702 L310,651.615702 C308.757359,651.615702 307.632359,652.119382 306.818019,652.933722 C306.00368,653.748062 305.5,654.873062 305.5,656.115702 L305.5,660.548618 L272.732251,647.432735 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M416.397845,433.671981 L503.5,458.623119 L503.5,472 C503.5,473.242641 504.00368,474.367641 504.818019,475.181981 C505.632359,475.99632 506.757359,476.5 508,476.5 L576,476.5 C577.242641,476.5 578.367641,475.99632 579.181981,475.181981 C579.99632,474.367641 580.5,473.242641 580.5,472 L580.5,442 C580.5,440.757359 579.99632,439.632359 579.181981,438.818019 C578.367641,438.00368 577.242641,437.5 576,437.5 L508,437.5 C506.757359,437.5 505.632359,438.00368 504.818019,438.818019 C504.00368,439.632359 503.5,440.757359 503.5,442 L503.5,449.096321 L416.397845,433.671981 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M394,936.5 L326,936.5 C324.757359,936.5 323.632359,937.00368 322.818019,937.818019 C322.00368,938.632359 321.5,939.757359 321.5,941 L321.5,958.228428 L275.008451,960.279525 L321.5,967.572317 L321.5,971 C321.5,972.242641 322.00368,973.367641 322.818019,974.181981 C323.632359,974.99632 324.757359,975.5 326,975.5 L394,975.5 C395.242641,975.5 396.367641,974.99632 397.181981,974.181981 C397.99632,973.367641 398.5,972.242641 398.5,971 L398.5,941 C398.5,939.757359 397.99632,938.632359 397.181981,937.818019 C396.367641,937.00368 395.242641,936.5 394,936.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M397.392675,226.240191 L388.023736,231.498998 L321.000007,231.5 C319.757359,231.5 318.632359,232.00368 317.818019,232.818019 C317.00368,233.632359 316.5,234.757359 316.5,236 L316.5,248 C316.5,249.242641 317.00368,250.367641 317.818019,251.181981 C318.632359,251.99632 319.757359,252.5 321,252.5 L389,252.5 C390.242641,252.5 391.367641,251.99632 392.181981,251.181981 C392.99632,250.367641 393.5,249.242641 393.5,248 L393.5,236 C393.5,235.460525 393.405224,234.943189 393.231125,234.463836 L397.392675,226.240191 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
@@ -1736,7 +1736,7 @@
             <g id="snow_route_3427" opacity="0.005" transform="translate(415.000000, 135.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <line x1="-9.09494702e-13" y1="28" x2="81" y2="0" id="Path-40"></line>
             </g>
-            <g id="sdpm_3427" transform="translate(488.000000, 211.000000)">
+            <g id="sdpm_3427" transform="translate(480.000000, 214.000000)">
                 <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="СДПМ-3427" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="5.87" y="11">СДПМ 3427</tspan>
@@ -1755,7 +1755,7 @@
                 <path d="M272,110.544621 C256.786474,131.751583 248.786474,149.236709 248,163 C246,198 263.284505,201.759508 269,271.5 C273.999179,332.5 267.308162,407.613804 286.308162,405.648949" id="Path-40"></path>
                 <path d="M0.73828125,117 C30.8139222,114.053757 54.2344951,114.053757 71,117 C96.1482573,121.419365 119.293071,139.489159 143,142 C166.706929,144.510841 208.36933,142.825624 222.193548,131 C236.017767,119.174376 246.5,92.5 234,63.5 C221.5,34.5 181.5,14.5 144,22 C119,27 92.2358493,19.6666667 63.7075479,7.73070497e-12" id="Path-40"></path>
             </g>
-            <g id="sdpm_3163" transform="translate(293.000000, 634.000000)">
+            <g id="sdpm_3163" transform="translate(309.000000, 656.000000)">
                 <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="СДПМ-3163" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="5.87" y="11">СДПМ 3163</tspan>
@@ -1783,7 +1783,7 @@
             <g id="snow_route_3347" opacity="0.005" transform="translate(0.000000, 537.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M61.7089844,-4.54747351e-13 C69.3094709,12.9679481 83.4064761,25.238862 104,36.8127417 C134.890286,54.1735612 142.296808,25.0992399 179.5,40 C216.703192,54.9007601 231.017387,69.7249549 239.291016,91 C247.564644,112.275045 224.465006,145 202,146 C191.795263,146.45425 159.821664,145.946642 136.5,141 C108.480673,135.05696 87.8843991,124.374992 65,123.5 C37.0453023,122.431144 15.3786356,122.431144 0,123.5" id="Path-40"></path>
             </g>
-            <g id="sdpm_3347" transform="translate(293.000000, 651.000000)">
+            <g id="sdpm_3347" transform="translate(309.000000, 673.000000)">
                 <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="СДПМ-3347" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="5.87" y="11">СДПМ 3347</tspan>
@@ -1810,25 +1810,25 @@
                     <tspan x="5.87" y="11">СДПМ 3480</tspan>
                 </text>
             </g>
-            <g id="sdpm_fres24" transform="translate(488.000000, 228.000000)">
+            <g id="sdpm_fres24" transform="translate(480.000000, 231.000000)">
                 <rect id="Rectangle" fill="#FB6767" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ФРЭС-24-Р" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="9.175" y="11">ФРЭС 24 Р</tspan>
                 </text>
             </g>
-            <g id="sn_rem_2" transform="translate(488.000000, 245.000000)">
+            <g id="sn_rem_2" transform="translate(480.000000, 248.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-5-2" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="17.915" y="11">СM-5 2</tspan>
                 </text>
             </g>
-            <g id="sn_rem_1659" transform="translate(488.000000, 262.000000)">
+            <g id="sn_rem_1659" transform="translate(480.000000, 265.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2-1659" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.765" y="11">СM-2 1659</tspan>
                 </text>
             </g>
-            <g id="sn_rem_1800" transform="translate(488.000000, 279.000000)">
+            <g id="sn_rem_1800" transform="translate(480.000000, 282.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2-1800" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.765" y="11">СM-2 1800</tspan>
@@ -1877,13 +1877,13 @@
                     <tspan x="8.765" y="11">СM-2 1182</tspan>
                 </text>
             </g>
-            <g id="sn_rem_143" transform="translate(293.000000, 668.000000)">
+            <g id="sn_rem_143" transform="translate(309.000000, 690.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="ПСС-1K-143" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="5.875" y="11">ПСС-1K 143</tspan>
                 </text>
             </g>
-            <g id="sn_rem_1545" transform="translate(293.000000, 685.000000)">
+            <g id="sn_rem_1545" transform="translate(309.000000, 707.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2-1545" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.765" y="11">СM-2 1545</tspan>
@@ -1916,13 +1916,13 @@
             <g id="snow_route_ssg2" opacity="0.005" transform="translate(219.000000, 13.000000)" stroke="#7E7E7E" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M198.5,417 C210.166667,394.333333 216,372.5 216,351.5 C216,320 205.929525,281.0466 202.5,254 C199.070475,226.9534 205.157907,213.964233 199.5,198.383173 C193.842093,182.802113 188.754511,182.486262 176.354839,182 C163.955166,181.513738 164.5,199.5 151.5,187 C138.5,174.5 108.80099,123.93538 71,78 C45.7993399,47.3764131 22.1326733,21.3764131 0,0" id="Path-42"></path>
             </g>
-            <g id="sdpm_ssg2" transform="translate(488.000000, 296.000000)">
+            <g id="sdpm_ssg2" transform="translate(480.000000, 299.000000)">
                 <rect id="Rectangle" fill="#7E7E7E" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ССГ-2" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="20.96" y="11">ССГ 2</tspan>
                 </text>
             </g>
-            <g id="snow_route_ss10" opacity="0.005" transform="translate(252.000000, 435.000000)" stroke="#7E7E7E" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_ss10" opacity="0.005" transform="translate(268.000000, 457.000000)" stroke="#7E7E7E" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M164,0 C160.284855,20.155772 157.284855,33.4891053 155,40 C145.197412,67.9333286 134.809959,86.6106089 133.413984,97 C133.239807,98.296293 146.720383,126.647426 143.354839,155 C142.638938,161.031007 142.714185,175.017016 119,189.5 C91.2594445,206.442012 56.1614217,184.079761 44,201 C32.5,217 6,250 0.25,287.626953 C-2.34904787,304.634649 20.7531123,337.646704 25,382 C26.948658,402.351234 22.5382876,439.164114 24,488 C24.2002209,494.689392 26.8668876,503.522725 32,514.5" id="Path-42"></path>
             </g>
             <g id="sdpm_ss10" transform="translate(390.000000, 696.000000)">
@@ -1934,7 +1934,7 @@
             <g id="snow_route_pom66" opacity="0.005" transform="translate(217.000000, 573.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M145.5,8.5 C145.166667,15.5 142.32183,20.3333333 136.965491,23 C128.930982,27 75.1338312,16.3026926 55.4709989,31 C42.3624441,40.798205 27.027113,64.798205 9.46500584,103 C1.15500195,123 -1.33333333,140.666667 2,156 C7,179 18.8749089,202.629965 23.5,239 C28.1250911,275.370035 24.5,312.5 25,334 C25.3333333,348.333333 29.3333333,368 37,393" id="Path-44"></path>
             </g>
-            <g id="sdpm_pom66" transform="translate(293.000000, 702.000000)">
+            <g id="sdpm_pom66" transform="translate(309.000000, 724.000000)">
                 <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-66" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="15.16" y="11">ПОМ 66</tspan>
@@ -2107,316 +2107,25 @@
                 </text>
             </g>
         </g>
-        <g id="stations_dots" transform="translate(65.000000, 14.000000)">
-            <g id="st_01840" transform="translate(495.000000, 173.000000)">
-                <g id="icon" transform="translate(45.000000, 20.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
+        <g id="weather_st" opacity="0.99" transform="translate(254.000000, 28.000000)" fill="#64AAFF">
+            <g id="wst_0" opacity="0">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="st_01600" transform="translate(335.000000, 555.000000)">
-                <g id="icon" transform="translate(121.000000, 27.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
+            <g id="wst_1" opacity="0" transform="translate(295.000000, 177.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="st_01490" transform="translate(171.000000, 618.000000)">
-                <g id="icon" transform="translate(66.000000, 24.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
+            <g id="wst_2" opacity="0" transform="translate(162.000000, 402.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="st_01630" transform="translate(480.000000, 402.000000)">
-                <g id="icon" transform="translate(0.000000, 23.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
+            <g id="wst_3" opacity="0" transform="translate(194.000000, 513.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="st_01540" transform="translate(50.000000, 502.000000)">
-                <g id="icon" transform="translate(63.000000, 31.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
+            <g id="wst_4" opacity="0" transform="translate(53.000000, 590.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="st_01810" transform="translate(287.000000, 0.000000)">
-                <g id="icon" transform="translate(6.000000, 16.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
+            <g id="wst_5" opacity="0" transform="translate(79.000000, 774.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="st_01700" transform="translate(478.000000, 199.000000)">
-                <g id="icon" transform="translate(-0.000000, 17.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01640" transform="translate(286.000000, 423.000000)">
-                <g id="icon" transform="translate(93.000000, -0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01624" opacity="0.495698475" transform="translate(434.000000, 440.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01612" opacity="0.500837054" transform="translate(404.000000, 531.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01513" opacity="0.501697359" transform="translate(225.000000, 545.000000)">
-                <g id="icon" transform="translate(66.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01745" opacity="0.498465402" transform="translate(269.000000, 55.000000)">
-                <g id="icon" transform="translate(65.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01580" transform="translate(482.000000, 549.000000)">
-                <g id="icon" transform="translate(0.000000, 26.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01622" opacity="0.501209077" transform="translate(420.000000, 466.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01662" opacity="0.501534598" transform="translate(444.000000, 359.000000)">
-                <text id="Пулозеро" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="48.05" y="18">Пулозеро</tspan>
-                </text>
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01510" opacity="0.499000186" transform="translate(247.000000, 596.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01748" opacity="0.502673921" transform="translate(337.000000, 115.000000)">
-                <g id="icon" transform="translate(38.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01613" opacity="0.499255952" transform="translate(395.000000, 513.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01744" opacity="0.503115699" transform="translate(292.000000, 83.000000)">
-                <g id="icon" transform="translate(62.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01710" opacity="0.502487909" transform="translate(353.000000, 190.000000)">
-                <g id="icon" transform="translate(20.000000, 15.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01683" opacity="0.502883185" transform="translate(440.000000, 271.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01790" opacity="0.500441778" transform="translate(274.000000, 32.000000)">
-                <g id="icon" transform="translate(0.000000, 9.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01675" opacity="0.50172061" transform="translate(441.000000, 288.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01660" opacity="0.504441034" transform="translate(448.000000, 373.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01532" opacity="0.499046689" transform="translate(163.000000, 520.000000)">
-                <g id="icon" transform="translate(12.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01623" opacity="0.502580915" transform="translate(429.000000, 455.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01614" opacity="0.502278646" transform="translate(450.000000, 496.000000)">
-                <g id="icon" transform="translate(53.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01621" opacity="0.503069196" transform="translate(388.000000, 482.000000)">
-                <g id="icon" transform="translate(72.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01663" opacity="0.503069196" transform="translate(416.000000, 387.000000)">
-                <g id="icon" transform="translate(71.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01615" opacity="0.503069196" transform="translate(378.000000, 501.000000)">
-                <g id="icon" transform="translate(72.000000, 3.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01520" opacity="0.502418155" transform="translate(209.000000, 506.000000)">
-                <g id="icon" transform="translate(0.000000, 29.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01900" transform="translate(553.000000, 115.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01692" opacity="0.498651414" transform="translate(442.000000, 236.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01674" opacity="0.504673549" transform="translate(488.000000, 321.000000)">
-                <g id="icon" transform="translate(31.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01676" opacity="0.503069196" transform="translate(422.000000, 331.000000)">
-                <g id="icon" transform="translate(66.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01673" opacity="0.503069196" transform="translate(418.000000, 307.000000)">
-                <g id="icon" transform="translate(68.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01701" opacity="0.503069196" transform="translate(419.000000, 186.000000)">
-                <g id="icon" transform="translate(10.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01883" opacity="0.503069196" transform="translate(516.000000, 107.000000)">
-                <g id="icon" transform="translate(4.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01671" opacity="0.504673549" transform="translate(444.000000, 345.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01695" opacity="0.502371652" transform="translate(425.000000, 258.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01730" opacity="0.503999256" transform="translate(347.000000, 151.000000)">
-                <g id="icon" transform="translate(54.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01820" transform="translate(176.000000, 16.000000)">
-                <g id="icon" transform="translate(20.000000, 15.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01380" transform="translate(313.000000, 936.000000)">
-                <g id="icon" transform="translate(0.000000, 26.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01470" opacity="0.50437128" transform="translate(-0.000000, 645.000000)">
-                <g id="icon" transform="translate(57.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01560" opacity="0.499953497" transform="translate(402.000000, 578.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01572" opacity="0.503069196" transform="translate(376.000000, 569.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01480" opacity="0.501371838" transform="translate(227.000000, 666.000000)">
-                <g id="icon" transform="translate(90.000000, 3.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01386" opacity="0.499953497" transform="translate(241.000000, 939.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01400" opacity="0.496465774" transform="translate(145.000000, 965.000000)">
-                <g id="icon" transform="translate(39.000000, 31.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01440" opacity="0.499976749" transform="translate(325.000000, 753.000000)">
-                <g id="icon" transform="translate(1.000000, 12.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01437" opacity="0.496047247" transform="translate(332.000000, 796.000000)">
-                <g id="icon" transform="translate(0.000000, 14.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01860" transform="translate(494.000000, 126.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01461" opacity="0.503301711" transform="translate(133.000000, 702.000000)">
-                <g id="icon" transform="translate(68.000000, 7.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01550" opacity="0.501604353" transform="translate(322.000000, 578.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01433" opacity="0.50125558" transform="translate(225.000000, 879.000000)">
-                <g id="icon" transform="translate(109.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01435" opacity="0.503069196" transform="translate(291.000000, 847.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01434" opacity="0.503069196" transform="translate(264.000000, 816.000000)">
-                <g id="icon" transform="translate(68.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01564" opacity="0.503069196" transform="translate(357.000000, 543.000000)">
-                <g id="icon">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01410" opacity="0.495861235" transform="translate(72.000000, 986.000000)">
-                <g id="icon" transform="translate(40.000000, 27.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01445" opacity="0.503162202" transform="translate(310.000000, 698.000000)">
-                <g id="icon" transform="translate(0.000000, 12.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_01430" transform="translate(287.000000, 911.000000)">
-                <g id="icon" transform="translate(47.000000, 0.000000)">
-                    <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
-                </g>
-            </g>
-            <g id="st_" transform="translate(441.000000, 98.000000)"></g>
         </g>
     </g>
 </svg>

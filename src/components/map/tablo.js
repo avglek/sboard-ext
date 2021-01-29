@@ -122,6 +122,7 @@ function loadRegions(url_reg, idRegion) {
     d3.selectAll("title").remove();
 
     parentProps.postStorm(idRegion, clickStormFromRegion);
+    parentProps.postWeather(idRegion);
 
     let close_btn = d3.select("#close_button");
     close_btn

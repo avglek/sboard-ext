@@ -2503,7 +2503,7 @@
                     <tspan x="0.887167947" y="16.8767432">Роща</tspan>
                 </text>
             </g>
-            <g id="st_" opacity="0.500558036" transform="translate(265.000000, 1083.000000)">
+            <g id="st_06720" opacity="0.500558036" transform="translate(265.000000, 1083.000000)">
                 <g id="st" transform="translate(90.000000, 5.000000)" fill="#FFFFFF" stroke="#A3A3A3">
                     <circle id="Oval" transform="translate(5.000000, 5.000000) scale(-1, 1) translate(-5.000000, -5.000000) " cx="5" cy="5" r="4.5"></circle>
                 </g>
@@ -2647,7 +2647,7 @@
                     <tspan x="0.162" y="12">Мшинская</tspan>
                 </text>
             </g>
-            <g id="st_07091" opacity="0.501488095" transform="translate(175.002063, 599.504423) rotate(-50.000000) translate(-175.002063, -599.504423) translate(143.002063, 591.004423)">
+            <g id="st_07090" opacity="0.501488095" transform="translate(175.002063, 599.504423) rotate(-50.000000) translate(-175.002063, -599.504423) translate(143.002063, 591.004423)">
                 <g id="st" transform="translate(54.000000, 0.000000)" fill="#FFFFFF" stroke="#A3A3A3">
                     <circle id="Oval" transform="translate(5.000000, 5.000000) scale(-1, 1) translate(-5.000000, -5.000000) " cx="5" cy="5" r="4.5"></circle>
                 </g>
@@ -2871,7 +2871,7 @@
                     <tspan x="0.202" y="12">Горушки-Невельские</tspan>
                 </text>
             </g>
-            <g id="st_" opacity="0.500441778" transform="translate(360.000000, 354.000000)">
+            <g id="st_07202" opacity="0.500441778" transform="translate(360.000000, 354.000000)">
                 <g id="st" transform="translate(134.000000, 3.000000)" fill="#FFFFFF" stroke="#A3A3A3">
                     <circle id="Oval" transform="translate(5.000000, 5.000000) scale(-1, 1) translate(-5.000000, -5.000000) " cx="5" cy="5" r="4.5"></circle>
                 </g>
@@ -5148,6 +5148,38 @@
                 <g id="icon" transform="translate(66.708984, 11.000000)">
                     <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 </g>
+            </g>
+        </g>
+        <g id="weather_st" opacity="0.99" transform="translate(243.000000, 156.000000)" fill="#64AAFF">
+            <g id="wst_22" opacity="0" transform="translate(276.000000, 0.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_24" opacity="0" transform="translate(472.000000, 92.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_33" opacity="0" transform="translate(174.000000, 483.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_35" opacity="0" transform="translate(514.000000, 532.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_34" opacity="0" transform="translate(402.000000, 501.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_39" opacity="0" transform="translate(143.000000, 627.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_30" opacity="0" transform="translate(130.000000, 209.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_31" opacity="0" transform="translate(378.000000, 278.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_43" opacity="0" transform="translate(385.000000, 943.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="wst_42" opacity="0" transform="translate(95.000000, 726.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
         </g>
     </g>

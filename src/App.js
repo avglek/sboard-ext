@@ -7,6 +7,7 @@ import Drawer from "./components/SidePanel/Drawer/Drawer";
 import MarqueeAlert from "./components/Marquee/MarqueeAlert";
 import NavBar from "./components/NavBar/NavBar";
 import TabEnterprises from "./components/TabsEnterprises/TabEnterprises";
+import WeatherUI from "./components/WeatherUI/WeatherUI";
 
 //import SimpleModal from './components/simpleModal/SimpleModal'
 
@@ -21,6 +22,7 @@ function App() {
     <div className="App">
       <div className="context"></div>
       <div className="stooltip"></div>
+      <WeatherUI />
       <TabEnterprises />
       <MarqueeAlert className="mq_box" />
       <MapConteiner className="main_box" />

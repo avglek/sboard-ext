@@ -8,6 +8,7 @@ var initialState = {
     storm_region: "http://localhost:8080/orw_tablo/load_storm.php?region=",
     storm_all: "http://localhost:8080/orw_tablo//load_storm.php",
     storm_uch: "http://localhost:8080/orw_tablo/load_storm.php?map=",
+    weather_region: "http://localhost:8080/apps/api/weather?reg=",
   },
 
   wsocket: {
@@ -121,6 +122,10 @@ var initialState = {
     st_01490: {
       url: "./svg/kandalaksha.svg",
       region: "5",
+    },
+    st_03580: {
+      url: "./svg/spb_port.svg",
+      region: "2",
     },
   },
 };
