@@ -12,7 +12,7 @@ function showIconWeather(items, clickFunction) {
     const el = xml.documentElement.getElementsByTagName("g")[0];
 
     items.forEach((element) => {
-      console.log(element.map_id);
+      //console.log(element.map_id);
       const anchorNode = d3.select("#weather_st").select(`#${element.map_id}`);
       if (anchorNode.node()) {
         anchorNode.attr("opacity", "1");
@@ -55,13 +55,13 @@ function insertParam(node, params) {
   visNode.textContent = `${params.visibility} км`;
   tempNode.textContent = `${params.temperature}  C`;
   windNode.textContent = `${params.wind_speed} м/с`;
-  console.log(visNode.textContent);
+  //console.log(visNode.textContent);
 }
 
 function handleClickIcon(e, item, winOpen) {
-  console.log("click:", e, item);
+  //console.log("click:", e, item);
   hiddenTootTip();
-  winOpen(e.pageX, e.pageY);
+  winOpen(e.pageX, e.pageY, item);
 }
 
 function handleMouseEnterIcon(e, item) {

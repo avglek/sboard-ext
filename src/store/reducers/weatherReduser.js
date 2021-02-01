@@ -14,21 +14,22 @@ const initialState = {
   region: 0,
   x: 0,
   y: 0,
+  selectItem: null,
 };
 
 export default function weatherReduser(state = initialState, action) {
-  switch (action.type)
-  {
+  switch (action.type) {
     case WEATHER_WIN_CLOSE:
       return {
         ...state,
         isOpen: false,
-      }
+      };
     case WEATHER_WIN_OPEN:
       return {
         ...state,
         x: action.x,
         y: action.y,
+        selectItem: action.selectItem,
         isOpen: true,
       };
     case WEATHER_START_LOADING:
