@@ -15,11 +15,13 @@ export function weatherWinClose() {
   };
 }
 
-export function weatherWinOpen(x, y) {
+export function weatherWinOpen(x, y, selectItem) {
+  
   return {
     type: WEATHER_WIN_OPEN,
     x,
     y,
+    selectItem,
   };
 }
 

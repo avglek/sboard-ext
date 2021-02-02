@@ -20,8 +20,6 @@ let stantion = {};
 let pikets = {};
 let parentProps;
 
-hideDivision();
-
 const dataService = new DataService();
 //const socket = socketIOClient(wsocket.endpoint);
 
@@ -69,6 +67,8 @@ export function ShowLayer(props) {
 }
 
 export function loadMapORW(fprops) {
+  hideDivision(fprops);
+
   parentProps = fprops;
   const mainUrl = parentProps.tabloUrl || "./svg/tablo.svg";
   const legendURL = parentProps.tabloLegend || "./svg/legend.svg";
@@ -305,9 +305,10 @@ function node_click() {
   parentProps.fetchData(this.id);
 }
 
-function hideDivision() {
+function hideDivision(props) {
   d3.select("body").on("click", () => {
     d3.select(".context").style("visibility", "hidden");
+    props.weatherWinClose();
   });
 }
 
