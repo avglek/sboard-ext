@@ -2,13 +2,13 @@ var initialState = {
   config: {
     divisions: "http://localhost:8080/orw_tablo/division_json2.php",
     menu: "./data/load_menu.json",
-    pokaz: "http://10.35.49.146:8080/orw_tablo/load_pred_pokaz.php?code_pred=",
-    piket: "http://10.35.49.146:8080/orw_tablo/load_piket.php",
-    prognoz: "http://10.35.49.146:8080/orw_tablo/load_prognoz.php?region=",
-    storm_region: "http://10.35.49.146:8080/orw_tablo/load_storm.php?region=",
-    storm_all: "http://10.35.49.146:8080/orw_tablo//load_storm.php",
-    storm_uch: "http://10.35.49.146:8080/orw_tablo/load_storm.php?map=",
-    weather_region: "http://10.35.49.146:8080/apps/api/weather?reg=",
+    pokaz: "http://localhost:8080/orw_tablo/load_pred_pokaz.php?code_pred=",
+    piket: "http://localhost:8080/orw_tablo/load_piket.php",
+    prognoz: "http://localhost:8080/orw_tablo/load_prognoz.php?region=",
+    storm_region: "http://localhost:8080/orw_tablo/load_storm.php?region=",
+    storm_all: "http://localhost:8080/orw_tablo//load_storm.php",
+    storm_uch: "http://localhost:8080/orw_tablo/load_storm.php?map=",
+    weather_region: "http://localhost:8080/apps/api/weather?reg=",
   },
 
   wsocket: {
