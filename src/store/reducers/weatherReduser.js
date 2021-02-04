@@ -31,7 +31,6 @@ export default function weatherReduser(state = initialState, action) {
         y: action.y,
         selectItem: action.selectItem,
         isOpen: true,
-        // selectItem: action.selectItem,
       };
     case WEATHER_START_LOADING:
       return {
