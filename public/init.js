@@ -1,6 +1,6 @@
 var initialState = {
   config: {
-    divisions: "http://10.35.49.146:8080/orw_tablo/division_json2.php",
+    divisions: "http://localhost:8080/orw_tablo/division_json2.php",
     menu: "./data/load_menu.json",
     pokaz: "http://10.35.49.146:8080/orw_tablo/load_pred_pokaz.php?code_pred=",
     piket: "http://10.35.49.146:8080/orw_tablo/load_piket.php",
