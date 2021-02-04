@@ -61,8 +61,10 @@ const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
         };
       }
 
-      if (key === "link") {
-        col.cell = (row) => <img alt={row.name} src={row.link} />;
+      if (key === "image") {
+        //const prefix = "http://localhost:9080";
+        const prefix = "";
+        col.cell = (row) => <img alt={row.name} src={`${prefix}${row.image}`} />;
       }
       columns.push(col);
     }

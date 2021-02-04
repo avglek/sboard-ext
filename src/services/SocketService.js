@@ -9,6 +9,15 @@ class SocketService {
   addListner(room, callBack) {
     this.socket.on(room, callBack);
   }
+
+  removeAllListner(room) {
+    this.socket.removeAllListeners(room);
+  }
+
+  switchListner(room, callBack) {
+    this.socket.removeAllListeners(room);
+    this.socket.on(room, callBack);
+  }
 }
 
 export default SocketService;

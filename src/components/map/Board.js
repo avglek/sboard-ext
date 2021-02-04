@@ -38,15 +38,17 @@ import SocketService from "../../services/SocketService";
 const socket = new SocketService();
 
 const Board = (props) => {
+  const { stormRegionID, updateStormData, postWeather } = props;
   useEffect(() => {
-    socket.addListner("storm", () => {
-      console.log("storm update:", props);
+    socket.switchListner("storm", () => {
+      console.log("storm update:", stormRegionID);
+      updateStormData(stormRegionID);
     });
-    socket.addListner("weather.update", () => {
-      console.log("weather update:", props);
+    socket.switchListner("weather.update", () => {
+      console.log("weather update:", stormRegionID);
+      postWeather(stormRegionID);
     });
-    // eslint-disable-next-line
-  }, []);
+  }, [stormRegionID, updateStormData, postWeather]);
 
   useEffect(() => {
     loadMapORW(props);
@@ -56,7 +58,6 @@ const Board = (props) => {
 
   useEffect(() => {
     ShowLayer(props);
-    //  initLayer(this.props.showLayer);
   });
 
   useEffect(() => {

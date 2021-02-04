@@ -49,17 +49,18 @@ export const layersInit = [
   },
 
   {
-    layer: "loco dolb",
+    layer: "loco",
     show: false,
-    name: "Локомотивные плечи",
+    name: "Схема тягового обслуживания локомотивами (грузовые поезда)",
     visible: "visible",
     disabled: false,
     id: 6,
   },
   {
-    layer: "loco_team",
+    layer: "loco_team dolb",
     show: false,
-    name: '"Плечи" локомотивных бригад',
+    name:
+      "Схема тягового обслуживания локомотивными бригадами (грузовые поезда)",
     visible: "visible",
     disabled: false,
     id: 7,
@@ -67,7 +68,7 @@ export const layersInit = [
   {
     layer: "loco_pass",
     show: false,
-    name: "Локомотивные плечи для пассажирских поездов",
+    name: "Схема тягового обслуживания локомотивами (пассажирские поезда)",
     visible: "visible",
     disabled: false,
     id: 8,
@@ -75,7 +76,8 @@ export const layersInit = [
   {
     layer: "loco_team_pass",
     show: false,
-    name: "Плечи локомотивных бригад пассажирских поездов",
+    name:
+      "Схема тягового обслуживания локомотивными бригадами (пассажирские поезда)",
     visible: "visible",
     disabled: false,
     id: 9,

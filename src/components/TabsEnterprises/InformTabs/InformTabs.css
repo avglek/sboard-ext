@@ -64,3 +64,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* virtual Link  */
+.vlink{
+  color: blue;
+  text-decoration: underline;
+}
+
+.vlink:hover{
+  cursor:pointer;
+}
