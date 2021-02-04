@@ -59,3 +59,20 @@ const renderUI = (size, props) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(WeatherUI);
+
+//  wind: row.wind,
+//       wind_speed: row.wind_speed,
+//       temperature: row.temperature,
+//       pressure: row.pressure,
+//       visibility: row.visibility,
+//       phenomena: row.phenomena,
+//       dangerous_phenomena: row.dangerous_phenomena,
+//       nabludenie_1: row.nabludenie_1,
+//       nabludenie_2: row.nabludenie_2,
+//       gust_of_wind: row.gust_of_wind,
+//       gust_of_wind_between: row.gust_of_wind_between,
+//       nabludenie_1: row.nabludenie_1,
+//       nabludenie_2: row.nabludenie_2,
+//       col_1: row.col_1,
+//       col_2: row.col_2,
+//       map_id: row.map_id,
