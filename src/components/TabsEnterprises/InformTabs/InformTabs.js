@@ -4,7 +4,7 @@ import "./InformTabs.css";
 import Table from "react-bootstrap/Table";
 import { Dimensions } from "react-native";
 
-const handleClickLink = (link) =>{
+const handleClickLink = (link) => {
   const screenWidth = Dimensions.get("screen").width;
   const screenHeight = Dimensions.get("screen").height;
   const winTop = 0;
@@ -25,16 +25,16 @@ const handleClickLink = (link) =>{
       winTop +
       ", scrollbars=yes, resizable=yes"
   );
-}
+};
 
-const renderDefault = (item,index) =>{
-  return(
+const renderDefault = (item, index) => {
+  return (
     <tr key={index.toString()}>
-        <td>{item.name}</td>
-        <td>{item.value}</td>
+      <td>{item.name}</td>
+      <td>{item.value}</td>
     </tr>
-  )
-} 
+  );
+};
 
 const InformTabs = (props) => {
   // код станции;
@@ -52,19 +52,26 @@ const InformTabs = (props) => {
 
   const renderRowItems = () =>
     data.map((item, index) => {
-      if(item.type){
-        switch (item.type){
+      if (item.type) {
+        switch (item.type) {
           case "link":
             return (
               <tr key={index.toString()}>
-              <td>{item.name}</td>
-              <td><span className="vlink" onClick={() => handleClickLink(item.value)}>ТРА станции</span></td>
-            </tr>
-            )
+                <td>{item.name}</td>
+                <td>
+                  <span
+                    className="vlink"
+                    onClick={() => handleClickLink(item.value)}
+                  >
+                    Выписка из ТРА
+                  </span>
+                </td>
+              </tr>
+            );
           default:
-            return renderDefault(item,index)
+            return renderDefault(item, index);
         }
-      }else{
+      } else {
         return renderDefault(item, index);
       }
     });

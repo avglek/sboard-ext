@@ -54,7 +54,8 @@ const renderUI = (size, props) => {
       </div>
     );
   } else {
-    return <div className={classes.Weather} />;
+    return null;
+    //return <div className={classes.Weather} />;
   }
 };
 

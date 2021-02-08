@@ -52,7 +52,10 @@ function insertParam(node, params) {
   const visNode = node.querySelector("#visib > *");
   const tempNode = node.querySelector("#temp > *");
   const windNode = node.querySelector("#wind > *");
-  visNode.textContent = `${params.visibility} км`;
+
+  const vis = isNaN(params.visibility) ? "?" : params.visibility;
+
+  visNode.textContent = `${vis} км`;
   tempNode.textContent = `${params.temperature}  C`;
   windNode.textContent = `${params.wind_speed} м/с`;
   //console.log(visNode.textContent);

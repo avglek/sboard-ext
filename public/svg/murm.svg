@@ -1021,6 +1021,822 @@
                 <tspan x="226.192" y="413.75">сооружений (НГЧ-14)</tspan>
             </text>
         </g>
+        <g id="bridges" opacity="0" transform="translate(15.000000, 33.000000)">
+            <g id="328_42" transform="translate(451.000000, 152.000000)">
+                <polyline id="Path-50" stroke="#0134D3" points="36 7.661143 13.0236734 7 0.5 17.5"></polyline>
+                <text id="р.-Тулома" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="1.265" y="5">р. Тулома</tspan>
+                </text>
+                <g id="icon" transform="translate(25.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <g id="Group" transform="translate(3.000000, 3.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <path d="M3.57951162,0.271951436 L0.373131435,6.52819325 C0.247183691,6.77394064 0.344300488,7.07525908 0.590047873,7.20120682 C0.66062381,7.23737762 0.738791393,7.25624182 0.818096437,7.25624182 L19.2009136,7.25624182 C19.477056,7.25624182 19.7009136,7.03238419 19.7009136,6.75624182 C19.7009136,6.68048992 19.6837014,6.60572822 19.6505767,6.53760256 L16.60861,0.281360741 C16.5249224,0.109245175 16.3503298,3.67737833e-14 16.1589469,3.71420066e-14 L4.02447662,3.71420066e-14 C3.83688276,3.71764671e-14 3.66507264,0.10500603 3.57951162,0.271951436 Z" id="Path-109"></path>
+                        <line x1="3.0957352" y1="0.59120525" x2="6.36932546" y2="7.25624182" id="Path-114"></line>
+                        <line x1="17.084928" y1="0.59120525" x2="13.6560059" y2="7.27272727" id="Path-115"></line>
+                        <line x1="10" y1="0" x2="13.6560059" y2="7.27272727" id="Path-116"></line>
+                        <line x1="10" y1="0" x2="6.36932546" y2="7.27272727" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="153_42" transform="translate(510.000000, 200.000000)">
+                <polyline id="Path-50" stroke="#0134D3" points="0.0967741935 7.62812091 20 7.63636364 75.5 8"></polyline>
+                <text id="р.-Сев.-Кола" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="20.9807082" y="5.63268726">р. Сев. Кола</tspan>
+                </text>
+                <g id="icon" transform="translate(64.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <g id="Group" transform="translate(3.000000, 3.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <path d="M3.57951162,0.271951436 L0.373131435,6.52819325 C0.247183691,6.77394064 0.344300488,7.07525908 0.590047873,7.20120682 C0.66062381,7.23737762 0.738791393,7.25624182 0.818096437,7.25624182 L19.2009136,7.25624182 C19.477056,7.25624182 19.7009136,7.03238419 19.7009136,6.75624182 C19.7009136,6.68048992 19.6837014,6.60572822 19.6505767,6.53760256 L16.60861,0.281360741 C16.5249224,0.109245175 16.3503298,3.67737833e-14 16.1589469,3.71420066e-14 L4.02447662,3.71420066e-14 C3.83688276,3.71764671e-14 3.66507264,0.10500603 3.57951162,0.271951436 Z" id="Path-109"></path>
+                        <line x1="3.0957352" y1="0.59120525" x2="6.36932546" y2="7.25624182" id="Path-114"></line>
+                        <line x1="17.084928" y1="0.59120525" x2="13.6560059" y2="7.27272727" id="Path-115"></line>
+                        <line x1="10" y1="0" x2="13.6560059" y2="7.27272727" id="Path-116"></line>
+                        <line x1="10" y1="0" x2="6.36932546" y2="7.27272727" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="320_41" transform="translate(492.000000, 551.000000)">
+                <polyline id="Path-51" stroke="#4A4A4A" points="9.09494702e-13 0 26.5 34.7913168 53 34.7913168"></polyline>
+                <g id="icon" transform="translate(51.000000, 27.000000)">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <line x1="4" y1="4" x2="22" y2="4" id="Path-28" stroke="#FFFFFF" stroke-width="2" transform="translate(13.000000, 4.000000) rotate(-0.000000) translate(-13.000000, -4.000000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" points="10.8574905 7.5 8 12 10.8574905 12 11.9017029 7.5"></polygon>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(16.000000, 9.750000) scale(-1, 1) translate(-16.000000, -9.750000) " points="16.9557877 7.5 14 12 17 12 18 7.5"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="19" y="4.5" width="3" height="4"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="4" y="4.5" width="3" height="4"></rect>
+                </g>
+            </g>
+            <g id="308_41" transform="translate(403.000000, 538.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="95 7 73.5 7 19 6"></polyline>
+                <text id="р.-Белая" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="29.405" y="5">р. Белая</tspan>
+                </text>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="313_41" transform="translate(507.000000, 544.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="1.98951966e-13 0 1.30739863e-12 16 44 16"></polyline>
+                <text id="р.-Белая" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="12.1193402" y="14.0857391">р. Белая</tspan>
+                </text>
+                <g id="icon" transform="translate(41.000000, 10.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="319_41" transform="translate(496.000000, 553.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="2.73722925e-12 0 16 18 63.0769231 18"></polyline>
+                <text id="р.-Жемчужная" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="16.7999817" y="16.0471802">р. Жемчужная</tspan>
+                </text>
+                <g id="icon" transform="translate(52.000000, 13.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="5_41" transform="translate(425.000000, 572.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="7.79185744e-14 0.75 7.81597009e-14 20 53.794562 61.5419865"></polyline>
+                <text id="р.-Нива" transform="translate(24.952431, 34.696407) rotate(38.000000) translate(-24.952431, -34.696407) " font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="16.2524307" y="36.1964073">р. Нива</tspan>
+                </text>
+                <g id="icon" transform="translate(48.000000, 51.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <line x1="23" y1="5.05378498" x2="3" y2="5.05378498" id="Path-28" stroke="#FFFFFF" stroke-width="2"></line>
+                    <path d="M6.02902985,10.5419865 C7.07458496,6.88318547 9.39058813,5.05378498 12.9770394,5.05378498 C16.5634906,5.05378498 18.8794937,6.88318547 19.9250488,10.5419865" id="Path-320" stroke="#FFFDFD" stroke-width="1.5" transform="translate(12.977039, 7.797886) rotate(180.000000) translate(-12.977039, -7.797886) "></path>
+                    <line x1="15.9706965" y1="9.98414958" x2="12.9770393" y2="5.05378498" id="Path-321" stroke="#FFFFFF" stroke-width="1.5"></line>
+                    <line x1="9.97938349" y1="9.98414961" x2="12.9770393" y2="5.05378498" id="Path-321" stroke="#FFFFFF" stroke-width="1.5"></line>
+                </g>
+            </g>
+            <g id="6_41" transform="translate(423.000000, 573.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="-1.56319402e-13 -1.06650799e-13 -9.09494702e-13 30 53 72"></polyline>
+                <text id="канал-Нива-ГЭС" transform="translate(24.170700, 45.467484) rotate(38.000000) translate(-24.170700, -45.467484) " font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="4.73070007" y="46.9674835">канал Нива-ГЭС</tspan>
+                </text>
+                <g id="icon" transform="translate(50.000000, 65.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="40_40" transform="translate(306.000000, 629.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="20 7 53.5 7 66 14.5"></polyline>
+                <text id="рыбоход" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="27.115" y="5">рыбоход</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="41_40" transform="translate(360.000000, 636.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="0.726676297 0.71854496 28 17 39.9857143 17"></polyline>
+                <g id="icon" transform="translate(32.000000, 12.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="199_42" transform="translate(442.000000, 252.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="86.5290011 6 69 7 8.60358672 7"></polyline>
+                <text id="р.-Домашняя" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="31.035" y="5">р. Домашняя</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="371_41" transform="translate(403.000000, 415.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="66 22 61 7.5 14.6153846 7.5"></polyline>
+                <text id="р.-Монча" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="27.675" y="5">р. Монча</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="36_42" transform="translate(442.000000, 286.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="91 4.5 73 7 11.8123122 7"></polyline>
+                <text id="р.-Южная-Кола" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="28.355" y="5">р. Южная Кола</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="240.41" transform="translate(442.000000, 337.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="97.1289063 9 82.5 7.10922036 15.2249723 7.10922036"></polyline>
+                <text id="р.-Салма" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="38.225" y="5">р. Салма</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="17.6923077" y1="3.88752691" x2="2.30769231" y2="3.88752691" id="Path-28" stroke="#FFFFFF" stroke-width="1.5"></line>
+                    <path d="M4.63771527,8.10922036 C5.44198843,5.29475806 7.22352933,3.88752691 9.98233797,3.88752691 C12.7411466,3.88752691 14.5226875,5.29475806 15.3269606,8.10922036" id="Path-320" stroke="#FFFDFD" stroke-width="1.2" transform="translate(9.982338, 5.998374) rotate(180.000000) translate(-9.982338, -5.998374) "></path>
+                    <line x1="12.2851511" y1="7.68011506" x2="9.98233795" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                    <line x1="7.67644884" y1="7.68011509" x2="9.98233794" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                </g>
+            </g>
+            <g id="248_41" transform="translate(442.000000, 324.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="97.1289063 9 84 9 15 8"></polyline>
+                <text id="р.-Воронья" transform="translate(50.500000, 4.500000) rotate(1.000000) translate(-50.500000, -4.500000) " font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="37.735" y="6">р. Воронья</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="159_41" transform="translate(403.000000, 455.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="105 15.5 89 7.30769231 17 7"></polyline>
+                <text id="р.-Куна" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="43.925" y="5">р. Куна</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="172_41" transform="translate(504.000000, 437.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="80 6.58984375 16 6.58984375 0.935483871 1"></polyline>
+                <text id="зал.-Печь-Губа" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="27.305" y="5">зал. Печь Губа</tspan>
+                </text>
+                <g id="icon" transform="translate(76.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="77_41" transform="translate(403.000000, 514.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="97.5 25 79.5 25 19 5"></polyline>
+                <text id="р.-Белая" transform="translate(48.000000, 11.500000) rotate(18.000000) translate(-48.000000, -11.500000) " font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="38.405" y="13">р. Белая</tspan>
+                </text>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="75_41" transform="translate(403.000000, 526.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="98.5 16 80.5 16 17.6923077 6"></polyline>
+                <text id="р.-Жемчужная" transform="translate(42.893387, 6.678467) rotate(9.000000) translate(-42.893387, -6.678467) " font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="25.9933868" y="8.1784668">р. Жемчужная</tspan>
+                </text>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="76_41" transform="translate(486.000000, 517.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="2.71427325e-12 25 15 25 65 5"></polyline>
+                <g id="icon" transform="translate(62.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="144.41" transform="translate(403.000000, 476.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="92 16.5 77 7 16.4499446 7"></polyline>
+                <text id="р.-Гольцовка" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="35.21" y="5">р. Гольцовка</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="17.6923077" y1="3.88752691" x2="2.30769231" y2="3.88752691" id="Path-28" stroke="#FFFFFF" stroke-width="1.5"></line>
+                    <path d="M4.63771527,8.10922036 C5.44198843,5.29475806 7.22352933,3.88752691 9.98233797,3.88752691 C12.7411466,3.88752691 14.5226875,5.29475806 15.3269606,8.10922036" id="Path-320" stroke="#FFFDFD" stroke-width="1.2" transform="translate(9.982338, 5.998374) rotate(180.000000) translate(-9.982338, -5.998374) "></path>
+                    <line x1="12.2851511" y1="7.68011506" x2="9.98233795" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                    <line x1="7.67644884" y1="7.68011509" x2="9.98233794" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                </g>
+            </g>
+            <g id="145_41" transform="translate(483.000000, 485.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="4.26356866e-13 0 13 8.07692308 78 8"></polyline>
+                <g id="icon" transform="translate(73.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="78_41" transform="translate(485.000000, 510.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="2.71427325e-12 29 15 29 43.9508514 5"></polyline>
+                <g id="icon" transform="translate(42.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="188_41" transform="translate(509.000000, 406.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="0 9 15 7 75 7"></polyline>
+                <text id="р.-Куренга" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="30.815" y="5">р. Куренга</tspan>
+                </text>
+                <g id="icon" transform="translate(71.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="146_22" transform="translate(291.000000, 725.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="75 1 58.5 7 23 7"></polyline>
+                <text id="канал-ГЭС" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="30.785" y="5">канал ГЭС</tspan>
+                </text>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <line x1="23" y1="5.05378498" x2="3" y2="5.05378498" id="Path-28" stroke="#FFFFFF" stroke-width="2"></line>
+                    <path d="M6.02902985,10.5419865 C7.07458496,6.88318547 9.39058813,5.05378498 12.9770394,5.05378498 C16.5634906,5.05378498 18.8794937,6.88318547 19.9250488,10.5419865" id="Path-320" stroke="#FFFDFD" stroke-width="1.5" transform="translate(12.977039, 7.797886) rotate(180.000000) translate(-12.977039, -7.797886) "></path>
+                    <line x1="15.9706965" y1="9.98414958" x2="12.9770393" y2="5.05378498" id="Path-321" stroke="#FFFFFF" stroke-width="1.5"></line>
+                    <line x1="9.97938349" y1="9.98414961" x2="12.9770393" y2="5.05378498" id="Path-321" stroke="#FFFFFF" stroke-width="1.5"></line>
+                </g>
+            </g>
+            <g id="281_40" transform="translate(280.000000, 570.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="95.8395918 0.5 83.3275015 13.3846154 40.9706965 13.5384615"></polyline>
+                <text id="оз.-Имандра" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="50.515" y="12">оз. Имандра</tspan>
+                </text>
+                <g id="icon" transform="translate(26.000000, 8.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="156_40" transform="translate(245.000000, 646.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="15 17 51.5 17 52.0290298 36"></polyline>
+                <text id="водоток" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="26.085" y="15">водоток</tspan>
+                </text>
+                <g id="icon" transform="translate(1.000000, 11.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="190_40" transform="translate(128.000000, 663.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="109 0 101 15.7692308 40.9230769 15.7692308"></polyline>
+                <text id="канал-ГЭС" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="59.785" y="14">канал ГЭС</tspan>
+                </text>
+                <g id="icon" transform="translate(31.000000, 10.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="220-40" transform="translate(114.000000, 632.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="58 26.1350398 58 7 2.30769231 7"></polyline>
+                <text id="р.-Верман" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="27.0354529" y="5.09174347">р. Верман</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="392_40" transform="translate(136.000000, 516.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="97 7.95807864e-12 89 16.5 39.9230769 16.5"></polyline>
+                <text id="р.-Ена" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="56.845" y="15">р. Ена</tspan>
+                </text>
+                <g id="icon" transform="translate(23.000000, 11.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="407_40" transform="translate(132.000000, 507.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="89 0.802402791 74 12 44 11.75"></polyline>
+                <text id="р.-Можель" transform="translate(61.000000, 8.500000) rotate(1.000000) translate(-61.000000, -8.500000) " font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="48.82" y="10">р. Можель</tspan>
+                </text>
+                <g id="icon" transform="translate(27.000000, 6.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="360_40" transform="translate(278.000000, 481.000000)">
+                <polyline id="Path-51" stroke="#1C9FDD" points="48 21.3860441 7 21 -2.84217094e-14 36.5384615"></polyline>
+                <text id="р.-Сейто" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#1C9FDD">
+                    <tspan x="16.485" y="19">р. Сейто</tspan>
+                </text>
+                <g id="icon" transform="translate(45.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#1C9FDD" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="383_40" transform="translate(159.000000, 464.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="99 65.2307692 59 17.5384615 16.9230769 17.5384615"></polyline>
+                <text id="р.-Куропта" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="25.1951855" y="15.2377625">р. Куропта</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 11.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="111_22" transform="translate(307.000000, 787.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="73 6.30769231 58 7 10.4499446 7"></polyline>
+                <text id="р.-Б.-Ковда" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="24.195" y="5">р. Б. Ковда</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="109_22" transform="translate(302.000000, 798.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="121 8 79.5 8 64 8"></polyline>
+                <text id="р.-М.-Ковда" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="82.795" y="6">р. М. Ковда</tspan>
+                </text>
+                <g id="icon" transform="translate(115.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <path d="M9.23093796,7.72109252 C9.02803665,5.39421033 8.00268319,4.23076923 6.15487759,4.23076923 C4.30707199,4.23076923 3.28177478,5.39421033 3.07898595,7.72109252 L2.3164221,7.72109252 L2.3164221,3.07692308 L17.7529878,3.07692308 L17.7529878,7.72109252 L17.0179367,7.72109252 C16.751908,5.39421033 15.6949909,4.23076923 13.8471853,4.23076923 C11.9993797,4.23076923 10.9742121,5.39421033 10.7716824,7.72109252 L9.23093796,7.72109252 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+            <g id="20_22" transform="translate(292.000000, 910.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="92.5 1.63021851 77 6 31.9230769 5.76923077"></polyline>
+                <g id="icon" transform="translate(15.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="42_22" transform="translate(307.000000, 888.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="75 7 60 7 14 7"></polyline>
+                <text id="р.-Пулонга" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="30.1000112" y="5.0683358">р. Пулонга</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="19_22" transform="translate(370.000000, 904.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="0 11.7692308 14.5 7.63021851 47.9481003 7.63021851"></polyline>
+                <text id="р.-Кереть" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="19.8533716" y="5.23425293">р. Кереть</tspan>
+                </text>
+                <g id="icon" transform="translate(47.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="255_22" transform="translate(141.000000, 956.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="71 30 65.467514 7.783821 8.5 7.38461538"></polyline>
+                <text id="р.-Софьянга" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="26.1866232" y="5.61765289">р. Софьянга</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="17.6923077" y1="3.88752691" x2="2.30769231" y2="3.88752691" id="Path-28" stroke="#FFFFFF" stroke-width="1.5"></line>
+                    <path d="M4.63771527,8.10922036 C5.44198843,5.29475806 7.22352933,3.88752691 9.98233797,3.88752691 C12.7411466,3.88752691 14.5226875,5.29475806 15.3269606,8.10922036" id="Path-320" stroke="#FFFDFD" stroke-width="1.2" transform="translate(9.982338, 5.998374) rotate(180.000000) translate(-9.982338, -5.998374) "></path>
+                    <line x1="12.2851511" y1="7.68011506" x2="9.98233795" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                    <line x1="7.67644884" y1="7.68011509" x2="9.98233794" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                </g>
+            </g>
+            <g id="299_42" transform="translate(456.000000, 186.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="49 1.75859327e-13 48.9827455 30.5 17.7890819 30.5"></polyline>
+                <text id="р.-Кола" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="25.6321647" y="28.1556747">р. Кола</tspan>
+                </text>
+                <g id="icon" transform="translate(0.096774, 24.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="183_42" transform="translate(528.000000, 116.000000)">
+                <polyline id="Path-51" stroke="#4A4A4A" points="24 10.5 10.5 33.4852814 0.529001067 34"></polyline>
+                <g id="icon" transform="translate(14.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(10.000000, 7.500000) scale(-1, 1) translate(-10.000000, -7.500000) " points="8.00384521 5.76923077 6.15384615 9.23076923 13.8461538 9.23076923 11.9919739 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="267_42" transform="translate(590.000000, 122.000000)">
+                <polyline id="Path-51" stroke="#4A4A4A" points="33 16.5 7.69230769 15.5128479 0.8123122 -4.54747351e-13"></polyline>
+                <g id="icon" transform="translate(30.000000, 11.000000)">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(10.000000, 7.500000) scale(-1, 1) translate(-10.000000, -7.500000) " points="8.00384521 5.76923077 6.15384615 9.23076923 13.8461538 9.23076923 11.9919739 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="653_42" transform="translate(347.000000, 0.000000)">
+                <polyline id="Path-50" stroke="#1C9FDD" points="57 7.27272727 18 7.27272727 0 25"></polyline>
+                <text id="р.-Печенга" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#1C9FDD">
+                    <tspan x="20.825" y="6">р. Печенга</tspan>
+                </text>
+                <g id="icon" transform="translate(53.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#1C9FDD" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <g id="Group" transform="translate(3.000000, 3.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <path d="M3.57951162,0.271951436 L0.373131435,6.52819325 C0.247183691,6.77394064 0.344300488,7.07525908 0.590047873,7.20120682 C0.66062381,7.23737762 0.738791393,7.25624182 0.818096437,7.25624182 L19.2009136,7.25624182 C19.477056,7.25624182 19.7009136,7.03238419 19.7009136,6.75624182 C19.7009136,6.68048992 19.6837014,6.60572822 19.6505767,6.53760256 L16.60861,0.281360741 C16.5249224,0.109245175 16.3503298,3.67737833e-14 16.1589469,3.71420066e-14 L4.02447662,3.71420066e-14 C3.83688276,3.71764671e-14 3.66507264,0.10500603 3.57951162,0.271951436 Z" id="Path-109"></path>
+                        <line x1="3.0957352" y1="0.59120525" x2="6.36932546" y2="7.25624182" id="Path-114"></line>
+                        <line x1="17.084928" y1="0.59120525" x2="13.6560059" y2="7.27272727" id="Path-115"></line>
+                        <line x1="10" y1="0" x2="13.6560059" y2="7.27272727" id="Path-116"></line>
+                        <line x1="10" y1="0" x2="6.36932546" y2="7.27272727" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="525_42" transform="translate(271.000000, 5.000000)">
+                <polyline id="Path-50" stroke="#1C9FDD" points="79 0 53 25.3846154 16.6923077 25.5"></polyline>
+                <text id="р.-М.Печенга" transform="translate(36.588798, 22.135501) rotate(1.000000) translate(-36.588798, -22.135501) " font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#1C9FDD">
+                    <tspan x="21.1837975" y="23.635501">р. М.Печенга</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 20.000000)">
+                    <rect id="Rectangle" fill="#1C9FDD" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="482_42" transform="translate(367.000000, 33.000000)">
+                <polyline id="Path-50" stroke="#1C9FDD" points="0 17 11 7.30769231 50.5 7.30769231"></polyline>
+                <text id="р.-Титовка" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#1C9FDD">
+                    <tspan x="19.985" y="6">р. Титовка</tspan>
+                </text>
+                <g id="icon" transform="translate(50.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#1C9FDD" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="526_42" transform="translate(271.000000, 3.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="76 8.366914e-12 60 15.5 18.8123122 15.5"></polyline>
+                <text id="р.-Б.Печенга" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="24.9593883" y="13.6265924">р. Б.Печенга</tspan>
+                </text>
+                <g id="icon" transform="translate(0.096774, 10.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="422_42" transform="translate(337.000000, 83.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="74 1.76132434e-13 60.5 10 17.6923077 10"></polyline>
+                <text id="р.-Зап.-Лица" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="24.2078394" y="7.7320332">р. Зап. Лица</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 4.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="421_42" transform="translate(401.000000, 81.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="0.846153846 17 13.3622208 8 51 8"></polyline>
+                <text id="р.-Лебяжка" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="17.3056274" y="5.53281403">р. Лебяжка</tspan>
+                </text>
+                <g id="icon" transform="translate(48.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="397_42" transform="translate(360.000000, 114.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="72 0.823529412 59 10 11.6923077 10"></polyline>
+                <text id="р.-Нял" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="30.375" y="8">р. Нял</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 5.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="387_42" transform="translate(425.000000, 116.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="6.67910172e-13 15 12 7 46.5 7"></polyline>
+                <text id="р.-Ура" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="16.205" y="5">р. Ура</tspan>
+                </text>
+                <g id="icon" transform="translate(38.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="82_42" transform="translate(514.000000, 252.000000)">
+                <polyline id="Path-51" stroke="#1746D9" points="0 7 13 6.07692308 78.3076923 6"></polyline>
+                <g id="icon" transform="translate(66.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="327_42" transform="translate(376.000000, 163.000000)">
+                <polyline id="Path-50" stroke="#0134D3" points="21 10.5 78.3076923 10.5 90.4044665 1.42108547e-13"></polyline>
+                <text id="р.-Тулома" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#0134D3">
+                    <tspan x="37.265" y="8">р. Тулома</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 3.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <g id="Group" transform="translate(3.000000, 3.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <path d="M3.57951162,0.271951436 L0.373131435,6.52819325 C0.247183691,6.77394064 0.344300488,7.07525908 0.590047873,7.20120682 C0.66062381,7.23737762 0.738791393,7.25624182 0.818096437,7.25624182 L19.2009136,7.25624182 C19.477056,7.25624182 19.7009136,7.03238419 19.7009136,6.75624182 C19.7009136,6.68048992 19.6837014,6.60572822 19.6505767,6.53760256 L16.60861,0.281360741 C16.5249224,0.109245175 16.3503298,3.67737833e-14 16.1589469,3.71420066e-14 L4.02447662,3.71420066e-14 C3.83688276,3.71764671e-14 3.66507264,0.10500603 3.57951162,0.271951436 Z" id="Path-109"></path>
+                        <line x1="3.0957352" y1="0.59120525" x2="6.36932546" y2="7.25624182" id="Path-114"></line>
+                        <line x1="17.084928" y1="0.59120525" x2="13.6560059" y2="7.27272727" id="Path-115"></line>
+                        <line x1="10" y1="0" x2="13.6560059" y2="7.27272727" id="Path-116"></line>
+                        <line x1="10" y1="0" x2="6.36932546" y2="7.27272727" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="legend" transform="translate(0.000000, 26.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="189" height="199" rx="7"></rect>
+                <g id="Group-38" transform="translate(8.000000, 28.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+                <g id="Group-38" transform="translate(8.000000, 58.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+                <g id="Group-38" transform="translate(8.000000, 73.000000)">
+                    <rect id="Rectangle" fill="#1C9FDD" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+                <text id="большой-водоток" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="41" y="66">большой водоток</tspan>
+                </text>
+                <text id="мост-длиной-более-25" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="41" y="36">мост длиной  более 25М</tspan>
+                </text>
+                <text id="малый-водоток" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="41" y="81">малый водоток</tspan>
+                </text>
+                <g id="Group-40" transform="translate(8.000000, 118.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="5" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="5" width="2.30769231" height="3.07692308"></rect>
+                </g>
+                <text id="железобетонный-мост" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="41" y="126">железобетонный мост</tspan>
+                </text>
+                <g id="Group-38" transform="translate(8.000000, 103.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+                <text id="металлический-мост" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="41" y="111">металлический мост</tspan>
+                </text>
+                <g id="Group-38" transform="translate(8.000000, 10.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <g id="Group" transform="translate(3.000000, 3.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <path d="M3.57951162,0.271951436 L0.373131435,6.52819325 C0.247183691,6.77394064 0.344300488,7.07525908 0.590047873,7.20120682 C0.66062381,7.23737762 0.738791393,7.25624182 0.818096437,7.25624182 L19.2009136,7.25624182 C19.477056,7.25624182 19.7009136,7.03238419 19.7009136,6.75624182 C19.7009136,6.68048992 19.6837014,6.60572822 19.6505767,6.53760256 L16.60861,0.281360741 C16.5249224,0.109245175 16.3503298,3.67737833e-14 16.1589469,3.71420066e-14 L4.02447662,3.71420066e-14 C3.83688276,3.71764671e-14 3.66507264,0.10500603 3.57951162,0.271951436 Z" id="Path-109"></path>
+                        <line x1="3.0957352" y1="0.59120525" x2="6.36932546" y2="7.25624182" id="Path-114"></line>
+                        <line x1="17.084928" y1="0.59120525" x2="13.6560059" y2="7.27272727" id="Path-115"></line>
+                        <line x1="10" y1="0" x2="13.6560059" y2="7.27272727" id="Path-116"></line>
+                        <line x1="10" y1="0" x2="6.36932546" y2="7.27272727" id="Path-117"></line>
+                    </g>
+                </g>
+                <g id="Group-43" transform="translate(8.000000, 133.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="17.6923077" y1="3.88752691" x2="2.30769231" y2="3.88752691" id="Path-28" stroke="#FFFFFF" stroke-width="1.5"></line>
+                    <path d="M4.63771527,8.10922036 C5.44198843,5.29475806 7.22352933,3.88752691 9.98233797,3.88752691 C12.7411466,3.88752691 14.5226875,5.29475806 15.3269606,8.10922036" id="Path-320" stroke="#FFFDFD" stroke-width="1.2" transform="translate(9.982338, 5.998374) rotate(180.000000) translate(-9.982338, -5.998374) "></path>
+                    <line x1="12.2851511" y1="7.68011506" x2="9.98233795" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                    <line x1="7.67644884" y1="7.68011509" x2="9.98233794" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                </g>
+                <text id="смешанный-мост" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="40" y="141">смешанный мост</tspan>
+                </text>
+                <g id="Group-45" transform="translate(8.000000, 148.000000)">
+                    <rect id="Rectangle" fill="#0134D3" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <path d="M10,7.72109252 L9.23093796,7.72109252 C9.02803665,5.39421033 8.00268319,4.23076923 6.15487759,4.23076923 C4.30707199,4.23076923 3.28177478,5.39421033 3.07898595,7.72109252 L2.3164221,7.72109252 L2.3164221,3.07692308 L10,3.07692308 L10,7.72109252 Z" id="Path-312" fill="#FFFFFF"></path>
+                    <path d="M17.7529878,7.72109252 L17.0179367,7.72109252 C16.751908,5.39421033 15.6949909,4.23076923 13.8471853,4.23076923 C11.9993797,4.23076923 10.9742121,5.39421033 10.7716824,7.72109252 L10,7.72109252 L10,3.07692308 L17.7529878,3.13048876 L17.7529878,7.72109252 Z" id="Path-312" fill="#FFFFFF"></path>
+                </g>
+                <text id="каменный-мост" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="41" y="156">каменный мост</tspan>
+                </text>
+                <g id="Group-47" transform="translate(8.000000, 163.000000)">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" points="8.3519158 5.76923077 6.15384615 9.23076923 8.3519158 9.23076923 9.15515606 5.76923077"></polygon>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(12.307692, 7.500000) scale(-1, 1) translate(-12.307692, -7.500000) " points="13.0429136 5.76923077 10.7692308 9.23076923 13.0769231 9.23076923 13.8461538 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+                <text id="путепровод-над-ж/д" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="41" y="171">путепровод над ж/д</tspan>
+                </text>
+                <g id="Group-47" transform="translate(8.000000, 178.000000)">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(10.000000, 7.500000) scale(-1, 1) translate(-10.000000, -7.500000) " points="8.00384521 5.76923077 6.15384615 9.23076923 13.8461538 9.23076923 11.9919739 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+                <text id="путепровод-над-автод" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="41" y="186">путепровод над автодорогой</tspan>
+                </text>
+                <text id="мост-длиной-более-10" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#444444">
+                    <tspan x="40.52" y="20">мост длиной более 100 м</tspan>
+                </text>
+                <line x1="39" y1="48" x2="153.5" y2="47.5" id="Path-52" stroke="#979797" stroke-dasharray="1"></line>
+                <line x1="38.75" y1="93.75" x2="153.68515" y2="93.75" id="Path-52" stroke="#979797" stroke-dasharray="1"></line>
+            </g>
+        </g>
         <g id="stations" transform="translate(62.000000, 5.000000)">
             <g id="st_01840" transform="translate(456.000000, 149.000000)">
                 <text id="Мурманск" font-family="AvenirNext-Regular, Avenir Next" font-size="24" font-weight="normal" fill="#6D7C8A">
@@ -1068,14 +1884,14 @@
                     <path d="M11.9991786,2.82352941 C13.0090301,2.82352941 13.8276766,3.61049819 13.8276766,4.58127338 C13.8276766,5.27172782 13.4135538,5.86920144 12.8110554,6.15668246 L12.8495016,7.32132844 L15.7788839,7.32132844 L15.7788839,8.63579134 L12.9559259,8.63579134 L13.0665643,14.3222991 C13.1265381,14.9274161 13.2042969,15.3680766 13.2998406,15.6442804 C13.3953844,15.9204843 13.5248197,16.1644513 13.6881465,16.3761817 C13.935827,16.6499595 14.1970427,16.8179751 14.4717935,16.8802285 C14.7465444,16.9424819 15.0989469,16.8896466 15.5290011,16.7217226 C15.9392031,16.4615294 16.2346793,16.2378176 16.4154297,16.0505871 C16.5961801,15.8633566 16.8042194,15.5655014 17.0395475,15.1570215 L17.0395475,15.1570215 L16.1646541,15.1570215 C16.5755433,14.6006355 16.8671744,14.151152 17.0395475,13.8085709 C17.2119206,13.4659898 17.4050081,12.9521244 17.61881,12.2669745 C18.1947091,13.1273796 18.5648133,13.7734421 18.7291225,14.2051619 C18.8934317,14.6368817 19.003332,15.2520234 19.0588235,16.0505871 L19.0588235,16.0505871 L18.1999295,15.5383695 C17.9252738,16.3095568 17.5384799,16.9750963 17.0395475,17.5349881 C16.5406152,18.0948799 15.7221005,18.6214249 14.5840033,19.1146232 C13.8617096,19.3637768 13.3558966,19.6037501 13.0665643,19.8345429 C12.777232,20.0653358 12.4214367,20.512645 11.9991786,21.1764706 L11.9991786,21.1764706 L11.9991765,21.1715294 L11.8625303,20.9611203 C11.5003182,20.4138218 11.19062,20.037598 10.9334357,19.8324487 C10.6441034,19.6016559 10.1382904,19.3616826 9.41599668,19.112529 C8.27789955,18.6193308 7.45938482,18.0927857 6.96045248,17.5328939 C6.46152015,16.9730021 6.07472616,16.3074626 5.80007053,15.5362753 L4.94117647,16.0484929 C4.99666796,15.2499292 5.1065683,14.6347875 5.27087751,14.2030677 C5.43518672,13.7713479 5.80529089,13.1252855 6.38119004,12.2648803 C6.59499192,12.9500302 6.7880794,13.4638956 6.96045248,13.8064767 C7.13282556,14.1490578 7.4244567,14.5985413 7.8353459,15.1549273 L6.96045248,15.1549273 C7.1957806,15.5634072 7.40381986,15.8612624 7.58457026,16.0484929 C7.76532067,16.2357234 8.06079689,16.4594352 8.47099893,16.7196284 C8.90105308,16.8875524 9.25345559,16.9403877 9.52820646,16.8781343 C9.80295732,16.8158809 10.064173,16.6478653 10.3118535,16.3740875 C10.4751803,16.1623572 10.6046156,15.9183901 10.7001594,15.6421863 C10.7957031,15.3659824 10.8734619,14.925322 10.9334357,14.3202049 L11.0440741,8.63369716 L8.22111612,8.63369716 L8.22111612,7.31923425 L11.1504984,7.31923425 L11.1892725,6.15762135 C10.5857066,5.87050373 10.1706806,5.27248036 10.1706806,4.58127338 C10.1706806,3.61049819 10.9893271,2.82352941 11.9991786,2.82352941 Z" id="Combined-Shape" fill="#87B6E0" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) "></path>
                 </g>
             </g>
-            <g id="st_01630" transform="translate(429.000000, 411.000000)">
+            <g id="st_01630" transform="translate(429.000000, 410.000000)">
                 <text id="Оленегорск" font-family="AvenirNext-Regular, Avenir Next" font-size="24" font-weight="normal" fill="#6D7C8A">
                     <tspan x="57.084" y="24">Оленегорск</tspan>
                 </text>
-                <g id="st" transform="translate(27.000000, 3.000000)" fill="#FFFDFD" stroke="#6EA8F0" stroke-width="4">
+                <g id="st" transform="translate(27.000000, 4.000000)" fill="#FFFDFD" stroke="#6EA8F0" stroke-width="4">
                     <circle id="Oval" cx="12" cy="12" r="10"></circle>
                 </g>
-                <g id="icon" transform="translate(0.000000, 1.000000)">
+                <g id="icon" transform="translate(0.000000, 2.000000)">
                     <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 </g>
             </g>
@@ -1662,7 +2478,7 @@
                     <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
                 </g>
             </g>
-            <g id="st_01564" opacity="0.503069196" transform="translate(360.000000, 552.000000)">
+            <g id="st_01564" opacity="0.503069196" transform="translate(359.000000, 551.000000)">
                 <g id="st" transform="translate(80.000000, 6.000000)" fill="#FFFFFF" stroke="#C3C1C1">
                     <circle id="Oval" transform="translate(5.000000, 5.000000) scale(-1, 1) translate(-5.000000, -5.000000) " cx="5" cy="5" r="4.5"></circle>
                 </g>
@@ -2194,23 +3010,23 @@
                 </text>
             </g>
         </g>
-        <g id="weather_st" opacity="0.99" transform="translate(254.000000, 28.000000)" fill="#64AAFF">
+        <g id="weather_st" opacity="0.99" transform="translate(256.000000, 45.000000)">
             <g id="wst_0" opacity="0">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="wst_1" opacity="0" transform="translate(295.000000, 177.000000)">
+            <g id="wst_1" opacity="0" transform="translate(293.000000, 160.000000)">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="wst_2" opacity="0" transform="translate(162.000000, 402.000000)">
+            <g id="wst_2" opacity="0" transform="translate(160.000000, 385.000000)">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="wst_3" opacity="0" transform="translate(194.000000, 513.000000)">
+            <g id="wst_3" opacity="0" transform="translate(192.000000, 496.000000)">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="wst_4" opacity="0" transform="translate(53.000000, 590.000000)">
+            <g id="wst_4" opacity="0" transform="translate(51.000000, 573.000000)">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
-            <g id="wst_5" opacity="0" transform="translate(79.000000, 774.000000)">
+            <g id="wst_5" opacity="0" transform="translate(77.000000, 757.000000)">
                 <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
         </g>

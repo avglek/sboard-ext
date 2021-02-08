@@ -149,4 +149,12 @@ export const layersInit = [
     disabled: false,
     id: 17,
   },
+  {
+    layer: "bridges",
+    show: false,
+    name: "Искусственные сооружения",
+    visible: "visible",
+    disabled: false,
+    id: 18,
+  },
 ];
