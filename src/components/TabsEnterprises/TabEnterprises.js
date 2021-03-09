@@ -5,12 +5,13 @@ import InformTabs from "./InformTabs/InformTabs";
 import TableConteiner from "./PerformanceTabs/TableConteiner";
 import { connect } from "react-redux";
 import ModalWin from "../ModalWin/ModalWin";
-
+import ListView from "./ListView/ListView";
 import LoaderConteiner from "../LoaderSpinner/LoaderConteiner";
 
 const mapStateToProps = (state) => {
   return {
     items: state.modal.items,
+    viewer: state.modal.viewer,
     hasErrored: state.modal.error,
     isLoading: state.modal.loading,
   };
@@ -21,11 +22,20 @@ const TabEnterprises = (props) => {
   const activs = keys.filter((item) => item !== "info");
 
   const customTabs = activs.map((item, index) => {
-    return (
-      <Tab eventKey={item} title={props.items[item].header} key={index}>
-        <TableConteiner items={props.items[item]} />
-      </Tab>
-    );
+    if (props.viewer === "list") {
+      console.log("load list");
+      return (
+        <Tab eventKey={item} title={props.items[item].header} key={index}>
+          <ListView items={props.items[item]} />
+        </Tab>
+      );
+    } else {
+      return (
+        <Tab eventKey={item} title={props.items[item].header} key={index}>
+          <TableConteiner items={props.items[item]} />
+        </Tab>
+      );
+    }
   });
 
   const contentRender = () => {

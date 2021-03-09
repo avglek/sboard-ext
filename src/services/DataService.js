@@ -149,6 +149,21 @@ class DataService {
     return this.getResurce(`${config.weather_region}${id}`);
   }
 
+  async getBridgePokaz(id) {
+    return this.getResurce(`${config.bridges_pokaz}${id}`);
+    //return this.getResurce(`./data/load_artfeat_153_42.json`);
+  }
+
+  async getPipePokaz(id) {
+    return this.getResurce(`${config.pipe}${id}`);
+    //return this.getResurce(`./data/load_artfeat_153_42.json`);
+  }
+
+  async getSnowPokaz(id) {
+    return this.getResurce(`${config.snow_pokaz}${id}`);
+    //return this.getResurce(`${config.bridges_pokaz}`);
+  }
+
   async getResurce(url) {
     const response = await fetch(url);
 

@@ -9,6 +9,7 @@ const initialState = {
   isModalOpen: false,
   loading: true,
   error: null,
+  viewer: null,
   items: [],
 };
 
@@ -28,6 +29,7 @@ export default function modalReduser(state = initialState, action) {
       return {
         ...state,
         items: action.items,
+        viewer: action.viewer,
         loading: false,
       };
     case MODAL_FETCH_ERRORED:

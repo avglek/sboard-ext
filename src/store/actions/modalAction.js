@@ -28,9 +28,10 @@ export function modalStartLoading() {
   };
 }
 
-export function modalFetchDataSuccess(items) {
+export function modalFetchDataSuccess(items, viewer = null) {
   return {
     type: MODAL_FETCH_DATA_SUCCESS,
+    viewer,
     items,
   };
 }
@@ -53,6 +54,45 @@ export function modalStormFetchData(id) {
     dispatch(modalStartLoading());
     try {
       const data = await dataService.getStormPokaz(id);
+      dispatch(modalFetchDataSuccess(data, "list"));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
+    }
+  };
+}
+
+export function modalBridgeFetchData(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading());
+    try {
+      const data = await dataService.getBridgePokaz(id);
+      dispatch(modalFetchDataSuccess(data));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
+    }
+  };
+}
+
+export function modalPipeFetchData(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading());
+    try {
+      const data = await dataService.getPipePokaz(id);
+      dispatch(modalFetchDataSuccess(data));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
+    }
+  };
+}
+
+export function modalSnowFetchData(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading());
+    try {
+      const data = await dataService.getSnowPokaz(id);
       dispatch(modalFetchDataSuccess(data));
     } catch (error) {
       console.log("Error:", error);

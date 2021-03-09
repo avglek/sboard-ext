@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { VERSION } from "./config/version";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MapConteiner from "./components/map/MapConteiner";
@@ -12,6 +13,7 @@ import WeatherUI from "./components/WeatherUI/WeatherUI";
 //import SimpleModal from './components/simpleModal/SimpleModal'
 
 function App() {
+  console.log(`Версия ${VERSION}`);
   const [menu, setMenu] = useState(false);
 
   const toggleMenuHandler = () => {

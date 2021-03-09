@@ -50,3 +50,14 @@ g[id^="sdpm_"]:focus {
 g[id^="sdpm_"]:hover {
   cursor: pointer;
 }
+
+#snow_tech > *:hover {
+  cursor: pointer;
+}
+
+#bridges > * > #icon:hover {
+  cursor: pointer;
+}
+#tubes > g[id^="isso_"]:hover {
+  cursor: pointer;
+}

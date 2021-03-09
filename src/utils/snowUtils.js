@@ -1,18 +1,23 @@
 const deltaColor = 111;
 
-export function eventSnowHandler(layer, added) {
+export function eventSnowHandler(layer, added, props) {
   clearSnowRoute(!added);
-  const childrens = layer.querySelectorAll('g[id ^= "sdpm_"]');
+  //const childrens = layer.querySelectorAll('g[id ^= "sdpm_"]');
+  const childrens = layer.querySelectorAll("#snow_tech > *");
 
   childrens.forEach((el) => {
     if (added) {
-      el.addEventListener("click", clickHandlerSnowRoute);
+      el.addEventListener("click", function () {
+        clickHandlerSnowRoute(this, props);
+      });
       el.addEventListener("focusin", focusInHandler);
       el.addEventListener("focusout", focusOutHandler);
     } else {
-      el.removeEventListener("click", clickHandlerSnowRoute);
+      el.removeEventListener("click", function () {
+        clickHandlerSnowRoute(this, props);
+      });
       el.removeEventListener("focusin", focusInHandler);
-      el.addEventListener("focusout", focusOutHandler);
+      el.removeEventListener("focusout", focusOutHandler);
     }
   });
 }
@@ -24,9 +29,15 @@ function clearSnowRoute(bool) {
   }
 }
 
-function clickHandlerSnowRoute() {
-  const id = this.id;
+function clickHandlerSnowRoute(element, props) {
+  const id = element.id;
+
   const numId = id.slice(5);
+
+  console.log(id, numId);
+
+  props.openModal(true);
+  props.fetchSnowData(id);
 
   const nodeList = document.querySelectorAll('g[id^="snow_route_"]');
 
@@ -39,7 +50,7 @@ function clickHandlerSnowRoute() {
       const opacity = node.getAttribute("opacity");
       if (opacity === "1") {
         node.setAttribute("opacity", "0");
-        this.blur();
+        element.blur();
       } else {
         node.setAttribute("opacity", "1");
       }

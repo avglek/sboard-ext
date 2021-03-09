@@ -2,13 +2,18 @@ var initialState = {
   config: {
     divisions: "http://localhost:8080/orw_tablo/division_json2.php",
     menu: "./data/load_menu.json",
-    pokaz: "http://localhost:8080/orw_tablo/load_pred_pokaz.php?code_pred=",
+    pokaz: "./data/load_test_pokaz.json",
+    // pokaz: "http://localhost:8080/orw_tablo/load_pred_pokaz.php?code_pred=",
     piket: "http://localhost:8080/orw_tablo/load_piket.php",
     prognoz: "http://localhost:8080/orw_tablo/load_prognoz.php?region=",
-    storm_region: "http://localhost:8080/orw_tablo/load_storm.php?region=",
-    storm_all: "http://localhost:8080/orw_tablo//load_storm.php",
-    storm_uch: "http://localhost:8080/orw_tablo/load_storm.php?map=",
+    storm_region: "http://localhost:8080/orw_tablo/load_storm_v2.php?region=",
+    storm_all: "http://localhost:8080/orw_tablo/load_storm_v2.php",
+    storm_uch: "http://localhost:8080/orw_tablo/load_storm_v2.php?map=",
     weather_region: "http://localhost:8080/apps/api/weather?reg=",
+    bridges_pokaz: "http://localhost:8080/orw_tablo/load_artfeat.php?id=",
+    snow_pokaz: "http://localhost:8080/apps/api/snowtech?code_map=",
+    port_dir: "/apps/api/ports/file",
+    pipe: "http://localhost:8080/orw_tablo/load_isso_pipe.php?id_region=",
   },
 
   wsocket: {
@@ -111,16 +116,24 @@ var initialState = {
     },
   },
   ports: {
+    st_01840: {
+      url: "./svg/murm_port.svg",
+      file: "Мурманск!.xlsx",
+      region: "5",
+    },
     st_07630: {
       url: "./svg/ust-luga.svg",
+      file: "Лужская !.xlsx",
       region: "2",
     },
     st_02060: {
       url: "./svg/vysotsk.svg",
+      file: "Высоцк таблицы.xlsx",
       region: "3",
     },
     st_01490: {
       url: "./svg/kandalaksha.svg",
+      file: "Кандалакша!.xlsx",
       region: "5",
     },
     st_03580: {

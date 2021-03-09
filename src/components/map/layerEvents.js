@@ -5,6 +5,11 @@ import {
 } from "../../utils/stormUtils";
 import { eventSnowHandler } from "../../utils/snowUtils";
 import { loadWeatherIcon, cleanIconWeather } from "../../utils/weatherUtils";
+import {
+  eventBridgeHandler,
+  resetBridgeHandler,
+} from "../../utils/bridgesUtils";
+import { eventPipeHandler, resetPipeHandler } from "../../utils/pipeUtils";
 
 export function addEventLayer(layerId, props) {
   switch (layerId) {
@@ -14,11 +19,17 @@ export function addEventLayer(layerId, props) {
     case "snow_tech":
       const selectLayers = document.querySelectorAll(`#${layerId}`);
       selectLayers.forEach((selectLayer) => {
-        eventSnowHandler(selectLayer, true);
+        eventSnowHandler(selectLayer, true, props);
       });
       break;
     case "weather_st":
       loadWeatherIcon(props);
+      break;
+    case "bridges":
+      eventBridgeHandler(props);
+      break;
+    case "tubes":
+      eventPipeHandler(props);
       break;
     default:
       return;
@@ -40,6 +51,12 @@ export function removeEventLayer(layerId, props) {
       break;
     case "weather_st":
       cleanIconWeather();
+      break;
+    case "bridges":
+      resetBridgeHandler();
+      break;
+    case "tubes":
+      resetPipeHandler();
       break;
     default:
       return;

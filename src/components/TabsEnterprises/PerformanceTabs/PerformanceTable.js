@@ -1,6 +1,7 @@
 import React from "react";
 import DataTable from "react-data-table-component";
 import { customStyles as defaultStyles } from "./CustomStyles";
+import CustomCell from "./CustomCell/CustomCell";
 
 const calcWidths = (size, lenDev, cols) => {
   const ret = cols.map((item, index) => {
@@ -28,6 +29,8 @@ const calcWidths = (size, lenDev, cols) => {
 
 const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
   if (items === undefined) {
+    return <div></div>;
+  } else if (Object.keys(items).length === 0) {
     return <div></div>;
   } else {
     const columns = [];
@@ -64,8 +67,19 @@ const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
       if (key === "image") {
         //const prefix = "http://localhost:9080";
         const prefix = "";
-        col.cell = (row) => <img alt={row.name} src={`${prefix}${row.image}`} />;
+        col.cell = (row) => (
+          <img
+            alt={row.name}
+            src={`${prefix}${row.image}`}
+            style={{ padding: "1em" }}
+          />
+        );
+      } else {
+        col.cell = (row, index, column) => (
+          <CustomCell row={row} column={column} />
+        );
       }
+
       columns.push(col);
     }
 
@@ -89,11 +103,12 @@ const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
           };
         } else {
           return {
-            selector: columns[index].selector,
-            name: columns[index].name,
-            wrap: columns[index].wrap,
-            right: columns[index].right,
-            center: columns[index].center,
+            ...columns[index],
+            // selector: columns[index].selector,
+            // name: columns[index].name,
+            // wrap: columns[index].wrap,
+            // right: columns[index].right,
+            // center: columns[index].center,
           };
         }
       }

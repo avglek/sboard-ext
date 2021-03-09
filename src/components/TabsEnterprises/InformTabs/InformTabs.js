@@ -3,6 +3,7 @@ import "./InformTabs.css";
 
 import Table from "react-bootstrap/Table";
 import { Dimensions } from "react-native";
+import parse from "html-react-parser";
 
 const handleClickLink = (link) => {
   const screenWidth = Dimensions.get("screen").width;
@@ -28,10 +29,25 @@ const handleClickLink = (link) => {
 };
 
 const renderDefault = (item, index) => {
+  let str = item.value;
+
+  if (item.style) {
+    str = item.style === "bold" ? `<b>${str}</b>` : str;
+  }
+
+  const text = str.split("\n");
+
   return (
     <tr key={index.toString()}>
       <td>{item.name}</td>
-      <td>{item.value}</td>
+      <td>
+        {text.map((i, index) => (
+          <p key={index.toString()}>
+            <span style={{ paddingLeft: "1em" }}></span>
+            {parse(i)}
+          </p>
+        ))}
+      </td>
     </tr>
   );
 };
@@ -45,6 +61,8 @@ const InformTabs = (props) => {
   // характеристики
 
   const data = props.items;
+
+  console.log(data);
 
   if (data === undefined) {
     return null;
@@ -63,7 +81,7 @@ const InformTabs = (props) => {
                     className="vlink"
                     onClick={() => handleClickLink(item.value)}
                   >
-                    Выписка из ТРА
+                    {item.link_name ? item.link_name : "Выписка из ТРА"}
                   </span>
                 </td>
               </tr>
@@ -77,9 +95,11 @@ const InformTabs = (props) => {
     });
 
   return (
-    <Table striped bordered hover size="sm">
-      <tbody>{renderRowItems()}</tbody>
-    </Table>
+    <div className="scroll-table">
+      <Table striped bordered hover size="sm">
+        <tbody>{renderRowItems()}</tbody>
+      </Table>
+    </div>
   );
 };
 

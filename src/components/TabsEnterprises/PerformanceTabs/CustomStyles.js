@@ -18,6 +18,7 @@ export const customStyles = {
     style: {
       fontSize: "1em",
       fontWeight: "bold",
+      padding: "0.5em",
       "&:not(:last-of-type)": {
         borderRightStyle: "solid",
         borderRightWidth: "1px",
@@ -27,6 +28,7 @@ export const customStyles = {
   },
   rows: {
     style: {
+      monitorHeight: "500px",
       "&:hover": {
         background: "rgb(188, 215, 233)",
       },
@@ -34,7 +36,7 @@ export const customStyles = {
   },
   cells: {
     style: {
-      padding: "1em",
+      padding: 0, //"1em",
       fontSize: "1em",
       "&:not(:last-of-type)": {
         borderRightStyle: "solid",

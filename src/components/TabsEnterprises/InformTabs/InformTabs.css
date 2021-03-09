@@ -66,11 +66,24 @@
 }
 
 /* virtual Link  */
-.vlink{
+.vlink {
   color: blue;
   text-decoration: underline;
 }
 
-.vlink:hover{
-  cursor:pointer;
+.vlink:hover {
+  cursor: pointer;
+}
+
+.scroll-table {
+  height: 25rem;
+  overflow-y: auto;
+}
+
+.scroll-table td {
+  font-size: 0.9em;
+  padding: 1em;
+}
+.scroll-table td p {
+  margin-bottom: 0.1em;
 }

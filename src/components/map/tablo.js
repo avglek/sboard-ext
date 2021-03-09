@@ -14,7 +14,7 @@ import {
 const applicationInitialState = window.__INITIAL_STATE__;
 const regions = applicationInitialState.regions;
 const ports = applicationInitialState.ports;
-//const wsocket = applicationInitialState.wsocket;
+const config = applicationInitialState.config;
 
 let stantion = {};
 let pikets = {};
@@ -373,12 +373,12 @@ function portClick(element, parentId) {
     if (urlPorts) {
       parentProps.forecastFetchData(ports[id].region);
       parentProps.forecastOpen();
-      loadPortMap(urlPorts, parentId);
+      loadPortMap(urlPorts, parentId, ports[id]);
     }
   }
 }
 
-function loadPortMap(url, parentId) {
+function loadPortMap(url, parentId, port) {
   parentProps.postLegend(null);
   parentProps.postSpec(null);
 
@@ -390,6 +390,31 @@ function loadPortMap(url, parentId) {
     svg.setAttribute("preserveAspectRatio", "xMidYMin");
     box.appendChild(xml.documentElement);
     d3.selectAll("title").remove();
+
+    const infoButton = d3.select("#info_button");
+
+    infoButton
+      .on("click", () => {
+        const fname = port.file;
+
+        if (fname) {
+          const link = config.port_dir;
+          //console.log(link);
+          const path = window.location.href;
+          //console.log(path);
+          const url = new URL(link, path);
+          url.searchParams.set("name", fname);
+
+          console.log("click info button", url.href);
+          window.open(url.href);
+        }
+      })
+      .on("mouseenter", () =>
+        infoButton.select("circle").attr("fill", "#d0f0ff")
+      )
+      .on("mouseleave", () =>
+        infoButton.select("circle").attr("fill", "#ffffff")
+      );
 
     const close_btn = d3.select("#close_button");
     close_btn
