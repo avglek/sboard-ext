@@ -6,6 +6,7 @@ import TableConteiner from "./PerformanceTabs/TableConteiner";
 import { connect } from "react-redux";
 import ModalWin from "../ModalWin/ModalWin";
 import ListView from "./ListView/ListView";
+import PipeTable from "./PipeTabs/PipeTable";
 import LoaderConteiner from "../LoaderSpinner/LoaderConteiner";
 
 const mapStateToProps = (state) => {
@@ -29,6 +30,12 @@ const TabEnterprises = (props) => {
           <ListView items={props.items[item]} />
         </Tab>
       );
+    } else if (props.viewer === "pipe") {
+      return (
+        <Tab eventKey={item} title={props.items[item].header} key={index}>
+          <PipeTable items={props.items[item]} />
+        </Tab>
+      );
     } else {
       return (
         <Tab eventKey={item} title={props.items[item].header} key={index}>
@@ -50,14 +57,18 @@ const TabEnterprises = (props) => {
         </div>
       );
     } else {
-      return (
-        <Tabs defaultActiveKey="info" id="uncontrolled-tab-example">
-          <Tab eventKey="info" title="Информация">
-            <InformTabs items={props.items.info} />
-          </Tab>
-          {customTabs}
-        </Tabs>
-      );
+      if (props.items.info) {
+        return (
+          <Tabs defaultActiveKey="info" id="uncontrolled-tab-example">
+            <Tab eventKey="info" title="Информация">
+              <InformTabs items={props.items.info} />
+            </Tab>
+            {customTabs}
+          </Tabs>
+        );
+      } else {
+        return <Tabs id="uncontrolled-tab-example">{customTabs}</Tabs>;
+      }
     }
   };
 

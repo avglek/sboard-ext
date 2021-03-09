@@ -80,7 +80,7 @@ export function modalPipeFetchData(id) {
     dispatch(modalStartLoading());
     try {
       const data = await dataService.getPipePokaz(id);
-      dispatch(modalFetchDataSuccess(data));
+      dispatch(modalFetchDataSuccess(data, "pipe"));
     } catch (error) {
       console.log("Error:", error);
       dispatch(modalFetchError(error));

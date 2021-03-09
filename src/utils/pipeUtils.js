@@ -18,6 +18,6 @@ export function resetPipeHandler() {
 function handlerClick(element, { fetchPipeData, openModal }) {
   const uid = element.getAttribute("id");
   console.log("click:", uid);
-  // openModal(true);
-  // fetchPipeData(uid);
+  openModal(true);
+  fetchPipeData(uid);
 }

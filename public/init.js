@@ -13,7 +13,7 @@ var initialState = {
     bridges_pokaz: "http://localhost:8080/orw_tablo/load_artfeat.php?id=",
     snow_pokaz: "http://localhost:8080/apps/api/snowtech?code_map=",
     port_dir: "/apps/api/ports/file",
-    pipe: "http://localhost:8080/orw_tablo/load_isso_pipe.php?id_region=",
+    pipe: "http://10.35.49.146:8080/orw_tablo/load_isso_pipe.php?id_peregon=",
   },
 
   wsocket: {
@@ -139,6 +139,11 @@ var initialState = {
     st_03580: {
       url: "./svg/spb_port.svg",
       region: "2",
+    },
+    st_02000: {
+      url: "./svg/Vyborg.svg",
+      file: "Кандалакша!.xlsx",
+      region: "3",
     },
   },
 };

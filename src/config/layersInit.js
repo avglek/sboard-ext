@@ -159,7 +159,7 @@ export const layersInit = [
   },
   {
     layer: "tubes",
-    show: true,
+    show: false,
     name: "трубы ИССО",
     visible: "visible",
     disabled: false,
