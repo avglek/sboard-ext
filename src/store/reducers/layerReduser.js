@@ -5,6 +5,7 @@ const initialState = {
 };
 
 export default function layerReduser(state = initialState, action) {
+  console.log("r:", action);
   switch (action.type) {
     case LAYER_SHOW_CHECKED:
       return {

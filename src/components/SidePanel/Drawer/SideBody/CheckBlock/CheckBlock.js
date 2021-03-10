@@ -1,38 +1,8 @@
-import React, { useEffect } from "react";
-import { connect } from "react-redux";
-import {
-  postShowLayer,
-  postRefreshLayer,
-} from "../../../../../store/actions/layerAction";
+import React from "react";
 import Checkbox from "rc-checkbox";
 import classes from "./CheckBlock.module.css";
-import { layersInit } from "../../../../../config/layersInit";
 
-const mapStateToProps = (state) => {
-  return {
-    ShowLayers: state.layer.layers,
-    SpecKey: state.inform.spec,
-  };
-};
-const mapDispatchToProps = (dispatch) => {
-  return {
-    postShowLayer: (layers) => dispatch(postShowLayer(layers)),
-    postRefreshLayer: (layers) => dispatch(postRefreshLayer(layers)),
-  };
-};
-
-const CheckBlock = ({
-  postShowLayer,
-  ShowLayers,
-  SpecKey,
-  postRefreshLayer,
-}) => {
-  useEffect(() => {
-    postShowLayer(layersInit);
-
-    return undefined;
-  }, [postShowLayer]);
-
+const CheckBlock = ({ postShowLayer, ShowLayers }) => {
   const onChange = (e) => {
     let id = Number(e.target.index);
 
@@ -79,4 +49,4 @@ const CheckBlock = ({
   );
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(CheckBlock);
+export default CheckBlock;
