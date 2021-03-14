@@ -11,6 +11,7 @@ var initialState = {
     "weather_region": "/apps/api/weather?reg=",
     "bridges_pokaz": "/orw_tablo/load_artfeat.php?id=",
     "snow_pokaz": "/apps/api/snowtech?code_map=",
+    "snow_tech": "/apps/api/snowtech/region?id=",
     "port_dir": "/apps/api/ports/file",
     "pipe": "/orw_tablo/load_isso_pipe.php?id_peregon=",
   },
@@ -119,27 +120,27 @@ var initialState = {
     ports: {
     st_07630: {
       url: "./svg/ust-luga.svg",
-      file: "Лужская !.xlsx",
+      file: "Усть-Луга !!.xlsx",
       region: "2",
     },
     st_02060: {
       url: "./svg/vysotsk.svg",
-      file: "Высоцк таблицы.xlsx",
+      file: "Высоцк !!.xlsx",
       region: "3",
     },
     st_01490: {
       url: "./svg/kandalaksha.svg",
-      file: "Кандалакша!.xlsx",
+      file: "Кандалакша !!.xlsx",
       region: "5",
     },
     st_03580: {
       url: "./svg/spb_port.svg",
-      file: "Порт СПБ.xlsx",
+      file: "Порт СПБ !!.xlsx",
       region: "2",
     },
     st_01840: {
       url: "./svg/murm_port.svg",
-      file: "Мурманск!.xlsx",
+      file: "Мурманск!!.xlsx",
       region: "5",
     },
     st_02000: {

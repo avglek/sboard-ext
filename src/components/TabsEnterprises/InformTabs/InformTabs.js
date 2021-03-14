@@ -62,7 +62,7 @@ const InformTabs = (props) => {
 
   const data = props.items;
 
-  console.log(data);
+  //console.log(data);
 
   if (data === undefined) {
     return null;

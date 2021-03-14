@@ -24,7 +24,6 @@ const TabEnterprises = (props) => {
 
   const customTabs = activs.map((item, index) => {
     if (props.viewer === "list") {
-      console.log("load list");
       return (
         <Tab eventKey={item} title={props.items[item].header} key={index}>
           <ListView items={props.items[item]} />

@@ -3279,233 +3279,262 @@
                 </g>
             </g>
         </g>
-        <g id="snow_tech" opacity="0" transform="translate(94.000000, 47.000000)">
-            <path d="M73,92.5 L5,92.5 C3.75735931,92.5 2.63235931,93.0036797 1.81801948,93.8180195 C1.00367966,94.6323593 0.5,95.7573593 0.5,97 L0.5,144 C0.5,145.242641 1.00367966,146.367641 1.81801948,147.181981 C2.63235931,147.99632 3.75735931,148.5 5,148.5 L73,148.5 C74.2426407,148.5 75.3676407,147.99632 76.1819805,147.181981 C76.9963203,146.367641 77.5,145.242641 77.5,144 L77.5,113.008999 L182.768778,163.888052 L77.5,103.56676 L77.5,97 C77.5,95.7573593 76.9963203,94.6323593 76.1819805,93.8180195 C75.3676407,93.0036797 74.2426407,92.5 73,92.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M554,42.5 L486,42.5 C484.757359,42.5 483.632359,43.0036797 482.818019,43.8180195 C482.00368,44.6323593 481.5,45.7573593 481.5,47 L481.499322,85.5039745 L402.350878,90.9167716 L481.499217,90.5013695 L481.5,93.9998882 C481.5,95.2426407 482.00368,96.3676407 482.818019,97.1819805 C483.632359,97.9963203 484.757359,98.5 486,98.5 L554,98.5 C555.242641,98.5 556.367641,97.9963203 557.181981,97.1819805 C557.99632,96.3676407 558.5,95.2426407 558.5,94 L558.5,47 C558.5,45.7573593 557.99632,44.6323593 557.181981,43.8180195 C556.367641,43.0036797 555.242641,42.5 554,42.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M745,799.5 L677,799.5 C675.757359,799.5 674.632359,800.00368 673.818019,800.818019 C673.00368,801.632359 672.5,802.757359 672.5,804 L672.5,819.435646 L544.343859,814.002561 L672.5,830.304573 L672.5,852 C672.5,853.242641 673.00368,854.367641 673.818019,855.181981 C674.632359,855.99632 675.757359,856.5 677,856.5 L745,856.5 C746.242641,856.5 747.367641,855.99632 748.181981,855.181981 C748.99632,854.367641 749.5,853.242641 749.5,852 L749.5,804 C749.5,802.757359 748.99632,801.632359 748.181981,800.818019 C747.367641,800.00368 746.242641,799.5 745,799.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M741,892.5 L673,892.5 C671.757359,892.5 670.632359,893.00368 669.818019,893.818019 C669.00368,894.632359 668.5,895.757359 668.5,897 L668.498962,906.985297 L635.87988,917.022178 L668.875799,913.803443 C669.251277,914.660632 669.886121,915.378314 670.681015,915.857337 C671.358226,916.265441 672.151736,916.5 673,916.5 L741,916.5 C742.242641,916.5 743.367641,915.99632 744.181981,915.181981 C744.99632,914.367641 745.5,913.242641 745.5,912 L745.5,897 C745.5,895.757359 744.99632,894.632359 744.181981,893.818019 C743.367641,893.00368 742.242641,892.5 741,892.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M431.27198,545.428521 L442.770979,556.458067 C442.59553,556.939038 442.5,557.45836 442.5,558 L442.5,573 C442.5,574.242641 443.00368,575.367641 443.818019,576.181981 C444.632359,576.99632 445.757359,577.5 447,577.5 L515,577.5 C516.242641,577.5 517.367641,576.99632 518.181981,576.181981 C518.99632,575.367641 519.5,574.242641 519.5,573 L519.5,558 C519.5,556.757359 518.99632,555.632359 518.181981,554.818019 C517.367641,554.00368 516.242641,553.5 515,553.5 L447.381749,553.5 L431.27198,545.428521 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M378,292.5 L310,292.5 C308.757359,292.5 307.632359,293.00368 306.818019,293.818019 C306.00368,294.632359 305.5,295.757359 305.5,297 L305.5,312 C305.5,313.242641 306.00368,314.367641 306.818019,315.181981 C307.632359,315.99632 308.757359,316.5 310,316.5 L362.135895,316.5 L379.464088,386.185616 L370.745546,316.5 L378,316.5 C379.242641,316.5 380.367641,315.99632 381.181981,315.181981 C381.99632,314.367641 382.5,313.242641 382.5,312 L382.5,297 C382.5,295.757359 381.99632,294.632359 381.181981,293.818019 C380.367641,293.00368 379.242641,292.5 378,292.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M398.750206,807.655166 L327.5,814.36127 L327.5,812 C327.5,810.757359 326.99632,809.632359 326.181981,808.818019 C325.367641,808.00368 324.242641,807.5 323,807.5 L255,807.5 C253.757359,807.5 252.632359,808.00368 251.818019,808.818019 C251.00368,809.632359 250.5,810.757359 250.5,812 L250.5,843 C250.5,844.242641 251.00368,845.367641 251.818019,846.181981 C252.632359,846.99632 253.757359,847.5 255,847.5 L323,847.5 C324.242641,847.5 325.367641,846.99632 326.181981,846.181981 C326.99632,845.367641 327.5,844.242641 327.5,843 L327.5,820.235549 L398.750206,807.655166 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M285,321.5 L145,321.5 C143.757359,321.5 142.632359,322.00368 141.818019,322.818019 C141.00368,323.632359 140.5,324.757359 140.5,326 L140.5,357 C140.5,358.242641 141.00368,359.367641 141.818019,360.181981 C142.632359,360.99632 143.757359,361.5 145,361.5 L276.860293,361.5 L364.423326,412.193275 L288.707544,359.55108 C289.207584,358.826125 289.5,357.947194 289.5,357 L289.5,326 C289.5,324.757359 288.99632,323.632359 288.181981,322.818019 C287.367641,322.00368 286.242641,321.5 285,321.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M359,461.5 L291,461.5 C289.757359,461.5 288.632359,462.00368 287.818019,462.818019 C287.00368,463.632359 286.5,464.757359 286.5,466 L286.5,548 C286.5,549.242641 287.00368,550.367641 287.818019,551.181981 C288.632359,551.99632 289.757359,552.5 291,552.5 L359,552.5 C360.242641,552.5 361.367641,551.99632 362.181981,551.181981 C362.99632,550.367641 363.5,549.242641 363.5,548 L363.5,480.176781 L398.669698,477.180914 L363.5,470.905683 L363.5,466 C363.5,464.757359 362.99632,463.632359 362.181981,462.818019 C361.367641,462.00368 360.242641,461.5 359,461.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M473.063846,485.273756 L499.5,499.419833 L499.5,522 C499.5,523.242641 500.00368,524.367641 500.818019,525.181981 C501.632359,525.99632 502.757359,526.5 504,526.5 L572,526.5 C573.242641,526.5 574.367641,525.99632 575.181981,525.181981 C575.99632,524.367641 576.5,523.242641 576.5,522 L576.5,490 C576.5,488.757359 575.99632,487.632359 575.181981,486.818019 C574.367641,486.00368 573.242641,485.5 572,485.5 L504,485.5 C502.831917,485.5 501.767757,485.945021 500.967902,486.674842 C500.034036,487.52694 499.460081,488.767093 499.502204,490.140507 L473.063846,485.273756 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <g id="snow_route_3265" opacity="0.005" transform="translate(172.000000, 40.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+        <g id="snow_tech" opacity="0" transform="translate(85.000000, 47.000000)">
+            <path d="M81,93.5 L15,93.5 C13.7573593,93.5 12.6323593,94.0036797 11.8180195,94.8180195 C11.0036797,95.6323593 10.5,96.7573593 10.5,98 L10.5,143 C10.5,144.242641 11.0036797,145.367641 11.8180195,146.181981 C12.6323593,146.99632 13.7573593,147.5 15,147.5 L81,147.5 C82.2426407,147.5 83.3676407,146.99632 84.1819805,146.181981 C84.9963203,145.367641 85.5,144.242641 85.5,143 L85.5,112.524995 L191.767937,163.887573 L85.5,102.99376 L85.5,98 C85.5,96.7573593 84.9963203,95.6323593 84.1819805,94.8180195 C83.3676407,94.0036797 82.2426407,93.5 81,93.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M562,43.5 L496,43.5 C494.757359,43.5 493.632359,44.0036797 492.818019,44.8180195 C492.00368,45.6323593 491.5,46.7573593 491.5,48 L491.499321,85.4349715 L411.34598,90.9170051 L491.5,90.4973755 L491.5,93 C491.5,94.2426407 492.00368,95.3676407 492.818019,96.1819805 C493.632359,96.9963203 494.757359,97.5 496,97.5 L562,97.5 C563.242641,97.5 564.367641,96.9963203 565.181981,96.1819805 C565.99632,95.3676407 566.5,94.2426407 566.5,93 L566.5,48 C566.5,46.7573593 565.99632,45.6323593 565.181981,44.8180195 C564.367641,44.0036797 563.242641,43.5 562,43.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M753,801.5 L687,801.5 C685.757359,801.5 684.632359,802.00368 683.818019,802.818019 C683.00368,803.632359 682.5,804.757359 682.5,806 L682.5,819.396344 L554.162662,814.029925 L682.5,829.572902 L682.5,851 C682.5,852.242641 683.00368,853.367641 683.818019,854.181981 C684.632359,854.99632 685.757359,855.5 687,855.5 L753,855.5 C754.242641,855.5 755.367641,854.99632 756.181981,854.181981 C756.99632,853.367641 757.5,852.242641 757.5,851 L757.5,806 C757.5,804.757359 756.99632,803.632359 756.181981,802.818019 C755.367641,802.00368 754.242641,801.5 753,801.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M749,893.5 L683,893.5 C681.757359,893.5 680.632359,894.00368 679.818019,894.818019 C679.00368,895.632359 678.5,896.757359 678.5,898 L678.498956,906.677296 L644.880253,917.022026 L679.367716,913.656981 C680.186567,914.774335 681.508514,915.5 683,915.5 L749,915.5 C750.242641,915.5 751.367641,914.99632 752.181981,914.181981 C752.99632,913.367641 753.5,912.242641 753.5,911 L753.5,898 C753.5,896.757359 752.99632,895.632359 752.181981,894.818019 C751.367641,894.00368 750.242641,893.5 749,893.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M440.27198,545.428521 L451.770979,556.458067 C451.59553,556.939038 451.5,557.45836 451.5,558 L451.5,571 C451.5,572.242641 452.00368,573.367641 452.818019,574.181981 C453.632359,574.99632 454.757359,575.5 456,575.5 L522,575.5 C523.242641,575.5 524.367641,574.99632 525.181981,574.181981 C525.99632,573.367641 526.5,572.242641 526.5,571 L526.5,558 C526.5,556.757359 525.99632,555.632359 525.181981,554.818019 C524.367641,554.00368 523.242641,553.5 522,553.5 L456.381749,553.5 L440.27198,545.428521 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M386,294.5 L320,294.5 C318.757359,294.5 317.632359,295.00368 316.818019,295.818019 C316.00368,296.632359 315.5,297.757359 315.5,299 L315.5,311 C315.5,312.242641 316.00368,313.367641 316.818019,314.181981 C317.632359,314.99632 318.757359,315.5 320,315.5 L370.887898,315.5 L388.464042,386.185157 L379.620546,315.5 L386,315.5 C387.242641,315.5 388.367641,314.99632 389.181981,314.181981 C389.99632,313.367641 390.5,312.242641 390.5,311 L390.5,299 C390.5,297.757359 389.99632,296.632359 389.181981,295.818019 C388.367641,295.00368 387.242641,294.5 386,294.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M407.751181,807.655057 L335.5,814.455269 L335.5,813 C335.5,811.757359 334.99632,810.632359 334.181981,809.818019 C333.367641,809.00368 332.242641,808.5 331,808.5 L265,808.5 C263.757359,808.5 262.632359,809.00368 261.818019,809.818019 C261.00368,810.632359 260.5,811.757359 260.5,813 L260.5,841 C260.5,842.242641 261.00368,843.367641 261.818019,844.181981 C262.632359,844.99632 263.757359,845.5 265,845.5 L331,845.5 C332.242641,845.5 333.367641,844.99632 334.181981,844.181981 C334.99632,843.367641 335.5,842.242641 335.5,841 L335.5,820.412551 L407.751181,807.655057 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M293,322.5 L155,322.5 C153.757359,322.5 152.632359,323.00368 151.818019,323.818019 C151.00368,324.632359 150.5,325.757359 150.5,327 L150.5,355 C150.5,356.242641 151.00368,357.367641 151.818019,358.181981 C152.632359,358.99632 153.757359,359.5 155,359.5 L293.271618,359.5 L285.368727,361.214665 L373.423962,412.193564 L295.994703,358.358856 C296.918484,357.53478 297.5,356.335284 297.5,355 L297.5,327 C297.5,325.757359 296.99632,324.632359 296.181981,323.818019 C295.367641,323.00368 294.242641,322.5 293,322.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M367,462.5 L301,462.5 C299.757359,462.5 298.632359,463.00368 297.818019,463.818019 C297.00368,464.632359 296.5,465.757359 296.5,467 L296.5,546 C296.5,547.242641 297.00368,548.367641 297.818019,549.181981 C298.632359,549.99632 299.757359,550.5 301,550.5 L367,550.5 C368.242641,550.5 369.367641,549.99632 370.181981,549.181981 C370.99632,548.367641 371.5,547.242641 371.5,546 L371.5,480.261779 L407.669478,477.180915 L371.5,470.727688 L371.5,467 C371.5,465.757359 370.99632,464.632359 370.181981,463.818019 C369.367641,463.00368 368.242641,462.5 367,462.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M482.642307,485.828694 L509.5,502.142057 L509.5,520 C509.5,521.242641 510.00368,522.367641 510.818019,523.181981 C511.632359,523.99632 512.757359,524.5 514,524.5 L580,524.5 C581.242641,524.5 582.367641,523.99632 583.181981,523.181981 C583.99632,522.367641 584.5,521.242641 584.5,520 L584.5,492 C584.5,490.757359 583.99632,489.632359 583.181981,488.818019 C582.367641,488.00368 581.242641,487.5 580,487.5 L514,487.5 C512.757359,487.5 511.632359,488.00368 510.818019,488.818019 C510.00368,489.632359 509.5,490.757359 509.5,492 L509.5,493.975528 L482.642307,485.828694 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <g id="snow_route_3265" opacity="0.005" transform="translate(181.000000, 40.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M61,24 L81,65 L23.965491,120 L17.4827455,134.712894 L17.4827455,154 L32,171 L27.5,203 L57,223 L75.5,260 L95,265.782306" id="Path-60"></path>
                 <path d="M88,89 L163,110.671471 L199.5,135" id="Path-60"></path>
                 <path d="M50.5,129.5 L83.5390625,175.064178 L104.482746,220.451156 L119,262.5 L200.1,316.5 L214.57115,352 L208,371.479607" id="Path-60"></path>
                 <line x1="1.63925123e-12" y1="135" x2="18" y2="144.844755" id="Path-60"></line>
                 <path d="M81.5390625,62.25 L118.5198,66 L170.254834,0" id="Path-60"></path>
             </g>
-            <g id="sdpm_3265" transform="translate(4.000000, 96.000000)">
-                <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
+            <g id="sdpm_3265" transform="translate(0.000000, 96.000000)">
+                <rect id="Rectangle" fill="#375AF6" x="13" y="0" width="70" height="15" rx="3"></rect>
                 <text id="СДПМ-3265" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="5.87" y="11">СДПМ 3265</tspan>
+                    <tspan x="18.87" y="11">СДПМ 3265</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1818" transform="translate(4.000000, 113.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
+            <g id="sn_rem_1818" transform="translate(0.000000, 113.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="13.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2М-1818" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="4.15" y="11">СM-2М 1818</tspan>
+                    <tspan x="17.15" y="11">СM-2М 1818</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_513" transform="translate(4.000000, 130.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
+            <g id="sn_rem_513" transform="translate(0.000000, 130.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="13.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-7Н-513" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="8.1" y="11">СM-7Н 513</tspan>
+                    <tspan x="21.1" y="11">СM-7Н 513</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
             </g>
-            <g id="sdpm_2555" transform="translate(433.000000, 390.000000)">
+            <g id="sdpm_2555" transform="translate(442.000000, 390.000000)">
                 <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="СДПМ-2555" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="5.87" y="11">СДПМ 2555</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="77" cy="8" r="4"></circle>
             </g>
-            <g id="snow_route_3195" opacity="0.005" transform="translate(371.000000, 18.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_3195" opacity="0.005" transform="translate(380.000000, 18.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M12.8982895,0.804878049 C4.03102665,11.8526641 0.0649301586,21.5843714 1,30 C1.93506984,38.4156286 8.60173651,48.7489619 21,61 C33.3333333,71.6666667 40.8333333,84 43.5,98 C46.1666667,112 38.2686476,143.081712 19.8059427,191.245137 L43,297" id="Path-60"></path>
             </g>
-            <g id="sdpm_3195" transform="translate(485.000000, 46.000000)">
+            <g id="sdpm_3195" transform="translate(494.000000, 46.000000)">
                 <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="СДПМ-3195" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="5.87" y="11">СДПМ 3195</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="7" r="4"></circle>
             </g>
-            <g id="snow_route_3097" opacity="0.005" transform="translate(399.000000, 502.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_3097" opacity="0.005" transform="translate(408.000000, 502.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M0.82421875,29.3225806 L60,0.907407407 C67.6718596,17.4691358 76.6718596,30 87,38.5 C97.3281404,47 125.494807,70.1975309 171.5,108.092593" id="Path-60"></path>
             </g>
-            <g id="sdpm_3097" transform="translate(503.000000, 490.000000)">
+            <g id="sdpm_3097" transform="translate(512.000000, 490.000000)">
                 <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="СДПМ-3097" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="5.87" y="11">СДПМ 3097</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1738" transform="translate(503.000000, 507.000000)">
+            <g id="sn_rem_1738" transform="translate(512.000000, 507.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2M-1738" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="4.165" y="11">СM-2M 1738</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1277" transform="translate(672.000000, 594.000000)">
+            <g id="sn_rem_1277" transform="translate(681.000000, 594.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2-1277" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.765" y="11">СM-2 1277</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="76" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1494" transform="translate(309.000000, 297.000000)">
+            <g id="sn_rem_1494" transform="translate(318.000000, 297.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2-1494" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.765" y="11">СM-2 1494</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="snow_route_2450" opacity="0.005" transform="translate(289.000000, 531.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_2450" opacity="0.005" transform="translate(298.000000, 531.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <line x1="196.884307" y1="192.302734" x2="140.580645" y2="283.5" id="Path-60"></line>
                 <line x1="0" y1="241.907407" x2="126.650879" y2="288" id="Path-60"></line>
                 <line x1="78.9354839" y1="0.712150835" x2="116" y2="281" id="Path-60"></line>
             </g>
-            <g id="sdpm_2450" transform="translate(254.000000, 811.000000)">
-                <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
+            <g id="sdpm_2450" transform="translate(250.000000, 811.000000)">
+                <rect id="Rectangle" fill="#375AF6" x="13" y="0" width="70" height="15" rx="3"></rect>
                 <text id="СДПМ-2450" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="5.87" y="11">СДПМ 2450</tspan>
+                    <tspan x="18.87" y="11">СДПМ 2450</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="4" cy="7" r="4"></circle>
             </g>
-            <g id="sn_rem_1591" transform="translate(676.000000, 804.000000)">
+            <g id="sn_rem_1591" transform="translate(685.000000, 804.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2M-1591" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="4.165" y="11">СM-2M 1591</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1397" transform="translate(423.000000, 442.000000)">
+            <g id="sn_rem_1397" transform="translate(432.000000, 442.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2M-1397" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="4.165" y="11">СM-2M 1397</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="77" cy="8" r="4"></circle>
             </g>
-            <g id="snow_route_pom22" opacity="0.005" transform="translate(396.000000, 477.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom22" opacity="0.005" transform="translate(405.000000, 477.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M0.5390625,0 L10.5,56 L89.1621094,290.5 L125.541768,345" id="Path-300"></path>
             </g>
-            <g id="sdpm_pom22" transform="translate(290.000000, 516.000000)">
+            <g id="sdpm_pom22" transform="translate(299.000000, 516.000000)">
                 <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-22" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="15.16" y="11">ПОМ 22</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="7" r="4"></circle>
             </g>
-            <g id="snow_route_pom23" opacity="0.005" transform="translate(396.000000, 477.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom23" opacity="0.005" transform="translate(405.000000, 477.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M0.5390625,0 L10.5,56 L89.1621094,290.5 L125.541768,345" id="Path-300"></path>
             </g>
-            <g id="sdpm_pom23" transform="translate(290.000000, 533.000000)">
+            <g id="sdpm_pom23" transform="translate(299.000000, 533.000000)">
                 <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-23" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="15.16" y="11">ПОМ 23</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="snow_route_pom24" opacity="0.005" transform="translate(161.000000, 121.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom24" opacity="0.005" transform="translate(170.000000, 121.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M221.382373,292 L220.884307,274.5 L206.07115,228 L125.642901,174.5 L108.5,111 L33.5,19 L0.5390625,0.389698725" id="Path-300"></path>
             </g>
-            <g id="sdpm_pom24" transform="translate(144.000000, 325.000000)">
-                <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
+            <g id="sdpm_pom24" transform="translate(140.000000, 325.000000)">
+                <rect id="Rectangle" fill="#1EBF37" x="13" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-24" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="15.16" y="11">ПОМ 24</tspan>
+                    <tspan x="28.16" y="11">ПОМ 24</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="4" cy="7" r="4"></circle>
             </g>
-            <g id="snow_route_pom26" opacity="0.005" transform="translate(161.000000, 121.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom26" opacity="0.005" transform="translate(170.000000, 121.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M221.382373,292 L220.884307,274.5 L206.07115,228 L125.642901,174.5 L108.5,111 L33.5,19 L0.5390625,0.389698725" id="Path-300"></path>
             </g>
-            <g id="sdpm_pom26" transform="translate(144.000000, 342.000000)">
-                <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
+            <g id="sdpm_pom26" transform="translate(140.000000, 342.000000)">
+                <rect id="Rectangle" fill="#1EBF37" x="13" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-26" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="15.16" y="11">ПОМ 26</tspan>
+                    <tspan x="28.16" y="11">ПОМ 26</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
             </g>
-            <g id="snow_route_pom38" opacity="0.005" transform="translate(187.000000, 0.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom38" opacity="0.005" transform="translate(196.000000, 0.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M187,414.5 L154.982746,400 L140,353 L107,335 L62,301 L51.5,276 L16.0390625,244.25 L16.0390625,211 L0.5,172.661143 L21,155 L66.8712935,103 L99,108.273437 L166,0 L175.064971,3 L154,34 L167.580645,83.7002429 L201.935029,118.190909 L177,179.88746 L171.884307,214 L195.5,287.940701 L209,381.375732 L194.806452,413" id="Path-300"></path>
             </g>
-            <g id="sdpm_pom38" transform="translate(216.000000, 342.000000)">
+            <g id="sdpm_pom38" transform="translate(225.000000, 342.000000)">
                 <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-38" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="15.16" y="11">ПОМ 38</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1222" transform="translate(290.000000, 465.000000)">
+            <g id="sn_rem_1222" transform="translate(299.000000, 465.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2M-1222" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="4.165" y="11">СM-2M 1222</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1574" transform="translate(290.000000, 482.000000)">
+            <g id="sn_rem_1574" transform="translate(299.000000, 482.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2-1574" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.765" y="11">СM-2 1574</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1516" transform="translate(289.000000, 435.000000)">
+            <g id="sn_rem_1516" transform="translate(296.000000, 435.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2M-1516" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="4.165" y="11">СM-2M 1516</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="76" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_500" transform="translate(216.000000, 325.000000)">
+            <g id="sn_rem_500" transform="translate(225.000000, 325.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-7Н-500" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.1" y="11">СM-7Н 500</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_1175" transform="translate(254.000000, 828.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
+            <g id="sn_rem_1175" transform="translate(250.000000, 828.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="13.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2Б-1175" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="5.55" y="11">СM-2Б 1175</tspan>
+                    <tspan x="18.55" y="11">СM-2Б 1175</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
             </g>
-            <g id="snow_route_pom98" opacity="0.005" transform="translate(421.000000, 471.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom98" opacity="0.005" transform="translate(430.000000, 471.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M171.965491,123 L163,103 L223,19.5 L201,3.90987332 L147,-2.27373675e-13 L110.5,10.5 L26,25.5 L0,13.2013647" id="Path-300"></path>
                 <path d="M38.8994949,23.5632392 C41.6087095,33.7075948 51.3088778,47.6865151 68,65.5 C84.6911222,83.3134849 111.357789,108.146818 148,140" id="Path-301"></path>
             </g>
-            <g id="sdpm_pom98" transform="translate(290.000000, 499.000000)">
+            <g id="sdpm_pom98" transform="translate(299.000000, 499.000000)">
                 <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-98" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="15.16" y="11">ПОМ 98</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="snow_route_pom162" opacity="0.005" transform="translate(526.000000, 832.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom162" opacity="0.005" transform="translate(535.000000, 832.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <line x1="0.5" y1="0.5" x2="106" y2="121" id="Path-300"></line>
             </g>
-            <g id="sdpm_pom162" transform="translate(676.000000, 821.000000)">
+            <g id="sdpm_pom162" transform="translate(685.000000, 821.000000)">
                 <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-162" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="12.11" y="11">ПОМ 162</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="snow_route_pom165" transform="translate(520.000000, 827.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom165" transform="translate(529.000000, 827.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <line x1="0.5" y1="0.5" x2="106" y2="121" id="Path-300"></line>
             </g>
-            <g id="sdpm_pom165" transform="translate(676.000000, 838.000000)">
+            <g id="sdpm_pom165" transform="translate(685.000000, 838.000000)">
                 <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="70" height="15" rx="3"></rect>
                 <text id="ПОМ-165" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
                     <tspan x="12.11" y="11">ПОМ 165</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_361" transform="translate(485.000000, 63.000000)">
+            <g id="sn_rem_361" transform="translate(494.000000, 63.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-2-361" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="11.815" y="11">СM-2 361</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_8" transform="translate(446.000000, 558.000000)">
+            <g id="sn_rem_8" transform="translate(454.000000, 557.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="СM-5-8" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="17.915" y="11">СM-5 8</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_13" transform="translate(485.000000, 80.000000)">
+            <g id="sn_rem_13" transform="translate(494.000000, 80.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="ПСС-1К-13" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.795" y="11">ПСС-1К 13</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
-            <g id="sn_rem_14" transform="translate(672.000000, 897.000000)">
+            <g id="sn_rem_14" transform="translate(681.000000, 897.000000)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
                 <text id="ПСС-1К-14" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
                     <tspan x="8.795" y="11">ПСС-1К 14</tspan>
                 </text>
+                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
             </g>
         </g>
         <g id="bridges" opacity="0" transform="translate(190.000000, 58.000000)">
@@ -5541,131 +5570,146 @@
                     </g>
                 </g>
             </g>
-            <g id="snow_tech" opacity="0" transform="translate(2.000000, 10.000000)">
-                <path d="M174,69.5 L124,69.5 C122.757359,69.5 121.632359,70.0036797 120.818019,70.8180195 C120.00368,71.6323593 119.5,72.7573593 119.5,74 L119.5,80 C119.5,81.2426407 120.00368,82.3676407 120.818019,83.1819805 C121.632359,83.9963203 122.757359,84.5 124,84.5 L132.341306,84.5 L143.457476,101.948523 L137.087174,84.5 L174,84.5 C175.242641,84.5 176.367641,83.9963203 177.181981,83.1819805 C177.99632,82.3676407 178.5,81.2426407 178.5,80 L178.5,74 C178.5,72.7573593 177.99632,71.6323593 177.181981,70.8180195 C176.367641,70.0036797 175.242641,69.5 174,69.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-                <path d="M278,0.5 L225,0.5 C223.757359,0.5 222.632359,1.00367966 221.818019,1.81801948 C221.00368,2.63235931 220.5,3.75735931 220.5,5 L220.5,12 C220.5,13.2426407 221.00368,14.3676407 221.818019,15.1819805 C222.632359,15.9963203 223.757359,16.5 225,16.5 L233.563415,16.5 L235.998111,93.3738711 L238.414469,16.5 L278,16.5 C279.242641,16.5 280.367641,15.9963203 281.181981,15.1819805 C281.99632,14.3676407 282.5,13.2426407 282.5,12 L282.5,5 C282.5,3.75735931 281.99632,2.63235931 281.181981,1.81801948 C280.367641,1.00367966 279.242641,0.5 278,0.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-                <path d="M114.71353,163.355137 L61.0924353,173.125705 C60.7064351,172.284548 60.0687921,171.582876 59.2759129,171.117033 C58.608226,170.724744 57.8303447,170.5 57,170.5 L5,170.5 C3.75735931,170.5 2.63235931,171.00368 1.81801948,171.818019 C1.00367966,172.632359 0.5,173.757359 0.5,175 L0.5,183 C0.5,184.242641 1.00367966,185.367641 1.81801948,186.181981 C2.63235931,186.99632 3.75735931,187.5 5,187.5 L57,187.5 C58.2426407,187.5 59.3676407,186.99632 60.1819805,186.181981 C60.9963203,185.367641 61.5,184.242641 61.5,183 L61.5,176.214587 L114.71353,163.355137 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-                <path d="M130.716061,183.31539 L58.2017252,201.949965 C57.819173,201.844239 57.4161747,201.787849 57,201.787849 L5,201.787849 C3.75735931,201.787849 2.63235931,202.291529 1.81801948,203.105869 C1.00367966,203.920208 0.5,205.045208 0.5,206.287849 L0.5,214.287849 C0.5,215.53049 1.00367966,216.65549 1.81801948,217.46983 C2.63235931,218.28417 3.75735931,218.787849 5,218.787849 L57,218.787849 C58.2426407,218.787849 59.3676407,218.28417 60.1819805,217.46983 C60.9963203,216.65549 61.5,215.53049 61.5,214.287849 L61.5,205.982614 L130.716061,183.31539 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-                <path d="M57,92.5 L5,92.5 C3.75735931,92.5 2.63235931,93.0036797 1.81801948,93.8180195 C1.00367966,94.6323593 0.5,95.7573593 0.5,97 L0.5,144 C0.5,145.242641 1.00367966,146.367641 1.81801948,147.181981 C2.63235931,147.99632 3.75735931,148.5 5,148.5 L57,148.5 C58.2426407,148.5 59.3676407,147.99632 60.1819805,147.181981 C60.9963203,146.367641 61.5,145.242641 61.5,144 L61.5,138.375232 L129.759158,132.791394 L61.5,130.54985 L61.5,97 C61.5,95.7573593 60.9963203,94.6323593 60.1819805,93.8180195 C59.3676407,93.0036797 58.2426407,92.5 57,92.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-                <path d="M147.893341,227.703746 L62.5,244.516241 L62.5,239 C62.5,237.757359 61.9963203,236.632359 61.1819805,235.818019 C60.3676407,235.00368 59.2426407,234.5 58,234.5 L6,234.5 C4.75735931,234.5 3.63235931,235.00368 2.81801948,235.818019 C2.00367966,236.632359 1.5,237.757359 1.5,239 L1.5,303 C1.5,304.242641 2.00367966,305.367641 2.81801948,306.181981 C3.63235931,306.99632 4.75735931,307.5 6,307.5 L58,307.5 C59.2426407,307.5 60.3676407,306.99632 61.1819805,306.181981 C61.9963203,305.367641 62.5,304.242641 62.5,303 L62.5,254.203843 L147.893341,227.703746 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-                <path d="M342.065847,292.20702 L346.354777,322.499586 L312.000006,322.5 C310.757359,322.5 309.632359,323.00368 308.818019,323.818019 C308.00368,324.632359 307.5,325.757359 307.5,327 L307.5,350 C307.5,351.242641 308.00368,352.367641 308.818019,353.181981 C309.632359,353.99632 310.757359,354.5 312,354.5 L364,354.5 C365.242641,354.5 366.367641,353.99632 367.181981,353.181981 C367.99632,352.367641 368.5,351.242641 368.5,350 L368.5,327 C368.5,325.757359 367.99632,324.632359 367.181981,323.818019 C366.367641,323.00368 365.242641,322.5 364,322.5 L350.427311,322.499581 L342.065847,292.20702 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-                <g id="sn_rem_1494" transform="translate(121.000000, 71.000000)">
+            <g id="snow_tech" opacity="0" transform="translate(2.000000, 11.000000)">
+                <path d="M174,68.5 L124,68.5 C122.757359,68.5 121.632359,69.0036797 120.818019,69.8180195 C120.00368,70.6323593 119.5,71.7573593 119.5,73 L119.5,79 C119.5,80.2426407 120.00368,81.3676407 120.818019,82.1819805 C121.632359,82.9963203 122.757359,83.5 124,83.5 L132.341306,83.5 L143.457476,100.948523 L137.087174,83.5 L174,83.5 C175.242641,83.5 176.367641,82.9963203 177.181981,82.1819805 C177.99632,81.3676407 178.5,80.2426407 178.5,79 L178.5,73 C178.5,71.7573593 177.99632,70.6323593 177.181981,69.8180195 C176.367641,69.0036797 175.242641,68.5 174,68.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+                <path d="M276,0.5 L226,0.5 C224.757359,0.5 223.632359,1.00367966 222.818019,1.81801948 C222.00368,2.63235931 221.5,3.75735931 221.5,5 L221.5,10 C221.5,11.2426407 222.00368,12.3676407 222.818019,13.1819805 C223.632359,13.9963203 224.757359,14.5 226,14.5 L233.532419,14.5 L235.998216,92.3735909 L238.446472,14.5 L276,14.5 C277.242641,14.5 278.367641,13.9963203 279.181981,13.1819805 C279.99632,12.3676407 280.5,11.2426407 280.5,10 L280.5,5 C280.5,3.75735931 279.99632,2.63235931 279.181981,1.81801948 C278.367641,1.00367966 277.242641,0.5 276,0.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+                <path d="M114.71353,162.355137 L61.0924353,172.125705 C60.7064351,171.284548 60.0687921,170.582876 59.2759129,170.117033 C58.608226,169.724744 57.8303447,169.5 57,169.5 L5,169.5 C3.75735931,169.5 2.63235931,170.00368 1.81801948,170.818019 C1.00367966,171.632359 0.5,172.757359 0.5,174 L0.5,182 C0.5,183.242641 1.00367966,184.367641 1.81801948,185.181981 C2.63235931,185.99632 3.75735931,186.5 5,186.5 L57,186.5 C58.2426407,186.5 59.3676407,185.99632 60.1819805,185.181981 C60.9963203,184.367641 61.5,183.242641 61.5,182 L61.5,175.214587 L114.71353,162.355137 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+                <path d="M130.716061,182.31539 L58.2017252,200.949965 C57.819173,200.844239 57.4161747,200.787849 57,200.787849 L5,200.787849 C3.75735931,200.787849 2.63235931,201.291529 1.81801948,202.105869 C1.00367966,202.920208 0.5,204.045208 0.5,205.287849 L0.5,213.287849 C0.5,214.53049 1.00367966,215.65549 1.81801948,216.46983 C2.63235931,217.28417 3.75735931,217.787849 5,217.787849 L57,217.787849 C58.2426407,217.787849 59.3676407,217.28417 60.1819805,216.46983 C60.9963203,215.65549 61.5,214.53049 61.5,213.287849 L61.5,204.982614 L130.716061,182.31539 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+                <path d="M57,91.5 L5,91.5 C3.75735931,91.5 2.63235931,92.0036797 1.81801948,92.8180195 C1.00367966,93.6323593 0.5,94.7573593 0.5,96 L0.5,143 C0.5,144.242641 1.00367966,145.367641 1.81801948,146.181981 C2.63235931,146.99632 3.75735931,147.5 5,147.5 L57,147.5 C58.2426407,147.5 59.3676407,146.99632 60.1819805,146.181981 C60.9963203,145.367641 61.5,144.242641 61.5,143 L61.5,135.41437 L127.271758,131.709711 L61.5,129.54985 L61.5,96 C61.5,94.7573593 60.9963203,93.6323593 60.1819805,92.8180195 C59.3676407,92.0036797 58.2426407,91.5 57,91.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+                <path d="M147.893341,226.703746 L62.5,243.516241 L62.5,238 C62.5,236.757359 61.9963203,235.632359 61.1819805,234.818019 C60.3676407,234.00368 59.2426407,233.5 58,233.5 L6,233.5 C4.75735931,233.5 3.63235931,234.00368 2.81801948,234.818019 C2.00367966,235.632359 1.5,236.757359 1.5,238 L1.5,302 C1.5,303.242641 2.00367966,304.367641 2.81801948,305.181981 C3.63235931,305.99632 4.75735931,306.5 6,306.5 L58,306.5 C59.2426407,306.5 60.3676407,305.99632 61.1819805,305.181981 C61.9963203,304.367641 62.5,303.242641 62.5,302 L62.5,253.203843 L147.893341,226.703746 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+                <path d="M342.065847,291.20702 L346.354777,321.499586 L312.000006,321.5 C310.757359,321.5 309.632359,322.00368 308.818019,322.818019 C308.00368,323.632359 307.5,324.757359 307.5,326 L307.5,348 C307.5,349.242641 308.00368,350.367641 308.818019,351.181981 C309.632359,351.99632 310.757359,352.5 312,352.5 L364,352.5 C365.242641,352.5 366.367641,351.99632 367.181981,351.181981 C367.99632,350.367641 368.5,349.242641 368.5,348 L368.5,326 C368.5,324.757359 367.99632,323.632359 367.181981,322.818019 C366.367641,322.00368 365.242641,321.5 364,321.5 L350.427311,321.499581 L342.065847,291.20702 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+                <g id="sn_rem_1494" transform="translate(121.000000, 70.000000)">
                     <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
                     <text id="СM-2-1494" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
                         <tspan x="7.012" y="9">СM-2 1494</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="62.5" cy="5.5" r="3.5"></circle>
                 </g>
-                <g id="sn_rem_1738" transform="translate(310.000000, 339.000000)">
-                    <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
+                <g id="sn_rem_1738" transform="translate(298.000000, 338.000000)">
+                    <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="12.5" y="0.5" width="55" height="11" rx="3"></rect>
                     <text id="СM-2M-1738" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
-                        <tspan x="3.332" y="9">СM-2M 1738</tspan>
+                        <tspan x="15.332" y="9">СM-2M 1738</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
                 </g>
-                <g id="sn_rem_1397" transform="translate(3.000000, 204.000000)">
+                <g id="sn_rem_1397" transform="translate(3.000000, 203.000000)">
                     <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
                     <text id="СM-2M-1397" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
                         <tspan x="3.332" y="9">СM-2M 1397</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="6.5" r="3.5"></circle>
                 </g>
-                <g id="sn_rem_1222" transform="translate(4.000000, 251.000000)">
+                <g id="sn_rem_1222" transform="translate(4.000000, 250.000000)">
                     <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
                     <text id="СM-2M-1222" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
                         <tspan x="3.332" y="9">СM-2M 1222</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="6.5" r="3.5"></circle>
                 </g>
-                <g id="sn_rem_1574" transform="translate(4.000000, 237.000000)">
+                <g id="sn_rem_1574" transform="translate(4.000000, 236.000000)">
                     <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
                     <text id="СM-2-1574" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
                         <tspan x="7.012" y="9">СM-2 1574</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="4.5" r="3.5"></circle>
                 </g>
-                <g id="snow_route_pom98" opacity="0.005" transform="translate(172.000000, 232.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+                <g id="snow_route_pom98" opacity="0.005" transform="translate(172.000000, 231.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                     <path d="M0.967741935,0 L35.4724837,36.0307617 L193,39" id="Path-300"></path>
                 </g>
-                <g id="sdpm_pom98" transform="translate(4.000000, 265.000000)">
+                <g id="sdpm_pom98" transform="translate(4.000000, 264.000000)">
                     <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="56" height="12" rx="3"></rect>
                     <text id="ПОМ-98" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
                         <tspan x="12.128" y="9">ПОМ 98</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="6.5" r="3.5"></circle>
                 </g>
-                <g id="snow_route_pom22" opacity="0.005" transform="translate(145.000000, 227.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+                <g id="snow_route_pom22" opacity="0.005" transform="translate(145.000000, 226.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                     <path d="M0.5,0.0513916016 L20.1501562,39 L78,170" id="Path-300"></path>
                 </g>
-                <g id="sdpm_pom22" transform="translate(4.000000, 279.000000)">
+                <g id="sdpm_pom22" transform="translate(4.000000, 278.000000)">
                     <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="56" height="12" rx="3"></rect>
                     <text id="ПОМ-22" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
                         <tspan x="12.128" y="9">ПОМ 22</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="6.5" r="3.5"></circle>
                 </g>
-                <g id="snow_route_pom23" opacity="0.005" transform="translate(145.000000, 227.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+                <g id="snow_route_pom23" opacity="0.005" transform="translate(145.000000, 226.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                     <path d="M0.5,0.0513916016 L20.1501562,39 L78,170" id="Path-300"></path>
                 </g>
-                <g id="sdpm_pom23" transform="translate(4.000000, 293.000000)">
+                <g id="sdpm_pom23" transform="translate(4.000000, 292.000000)">
                     <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="56" height="12" rx="3"></rect>
                     <text id="ПОМ-23" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
                         <tspan x="12.128" y="9">ПОМ 23</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="6.5" r="3.5"></circle>
                 </g>
-                <g id="snow_route_pom38" opacity="0.005" transform="translate(47.000000, 3.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+                <g id="snow_route_pom38" opacity="0.005" transform="translate(47.000000, 2.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                     <path d="M90.0714506,118.337279 L125.967742,113.427358 L134.489624,84 L133.470999,-2.27373675e-13" id="Path-300"></path>
                     <path d="M90,118.337279 L65.0967742,102.356447 C50.3069672,104.708533 37.6080425,97.5897172 27,81 C20.7536534,71.2314566 7.55585106,53.3021679 1.5,37.3548387 C-1.31911785,29.9310431 0.514215481,21.3127635 7,11.5" id="Path-300"></path>
                 </g>
-                <g id="sdpm_pom38" transform="translate(3.000000, 135.000000)">
+                <g id="sdpm_pom38" transform="translate(3.000000, 134.000000)">
                     <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="56" height="11" rx="3"></rect>
                     <text id="ПОМ-38" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
                         <tspan x="12.128" y="8">ПОМ 38</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="5.5" r="3.5"></circle>
                 </g>
-                <g id="snow_route_pom24" opacity="0.005" transform="translate(70.000000, 3.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+                <g id="snow_route_pom24" opacity="0.005" transform="translate(70.000000, 2.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                     <line x1="0.372583002" y1="0" x2="78.5" y2="115.794875" id="Path-300"></line>
                 </g>
-                <g id="sdpm_pom24" transform="translate(3.000000, 95.000000)">
+                <g id="sdpm_pom24" transform="translate(3.000000, 94.000000)">
                     <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="56" height="11" rx="3"></rect>
                     <text id="ПОМ-24" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
                         <tspan x="12.128" y="8.32857143">ПОМ 24</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="5.5" r="3.5"></circle>
                 </g>
-                <g id="snow_route_pom26" opacity="0.005" transform="translate(70.000000, 3.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+                <g id="snow_route_pom26" opacity="0.005" transform="translate(70.000000, 2.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                     <line x1="0.372583002" y1="0" x2="78.5" y2="115.794875" id="Path-300"></line>
                 </g>
-                <g id="sdpm_pom26" transform="translate(3.000000, 108.000000)">
+                <g id="sdpm_pom26" transform="translate(3.000000, 107.000000)">
                     <rect id="Rectangle" fill="#1EBF37" x="0" y="0" width="56" height="11" rx="3"></rect>
                     <text id="ПОМ-26" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
                         <tspan x="11.628" y="8.46666667">ПОМ 26</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="5.5" r="3.5"></circle>
                 </g>
-                <g id="sn_rem_1516" transform="translate(3.000000, 173.000000)">
+                <g id="sn_rem_1516" transform="translate(3.000000, 172.000000)">
                     <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
                     <text id="СM-2M-1516" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
                         <tspan x="3.332" y="9">СM-2M 1516</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="6.5" r="3.5"></circle>
                 </g>
-                <g id="sn_rem_500" transform="translate(3.000000, 121.000000)">
+                <g id="sn_rem_500" transform="translate(3.000000, 120.000000)">
                     <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
                     <text id="СM-7Н-500" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
                         <tspan x="6.34666667" y="8.5">СM-7Н 500</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="63.5" cy="5.5" r="3.5"></circle>
                 </g>
-                <g id="snow_route_2555" opacity="0.005" transform="translate(47.000000, 17.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+                <g id="snow_route_2555" opacity="0.005" transform="translate(47.000000, 16.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                     <path d="M8.5,0 C2.1764819,2.66666667 -0.490184767,7.83333333 0.5,15.5 C1.49018477,23.1666667 7.3235181,37 18,57 L56,78 L79,102.802403" id="Path-60"></path>
                     <path d="M76.0645161,99.6822934 C165.003348,98.792543 211.494864,100.231779 215.539063,104 C219.583261,107.768221 220.070241,125.434888 217,157" id="Path-60"></path>
                     <path d="M211,102.5 C229.643036,104.786581 242.976369,103.119914 251,97.5 C259.023631,91.8800856 264.690298,74.0467523 268,44" id="Path-299"></path>
                     <path d="M196,100.074534 C202.625215,100.001161 206.625215,102.083843 208,106.322581 C209.374785,110.561319 205.374785,118.620458 196,130.5 L233,218" id="Path-299"></path>
                 </g>
-                <g id="sdpm_2555" transform="translate(223.000000, 3.000000)">
+                <g id="sdpm_2555" transform="translate(223.000000, 2.000000)">
                     <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="56" height="11" rx="3"></rect>
                     <text id="СДПМ-2555" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
                         <tspan x="4.696" y="8">СДПМ 2555</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="62.5" cy="5.5" r="3.5"></circle>
                 </g>
-                <g id="snow_route_3097" opacity="0.005" transform="translate(201.000000, 272.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+                <g id="snow_route_3097" opacity="0.005" transform="translate(201.000000, 271.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                     <path d="M0.231420087,91 L95,45.9074074 L97,20 L132.982818,0.676517361" id="Path-60"></path>
                 </g>
-                <g id="sdpm_3097" transform="translate(310.000000, 325.000000)">
-                    <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="56" height="12" rx="3"></rect>
+                <g id="sdpm_3097" transform="translate(298.000000, 324.000000)">
+                    <rect id="Rectangle" fill="#375AF6" x="12" y="0" width="56" height="12" rx="3"></rect>
                     <text id="СДПМ-3097" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
-                        <tspan x="4.696" y="9">СДПМ 3097</tspan>
+                        <tspan x="16.696" y="9">СДПМ 3097</tspan>
                     </text>
+                    <circle id="status" fill="#05C62E" cx="3.5" cy="5.5" r="3.5"></circle>
                 </g>
             </g>
             <g id="bridges" opacity="0" transform="translate(2.000000, 2.000000)">

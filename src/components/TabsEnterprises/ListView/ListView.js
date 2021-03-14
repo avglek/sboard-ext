@@ -10,8 +10,8 @@ const ListView = ({ items }) => {
     return (
       <tr key={index.toString()}>
         <td>
-          {text.map((i) => (
-            <p>
+          {text.map((i, index) => (
+            <p key={index.toString()}>
               <span style={{ paddingLeft: "3em" }}></span>
               {i}
             </p>

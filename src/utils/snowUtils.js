@@ -1,40 +1,18 @@
+import * as d3 from "d3";
+
 const deltaColor = 111;
+const colorWork = "#05C62E";
+const colorCrach = "#FF1002";
 
-export function eventSnowHandler(layer, added, props) {
-  clearSnowRoute(!added);
-  //const childrens = layer.querySelectorAll('g[id ^= "sdpm_"]');
-  const childrens = layer.querySelectorAll("#snow_tech > *");
-
-  childrens.forEach((el) => {
-    if (added) {
-      el.addEventListener("click", function () {
-        clickHandlerSnowRoute(this, props);
-      });
-      el.addEventListener("focusin", focusInHandler);
-      el.addEventListener("focusout", focusOutHandler);
-    } else {
-      el.removeEventListener("click", function () {
-        clickHandlerSnowRoute(this, props);
-      });
-      el.removeEventListener("focusin", focusInHandler);
-      el.removeEventListener("focusout", focusOutHandler);
-    }
-  });
-}
-
-function clearSnowRoute(bool) {
-  if (bool) {
-    const nlist = document.querySelectorAll('g[id^="snow_route_"]');
-    nlist.forEach((node) => node.setAttribute("opacity", "0"));
-  }
+function clearSnowRoute() {
+  const nlist = document.querySelectorAll('g[id^="snow_route_"]');
+  nlist.forEach((node) => node.setAttribute("opacity", "0"));
 }
 
 function clickHandlerSnowRoute(element, props) {
   const id = element.id;
 
   const numId = id.slice(5);
-
-  console.log(id, numId);
 
   props.openModal(true);
   props.fetchSnowData(id);
@@ -61,17 +39,74 @@ function clickHandlerSnowRoute(element, props) {
 }
 
 function focusInHandler() {
-  const rect = this.querySelector("rect");
-  const fill = rect.getAttribute("fill");
+  const rect = d3.select(this).select("rect");
+  const fill = rect.attr("fill");
   const colorNumber = Number.parseInt(`0x${fill.slice(-6)}`);
   const newColor = colorNumber - deltaColor;
-  rect.setAttribute("fill", `#${newColor.toString(16)}`);
+  rect.attr("fill", `#${newColor.toString(16)}`);
 }
 
 function focusOutHandler() {
-  const rect = this.querySelector("rect");
-  const fill = rect.getAttribute("fill");
+  const rect = d3.select(this).select("rect");
+  const fill = rect.attr("fill");
   const colorNumber = Number.parseInt(`0x${fill.slice(-6)}`);
   const newColor = colorNumber + deltaColor;
-  rect.setAttribute("fill", `#${newColor.toString(16)}`);
+  rect.attr("fill", `#${newColor.toString(16)}`);
+}
+
+export function loadSnowStatus(props) {
+  if (props.stormRegionID === props.snowTechRegion && !props.snowTechLoad) {
+    showSnowTechStatus(props.snowTechData);
+  }
+}
+
+function showSnowTechStatus(data) {
+  const layer = d3.select("#snow_tech");
+
+  data.forEach((item) => {
+    const tech = layer.select(`#${item.id_map}`).select("circle");
+
+    if (tech) {
+      if (item.status === "работа") {
+        tech.attr("fill", colorWork);
+        tech.attr("opacity", "1");
+      } else if (item.status === "ремонт") {
+        tech.attr("fill", colorCrach);
+        tech.attr("opacity", "1");
+      } else {
+        tech.attr("opacity", "0");
+      }
+    }
+  });
+}
+
+export function addSnowTechEvent(props) {
+  if (!props.snowTechLoad) {
+    const { snowTechData } = props;
+
+    const layer = d3.select("#snow_tech");
+    snowTechData.forEach((item) => {
+      const node = layer.select(`#${item.id_map}`);
+      node
+        .on("click", function () {
+          clickHandlerSnowRoute(this, props);
+        })
+        .on("focusin", focusInHandler)
+        .on("focusout", focusOutHandler)
+        .on("mouseenter", () => node.style("cursor", "pointer"))
+        .on("mouseleave", () => node.style("cursor", "default"));
+    });
+  }
+}
+
+export function resetSnowTechEvent() {
+  clearSnowRoute();
+  const nodes = d3.selectAll("#snow_tech > *");
+
+  nodes
+    .on("click", null)
+    .on("focusin", null)
+    .on("focusout", null)
+    .on("mouseenter", null)
+    .on("mouseleave", null);
 }

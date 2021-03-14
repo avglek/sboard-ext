@@ -123,6 +123,7 @@ function loadRegions(url_reg, idRegion) {
 
     parentProps.postStorm(idRegion, clickStormFromRegion);
     parentProps.postWeather(idRegion);
+    parentProps.postSnowTech(idRegion);
 
     let close_btn = d3.select("#close_button");
     close_btn
@@ -419,14 +420,16 @@ function loadPortMap(url, parentId, port) {
     const close_btn = d3.select("#close_button");
     close_btn
       .on("click", () => {
+        console.log(parentId);
         if (parentId === 0) {
           parentProps.postSpec(null);
           parentProps.forecastClose();
           loadMapORW(parentProps);
         } else {
-          const node = `nod${parentId}`;
+          const node = getKeyById(regions, parentId);
           const urlNode = regions[node].url;
           const img = regions[node].img_leg;
+
           parentProps.postLegend(img);
           parentProps.postSpec(
             regions[node].img_spec ? regions[node].img_spec : null
@@ -438,4 +441,8 @@ function loadPortMap(url, parentId, port) {
       .on("mouseenter", () => close_btn.attr("opacity", "0.98"))
       .on("mouseleave", () => close_btn.attr("opacity", "0.595982143"));
   });
+
+  function getKeyById(object, id) {
+    return Object.keys(object).find((key) => object[key].id === id);
+  }
 }

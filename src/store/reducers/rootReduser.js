@@ -7,6 +7,7 @@ import forecastReduser from "./forecatsReduser";
 import stormReduser from "./stormReduser";
 import tabloReduser from "./tabloReduser";
 import weatherReduser from "./weatherReduser";
+import snowTechReduser from "./snowTechReduser";
 
 export default combineReducers({
   modal: modalReduser,
@@ -17,4 +18,5 @@ export default combineReducers({
   storm: stormReduser,
   tablo: tabloReduser,
   weather: weatherReduser,
+  snowTech: snowTechReduser,
 });

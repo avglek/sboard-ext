@@ -16,7 +16,6 @@ export function weatherWinClose() {
 }
 
 export function weatherWinOpen(x, y, selectItem) {
-  
   return {
     type: WEATHER_WIN_OPEN,
     x,
@@ -58,7 +57,7 @@ export function weatherFetchData(region) {
       dispatch(weatherFetchSuccess(data, region));
     } catch (error) {
       console.log("Error:", error);
-      dispatch(weatherFetchSuccess(error));
+      dispatch(weatherFetchError(error));
     }
   };
 }

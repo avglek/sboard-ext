@@ -36,6 +36,8 @@ import {
   weatherWinClose,
 } from "../../store/actions/weatherAction";
 
+import {snowTechFetchData} from "../../store/actions/snowTechAction"
+
 import SocketService from "../../services/SocketService";
 
 const socket = new SocketService();
@@ -100,6 +102,9 @@ const mapStateToProps = (state) => {
     weatherItems: state.weather.items,
     weatherLoad: state.weather.loading,
     weatherRegion: state.weather.region,
+    snowTechData: state.snowTech.items,
+    snowTechLoad: state.snowTech.loading,
+    snowTechRegion: state.snowTech.region,
   };
 };
 
@@ -125,6 +130,7 @@ const mapDispatchToProps = (dispatch) => {
     weatherWinOpen: (x, y, selectItem) =>
       dispatch(weatherWinOpen(x, y, selectItem)),
     weatherWinClose: () => dispatch(weatherWinClose()),
+    postSnowTech: (id) => dispatch(snowTechFetchData(id)),
   };
 };
 

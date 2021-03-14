@@ -86,8 +86,14 @@ function showStormIcon(iconsMap) {
 
   iconNode
     .on("click", () => eventClick(train))
-    .on("mouseenter", () => showToolTip(info))
-    .on("mouseleave", () => hiddenTootTip());
+    .on("mouseenter", () => {
+      showToolTip(info);
+      iconNode.style("cursor", "pointer");
+    })
+    .on("mouseleave", () => {
+      hiddenTootTip();
+      iconNode.style("cursor", "default");
+    });
   // console.log("add event storm");
 
   critical.forEach((item, index) => {

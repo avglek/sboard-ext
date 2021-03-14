@@ -149,6 +149,10 @@ class DataService {
     return this.getResurce(`${config.weather_region}${id}`);
   }
 
+  getSnowTech(id) {
+    return this.getResurce(`${config.snow_tech}${id}`);
+  }
+
   async getBridgePokaz(id) {
     return this.getResurce(`${config.bridges_pokaz}${id}`);
     //return this.getResurce(`./data/load_artfeat_153_42.json`);

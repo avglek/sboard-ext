@@ -2,7 +2,6 @@ import { LAYER_SHOW_CHECKED, LAYER_REFRESH } from "./actionTypes";
 import * as d3 from "d3";
 
 export function postShowLayer(layers) {
-  console.log("a:", layers);
   return {
     type: LAYER_SHOW_CHECKED,
     layers: layers,
