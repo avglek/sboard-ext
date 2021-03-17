@@ -1,1 +1,1 @@
-export const VERSION = "1.2.16 от 14.03.2021";
+export const VERSION = "1.2.17 от 17.03.2021";

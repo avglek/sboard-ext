@@ -14,6 +14,10 @@ import {
   resetBridgeHandler,
 } from "../../utils/bridgesUtils";
 import { eventPipeHandler, resetPipeHandler } from "../../utils/pipeUtils";
+import {
+  eventHealthHandler,
+  resetHealthHandler,
+} from "../../utils/healthUtils";
 
 export function addEventLayer(layerId, props) {
   switch (layerId) {
@@ -32,6 +36,9 @@ export function addEventLayer(layerId, props) {
       break;
     case "tubes":
       eventPipeHandler(props);
+      break;
+    case "health_org":
+      eventHealthHandler(props);
       break;
     default:
       return;
@@ -56,6 +63,9 @@ export function removeEventLayer(layerId, props) {
       break;
     case "tubes":
       resetPipeHandler();
+      break;
+    case "health_org":
+      resetHealthHandler();
       break;
     default:
       return;

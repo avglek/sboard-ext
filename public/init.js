@@ -15,6 +15,7 @@ var initialState = {
     snow_tech: "http://10.35.49.146:8080/apps/api/snowtech/region?id=",
     port_dir: "http://10.35.49.146:8080/apps/api/ports/file",
     pipe: "http://10.35.49.146:8080/orw_tablo/load_isso_pipe.php?id_peregon=",
+    health: "http://10.35.49.146:8080/orw_tablo/load_fsk.php?id_map=",
   },
 
   wsocket: {

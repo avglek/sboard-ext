@@ -2479,6 +2479,841 @@
             <rect id="Rectangle" stroke="#FFFFFF" stroke-width="10" x="5" y="54" width="646" height="830" rx="21"></rect>
             <rect id="Rectangle" stroke="#E6E5E5" stroke-width="2" x="1" y="50" width="654" height="838" rx="21"></rect>
         </g>
+        <g id="health_org" opacity="0" transform="translate(69.000000, 224.000000)">
+            <g id="fsk_27" transform="translate(1131.000000, 551.000000)">
+                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
+                <text id="ДЦС-5-(Д)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="107" y="31">ДЦС-5 (Д)</tspan>
+                </text>
+                <g id="Group-100" transform="translate(28.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---Кандалак" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Кандалакша</tspan>
+                </text>
+            </g>
+            <g id="fsk_26" transform="translate(1186.000000, 751.000000)">
+                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="133" height="39" rx="5"></rect>
+                <text id="ПЧ-40-(ДИ)-Лоухи" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="61" y="31">ПЧ-40 (ДИ) Лоухи</tspan>
+                </text>
+                <g id="Group-100" transform="translate(28.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---Кандалак" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Кандалакша</tspan>
+                </text>
+            </g>
+            <g id="fsk_25" transform="translate(1131.000000, 508.000000)">
+                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
+                <text id="ТЧЭ-5-(Т)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="110" y="31">ТЧЭ-5 (Т)</tspan>
+                </text>
+                <g id="Group-100" transform="translate(28.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---Кандалак" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Кандалакша</tspan>
+                </text>
+            </g>
+            <g id="fsk_24" transform="translate(1131.000000, 465.000000)">
+                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
+                <text id="ВП-№3013-(ДАВС)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="75" y="32">ВП №3013 (ДАВС)</tspan>
+                </text>
+                <g id="Group-100" transform="translate(50.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-105" transform="translate(28.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#676767" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(1.500000, 9.000000)" stroke="#FFFFFF">
+                        <line x1="2.5" y1="2.5" x2="12" y2="2.5" id="Line-3" stroke-linecap="square"></line>
+                        <line x1="12.5" y1="-7.54951657e-15" x2="12.5" y2="5.05470657" id="Path-138" stroke-width="1.5"></line>
+                        <line x1="2.5" y1="-7.54951657e-15" x2="2.5" y2="5.05470657" id="Path-138" stroke-width="1.5"></line>
+                        <line x1="1" y1="0.5" x2="1" y2="4.5" id="Path-138"></line>
+                        <line x1="14" y1="0.5" x2="14" y2="4.5" id="Path-138"></line>
+                    </g>
+                </g>
+                <g id="Group-103" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-95" transform="translate(4.000000, 2.000000)">
+                        <line x1="3.5" y1="4.5" x2="10" y2="14.0254822" id="Path-140" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></line>
+                        <path d="M4.68002319,10 L3.30680966,10.200806 C2.76033673,10.2807171 2.38211366,10.7885017 2.46202478,11.3349746 C2.49461586,11.5578491 2.60149643,11.7631933 2.76535338,11.9177446 L5,14.0254822 L5,14.0254822" id="Path-141" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M6,4 L7.18465712,4 C7.73694187,4 8.18465712,4.44771525 8.18465712,5 L8.18465712,7.5 L8.18465712,7.5" id="Path-142" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M1.75,5.75 L2.11735435,7.36420257 C2.20529432,7.75062218 2.05674367,8.15251479 1.7386193,8.38884177 L0.562246323,9.26274109 L0.562246323,9.26274109" id="Path-143" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+                        <circle id="Oval" fill="#FFFFFF" cx="1.75" cy="1.75" r="1.75"></circle>
+                    </g>
+                </g>
+                <text id="Локомотив---Кандалак" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Кандалакша</tspan>
+                </text>
+            </g>
+            <g id="fsk_23" transform="translate(1245.000000, 403.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="161" height="39" rx="5"></rect>
+                <text id="ИЧ-1-(ДИ)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="118" y="31">ИЧ-1 (ДИ)</tspan>
+                </text>
+                <g id="Group-100" transform="translate(94.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-92" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="9" cy="9" r="7.75"></circle>
+                    <polygon id="Polygon" fill="#454545" points="9 6 11.5980762 7.5 11.5980762 10.5 9 12 6.40192379 10.5 6.40192379 7.5"></polygon>
+                    <path d="M6.38183403,15.731678 L8.9980793,16.73629 L11.6544666,15.731678 C10.8835417,15.2608808 9.9980793,15.0254822 8.9980793,15.0254822 C7.9980793,15.0254822 7.12599754,15.2608808 6.38183403,15.731678 Z" id="Path-125" fill="#454545" transform="translate(9.018150, 15.880886) rotate(-180.000000) translate(-9.018150, -15.880886) "></path>
+                    <path d="M16.4208316,10.2139096 L14.2426894,11.9773384 L13.7845153,14.7801433 C14.5777001,14.3479014 15.2242925,13.6987677 15.7242925,12.8327423 C16.2242925,11.9667169 16.4564722,11.0937727 16.4208316,10.2139096 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M12.3396482,5.41619825 L14.9558935,6.42081022 L17.6122808,5.41619825 C16.841356,4.94540103 15.9558935,4.71000242 14.9558935,4.71000242 C13.9558935,4.71000242 13.0838118,4.94540103 12.3396482,5.41619825 Z" id="Path-125" fill="#454545" transform="translate(14.975965, 5.565406) rotate(60.000000) translate(-14.975965, -5.565406) "></path>
+                    <path d="M1.5736171,7.79204662 L3.75175923,6.02861774 L4.2099334,3.22581284 C3.41674861,3.65805477 2.77015621,4.30718843 2.27015621,5.17321384 C1.77015621,6.03923924 1.53797651,6.9121835 1.5736171,7.79204662 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M4.24683583,14.8874984 L3.80873268,12.1194576 L1.61051953,10.3212647 C1.58825962,11.2243038 1.82712967,12.1088361 2.32712967,12.9748615 C2.82712967,13.8408869 3.46703172,14.4784326 4.24683583,14.8874984 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M6.40711784,1.96583271 L9.02336311,2.97044468 L11.6797504,1.96583271 C10.9088256,1.49503549 10.0233631,1.25963688 9.02336311,1.25963688 C8.02336311,1.25963688 7.15128136,1.49503549 6.40711784,1.96583271 Z" id="Path-125" fill="#454545"></path>
+                    <line x1="15.104452" y1="12.4970264" x2="2.5" y2="5.5" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                    <line x1="15.104452" y1="5.5" x2="2.88999666" y2="12.6043816" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                    <line x1="9.04343414" y1="16.2278633" x2="9.01815033" y2="1.62592602" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                </g>
+                <g id="Group-94" transform="translate(28.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
+                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
+                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
+                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
+                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
+                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
+                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
+                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
+                    </g>
+                </g>
+                <g id="Group-102" transform="translate(50.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-90" transform="translate(72.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <circle id="Oval" cx="8" cy="8" r="7.25"></circle>
+                        <circle id="Oval" cx="8" cy="8" r="4.25"></circle>
+                        <circle id="Oval" cx="8" cy="8" r="1.25"></circle>
+                    </g>
+                </g>
+                <text id="Локомотив---Апатиты" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Апатиты</tspan>
+                </text>
+            </g>
+            <g id="fsk_22" transform="translate(797.000000, 320.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="135" height="39" rx="5"></rect>
+                <text id="ДС-Ковдор-(Д)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="74.5328467" y="32">ДС Ковдор (Д)</tspan>
+                </text>
+                <g id="Group-100" transform="translate(50.357664, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18.1313869" height="18" rx="3"></rect>
+                    <path d="M2.76656091,9.29432297 C3.29393312,10.2462502 4.17842603,11.3399378 5.42003966,12.575386 C6.66165328,13.8108342 7.90340332,14.8183349 9.14528976,15.5978879 C8.24070932,15.7410827 7.43594402,15.7410827 6.73099387,15.5978879 C6.02604372,15.454693 5.33764852,15.2041723 4.66580827,14.8463258 L2.76656091,17.3601559 L1.00729927,16.0201863 L3.38419762,13.5823272 C3.06821775,12.9492503 2.86233885,12.2794484 2.76656091,11.5729216 C2.64011439,10.6401614 2.64011439,9.8806285 2.76656091,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.3100819,14.0307349 C14.144176,13.9745278 16.4420653,14.3769688 16.2747534,9.6874047 C16.1074415,4.99784056 13.749941,2.47044069 10.4241387,2.48249132 C7.09833633,2.49462835 4.49424519,4.87470855 4.37643271,9.60166904 C4.25862024,14.3286295 6.47598773,14.0869419 10.3100819,14.0307349 Z" id="Oval" fill="#FFFFFF" transform="translate(10.327635, 8.266833) rotate(45.000000) translate(-10.327635, -8.266833) "></path>
+                    <ellipse id="Oval" fill="#3ABF00" cx="7.4346382" cy="8.17378127" rx="2.01459854" ry="2"></ellipse>
+                </g>
+                <g id="Group-102" transform="translate(6.036496, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18.1313869" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.198383, 9.131728) rotate(-45.000000) translate(-9.198383, -9.131728) translate(1.643638, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.51824818" y1="0.859693527" x2="2.51824818" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.51094891" y1="3.67984676" x2="13.5985401" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5912409" y1="0.949616909" x2="12.5912409" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5985401" y1="1.90465522" x2="13.5985401" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.51094891" y1="1.90465522" x2="1.51094891" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-90" transform="translate(28.197080, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18.1313869" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(1.007299, 1.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <ellipse id="Oval" cx="8.05839416" cy="8" rx="7.30839416" ry="7.25"></ellipse>
+                        <ellipse id="Oval" cx="8.05839416" cy="8" rx="4.28649635" ry="4.25"></ellipse>
+                        <ellipse id="Oval" cx="8.05839416" cy="8" rx="1.26459854" ry="1.25"></ellipse>
+                    </g>
+                </g>
+                <text id="Локомотив---ДС-Ковдо" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6.04379562" y="12">Локомотив - ДС Ковдор</tspan>
+                </text>
+            </g>
+            <g id="fsk_21" transform="translate(1386.000000, 43.000000)">
+                <rect id="Rectangle" stroke="#E9DC77" fill="#FFFEF0" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
+                <text id="ПЧ-42-(ДИ)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="103" y="32">ПЧ-42 (ДИ)</tspan>
+                </text>
+                <g id="Group-100" transform="translate(50.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-90" transform="translate(28.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <circle id="Oval" cx="8" cy="8" r="7.25"></circle>
+                        <circle id="Oval" cx="8" cy="8" r="4.25"></circle>
+                        <circle id="Oval" cx="8" cy="8" r="1.25"></circle>
+                    </g>
+                </g>
+                <text id="Локомотив---Мурманск" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Мурманск</tspan>
+                </text>
+            </g>
+            <g id="fsk_20" transform="translate(1386.000000, 86.000000)">
+                <rect id="Rectangle" stroke="#E9DC77" fill="#FFFEF0" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
+                <text id="ЭЧ-10-(НТЭ)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="98" y="32">ЭЧ-10 (НТЭ)</tspan>
+                </text>
+                <g id="Group-100" transform="translate(50.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-90" transform="translate(28.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <circle id="Oval" cx="8" cy="8" r="7.25"></circle>
+                        <circle id="Oval" cx="8" cy="8" r="4.25"></circle>
+                        <circle id="Oval" cx="8" cy="8" r="1.25"></circle>
+                    </g>
+                </g>
+                <text id="Локомотив---Мурманск" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Мурманск</tspan>
+                </text>
+            </g>
+            <g id="fsk_19" transform="translate(1386.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#E9DC77" fill="#FFFEF0" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
+                <text id="ВП-№3017-(ДАВС)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="75" y="33">ВП №3017 (ДАВС)</tspan>
+                </text>
+                <g id="Group-100" transform="translate(50.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-105" transform="translate(28.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#676767" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(1.500000, 9.000000)" stroke="#FFFFFF">
+                        <line x1="2.5" y1="2.5" x2="12" y2="2.5" id="Line-3" stroke-linecap="square"></line>
+                        <line x1="12.5" y1="-7.54951657e-15" x2="12.5" y2="5.05470657" id="Path-138" stroke-width="1.5"></line>
+                        <line x1="2.5" y1="-7.54951657e-15" x2="2.5" y2="5.05470657" id="Path-138" stroke-width="1.5"></line>
+                        <line x1="1" y1="0.5" x2="1" y2="4.5" id="Path-138"></line>
+                        <line x1="14" y1="0.5" x2="14" y2="4.5" id="Path-138"></line>
+                    </g>
+                </g>
+                <g id="Group-103" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-95" transform="translate(4.000000, 2.000000)">
+                        <line x1="3.5" y1="4.5" x2="10" y2="14.0254822" id="Path-140" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></line>
+                        <path d="M4.68002319,10 L3.30680966,10.200806 C2.76033673,10.2807171 2.38211366,10.7885017 2.46202478,11.3349746 C2.49461586,11.5578491 2.60149643,11.7631933 2.76535338,11.9177446 L5,14.0254822 L5,14.0254822" id="Path-141" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M6,4 L7.18465712,4 C7.73694187,4 8.18465712,4.44771525 8.18465712,5 L8.18465712,7.5 L8.18465712,7.5" id="Path-142" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M1.75,5.75 L2.11735435,7.36420257 C2.20529432,7.75062218 2.05674367,8.15251479 1.7386193,8.38884177 L0.562246323,9.26274109 L0.562246323,9.26274109" id="Path-143" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+                        <circle id="Oval" fill="#FFFFFF" cx="1.75" cy="1.75" r="1.75"></circle>
+                    </g>
+                </g>
+                <text id="Локомотив---Мурманск" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Мурманск</tspan>
+                </text>
+            </g>
+            <g id="fsk_18" transform="translate(1163.000000, 1654.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="151" height="39" rx="5"></rect>
+                <text id="ТЧЭ-25-(Т)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="106" y="31">ТЧЭ-25 (Т) </tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---Медвежье" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Медвежьегорск</tspan>
+                </text>
+            </g>
+            <g id="fsk_17" transform="translate(1266.000000, 1040.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="99" height="39" rx="5"></rect>
+                <text id="ТЧЭ-26-(Т)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="55" y="31">ТЧЭ-26 (Т) </tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---Кемь" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Кемь</tspan>
+                </text>
+            </g>
+            <g id="fsk_16" transform="translate(961.000000, 1982.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="143" height="39" rx="5"></rect>
+                <text id="ВП-№3018-(ДАВС)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="67" y="32">ВП №3018 (ДАВС)</tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---Петрозав" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Петрозаводск</tspan>
+                </text>
+            </g>
+            <g id="fsk_15" transform="translate(284.000000, 1197.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="ФОЦ-(ДСС)-С-Пб-Главн" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="56" y="32">ФОЦ (ДСС) С-Пб Главный</tspan>
+                </text>
+                <g id="Group-91" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#0976B2" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <polygon id="Path-135" fill="#FFFFFF" points="2 16.6393776 14.4561558 16.6393776 16.7680836 14.3414459 2.73251915 15.4904118"></polygon>
+                    <path d="M16.7680836,14.3414459 C16.4835911,10.5018565 15.6060123,7.59548696 14.1353474,5.62233734 C12.6646824,3.64918772 10.6102517,2.10840861 7.97205544,1 C8.91337967,2.79124451 9.40807978,4.8285319 9.45615578,7.11186218 C9.50423177,9.39519246 9.17089844,11.8050537 8.45615578,14.3414459 C10.0437641,12.8106944 11.6068172,12.0453186 13.1453152,12.0453186 C14.6838131,12.0453186 15.8914026,12.8106944 16.7680836,14.3414459 Z" id="Path-136" fill="#FFFFFF"></path>
+                    <polygon id="Path-137" fill="#FFFFFF" points="7.58318138 1.3170929 7.58318138 14.3414459 2 13.5572968"></polygon>
+                </g>
+                <text id="Локомотив---LOKOsail" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - LOKOsailingTEAM</tspan>
+                </text>
+            </g>
+            <g id="fsk_14" transform="translate(269.000000, 1121.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="129" height="39" rx="5"></rect>
+                <text id="СЗ-ОЦОР-С-Пб-Главный" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="30" y="32">СЗ ОЦОР С-Пб Главный</tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---СЗ-ОЦОР" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - СЗ ОЦОР</tspan>
+                </text>
+            </g>
+            <g id="fsk_12" transform="translate(0.000000, 1551.000000)">
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="СЗ-ДПМ-Гатчина-Тов." font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="52" y="31">СЗ ДПМ Гатчина Тов. Балт.</tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(28.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Локомотив---Санкт-Пе" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
+                </text>
+            </g>
+            <g id="fsk_11" transform="translate(147.000000, 1356.000000)">
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="169" height="39" rx="5"></rect>
+                <text id="ПЧМ-С-Пб-Предпортова" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="53" y="32">ПЧМ С-Пб Предпортовая</tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(28.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Локомотив---Санкт-Пе" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
+                </text>
+            </g>
+            <g id="fsk_13" transform="translate(435.000000, 1589.000000)">
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="ПЧМ-Тосно-(СЗ-ДПМ)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="72" y="31">ПЧМ Тосно (СЗ ДПМ)</tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---Санкт-Пе" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
+                </text>
+            </g>
+            <g id="fsk_9" transform="translate(460.000000, 1431.000000)">
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="ВЧДЭ-6-(ДИ)-Мга" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="79" y="32">ВЧДЭ-6 (ДИ) Мга</tspan>
+                </text>
+                <g id="Group-90" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <circle id="Oval" cx="8" cy="8" r="7.25"></circle>
+                        <circle id="Oval" cx="8" cy="8" r="4.25"></circle>
+                        <circle id="Oval" cx="8" cy="8" r="1.25"></circle>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(28.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Локомотив---Санкт-Пе" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
+                </text>
+            </g>
+            <g id="fsk_10" transform="translate(53.000000, 1050.000000)">
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="ВП-№3024-С-Пб-Финл" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="57" y="32">ВП №3024 С-Пб Финл</tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <text id="Локомотив---Санкт-Пе" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
+                </text>
+            </g>
+            <g id="fsk_8" transform="translate(87.000000, 1008.000000)">
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="ТЧ-20-(ДМВ)-С-Пб-Фин" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="52" y="32">ТЧ-20 (ДМВ)  С-Пб Финл</tspan>
+                </text>
+                <g id="Group-102" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(28.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Локомотив---Санкт-Пе" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
+                </text>
+            </g>
+            <g id="fsk_7" transform="translate(314.000000, 1307.000000)">
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="169" height="39" rx="5"></rect>
+                <text id="СК-Сорт.-Моск." font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="98" y="32">СК Сорт.-Моск.</tspan>
+                </text>
+                <g id="Group-94" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
+                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
+                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
+                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
+                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
+                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
+                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
+                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
+                    </g>
+                </g>
+                <g id="Group-101" transform="translate(28.000000, 16.000000)">
+                    <g id="Group-92" fill="#3ABF00">
+                        <rect id="Rectangle" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    </g>
+                    <g id="Group" transform="translate(7.000000, 7.000000)">
+                        <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="4.56105339" cy="4.23529412" r="3.98529412"></circle>
+                        <polygon id="Polygon" fill="#454545" points="4.56105339 2.64705882 5.9365055 3.44117647 5.9365055 5.02941176 4.56105339 5.82352941 3.18560128 5.02941176 3.18560128 3.44117647"></polygon>
+                        <path d="M3.17496552,7.79912365 L4.56003655,8.33097705 L5.96635925,7.79912365 C5.55822255,7.54987806 5.08944831,7.42525527 4.56003655,7.42525527 C4.03062478,7.42525527 3.56893444,7.54987806 3.17496552,7.79912365 Z" id="Path-125" fill="#454545" transform="translate(4.570662, 7.878116) rotate(-180.000000) translate(-4.570662, -7.878116) "></path>
+                        <path d="M6.3277741,5.9681723 L7.71284513,6.50002569 L9.11916783,5.9681723 C8.71103113,5.71892671 8.24225689,5.59430392 7.71284513,5.59430392 C7.18343336,5.59430392 6.72174302,5.71892671 6.3277741,5.9681723 Z" id="Path-125" fill="#454545" transform="translate(7.723471, 6.047165) rotate(-240.000000) translate(-7.723471, -6.047165) "></path>
+                        <path d="M6.32910246,2.33798731 L7.71417349,2.86984071 L9.12049619,2.33798731 C8.71235948,2.08874172 8.24358525,1.96411893 7.71417349,1.96411893 C7.18476172,1.96411893 6.72307138,2.08874172 6.32910246,2.33798731 Z" id="Path-125" fill="#454545" transform="translate(7.724799, 2.416980) rotate(60.000000) translate(-7.724799, -2.416980) "></path>
+                        <path d="M1.12687637e-12,2.34758419 L1.38507103,2.87943759 L2.79139373,2.34758419 C2.38325702,2.0983386 1.91448279,1.97371581 1.38507103,1.97371581 C0.85565926,1.97371581 0.393968919,2.0983386 1.12687637e-12,2.34758419 Z" id="Path-125" fill="#454545" transform="translate(1.395697, 2.426577) rotate(-60.000000) translate(-1.395697, -2.426577) "></path>
+                        <path d="M0.0195365794,6.02500736 L1.4046076,6.55686076 L2.81093031,6.02500736 C2.4027936,5.77576177 1.93401937,5.65113898 1.4046076,5.65113898 C0.87519584,5.65113898 0.413505498,5.77576177 0.0195365794,6.02500736 Z" id="Path-125" fill="#454545" transform="translate(1.415233, 6.104000) rotate(-120.000000) translate(-1.415233, -6.104000) "></path>
+                        <path d="M3.18835107,0.5113232 L4.5734221,1.04317659 L5.9797448,0.5113232 C5.57160809,0.262077612 5.10283386,0.137454818 4.5734221,0.137454818 C4.04401033,0.137454818 3.58231999,0.262077612 3.18835107,0.5113232 Z" id="Path-125" fill="#454545"></path>
+                    </g>
+                </g>
+                <g id="Group-102" transform="translate(50.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(72.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Локомотив---Санкт-Пе" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
+                </text>
+            </g>
+            <g id="fsk_6" transform="translate(314.000000, 1246.000000)">
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="157" height="39" rx="5"></rect>
+                <text id="ТЧЭ-12-(Т)-СПбСМ" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="73" y="32">ТЧЭ-12 (Т) СПбСМ</tspan>
+                </text>
+                <g id="Group-94" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
+                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
+                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
+                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
+                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
+                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
+                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
+                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
+                    </g>
+                </g>
+                <g id="Group-101" transform="translate(28.000000, 16.000000)">
+                    <g id="Group-92" fill="#3ABF00">
+                        <rect id="Rectangle" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    </g>
+                    <g id="Group" transform="translate(7.000000, 7.000000)">
+                        <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="4.56105339" cy="4.23529412" r="3.98529412"></circle>
+                        <polygon id="Polygon" fill="#454545" points="4.56105339 2.64705882 5.9365055 3.44117647 5.9365055 5.02941176 4.56105339 5.82352941 3.18560128 5.02941176 3.18560128 3.44117647"></polygon>
+                        <path d="M3.17496552,7.79912365 L4.56003655,8.33097705 L5.96635925,7.79912365 C5.55822255,7.54987806 5.08944831,7.42525527 4.56003655,7.42525527 C4.03062478,7.42525527 3.56893444,7.54987806 3.17496552,7.79912365 Z" id="Path-125" fill="#454545" transform="translate(4.570662, 7.878116) rotate(-180.000000) translate(-4.570662, -7.878116) "></path>
+                        <path d="M6.3277741,5.9681723 L7.71284513,6.50002569 L9.11916783,5.9681723 C8.71103113,5.71892671 8.24225689,5.59430392 7.71284513,5.59430392 C7.18343336,5.59430392 6.72174302,5.71892671 6.3277741,5.9681723 Z" id="Path-125" fill="#454545" transform="translate(7.723471, 6.047165) rotate(-240.000000) translate(-7.723471, -6.047165) "></path>
+                        <path d="M6.32910246,2.33798731 L7.71417349,2.86984071 L9.12049619,2.33798731 C8.71235948,2.08874172 8.24358525,1.96411893 7.71417349,1.96411893 C7.18476172,1.96411893 6.72307138,2.08874172 6.32910246,2.33798731 Z" id="Path-125" fill="#454545" transform="translate(7.724799, 2.416980) rotate(60.000000) translate(-7.724799, -2.416980) "></path>
+                        <path d="M1.12687637e-12,2.34758419 L1.38507103,2.87943759 L2.79139373,2.34758419 C2.38325702,2.0983386 1.91448279,1.97371581 1.38507103,1.97371581 C0.85565926,1.97371581 0.393968919,2.0983386 1.12687637e-12,2.34758419 Z" id="Path-125" fill="#454545" transform="translate(1.395697, 2.426577) rotate(-60.000000) translate(-1.395697, -2.426577) "></path>
+                        <path d="M0.0195365794,6.02500736 L1.4046076,6.55686076 L2.81093031,6.02500736 C2.4027936,5.77576177 1.93401937,5.65113898 1.4046076,5.65113898 C0.87519584,5.65113898 0.413505498,5.77576177 0.0195365794,6.02500736 Z" id="Path-125" fill="#454545" transform="translate(1.415233, 6.104000) rotate(-120.000000) translate(-1.415233, -6.104000) "></path>
+                        <path d="M3.18835107,0.5113232 L4.5734221,1.04317659 L5.9797448,0.5113232 C5.57160809,0.262077612 5.10283386,0.137454818 4.5734221,0.137454818 C4.04401033,0.137454818 3.58231999,0.262077612 3.18835107,0.5113232 Z" id="Path-125" fill="#454545"></path>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(50.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Локомотив---Санкт-Пе" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
+                </text>
+            </g>
+            <g id="fsk_5" transform="translate(74.000000, 1208.000000)">
+                <rect id="Rectangle" stroke="#A9A989" fill="#FFFFEB" x="0.5" y="0.5" width="157" height="39" rx="5"></rect>
+                <text id="ТЧЭ-14-(Т)-СПб-Вит" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="69" y="32">ТЧЭ-14 (Т) СПб Вит</tspan>
+                </text>
+                <g id="Group-94" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
+                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
+                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
+                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
+                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
+                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
+                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
+                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
+                    </g>
+                </g>
+                <g id="Group-101" transform="translate(28.000000, 16.000000)">
+                    <g id="Group-92" fill="#3ABF00">
+                        <rect id="Rectangle" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    </g>
+                    <g id="Group" transform="translate(7.000000, 7.000000)">
+                        <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="4.56105339" cy="4.23529412" r="3.98529412"></circle>
+                        <polygon id="Polygon" fill="#454545" points="4.56105339 2.64705882 5.9365055 3.44117647 5.9365055 5.02941176 4.56105339 5.82352941 3.18560128 5.02941176 3.18560128 3.44117647"></polygon>
+                        <path d="M3.17496552,7.79912365 L4.56003655,8.33097705 L5.96635925,7.79912365 C5.55822255,7.54987806 5.08944831,7.42525527 4.56003655,7.42525527 C4.03062478,7.42525527 3.56893444,7.54987806 3.17496552,7.79912365 Z" id="Path-125" fill="#454545" transform="translate(4.570662, 7.878116) rotate(-180.000000) translate(-4.570662, -7.878116) "></path>
+                        <path d="M6.3277741,5.9681723 L7.71284513,6.50002569 L9.11916783,5.9681723 C8.71103113,5.71892671 8.24225689,5.59430392 7.71284513,5.59430392 C7.18343336,5.59430392 6.72174302,5.71892671 6.3277741,5.9681723 Z" id="Path-125" fill="#454545" transform="translate(7.723471, 6.047165) rotate(-240.000000) translate(-7.723471, -6.047165) "></path>
+                        <path d="M6.32910246,2.33798731 L7.71417349,2.86984071 L9.12049619,2.33798731 C8.71235948,2.08874172 8.24358525,1.96411893 7.71417349,1.96411893 C7.18476172,1.96411893 6.72307138,2.08874172 6.32910246,2.33798731 Z" id="Path-125" fill="#454545" transform="translate(7.724799, 2.416980) rotate(60.000000) translate(-7.724799, -2.416980) "></path>
+                        <path d="M1.12687637e-12,2.34758419 L1.38507103,2.87943759 L2.79139373,2.34758419 C2.38325702,2.0983386 1.91448279,1.97371581 1.38507103,1.97371581 C0.85565926,1.97371581 0.393968919,2.0983386 1.12687637e-12,2.34758419 Z" id="Path-125" fill="#454545" transform="translate(1.395697, 2.426577) rotate(-60.000000) translate(-1.395697, -2.426577) "></path>
+                        <path d="M0.0195365794,6.02500736 L1.4046076,6.55686076 L2.81093031,6.02500736 C2.4027936,5.77576177 1.93401937,5.65113898 1.4046076,5.65113898 C0.87519584,5.65113898 0.413505498,5.77576177 0.0195365794,6.02500736 Z" id="Path-125" fill="#454545" transform="translate(1.415233, 6.104000) rotate(-120.000000) translate(-1.415233, -6.104000) "></path>
+                        <path d="M3.18835107,0.5113232 L4.5734221,1.04317659 L5.9797448,0.5113232 C5.57160809,0.262077612 5.10283386,0.137454818 4.5734221,0.137454818 C4.04401033,0.137454818 3.58231999,0.262077612 3.18835107,0.5113232 Z" id="Path-125" fill="#454545"></path>
+                    </g>
+                </g>
+                <text id="Санкт-Петребург---Ви" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Санкт-Петребург - Витебский</tspan>
+                </text>
+            </g>
+            <g id="fsk_4" transform="translate(68.000000, 1250.000000)">
+                <rect id="Rectangle" stroke="#A9A989" fill="#FFFFEB" x="0.5" y="0.5" width="157" height="39" rx="5"></rect>
+                <text id="ФОЦ-(ДСС)" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="100" y="32">ФОЦ  (ДСС)</tspan>
+                </text>
+                <g id="Group-94" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
+                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
+                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
+                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
+                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
+                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
+                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
+                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
+                    </g>
+                </g>
+                <g id="Group-101" transform="translate(28.000000, 16.000000)">
+                    <g id="Group-92" fill="#3ABF00">
+                        <rect id="Rectangle" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    </g>
+                    <g id="Group" transform="translate(7.000000, 7.000000)">
+                        <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="4.56105339" cy="4.23529412" r="3.98529412"></circle>
+                        <polygon id="Polygon" fill="#454545" points="4.56105339 2.64705882 5.9365055 3.44117647 5.9365055 5.02941176 4.56105339 5.82352941 3.18560128 5.02941176 3.18560128 3.44117647"></polygon>
+                        <path d="M3.17496552,7.79912365 L4.56003655,8.33097705 L5.96635925,7.79912365 C5.55822255,7.54987806 5.08944831,7.42525527 4.56003655,7.42525527 C4.03062478,7.42525527 3.56893444,7.54987806 3.17496552,7.79912365 Z" id="Path-125" fill="#454545" transform="translate(4.570662, 7.878116) rotate(-180.000000) translate(-4.570662, -7.878116) "></path>
+                        <path d="M6.3277741,5.9681723 L7.71284513,6.50002569 L9.11916783,5.9681723 C8.71103113,5.71892671 8.24225689,5.59430392 7.71284513,5.59430392 C7.18343336,5.59430392 6.72174302,5.71892671 6.3277741,5.9681723 Z" id="Path-125" fill="#454545" transform="translate(7.723471, 6.047165) rotate(-240.000000) translate(-7.723471, -6.047165) "></path>
+                        <path d="M6.32910246,2.33798731 L7.71417349,2.86984071 L9.12049619,2.33798731 C8.71235948,2.08874172 8.24358525,1.96411893 7.71417349,1.96411893 C7.18476172,1.96411893 6.72307138,2.08874172 6.32910246,2.33798731 Z" id="Path-125" fill="#454545" transform="translate(7.724799, 2.416980) rotate(60.000000) translate(-7.724799, -2.416980) "></path>
+                        <path d="M1.12687637e-12,2.34758419 L1.38507103,2.87943759 L2.79139373,2.34758419 C2.38325702,2.0983386 1.91448279,1.97371581 1.38507103,1.97371581 C0.85565926,1.97371581 0.393968919,2.0983386 1.12687637e-12,2.34758419 Z" id="Path-125" fill="#454545" transform="translate(1.395697, 2.426577) rotate(-60.000000) translate(-1.395697, -2.426577) "></path>
+                        <path d="M0.0195365794,6.02500736 L1.4046076,6.55686076 L2.81093031,6.02500736 C2.4027936,5.77576177 1.93401937,5.65113898 1.4046076,5.65113898 C0.87519584,5.65113898 0.413505498,5.77576177 0.0195365794,6.02500736 Z" id="Path-125" fill="#454545" transform="translate(1.415233, 6.104000) rotate(-120.000000) translate(-1.415233, -6.104000) "></path>
+                        <path d="M3.18835107,0.5113232 L4.5734221,1.04317659 L5.9797448,0.5113232 C5.57160809,0.262077612 5.10283386,0.137454818 4.5734221,0.137454818 C4.04401033,0.137454818 3.58231999,0.262077612 3.18835107,0.5113232 Z" id="Path-125" fill="#454545"></path>
+                    </g>
+                </g>
+                <g id="Group-102" transform="translate(50.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(72.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Санкт-Петребург---Ви" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Санкт-Петребург - Витебский</tspan>
+                </text>
+            </g>
+            <g id="fsk_3" transform="translate(762.000000, 2982.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="142" height="39" rx="5"></rect>
+                <text id="ФОК-Бологое" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="80" y="32">ФОК Бологое</tspan>
+                </text>
+                <g id="Group-92" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="9" cy="9" r="7.75"></circle>
+                    <polygon id="Polygon" fill="#454545" points="9 6 11.5980762 7.5 11.5980762 10.5 9 12 6.40192379 10.5 6.40192379 7.5"></polygon>
+                    <path d="M6.38183403,15.731678 L8.9980793,16.73629 L11.6544666,15.731678 C10.8835417,15.2608808 9.9980793,15.0254822 8.9980793,15.0254822 C7.9980793,15.0254822 7.12599754,15.2608808 6.38183403,15.731678 Z" id="Path-125" fill="#454545" transform="translate(9.018150, 15.880886) rotate(-180.000000) translate(-9.018150, -15.880886) "></path>
+                    <path d="M16.4208316,10.2139096 L14.2426894,11.9773384 L13.7845153,14.7801433 C14.5777001,14.3479014 15.2242925,13.6987677 15.7242925,12.8327423 C16.2242925,11.9667169 16.4564722,11.0937727 16.4208316,10.2139096 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M12.3396482,5.41619825 L14.9558935,6.42081022 L17.6122808,5.41619825 C16.841356,4.94540103 15.9558935,4.71000242 14.9558935,4.71000242 C13.9558935,4.71000242 13.0838118,4.94540103 12.3396482,5.41619825 Z" id="Path-125" fill="#454545" transform="translate(14.975965, 5.565406) rotate(60.000000) translate(-14.975965, -5.565406) "></path>
+                    <path d="M1.5736171,7.79204662 L3.75175923,6.02861774 L4.2099334,3.22581284 C3.41674861,3.65805477 2.77015621,4.30718843 2.27015621,5.17321384 C1.77015621,6.03923924 1.53797651,6.9121835 1.5736171,7.79204662 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M4.24683583,14.8874984 L3.80873268,12.1194576 L1.61051953,10.3212647 C1.58825962,11.2243038 1.82712967,12.1088361 2.32712967,12.9748615 C2.82712967,13.8408869 3.46703172,14.4784326 4.24683583,14.8874984 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M6.40711784,1.96583271 L9.02336311,2.97044468 L11.6797504,1.96583271 C10.9088256,1.49503549 10.0233631,1.25963688 9.02336311,1.25963688 C8.02336311,1.25963688 7.15128136,1.49503549 6.40711784,1.96583271 Z" id="Path-125" fill="#454545"></path>
+                    <line x1="15.104452" y1="12.4970264" x2="2.5" y2="5.5" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                    <line x1="15.104452" y1="5.5" x2="2.88999666" y2="12.6043816" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                    <line x1="9.04343414" y1="16.2278633" x2="9.01815033" y2="1.62592602" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                </g>
+                <g id="Group-94" transform="translate(28.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
+                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
+                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
+                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
+                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
+                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
+                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
+                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(50.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Локомотив---Бологое" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Бологое - Окт</tspan>
+                </text>
+            </g>
+            <g id="fsk_2" transform="translate(917.000000, 2912.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="183" height="39" rx="5"></rect>
+                <text id="ФОК-Бологое" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="120" y="33">ФОК Бологое</tspan>
+                </text>
+                <g id="Group-97" transform="translate(6.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0.499478123" width="18" height="18" rx="3"></rect>
+                    <path d="M6.38782737,3.76907158 L6.42875354,16.274611 L8.88782737,16.274611 L8.88782737,3.76907158 C8.85578457,3.05350399 8.76011169,2.45132319 8.60080873,1.96252918 C8.44150576,1.47373517 8.12051132,0.819558779 7.63782541,1.77635684e-15 C7.16423095,0.826008997 6.84745129,1.48018539 6.68748643,1.96252918 C6.52752156,2.44487297 6.42763521,3.04705377 6.38782737,3.76907158 Z" id="Path-133" fill="#FFFFFF" transform="translate(7.637827, 8.137305) rotate(45.000000) translate(-7.637827, -8.137305) "></path>
+                    <path d="M9.70309361,6.73676712 L9.74401977,19.2423065 L12.2030936,19.2423065 L12.2030936,6.73676712 C12.1710508,6.02119953 12.0753779,5.41901873 11.916075,4.93022472 C11.756772,4.44143071 11.4357776,3.78725432 10.9530916,2.96769554 C10.4794972,3.79370454 10.1627175,4.44788093 10.0027527,4.93022472 C9.84278779,5.41256851 9.74290144,6.01474931 9.70309361,6.73676712 Z" id="Path-133" fill="#FFFFFF" transform="translate(10.953094, 11.105001) rotate(45.000000) translate(-10.953094, -11.105001) "></path>
+                </g>
+                <g id="Group-104" transform="translate(28.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <polygon id="Path-129" fill="#FFFFFF" points="16.594101 2.67594719 8.99738312 16.047636 2 15.9474983 2 13.5522575 8.99738312 13.2366795 15.5551949 2"></polygon>
+                </g>
+                <g id="Group-102" transform="translate(50.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group" transform="translate(9.131728, 9.131728) rotate(-45.000000) translate(-9.131728, -9.131728) translate(1.631728, 5.131728)" stroke="#FFFFFF" stroke-width="2">
+                        <line x1="2.5" y1="0.859693527" x2="2.5" y2="6.67984676" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="3.67984676" x2="13.5" y2="3.67984676" id="Path-130"></line>
+                        <line x1="12.5" y1="0.949616909" x2="12.5" y2="6.76977015" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="13.5" y1="1.90465522" x2="13.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                        <line x1="1.5" y1="1.90465522" x2="1.5" y2="5.63488507" id="Path-131" stroke-linecap="round"></line>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(72.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <g id="Group-98" transform="translate(94.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <ellipse id="Oval" stroke="#FFFFFF" stroke-width="1.5" fill-opacity="0.3" fill="#FFFFFF" transform="translate(12.277778, 6.560380) rotate(45.000000) translate(-12.277778, -6.560380) " cx="12.277778" cy="6.56037974" rx="3.527778" ry="4.25"></ellipse>
+                    <g id="Group" transform="translate(2.000000, 3.560380)">
+                        <circle id="Oval" fill="#FFFFFF" cx="1" cy="1.67214584" r="1"></circle>
+                        <line x1="1" y1="1.67214584" x2="4.19497299" y2="1.67214584" id="Path-144" stroke="#FFFFFF"></line>
+                        <line x1="1" y1="1.17214584" x2="4.19497299" y2="3.16413562e-14" id="Path-144" stroke="#FFFFFF"></line>
+                        <line x1="1" y1="3.23457336" x2="4.19497299" y2="2.17214584" id="Path-144" stroke="#FFFFFF" transform="translate(2.597486, 2.703360) scale(1, -1) translate(-2.597486, -2.703360) "></line>
+                    </g>
+                    <line x1="2" y1="16.4265535" x2="9" y2="9.56037974" id="Path-134" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></line>
+                </g>
+                <text id="Локомотив---ФОК-Боло" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - ФОК Бологое</tspan>
+                </text>
+            </g>
+            <g id="fsk_1" transform="translate(1333.000000, 3500.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="137" height="39" rx="5"></rect>
+                <text id="ТЧ-6-(ДМВ)" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
+                    <tspan x="86" y="32">ТЧ-6 (ДМВ)</tspan>
+                </text>
+                <g id="Group-92" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="9" cy="9" r="7.75"></circle>
+                    <polygon id="Polygon" fill="#454545" points="9 6 11.5980762 7.5 11.5980762 10.5 9 12 6.40192379 10.5 6.40192379 7.5"></polygon>
+                    <path d="M6.38183403,15.731678 L8.9980793,16.73629 L11.6544666,15.731678 C10.8835417,15.2608808 9.9980793,15.0254822 8.9980793,15.0254822 C7.9980793,15.0254822 7.12599754,15.2608808 6.38183403,15.731678 Z" id="Path-125" fill="#454545" transform="translate(9.018150, 15.880886) rotate(-180.000000) translate(-9.018150, -15.880886) "></path>
+                    <path d="M16.4208316,10.2139096 L14.2426894,11.9773384 L13.7845153,14.7801433 C14.5777001,14.3479014 15.2242925,13.6987677 15.7242925,12.8327423 C16.2242925,11.9667169 16.4564722,11.0937727 16.4208316,10.2139096 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M12.3396482,5.41619825 L14.9558935,6.42081022 L17.6122808,5.41619825 C16.841356,4.94540103 15.9558935,4.71000242 14.9558935,4.71000242 C13.9558935,4.71000242 13.0838118,4.94540103 12.3396482,5.41619825 Z" id="Path-125" fill="#454545" transform="translate(14.975965, 5.565406) rotate(60.000000) translate(-14.975965, -5.565406) "></path>
+                    <path d="M1.5736171,7.79204662 L3.75175923,6.02861774 L4.2099334,3.22581284 C3.41674861,3.65805477 2.77015621,4.30718843 2.27015621,5.17321384 C1.77015621,6.03923924 1.53797651,6.9121835 1.5736171,7.79204662 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M4.24683583,14.8874984 L3.80873268,12.1194576 L1.61051953,10.3212647 C1.58825962,11.2243038 1.82712967,12.1088361 2.32712967,12.9748615 C2.82712967,13.8408869 3.46703172,14.4784326 4.24683583,14.8874984 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M6.40711784,1.96583271 L9.02336311,2.97044468 L11.6797504,1.96583271 C10.9088256,1.49503549 10.0233631,1.25963688 9.02336311,1.25963688 C8.02336311,1.25963688 7.15128136,1.49503549 6.40711784,1.96583271 Z" id="Path-125" fill="#454545"></path>
+                    <line x1="15.104452" y1="12.4970264" x2="2.5" y2="5.5" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                    <line x1="15.104452" y1="5.5" x2="2.88999666" y2="12.6043816" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                    <line x1="9.04343414" y1="16.2278633" x2="9.01815033" y2="1.62592602" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                </g>
+                <g id="Group-94" transform="translate(27.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
+                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
+                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
+                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
+                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
+                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
+                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
+                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
+                    </g>
+                </g>
+                <text id="Локомотив---Москва--" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Москва - Окт</tspan>
+                </text>
+            </g>
+        </g>
         <g id="terms" opacity="0.599679129" transform="translate(74.000000, 1319.000000)">
             <g id="piket_04601" opacity="0.604422433" transform="translate(1491.000000, 1541.000000)">
                 <g id="term">

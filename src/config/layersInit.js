@@ -165,4 +165,12 @@ export const layersInit = [
     disabled: false,
     id: 19,
   },
+  {
+    layer: "health_org",
+    show: false,
+    name: "здоровый образ жизни",
+    visible: "visible",
+    disabled: false,
+    id: 20,
+  },
 ];

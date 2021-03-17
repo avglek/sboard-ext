@@ -100,3 +100,16 @@ export function modalSnowFetchData(id) {
     }
   };
 }
+
+export function modalHealthFetchData(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading());
+    try {
+      const data = await dataService.getHealthInfo(id);
+      dispatch(modalFetchDataSuccess(data));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
+    }
+  };
+}

@@ -18,6 +18,7 @@ import {
   modalBridgeFetchData,
   modalSnowFetchData,
   modalPipeFetchData,
+  modalHealthFetchData,
 } from "../../store/actions/modalAction";
 import {
   forecastFetchData,
@@ -36,7 +37,7 @@ import {
   weatherWinClose,
 } from "../../store/actions/weatherAction";
 
-import {snowTechFetchData} from "../../store/actions/snowTechAction"
+import { snowTechFetchData } from "../../store/actions/snowTechAction";
 
 import SocketService from "../../services/SocketService";
 
@@ -124,6 +125,7 @@ const mapDispatchToProps = (dispatch) => {
     fetchStormData: (id) => dispatch(modalStormFetchData(id)),
     fetchBridgeData: (id) => dispatch(modalBridgeFetchData(id)),
     fetchPipeData: (id) => dispatch(modalPipeFetchData(id)),
+    fetchHealthData: (id) => dispatch(modalHealthFetchData(id)),
     fetchSnowData: (id) => dispatch(modalSnowFetchData(id)),
     updateStormData: (id) => dispatch(stormUpdateData(id)),
     postLegend: (imgName) => dispatch(informLegendKey(imgName)),

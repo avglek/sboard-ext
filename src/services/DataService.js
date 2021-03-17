@@ -163,9 +163,12 @@ class DataService {
     //return this.getResurce(`./data/load_artfeat_153_42.json`);
   }
 
+  async getHealthInfo(id) {
+    return this.getResurce(`${config.health}${id}`);
+  }
+
   async getSnowPokaz(id) {
     return this.getResurce(`${config.snow_pokaz}${id}`);
-    //return this.getResurce(`${config.bridges_pokaz}`);
   }
 
   async getResurce(url) {
