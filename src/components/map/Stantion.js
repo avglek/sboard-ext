@@ -1,9 +1,10 @@
 export default class Stantion {
-  constructor(ks, ms, km, nodes) {
+  constructor(ks, ms, km, nodes, region) {
     this.ks = ks;
     this.ms = ms;
     this.km = km;
     this.nodes = nodes;
+    this.region = region;
   }
 
   getNodesTxt() {

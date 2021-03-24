@@ -1,35 +1,36 @@
 import * as d3 from "d3";
 //import socketIOClient from "socket.io-client";
 import { addEventLayer, removeEventLayer } from "./layerEvents";
-import Stantion from "./Stantion";
+//import Stantion from "./Stantion";
 import Piket from "./Piket";
 import DataService from "../../services/DataService";
 import {
   showToolTip,
   hiddenTootTip,
-  getCodeStn,
   getCodePiket,
 } from "../../utils/tabloUtils";
+
+import { hideDivision } from "../../utils/stantionUtils";
 
 const applicationInitialState = window.__INITIAL_STATE__;
 const regions = applicationInitialState.regions;
 const ports = applicationInitialState.ports;
 const config = applicationInitialState.config;
 
-let stantion = {};
+//let stantion = {};
 let pikets = {};
 let parentProps;
 
 const dataService = new DataService();
 //const socket = socketIOClient(wsocket.endpoint);
 
-dataService.getDivisions().then((json) => {
-  for (const t of json) {
-    let key = t.ks.substr(0, 5);
-    let stn = new Stantion(t.ks, t.ms, t.km, t.nodes);
-    stantion[key] = stn;
-  }
-});
+// dataService.getDivisions().then((json) => {
+//   for (const t of json) {
+//     let key = t.ks.substr(0, 5);
+//     let stn = new Stantion(t.ks, t.ms, t.km, t.nodes);
+//     stantion[key] = stn;
+//   }
+// });
 
 dataService.getPiket().then((json) => {
   for (const t of json.data) {
@@ -47,23 +48,25 @@ dataService.getPiket().then((json) => {
 
 export function ShowLayer(props) {
   const layers = props.showLayer;
-  if (Array.isArray(layers)) {
-    layers.forEach((element) => {
-      if (element.show) {
-        element.layer.split(" ").forEach((text) => {
-          addEventLayer(text.trim(), props);
-          const selectLayer = d3.selectAll("#" + text.trim());
-          selectLayer.attr("opacity", "1");
-        });
-      } else {
-        element.layer.split(" ").forEach((text) => {
-          removeEventLayer(text.trim(), props);
-          const selectLayer = d3.selectAll("#" + text.trim());
-          selectLayer.attr("opacity", "0");
-        });
-      }
-    });
-  }
+  layers.forEach((block) => {
+    if (Array.isArray(block.data)) {
+      block.data.forEach((element) => {
+        if (element.show) {
+          element.layer.split(" ").forEach((text) => {
+            addEventLayer(text.trim(), props);
+            const selectLayer = d3.selectAll("#" + text.trim());
+            selectLayer.attr("opacity", "1");
+          });
+        } else {
+          element.layer.split(" ").forEach((text) => {
+            removeEventLayer(text.trim(), props);
+            const selectLayer = d3.selectAll("#" + text.trim());
+            selectLayer.attr("opacity", "0");
+          });
+        }
+      });
+    }
+  });
 }
 
 export function loadMapORW(fprops) {
@@ -86,7 +89,7 @@ export function loadMapORW(fprops) {
 
     parentProps.postStorm(0, clickStormFromORW);
 
-    eventDivisions();
+    //eventDivisions(parentProps);
     eventRegion();
     eventPiket();
     eventPorts(0);
@@ -137,7 +140,7 @@ function loadRegions(url_reg, idRegion) {
       .on("mouseleave", () => close_btn.attr("opacity", "0.595982143"));
 
     go_region();
-    eventDivisions();
+    //eventDivisions();
     eventPiket();
     eventPorts(idRegion);
     //  eventLayer("snow_tech");
@@ -230,88 +233,111 @@ function go_reg_click() {
   }
 }
 
+export function findRegion(code, stn) {
+  const item = regions[`nod${code}`];
+
+  if (typeof item !== "undefined") {
+    parentProps.postLegend(item.img_leg);
+    parentProps.postSpec(item.img_spec ? item.img_spec : null);
+
+    // const prognozUrl = config.prognoz.toString() + item.id;
+    // parentProps.forecastFetchData(prognozUrl);
+    parentProps.forecastFetchData(item.id);
+    parentProps.forecastOpen();
+
+    loadRegions(item.url, item.id);
+    parentProps.postFindStantion(stn);
+  }
+}
 //============= Stantions =======
 
-function eventDivisions() {
-  const stansions = d3.selectAll("#st");
+// function eventDivisions(props) {
+//   console.log(props.stantionItems);
+//   const stansions = d3.selectAll("#st");
 
-  stansions
-    .on("mouseenter", st_mousein)
-    .on("mouseleave", st_mouseout)
-    .on("click", st_click);
-}
+//   stansions
+//     .on("mouseenter", function () {
+//       st_mousein(this, props);
+//     })
+//     .on("mouseleave", st_mouseout)
+//     .on("click", function () {
+//       st_click(this, props);
+//     });
+// }
 
-function st_mousein() {
-  let code = getCodeStn(this);
+// function st_mousein(element, props) {
+//   const stantion = props.stantionItems;
+//   let code = getCodeStn(element);
 
-  let obj = stantion[code];
-  if (typeof obj != "undefined") {
-    let txt = stantion[code].getNodesTxt();
-    txt = txt.replace(/,/g, "<br>");
-    let km = stantion[code].getKMtxt();
-    if (km) {
-      txt = txt + " <br> <hr>  " + km;
-    }
+//   let obj = stantion[code];
+//   if (typeof obj != "undefined") {
+//     let txt = stantion[code].getNodesTxt();
+//     txt = txt.replace(/,/g, "<br>");
+//     let km = stantion[code].getKMtxt();
+//     if (km) {
+//       txt = txt + " <br> <hr>  " + km;
+//     }
 
-    showToolTip(txt);
-  }
-}
+//     showToolTip(txt);
+//   }
+// }
 
-function st_mouseout() {
-  hiddenTootTip();
-}
+// function st_mouseout() {
+//   hiddenTootTip();
+// }
 
-function st_click() {
-  d3.select(".context").selectAll("div").remove();
+// function st_click(element, props) {
+//   const stantion = props.stantionItems;
+//   d3.select(".context").selectAll("div").remove();
 
-  d3.select(".stooltip").style("visibility", "hidden");
+//   d3.select(".stooltip").style("visibility", "hidden");
 
-  let code = getCodeStn(this);
-  let obj = stantion[code];
-  if (typeof obj != "undefined") {
-    const context = d3.select(".context");
+//   let code = getCodeStn(element);
+//   let obj = stantion[code];
+//   if (typeof obj != "undefined") {
+//     const context = d3.select(".context");
 
-    for (const item of obj.nodes) {
-      context
-        .append("div")
-        .attr("id", item.id)
-        .attr("class", "node bgcolor")
-        .text(item.name)
-        .on("click", node_click);
-    }
+//     for (const item of obj.nodes) {
+//       context
+//         .append("div")
+//         .attr("id", item.id)
+//         .attr("class", "node bgcolor")
+//         .text(item.name)
+//         .on("click", node_click);
+//     }
 
-    let x = d3.event.pageX;
-    let y = d3.event.pageY;
-    let h = d3.select(".context").style("height");
-    let w = d3.select(".context").style("width");
-    let dy = Number.parseInt(h.substr(0, h.length - 2)) + 10;
-    let dx = Number.parseInt(w.substr(0, w.length - 2)) + 10;
+//     let x = d3.event.pageX;
+//     let y = d3.event.pageY;
+//     let h = d3.select(".context").style("height");
+//     let w = d3.select(".context").style("width");
+//     let dy = Number.parseInt(h.substr(0, h.length - 2)) + 10;
+//     let dx = Number.parseInt(w.substr(0, w.length - 2)) + 10;
 
-    if (y - dy < 0) {
-      d3.select(".context").style("top", y - 10 + "px");
-      d3.select(".context").style("left", x - dx + "px");
-      d3.select(".context").style("visibility", "visible");
-    } else {
-      d3.select(".context").style("top", y - dy + "px");
-      d3.select(".context").style("left", x - dx + "px");
-      d3.select(".context").style("visibility", "visible");
-    }
+//     if (y - dy < 0) {
+//       d3.select(".context").style("top", y - 10 + "px");
+//       d3.select(".context").style("left", x - dx + "px");
+//       d3.select(".context").style("visibility", "visible");
+//     } else {
+//       d3.select(".context").style("top", y - dy + "px");
+//       d3.select(".context").style("left", x - dx + "px");
+//       d3.select(".context").style("visibility", "visible");
+//     }
 
-    d3.event.stopPropagation();
-  }
-}
+//     d3.event.stopPropagation();
+//   }
+// }
 
-function node_click() {
-  parentProps.openModal(true);
-  parentProps.fetchData(this.id);
-}
+// function node_click() {
+//   parentProps.openModal(true);
+//   parentProps.fetchData(this.id);
+// }
 
-function hideDivision(props) {
-  d3.select("body").on("click", () => {
-    d3.select(".context").style("visibility", "hidden");
-    props.weatherWinClose();
-  });
-}
+// function hideDivision(props) {
+//   d3.select("body").on("click", () => {
+//     d3.select(".context").style("visibility", "hidden");
+//     props.weatherWinClose();
+//   });
+// }
 
 //============= Piket =======
 function eventPiket() {
@@ -406,7 +432,6 @@ function loadPortMap(url, parentId, port) {
           const url = new URL(link, path);
           url.searchParams.set("name", fname);
 
-          console.log("click info button", url.href);
           window.open(url.href);
         }
       })
@@ -420,7 +445,6 @@ function loadPortMap(url, parentId, port) {
     const close_btn = d3.select("#close_button");
     close_btn
       .on("click", () => {
-        console.log(parentId);
         if (parentId === 0) {
           parentProps.postSpec(null);
           parentProps.forecastClose();

@@ -44,3 +44,6 @@ g[id^="sdpm_"] {
 g[id^="sdpm_"]:focus {
   --fill-sdpm-blue: #a7b3e7;
 }
+.pointer {
+  color: rgb(170, 20, 20);
+}

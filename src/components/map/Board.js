@@ -5,7 +5,8 @@ import { showStorm } from "../../utils/stormUtils";
 //import { showWeather } from "../../utils/weatherUtils";
 import {
   postShowLayer,
-  //postRefreshLayer,
+  postFindCode,
+  postResetZoom,
 } from "../../store/actions/layerAction";
 import {
   informLegendKey,
@@ -38,33 +39,50 @@ import {
 } from "../../store/actions/weatherAction";
 
 import { snowTechFetchData } from "../../store/actions/snowTechAction";
+import { tabloFetchData } from "../../store/actions/tabloAction";
+import { eventDivisions } from "../../utils/stantionUtils";
+import { showFindStantion } from "../../utils/searchUtils";
 
-import SocketService from "../../services/SocketService";
+//import SocketService from "../../services/SocketService";
 
-const socket = new SocketService();
+//const socket = new SocketService();
 
 const Board = (props) => {
-  const { stormRegionID, updateStormData, postWeather } = props;
-  useEffect(() => {
-    socket.switchListner("storm", () => {
-      console.log("storm update:", stormRegionID);
-      updateStormData(stormRegionID);
-    });
-    socket.switchListner("weather.update", () => {
-      console.log("weather update:", stormRegionID);
-      postWeather(stormRegionID);
-    });
-  }, [stormRegionID, updateStormData, postWeather]);
+  //const { stormRegionID, updateStormData, postWeather } = props;
+  // useEffect(() => {
+  //   socket.switchListner("storm", () => {
+  //     console.log("storm update:", stormRegionID);
+  //     updateStormData(stormRegionID);
+  //   });
+  //   socket.switchListner("weather.update", () => {
+  //     console.log("weather update:", stormRegionID);
+  //     postWeather(stormRegionID);
+  //   });
+  // }, [stormRegionID, updateStormData, postWeather]);
 
   useEffect(() => {
     loadMapORW(props);
+    props.fetchTabloStantion();
 
+    props.postResetZoom(props.resetZoom);
     // eslint-disable-next-line
   }, [props.tabloUrl]);
 
   useEffect(() => {
+    if (props.stantionItems) {
+      eventDivisions(props);
+    }
+    // eslint-disable-next-line
+  }, [props.stantionItems, props.stormRegionID]);
+
+  useEffect(() => {
     ShowLayer(props);
   });
+
+  useEffect(() => {
+    showFindStantion(props);
+    // eslint-disable-next-line
+  }, [props.stormRegionID, props.layerFindStantion]);
 
   useEffect(() => {
     showStorm(props.stormClick, props.stormItems, 2);
@@ -88,7 +106,7 @@ const Board = (props) => {
 
 const mapStateToProps = (state) => {
   return {
-    items: state.items,
+    stantionItems: state.tablo.items,
     hasErrored: state.itemsHasErrored,
     isLoading: state.itemsIsLoading,
     isModalOpen: state.modal.IsModalOpen,
@@ -106,11 +124,13 @@ const mapStateToProps = (state) => {
     snowTechData: state.snowTech.items,
     snowTechLoad: state.snowTech.loading,
     snowTechRegion: state.snowTech.region,
+    layerFindStantion: state.layer.findCode,
   };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
+    fetchTabloStantion: () => dispatch(tabloFetchData()),
     fetchData: (url) => dispatch(modalFetchData(url)),
     forecastFetchData: (url) => dispatch(forecastFetchData(url)),
     forecastClose: () => dispatch(forecastClose()),
@@ -133,6 +153,8 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(weatherWinOpen(x, y, selectItem)),
     weatherWinClose: () => dispatch(weatherWinClose()),
     postSnowTech: (id) => dispatch(snowTechFetchData(id)),
+    postFindStantion: (code) => dispatch(postFindCode(code)),
+    postResetZoom: (f) => dispatch(postResetZoom(f)),
   };
 };
 

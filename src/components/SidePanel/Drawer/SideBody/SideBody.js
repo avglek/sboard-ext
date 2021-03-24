@@ -1,35 +1,39 @@
 import React, { useEffect } from "react";
 import classes from "./SideBody.module.css";
-import CheckBlock from "./CheckBlock/CheckBlock";
-import { layersInit } from "../../../../config/layersInit";
+//import CheckBlock from "./CheckBlock/CheckBlock";
+import { layersGroupInit } from "../../../../config/layerGroupInit";
 import { connect } from "react-redux";
-import { postShowLayer } from "../../../../store/actions/layerAction";
+import {
+  postShowLayer,
+  postFindCode,
+} from "../../../../store/actions/layerAction";
+import AccordionBody from "./Accordion/AccordionBody";
+import StationSearch from "./StationSearch/StationSearch";
+import ClearButton from "./ClearButton/ClearButton";
 
-const SideBody = ({ ShowLayers, postShowLayer }) => {
+const SideBody = ({ ShowLayers, postShowLayer, postFindStantion }) => {
   useEffect(() => {
-    postShowLayer(layersInit);
+    postShowLayer(layersGroupInit);
 
     return undefined;
   }, [postShowLayer]);
 
   const handlerClear = () => {
-    const layers = ShowLayers.map((item) => {
+    const layers = ShowLayers.map((block) => {
       return {
-        ...item,
-        show: false,
+        ...block,
+        data: block.data.map((item) => ({ ...item, show: false })),
       };
     });
+    postFindStantion("0");
     postShowLayer(layers);
   };
 
   return (
     <div className={classes.SideBody}>
-      <CheckBlock postShowLayer={postShowLayer} ShowLayers={ShowLayers} />
-      <div className={classes.clearBox}>
-        <div className={classes.clearButton} onClick={handlerClear}>
-          Очистить
-        </div>
-      </div>
+      <StationSearch />
+      <AccordionBody postShowLayer={postShowLayer} ShowLayers={ShowLayers} />
+      <ClearButton onClick={handlerClear} />
     </div>
   );
 };
@@ -42,6 +46,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     postShowLayer: (layers) => dispatch(postShowLayer(layers)),
+    postFindStantion: (code) => dispatch(postFindCode(code)),
   };
 };
 

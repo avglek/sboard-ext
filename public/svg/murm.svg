@@ -3408,19 +3408,159 @@
                 <line x1="41" y1="242.5" x2="155.93515" y2="242.5" id="Path-52" stroke="#979797" stroke-dasharray="1"></line>
             </g>
         </g>
-        <g id="tubes" opacity="0" transform="translate(129.000000, 658.662768)">
-            <g id="isso_01461_01470" transform="translate(0.000000, 0.337232)">
+        <g id="tubes" opacity="0" transform="translate(129.000000, 44.662768)">
+            <g id="isso_01461_01470" transform="translate(0.000000, 614.337232)">
                 <path d="M0,7.54198647 C32.6154586,4.08920446 57.6154586,3.74187564 75,6.5 C91,9.03846154 113,18.5017584 141,34.8898907" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
                 <circle id="Oval" fill="#1A9B3D" cx="73" cy="6" r="6"></circle>
                 <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
                     <tspan x="70.1" y="8">29</tspan>
                 </text>
             </g>
-            <g id="isso_01445_01461" transform="translate(137.000000, 63.337232)">
-                <path d="M0,8.5 C19.9487919,4.4085423 38.6154586,3.74187564 56,6.5 C72,9.03846154 83.3919271,11.3717949 90.1757812,13.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
-                <circle id="Oval" fill="#1A9B3D" cx="51" cy="6" r="6"></circle>
+            <g id="isso_01386_01410" transform="translate(64.000000, 956.337232)">
+                <path d="M0,29 C31.942007,28.7945478 56.7753403,27.1278811 74.5,24 C85.8333333,22 104.333333,14 130,2.27373675e-13" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="74" cy="23" r="6"></circle>
                 <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
-                    <tspan x="48.1" y="8">25</tspan>
+                    <tspan x="72.55" y="25">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01380_01386" transform="translate(191.000000, 906.337232)">
+                <path d="M71,10 C59.1666667,6.66666667 47.3333333,5.5 35.5,6.5 C23.6666667,7.5 11.8333333,14 0,26" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="30" cy="6" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="28.55" y="8">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01820_01745" transform="translate(163.000000, 0.337232)">
+                <path d="M0,0.636363636 C18.6086674,2.40087396 33.275334,7.95798352 44,17.3076923 C56,27.7692308 65.8333333,38.5 73.5,49.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="46" cy="19" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="44.55" y="21">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01900_01840" transform="translate(418.000000, 94.337232)">
+                <path d="M0.0588235294,35 C9.14822625,22.2465038 20.4619517,12.9131705 34,7 C48.5,0.666666667 65.8333333,-0.833333333 86,2.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="28" cy="10" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="26.55" y="12">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01840_01700" transform="translate(416.000000, 145.337232)">
+                <path d="M0.655937205,44 C3.71864574,42.3333333 7.5,36.6666667 12,27 C16.2068388,17.963087 18.7068388,8.96308697 19.5,-4.54747351e-13" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="13" cy="23" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="11.55" y="25">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01730_01692" transform="translate(305.000000, 142.337232)">
+                <path d="M1.13686838e-13,8.64019967e-12 C10.3443919,14.9836245 20.8789208,27.1502912 31.6035867,36.5 C43.6035867,46.9615385 63.4532971,58.1282051 91.1527178,70" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="42" cy="45" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="40.55" y="47">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01692_01673" transform="translate(379.000000, 216.337232)">
+                <path d="M10,0 C5.36822045,13.1997024 4.36822045,26.8663691 7,41 C9.63177955,55.1336309 15.1317796,65.6336309 23.5,72.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="6" cy="36" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="4.55" y="38">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01673_01630" transform="translate(384.000000, 289.337232)">
+                <path d="M18,0.5 C9.58590051,18.5463546 5.7121841,33.2730596 6.37885076,44.6801151 C7.04551743,56.0871705 9.41923384,68.3604655 13.5,81.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="6" cy="43" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="4.55" y="45">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01630_01614" transform="translate(367.000000, 398.337232)">
+                <path d="M27,0.5 C18.3930735,13.5 11.8930735,24.6666667 7.5,34 C3.10692649,43.3333333 2.09821579,55.1666667 4.47386789,69.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="6" cy="35" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="4.55" y="37">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01614_01600" transform="translate(344.000000, 469.337232)">
+                <path d="M24.1840572,0 C11.7165161,8.59294452 5.81607884,18.5929445 6.48274551,30 C7.14941218,41.4070555 12.1551637,53.9070555 21.5,67.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="6" cy="33" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="4.55" y="35">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01600_01580" transform="translate(388.000000, 542.337232)">
+                <path d="M50,8.17479417e-12 C41.5916114,5.95192101 33.8297248,9.92788152 26.7143402,11.9278815 C19.5989556,13.9278815 10.6941755,13.9278815 9.09494702e-13,11.9278815" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="28" cy="12" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="26.55" y="14">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01600_01510" transform="translate(274.000000, 545.337232)">
+                <path d="M96.5,8 C71.4764303,5.33333333 53.4764303,4.66666667 42.5,6 C31.5235697,7.33333333 17.5235697,14.5 0.5,27.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="43" cy="6" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="41.55" y="8">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01510_01445" transform="translate(225.000000, 588.337232)">
+                <path d="M39.3633381,0.5 C24.7245421,9.72601156 14.2700961,19.6723507 8,30.3390173 C1.72990392,41.005684 -0.313064834,55.5593449 1.87109375,74" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="6" cy="35" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="4.55" y="37">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01510_01520" transform="translate(158.000000, 506.337232)">
+                <path d="M107,80.5 C76.8974359,67.9567057 57.0512821,58.7900391 47.4615385,53 C37.8717949,47.2099609 22.0512821,29.5432943 0,0" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="48" cy="53" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="46.55" y="55">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01520_01540" transform="translate(93.000000, 470.337232)">
+                <path d="M68,16 C61,11.6666667 52.1666667,8.5 41.5,6.5 C30.8333333,4.5 17.1666667,3.83333333 0.5,4.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="42" cy="6" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="40.55" y="8">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01630_01640" transform="translate(333.000000, 376.337232)">
+                <path d="M56,0 C41.1963747,2.91601563 30.529708,6.41601563 24,10.5 C17.470292,14.5839844 9.63695867,22.9173177 0.5,35.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="25" cy="10" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="23.55" y="12">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01745_01730" transform="translate(275.000000, 32.337232)">
+                <path d="M0,0.0513916016 C12.3333333,11.3504639 23.5,23.8333333 33.5,37.5 C43.7704454,51.5362753 53.937112,70.702942 64,95" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="38" cy="42" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="36.55" y="44">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01445_01461" transform="translate(136.000000, 677.337232)">
+                <path d="M-2.20268248e-13,4.54747351e-13 C6.19718057,3.9085423 17.9880416,7.24187564 35.372583,10 C51.372583,12.5384615 69.2483887,10.8717949 89,5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="47" cy="12" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="44.1" y="14">25</tspan>
+                </text>
+            </g>
+            <g id="isso_01445_01437" transform="translate(222.000000, 682.337232)">
+                <path d="M4.87109375,0.574636492 C2.83984375,21.3582122 3.21614583,38.4166667 6,51.75 C8.78385417,65.0833333 15.0260796,78.3333333 24.7266763,91.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="6" cy="54" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="4.55" y="56">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01437_01433" transform="translate(267.000000, 774.337232)">
+                <path d="M3.60480215,0.5 C8.20160072,16.1171875 10.8333333,30.6171875 11.5,44 C12.1666667,57.3828125 8.64682886,72.3828125 0.940486586,89" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="12" cy="45" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="10.55" y="47">0</tspan>
+                </text>
+            </g>
+            <g id="isso_01433_01370" transform="translate(270.000000, 867.337232)">
+                <path d="M0.604802151,0.5 C11.6305151,16.4505208 17.4767049,31.1171875 18.1433716,44.5 C18.8100382,57.8828125 29.6799103,72.3828125 50.7529878,88" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <circle id="Oval" fill="#1A9B3D" cx="16" cy="34" r="6"></circle>
+                <text id="tube_count" font-family="AvenirNext-Regular, Avenir Next" font-size="5" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="14.55" y="36">0</tspan>
                 </text>
             </g>
         </g>

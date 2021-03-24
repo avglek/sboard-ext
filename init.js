@@ -14,6 +14,7 @@ var initialState = {
     "snow_tech": "/apps/api/snowtech/region?id=",
     "port_dir": "/apps/api/ports/file",
     "pipe": "/orw_tablo/load_isso_pipe.php?id_peregon=",
+    "health": "/orw_tablo/load_fsk.php?id_map=",
   },
 
   wsocket: {

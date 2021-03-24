@@ -2481,9 +2481,9 @@
         </g>
         <g id="health_org" opacity="0" transform="translate(69.000000, 224.000000)">
             <g id="fsk_27" transform="translate(1131.000000, 551.000000)">
-                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
-                <text id="ДЦС-5-(Д)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="107" y="31">ДЦС-5 (Д)</tspan>
+                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="160" height="39" rx="5"></rect>
+                <text id="ул.-Мурманская,-д.19" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="76.344" y="33">ул. Мурманская, д.19</tspan>
                 </text>
                 <g id="Group-100" transform="translate(28.000000, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
@@ -2506,9 +2506,10 @@
                 </text>
             </g>
             <g id="fsk_26" transform="translate(1186.000000, 751.000000)">
-                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="133" height="39" rx="5"></rect>
-                <text id="ПЧ-40-(ДИ)-Лоухи" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="61" y="31">ПЧ-40 (ДИ) Лоухи</tspan>
+                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="142" height="39" rx="5"></rect>
+                <text id="ст.-Лоухи-ул.-Станци" font-family="AvenirNext-Italic, Avenir Next" font-size="7" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="106.55" y="23">ст. Лоухи</tspan>
+                    <tspan x="64.375" y="33">ул. Станционная, д.12</tspan>
                 </text>
                 <g id="Group-100" transform="translate(28.000000, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
@@ -2531,9 +2532,9 @@
                 </text>
             </g>
             <g id="fsk_25" transform="translate(1131.000000, 508.000000)">
-                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
-                <text id="ТЧЭ-5-(Т)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="110" y="31">ТЧЭ-5 (Т)</tspan>
+                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="161" height="39" rx="5"></rect>
+                <text id="ул.-Локомотивная,-д." font-family="AvenirNext-Italic, Avenir Next" font-size="7" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="53.267" y="32">ул. Локомотивная, д.29, стр. 15</tspan>
                 </text>
                 <g id="Group-100" transform="translate(28.000000, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
@@ -2556,9 +2557,9 @@
                 </text>
             </g>
             <g id="fsk_24" transform="translate(1131.000000, 465.000000)">
-                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
-                <text id="ВП-№3013-(ДАВС)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="75" y="32">ВП №3013 (ДАВС)</tspan>
+                <rect id="Rectangle" stroke="#D0A7D8" fill="#FDF4FF" x="0.5" y="0.5" width="161" height="39" rx="5"></rect>
+                <text id="ул.-Мурманская,-д.19" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="76.344" y="33">ул. Мурманская, д.19</tspan>
                 </text>
                 <g id="Group-100" transform="translate(50.000000, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
@@ -2591,9 +2592,9 @@
                 </text>
             </g>
             <g id="fsk_23" transform="translate(1245.000000, 403.000000)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="161" height="39" rx="5"></rect>
-                <text id="ИЧ-1-(ДИ)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="118" y="31">ИЧ-1 (ДИ)</tspan>
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="215" height="39" rx="5"></rect>
+                <text id="Приемо-отпр.-парк,-д" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="120.88" y="32">Приемо-отпр. парк, д.3</tspan>
                 </text>
                 <g id="Group-100" transform="translate(94.000000, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
@@ -2649,10 +2650,10 @@
                     <tspan x="6" y="12">Локомотив - Апатиты</tspan>
                 </text>
             </g>
-            <g id="fsk_22" transform="translate(797.000000, 320.000000)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="135" height="39" rx="5"></rect>
-                <text id="ДС-Ковдор-(Д)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="74.5328467" y="32">ДС Ковдор (Д)</tspan>
+            <g id="fsk_22" transform="translate(765.000000, 326.000000)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="169" height="39" rx="5"></rect>
+                <text id="ул.-Привокзальная,-д" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="78.1888467" y="32">ул. Привокзальная, д.4</tspan>
                 </text>
                 <g id="Group-100" transform="translate(50.357664, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18.1313869" height="18" rx="3"></rect>
@@ -2683,9 +2684,9 @@
                 </text>
             </g>
             <g id="fsk_21" transform="translate(1386.000000, 43.000000)">
-                <rect id="Rectangle" stroke="#E9DC77" fill="#FFFEF0" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
-                <text id="ПЧ-42-(ДИ)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="103" y="32">ПЧ-42 (ДИ)</tspan>
+                <rect id="Rectangle" stroke="#C8D880" fill="#F2FFD5" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="Портовый-пр-д,-д.52" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="77.4" y="33">Портовый пр-д, д.52</tspan>
                 </text>
                 <g id="Group-100" transform="translate(50.000000, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
@@ -2716,9 +2717,9 @@
                 </text>
             </g>
             <g id="fsk_20" transform="translate(1386.000000, 86.000000)">
-                <rect id="Rectangle" stroke="#E9DC77" fill="#FFFEF0" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
-                <text id="ЭЧ-10-(НТЭ)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="98" y="32">ЭЧ-10 (НТЭ)</tspan>
+                <rect id="Rectangle" stroke="#C8D880" fill="#F2FFD5" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="ул.-Траловая,-д.27" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="87.08" y="33">ул. Траловая, д.27</tspan>
                 </text>
                 <g id="Group-100" transform="translate(50.000000, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
@@ -2749,9 +2750,9 @@
                 </text>
             </g>
             <g id="fsk_19" transform="translate(1386.000000, 0.000000)">
-                <rect id="Rectangle" stroke="#E9DC77" fill="#FFFEF0" x="0.5" y="0.5" width="149" height="39" rx="5"></rect>
-                <text id="ВП-№3017-(ДАВС)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="75" y="33">ВП №3017 (ДАВС)</tspan>
+                <rect id="Rectangle" stroke="#C8D880" fill="#F2FFD5" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="Портовый-пр-д,-д.42" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="77.4" y="34">Портовый пр-д, д.42</tspan>
                 </text>
                 <g id="Group-100" transform="translate(50.000000, 15.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
@@ -2785,8 +2786,8 @@
             </g>
             <g id="fsk_18" transform="translate(1163.000000, 1654.000000)">
                 <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="151" height="39" rx="5"></rect>
-                <text id="ТЧЭ-25-(Т)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="106" y="31">ТЧЭ-25 (Т) </tspan>
+                <text id="ул.-Дорофеева,-д.1" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="75.84" y="33">ул. Дорофеева, д.1 </tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2803,9 +2804,9 @@
                 </text>
             </g>
             <g id="fsk_17" transform="translate(1266.000000, 1040.000000)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="99" height="39" rx="5"></rect>
-                <text id="ТЧЭ-26-(Т)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="55" y="31">ТЧЭ-26 (Т) </tspan>
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="119" height="39" rx="5"></rect>
+                <text id="ул.-Октябрьская,-д.2" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="32.784" y="32">ул. Октябрьская, д.21 </tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2823,8 +2824,8 @@
             </g>
             <g id="fsk_16" transform="translate(961.000000, 1982.000000)">
                 <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="143" height="39" rx="5"></rect>
-                <text id="ВП-№3018-(ДАВС)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="67" y="32">ВП №3018 (ДАВС)</tspan>
+                <text id="ул.-Восточная,-д.15А" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="59.36" y="33">ул. Восточная, д.15А</tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2840,25 +2841,10 @@
                     <tspan x="6" y="12">Локомотив - Петрозаводск</tspan>
                 </text>
             </g>
-            <g id="fsk_15" transform="translate(284.000000, 1197.000000)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
-                <text id="ФОЦ-(ДСС)-С-Пб-Главн" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="56" y="32">ФОЦ (ДСС) С-Пб Главный</tspan>
-                </text>
-                <g id="Group-91" transform="translate(6.000000, 16.000000)">
-                    <rect id="Rectangle" fill="#0976B2" x="0" y="0" width="18" height="18" rx="3"></rect>
-                    <polygon id="Path-135" fill="#FFFFFF" points="2 16.6393776 14.4561558 16.6393776 16.7680836 14.3414459 2.73251915 15.4904118"></polygon>
-                    <path d="M16.7680836,14.3414459 C16.4835911,10.5018565 15.6060123,7.59548696 14.1353474,5.62233734 C12.6646824,3.64918772 10.6102517,2.10840861 7.97205544,1 C8.91337967,2.79124451 9.40807978,4.8285319 9.45615578,7.11186218 C9.50423177,9.39519246 9.17089844,11.8050537 8.45615578,14.3414459 C10.0437641,12.8106944 11.6068172,12.0453186 13.1453152,12.0453186 C14.6838131,12.0453186 15.8914026,12.8106944 16.7680836,14.3414459 Z" id="Path-136" fill="#FFFFFF"></path>
-                    <polygon id="Path-137" fill="#FFFFFF" points="7.58318138 1.3170929 7.58318138 14.3414459 2 13.5572968"></polygon>
-                </g>
-                <text id="Локомотив---LOKOsail" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
-                    <tspan x="6" y="12">Локомотив - LOKOsailingTEAM</tspan>
-                </text>
-            </g>
-            <g id="fsk_14" transform="translate(269.000000, 1121.000000)">
+            <g id="fsk_14" transform="translate(269.000000, 1101.000000)">
                 <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="129" height="39" rx="5"></rect>
-                <text id="СЗ-ОЦОР-С-Пб-Главный" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="30" y="32">СЗ ОЦОР С-Пб Главный</tspan>
+                <text id="наб.-р.-Фонтанки,-д." font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="32.76" y="32">наб. р. Фонтанки, д. 117</tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2875,9 +2861,9 @@
                 </text>
             </g>
             <g id="fsk_12" transform="translate(0.000000, 1551.000000)">
-                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
-                <text id="СЗ-ДПМ-Гатчина-Тов." font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="52" y="31">СЗ ДПМ Гатчина Тов. Балт.</tspan>
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="165" height="39" rx="5"></rect>
+                <text id="ст.-Гатчина--Тов.-Ба" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="53.304" y="33">ст. Гатчина -Тов.-Балтийская</tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2901,8 +2887,8 @@
             </g>
             <g id="fsk_11" transform="translate(147.000000, 1356.000000)">
                 <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="169" height="39" rx="5"></rect>
-                <text id="ПЧМ-С-Пб-Предпортова" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="53" y="32">ПЧМ С-Пб Предпортовая</tspan>
+                <text id="ст.-Предпортовая" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="95.104" y="33">ст. Предпортовая</tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2924,10 +2910,10 @@
                     <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
                 </text>
             </g>
-            <g id="fsk_13" transform="translate(435.000000, 1589.000000)">
+            <g id="fsk_13" transform="translate(432.000000, 1583.000000)">
                 <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
-                <text id="ПЧМ-Тосно-(СЗ-ДПМ)" font-family="AvenirNext-Regular, Avenir Next" font-size="8" font-weight="normal" fill="#454545">
-                    <tspan x="72" y="31">ПЧМ Тосно (СЗ ДПМ)</tspan>
+                <text id="ст.-Тосно" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="118.52" y="32">ст. Тосно</tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2945,8 +2931,9 @@
             </g>
             <g id="fsk_9" transform="translate(460.000000, 1431.000000)">
                 <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
-                <text id="ВЧДЭ-6-(ДИ)-Мга" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="79" y="32">ВЧДЭ-6 (ДИ) Мга</tspan>
+                <text id="п.Мга-ул.-Железнодор" font-family="AvenirNext-Italic, Avenir Next" font-size="7" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="134.261" y="24">п.Мга </tspan>
+                    <tspan x="77.757" y="34">ул. Железнодорожная</tspan>
                 </text>
                 <g id="Group-90" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2968,8 +2955,8 @@
             </g>
             <g id="fsk_10" transform="translate(53.000000, 1050.000000)">
                 <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
-                <text id="ВП-№3024-С-Пб-Финл" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="57" y="32">ВП №3024 С-Пб Финл</tspan>
+                <text id="ул.-Комсомола,-д.-37" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="70.72" y="33">ул. Комсомола, д. 37А</tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -2987,8 +2974,9 @@
             </g>
             <g id="fsk_8" transform="translate(87.000000, 1008.000000)">
                 <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
-                <text id="ТЧ-20-(ДМВ)-С-Пб-Фин" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="52" y="32">ТЧ-20 (ДМВ)  С-Пб Финл</tspan>
+                <text id="уч.-ж.-д.-Минеральна" font-family="AvenirNext-Italic, Avenir Next" font-size="7" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="69.558" y="24">уч. ж. д. Минеральная ул.-</tspan>
+                    <tspan x="94.184" y="34">Лесной пр., лит. Э</tspan>
                 </text>
                 <g id="Group-102" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -3011,9 +2999,10 @@
                 </text>
             </g>
             <g id="fsk_7" transform="translate(314.000000, 1307.000000)">
-                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="169" height="39" rx="5"></rect>
-                <text id="СК-Сорт.-Моск." font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="98" y="32">СК Сорт.-Моск.</tspan>
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="179" height="39" rx="5"></rect>
+                <text id="ул.-Сортировочная--М" font-family="AvenirNext-Italic, Avenir Next" font-size="7" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="107.5" y="23">ул. Сортировочная-</tspan>
+                    <tspan x="114.199" y="33">Московская, д. 20</tspan>
                 </text>
                 <g id="Group-94" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -3063,9 +3052,9 @@
                 </text>
             </g>
             <g id="fsk_6" transform="translate(314.000000, 1246.000000)">
-                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="157" height="39" rx="5"></rect>
-                <text id="ТЧЭ-12-(Т)-СПбСМ" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="73" y="32">ТЧЭ-12 (Т) СПбСМ</tspan>
+                <rect id="Rectangle" stroke="#2A93CC" fill="#EDF8FF" x="0.5" y="0.5" width="169" height="39" rx="5"></rect>
+                <text id="ул.-Грибакиных,-лит." font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="72.864" y="32">ул. Грибакиных, лит. ЖБ</tspan>
                 </text>
                 <g id="Group-94" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -3104,10 +3093,11 @@
                     <tspan x="6" y="12">Локомотив - Санкт-Петребург</tspan>
                 </text>
             </g>
-            <g id="fsk_5" transform="translate(74.000000, 1208.000000)">
+            <g id="fsk_5" transform="translate(68.000000, 1114.000000)">
                 <rect id="Rectangle" stroke="#A9A989" fill="#FFFFEB" x="0.5" y="0.5" width="157" height="39" rx="5"></rect>
-                <text id="ТЧЭ-14-(Т)-СПб-Вит" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="69" y="32">ТЧЭ-14 (Т) СПб Вит</tspan>
+                <text id="Сев.-полукольцо---ул" font-family="AvenirNext-Italic, Avenir Next" font-size="7" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="89.234" y="24">Сев. полукольцо - </tspan>
+                    <tspan x="88.912" y="34">ул. Салова, лит. Ж</tspan>
                 </text>
                 <g id="Group-94" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -3140,11 +3130,24 @@
                     <tspan x="6" y="12">Санкт-Петребург - Витебский</tspan>
                 </text>
             </g>
-            <g id="fsk_4" transform="translate(68.000000, 1250.000000)">
-                <rect id="Rectangle" stroke="#A9A989" fill="#FFFFEB" x="0.5" y="0.5" width="157" height="39" rx="5"></rect>
-                <text id="ФОЦ-(ДСС)" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="100" y="32">ФОЦ  (ДСС)</tspan>
+            <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="66.5" y="1209.5" width="161" height="81" rx="5"></rect>
+            <g id="fsk_15" transform="translate(67.000000, 1250.000000)">
+                <path d="M0,0 L160,0 L160,35 C160,37.7614237 157.761424,40 155,40 L5,40 C2.23857625,40 3.38176876e-16,37.7614237 0,35 L0,0 L0,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <text id="ул.-К.-Заслонова,-д." font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="72.096" y="33">ул. К. Заслонова, д.23</tspan>
                 </text>
+                <g id="Group-91" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#0976B2" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <polygon id="Path-135" fill="#FFFFFF" points="2 16.6393776 14.4561558 16.6393776 16.7680836 14.3414459 2.73251915 15.4904118"></polygon>
+                    <path d="M16.7680836,14.3414459 C16.4835911,10.5018565 15.6060123,7.59548696 14.1353474,5.62233734 C12.6646824,3.64918772 10.6102517,2.10840861 7.97205544,1 C8.91337967,2.79124451 9.40807978,4.8285319 9.45615578,7.11186218 C9.50423177,9.39519246 9.17089844,11.8050537 8.45615578,14.3414459 C10.0437641,12.8106944 11.6068172,12.0453186 13.1453152,12.0453186 C14.6838131,12.0453186 15.8914026,12.8106944 16.7680836,14.3414459 Z" id="Path-136" fill="#FFFFFF"></path>
+                    <polygon id="Path-137" fill="#FFFFFF" points="7.58318138 1.3170929 7.58318138 14.3414459 2 13.5572968"></polygon>
+                </g>
+                <text id="Локомотив---LOKOsail" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - LOKOsailingTEAM</tspan>
+                </text>
+            </g>
+            <g id="fsk_4" transform="translate(67.000000, 1210.000000)">
+                <path d="M5,0 L155,0 C157.761424,-5.07265313e-16 160,2.23857625 160,5 L160,40 L160,40 L0,40 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle" fill="#FFFFEB"></path>
                 <g id="Group-94" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
                     <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
@@ -3192,52 +3195,9 @@
                     <tspan x="6" y="12">Санкт-Петребург - Витебский</tspan>
                 </text>
             </g>
-            <g id="fsk_3" transform="translate(762.000000, 2982.000000)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="142" height="39" rx="5"></rect>
-                <text id="ФОК-Бологое" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="80" y="32">ФОК Бологое</tspan>
-                </text>
-                <g id="Group-92" transform="translate(6.000000, 16.000000)">
-                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
-                    <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="9" cy="9" r="7.75"></circle>
-                    <polygon id="Polygon" fill="#454545" points="9 6 11.5980762 7.5 11.5980762 10.5 9 12 6.40192379 10.5 6.40192379 7.5"></polygon>
-                    <path d="M6.38183403,15.731678 L8.9980793,16.73629 L11.6544666,15.731678 C10.8835417,15.2608808 9.9980793,15.0254822 8.9980793,15.0254822 C7.9980793,15.0254822 7.12599754,15.2608808 6.38183403,15.731678 Z" id="Path-125" fill="#454545" transform="translate(9.018150, 15.880886) rotate(-180.000000) translate(-9.018150, -15.880886) "></path>
-                    <path d="M16.4208316,10.2139096 L14.2426894,11.9773384 L13.7845153,14.7801433 C14.5777001,14.3479014 15.2242925,13.6987677 15.7242925,12.8327423 C16.2242925,11.9667169 16.4564722,11.0937727 16.4208316,10.2139096 Z" id="Path-125" fill="#454545"></path>
-                    <path d="M12.3396482,5.41619825 L14.9558935,6.42081022 L17.6122808,5.41619825 C16.841356,4.94540103 15.9558935,4.71000242 14.9558935,4.71000242 C13.9558935,4.71000242 13.0838118,4.94540103 12.3396482,5.41619825 Z" id="Path-125" fill="#454545" transform="translate(14.975965, 5.565406) rotate(60.000000) translate(-14.975965, -5.565406) "></path>
-                    <path d="M1.5736171,7.79204662 L3.75175923,6.02861774 L4.2099334,3.22581284 C3.41674861,3.65805477 2.77015621,4.30718843 2.27015621,5.17321384 C1.77015621,6.03923924 1.53797651,6.9121835 1.5736171,7.79204662 Z" id="Path-125" fill="#454545"></path>
-                    <path d="M4.24683583,14.8874984 L3.80873268,12.1194576 L1.61051953,10.3212647 C1.58825962,11.2243038 1.82712967,12.1088361 2.32712967,12.9748615 C2.82712967,13.8408869 3.46703172,14.4784326 4.24683583,14.8874984 Z" id="Path-125" fill="#454545"></path>
-                    <path d="M6.40711784,1.96583271 L9.02336311,2.97044468 L11.6797504,1.96583271 C10.9088256,1.49503549 10.0233631,1.25963688 9.02336311,1.25963688 C8.02336311,1.25963688 7.15128136,1.49503549 6.40711784,1.96583271 Z" id="Path-125" fill="#454545"></path>
-                    <line x1="15.104452" y1="12.4970264" x2="2.5" y2="5.5" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
-                    <line x1="15.104452" y1="5.5" x2="2.88999666" y2="12.6043816" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
-                    <line x1="9.04343414" y1="16.2278633" x2="9.01815033" y2="1.62592602" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
-                </g>
-                <g id="Group-94" transform="translate(28.000000, 16.000000)">
-                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
-                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
-                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
-                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
-                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
-                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
-                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
-                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
-                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
-                    </g>
-                </g>
-                <g id="Group-100" transform="translate(50.000000, 15.000000)">
-                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
-                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
-                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
-                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
-                </g>
-                <text id="Локомотив---Бологое" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
-                    <tspan x="6" y="12">Локомотив - Бологое - Окт</tspan>
-                </text>
-            </g>
-            <g id="fsk_2" transform="translate(917.000000, 2912.000000)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="183" height="39" rx="5"></rect>
-                <text id="ФОК-Бологое" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="120" y="33">ФОК Бологое</tspan>
-                </text>
+            <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="720.5" y="2985.5" width="185" height="81" rx="5"></rect>
+            <g id="fsk_2" transform="translate(721.000000, 2986.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="184" height="40" rx="5"></rect>
                 <g id="Group-97" transform="translate(6.000000, 15.000000)">
                     <rect id="Rectangle" fill="#EF811F" x="0" y="0.499478123" width="18" height="18" rx="3"></rect>
                     <path d="M6.38782737,3.76907158 L6.42875354,16.274611 L8.88782737,16.274611 L8.88782737,3.76907158 C8.85578457,3.05350399 8.76011169,2.45132319 8.60080873,1.96252918 C8.44150576,1.47373517 8.12051132,0.819558779 7.63782541,1.77635684e-15 C7.16423095,0.826008997 6.84745129,1.48018539 6.68748643,1.96252918 C6.52752156,2.44487297 6.42763521,3.04705377 6.38782737,3.76907158 Z" id="Path-133" fill="#FFFFFF" transform="translate(7.637827, 8.137305) rotate(45.000000) translate(-7.637827, -8.137305) "></path>
@@ -3278,10 +3238,51 @@
                     <tspan x="6" y="12">Локомотив - ФОК Бологое</tspan>
                 </text>
             </g>
+            <g id="fsk_3" transform="translate(721.000000, 3026.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="184" height="40" rx="5"></rect>
+                <text id="Школьный-пер.,-д.9" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="104.856" y="34">Школьный пер., д.9</tspan>
+                </text>
+                <g id="Group-92" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <circle id="Oval" stroke="#454545" stroke-width="0.5" fill="#FFFFFF" cx="9" cy="9" r="7.75"></circle>
+                    <polygon id="Polygon" fill="#454545" points="9 6 11.5980762 7.5 11.5980762 10.5 9 12 6.40192379 10.5 6.40192379 7.5"></polygon>
+                    <path d="M6.38183403,15.731678 L8.9980793,16.73629 L11.6544666,15.731678 C10.8835417,15.2608808 9.9980793,15.0254822 8.9980793,15.0254822 C7.9980793,15.0254822 7.12599754,15.2608808 6.38183403,15.731678 Z" id="Path-125" fill="#454545" transform="translate(9.018150, 15.880886) rotate(-180.000000) translate(-9.018150, -15.880886) "></path>
+                    <path d="M16.4208316,10.2139096 L14.2426894,11.9773384 L13.7845153,14.7801433 C14.5777001,14.3479014 15.2242925,13.6987677 15.7242925,12.8327423 C16.2242925,11.9667169 16.4564722,11.0937727 16.4208316,10.2139096 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M12.3396482,5.41619825 L14.9558935,6.42081022 L17.6122808,5.41619825 C16.841356,4.94540103 15.9558935,4.71000242 14.9558935,4.71000242 C13.9558935,4.71000242 13.0838118,4.94540103 12.3396482,5.41619825 Z" id="Path-125" fill="#454545" transform="translate(14.975965, 5.565406) rotate(60.000000) translate(-14.975965, -5.565406) "></path>
+                    <path d="M1.5736171,7.79204662 L3.75175923,6.02861774 L4.2099334,3.22581284 C3.41674861,3.65805477 2.77015621,4.30718843 2.27015621,5.17321384 C1.77015621,6.03923924 1.53797651,6.9121835 1.5736171,7.79204662 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M4.24683583,14.8874984 L3.80873268,12.1194576 L1.61051953,10.3212647 C1.58825962,11.2243038 1.82712967,12.1088361 2.32712967,12.9748615 C2.82712967,13.8408869 3.46703172,14.4784326 4.24683583,14.8874984 Z" id="Path-125" fill="#454545"></path>
+                    <path d="M6.40711784,1.96583271 L9.02336311,2.97044468 L11.6797504,1.96583271 C10.9088256,1.49503549 10.0233631,1.25963688 9.02336311,1.25963688 C8.02336311,1.25963688 7.15128136,1.49503549 6.40711784,1.96583271 Z" id="Path-125" fill="#454545"></path>
+                    <line x1="15.104452" y1="12.4970264" x2="2.5" y2="5.5" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                    <line x1="15.104452" y1="5.5" x2="2.88999666" y2="12.6043816" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                    <line x1="9.04343414" y1="16.2278633" x2="9.01815033" y2="1.62592602" id="Path-146" stroke="#454545" stroke-width="0.5" fill="#FFFFFF"></line>
+                </g>
+                <g id="Group-94" transform="translate(28.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <g id="Group-93" transform="translate(0.000000, 1.000000)" stroke="#FFFFFF">
+                        <circle id="Oval" cx="9" cy="8" r="7.5"></circle>
+                        <path d="M9,8 C9.40786997,6.22583453 9.34943962,4.78989156 8.82470894,3.6921711 C8.29997826,2.59445063 7.2154974,1.86584155 5.57126637,1.50634384" id="Path-126" stroke-linecap="round"></path>
+                        <path d="M9,8 C9.96880213,9.14760844 11.1736145,9.72141266 12.6144371,9.72141266 C14.0552597,9.72141266 15.4314315,9.05939706 16.7429523,7.73536587" id="Path-127"></path>
+                        <path d="M9,8 C7.68150838,8.31467819 6.60096677,9.07562351 5.75837517,10.282836 C4.91578356,11.4900484 4.73179642,12.8699106 5.20641375,14.4224224" id="Path-127" stroke-linecap="round"></path>
+                        <path d="M12.8714762,9.72141266 C13.3333572,7.80197938 13.3333572,6.01152452 12.8714762,4.35004807 C12.4095952,2.68857161 11.5124035,1.43264866 10.1799012,0.582279205" id="Path-128" stroke-linecap="round"></path>
+                        <path d="M6.20206746,11.4173842 C6.66394846,9.49795088 6.66394846,7.70749602 6.20206746,6.04601956 C5.74018645,4.38454311 4.9584622,3.1236361 3.85689469,2.26329853" id="Path-128" stroke-linecap="round" transform="translate(5.202686, 6.840341) rotate(-120.000000) translate(-5.202686, -6.840341) "></path>
+                        <path d="M11.2650827,16.1881781 C11.7269637,14.2687449 11.7269637,12.47829 11.2650827,10.8168135 C10.8032017,9.1553371 9.96427712,7.94908329 8.74830904,7.19805213" id="Path-128" stroke-linecap="round" transform="translate(10.179901, 11.693115) rotate(120.000000) translate(-10.179901, -11.693115) "></path>
+                    </g>
+                </g>
+                <g id="Group-100" transform="translate(50.000000, 15.000000)">
+                    <rect id="Rectangle" fill="#3ABF00" x="0" y="1" width="18" height="18" rx="3"></rect>
+                    <path d="M2.74651337,9.29432297 C3.27006404,10.2462502 4.14814758,11.3399378 5.38076401,12.575386 C6.61338043,13.8108342 7.84613228,14.8183349 9.07901955,15.5978879 C8.18099403,15.7410827 7.38206037,15.7410827 6.68221855,15.5978879 C5.98237673,15.454693 5.2989699,15.2041723 4.63199806,14.8463258 L2.74651337,17.3601559 L1,16.0201863 L3.35967445,13.5823272 C3.04598429,12.9492503 2.84159726,12.2794484 2.74651337,11.5729216 C2.62098312,10.6401614 2.62098312,9.8806285 2.74651337,9.29432297 Z" id="Path-139" fill="#FFFFFF"></path>
+                    <path d="M10.2561328,14.015114 C14.0761317,13.9730022 16.3671534,14.3823108 16.1834566,9.70913164 C15.9997597,5.03595247 13.6416436,2.50916818 10.3279351,2.50916818 C7.01422657,2.50916818 4.42819402,4.8711898 4.32793507,9.58059675 C4.22767612,14.2900037 6.436134,14.0572258 10.2561328,14.015114 Z" id="Oval" fill="#FFFFFF" transform="translate(10.259197, 8.269567) rotate(45.000000) translate(-10.259197, -8.269567) "></path>
+                    <circle id="Oval" fill="#3ABF00" cx="7.38076401" cy="8.17378127" r="2"></circle>
+                </g>
+                <text id="Локомотив---Бологое" font-family="AvenirNext-Medium, Avenir Next" font-size="10" font-weight="400" fill="#454545">
+                    <tspan x="6" y="12">Локомотив - Бологое - Октябрьская</tspan>
+                </text>
+            </g>
             <g id="fsk_1" transform="translate(1333.000000, 3500.000000)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="137" height="39" rx="5"></rect>
-                <text id="ТЧ-6-(ДМВ)" font-family="AvenirNext-Regular, Avenir Next" font-size="9" font-weight="normal" fill="#454545">
-                    <tspan x="86" y="32">ТЧ-6 (ДМВ)</tspan>
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <text id="ст.-Крюково,-пр-№623" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
+                    <tspan x="52.752" y="32">ст. Крюково, пр №623, д.1</tspan>
                 </text>
                 <g id="Group-92" transform="translate(6.000000, 16.000000)">
                     <rect id="Rectangle" fill="#3ABF00" x="0" y="0" width="18" height="18" rx="3"></rect>
@@ -3313,6 +3314,8 @@
                     <tspan x="6" y="12">Локомотив - Москва - Окт</tspan>
                 </text>
             </g>
+            <line x1="739" y1="3026" x2="890.5" y2="3026" id="Path-250" stroke="#A8A8A8" stroke-width="0.75" stroke-dasharray="1,1"></line>
+            <line x1="83" y1="1249.5" x2="212.5" y2="1249.5" id="Path-250" stroke="#A8A8A8" stroke-width="0.75" stroke-dasharray="1,1"></line>
         </g>
         <g id="terms" opacity="0.599679129" transform="translate(74.000000, 1319.000000)">
             <g id="piket_04601" opacity="0.604422433" transform="translate(1491.000000, 1541.000000)">
@@ -3488,7 +3491,7 @@
             </g>
         </g>
         <g id="buttons" transform="translate(366.000000, 677.000000)" stroke="#B6B6B6" stroke-width="3">
-            <g id="nod5" opacity="0.701218378" transform="translate(988.000000, 0.000000)">
+            <g id="nod5" opacity="0.701218378" transform="translate(997.000000, 0.000000)">
                 <rect id="Rectangle" fill-opacity="0.35" fill="#D8D8D8" opacity="0.765206473" x="1.5" y="1.5" width="42" height="42" rx="7"></rect>
                 <line x1="35.625" y1="35.625" x2="9.375" y2="9.375" id="Path-14"></line>
                 <path d="M9.375,24.375 L9.375,10.375 C9.375,9.82271525 9.82271525,9.375 10.375,9.375 L24.375,9.375 L24.375,9.375" id="Path-15"></path>

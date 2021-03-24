@@ -1,7 +1,14 @@
-import { LAYER_SHOW_CHECKED, LAYER_REFRESH } from "../actions/actionTypes";
+import {
+  LAYER_SHOW_CHECKED,
+  LAYER_REFRESH,
+  LAYER_FIND_STANTION,
+  LAYER_RESET_ZOOM,
+} from "../actions/actionTypes";
 
 const initialState = {
   layers: [],
+  findCode: "",
+  resetZoom: null,
 };
 
 export default function layerReduser(state = initialState, action) {
@@ -15,6 +22,16 @@ export default function layerReduser(state = initialState, action) {
       return {
         ...state,
         layers: action.layers,
+      };
+    case LAYER_FIND_STANTION:
+      return {
+        ...state,
+        findCode: action.code,
+      };
+    case LAYER_RESET_ZOOM:
+      return {
+        ...state,
+        resetZoom: action.resetZoom,
       };
 
     default:

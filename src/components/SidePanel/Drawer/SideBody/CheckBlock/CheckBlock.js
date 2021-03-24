@@ -2,31 +2,11 @@ import React from "react";
 import Checkbox from "rc-checkbox";
 import classes from "./CheckBlock.module.css";
 
-const CheckBlock = ({ postShowLayer, ShowLayers }) => {
-  const onChange = (e) => {
-    let id = Number(e.target.index);
-
-    const layers = ShowLayers.map((item, index) => {
-      if (index === id) {
-        return {
-          ...item,
-          show: e.target.checked,
-        };
-      } else {
-        return item;
-      }
-    });
-    postShowLayer(layers);
-  };
-
-  ShowLayers.sort((a, b) => {
-    return a.id - b.id;
-  });
-
+const CheckBlock = ({ blockCheck, onChange }) => {
   return (
     <div className={classes.CheckBlock}>
       <ul className="ulapp">
-        {ShowLayers.map((item, index) => {
+        {blockCheck.map((item, index) => {
           return (
             <li key={index} style={{ visibility: item.visible }}>
               <label>

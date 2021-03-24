@@ -62,7 +62,6 @@ export function loadSnowStatus(props) {
 
 function showSnowTechStatus(data) {
   const layer = d3.select("#snow_tech");
-  console.log(data);
 
   data.forEach((item) => {
     const tech = layer.select(`#${item.id_map}`).select("circle");

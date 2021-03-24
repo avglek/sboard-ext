@@ -1,11 +1,21 @@
 import { parsePeriodToString } from "../utils/common";
+import Stantion from "../components/map/Stantion";
 
 const applicationInitialState = window.__INITIAL_STATE__;
 const config = applicationInitialState.config;
 
 class DataService {
-  getDivisions() {
-    return this.getResurce(config.divisions);
+  async getDivisions() {
+    const stantion = {};
+    const data = await this.getResurce(config.divisions);
+
+    for (const t of data) {
+      let key = t.ks.substr(0, 5);
+      let stn = new Stantion(t.ks, t.ms, t.km, t.nodes, t.region);
+      stantion[key] = stn;
+    }
+
+    return stantion;
   }
 
   getMenu() {

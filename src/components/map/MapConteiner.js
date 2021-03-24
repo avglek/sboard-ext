@@ -38,7 +38,7 @@ const MapConteiner = (props) => {
             </div>
           </div>
           <TransformComponent>
-            <Board Width={w} Height={h} />
+            <Board Width={w} Height={h} resetZoom={resetTransform} />
           </TransformComponent>
         </div>
       )}

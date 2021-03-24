@@ -1,10 +1,29 @@
-import { LAYER_SHOW_CHECKED, LAYER_REFRESH } from "./actionTypes";
+import {
+  LAYER_SHOW_CHECKED,
+  LAYER_REFRESH,
+  LAYER_FIND_STANTION,
+  LAYER_RESET_ZOOM,
+} from "./actionTypes";
 import * as d3 from "d3";
 
 export function postShowLayer(layers) {
   return {
     type: LAYER_SHOW_CHECKED,
     layers: layers,
+  };
+}
+
+export function postFindCode(code) {
+  return {
+    type: LAYER_FIND_STANTION,
+    code: code,
+  };
+}
+
+export function postResetZoom(resetFunction) {
+  return {
+    type: LAYER_RESET_ZOOM,
+    resetZoom: resetFunction,
   };
 }
 

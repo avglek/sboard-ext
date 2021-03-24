@@ -34,11 +34,11 @@ function showIconWeather(items, clickFunction) {
 }
 
 export function testLoad(props) {
-  console.log(props.weatherRegion);
-  console.log("Load:", props.weatherLoad);
-  console.log("Items:", props.weatherItems);
+  // console.log(props.weatherRegion);
+  // console.log("Load:", props.weatherLoad);
+  // console.log("Items:", props.weatherItems);
   if (props.stormRegionID === props.weatherRegion && !props.weatherLoad) {
-    console.log("start show items");
+    // console.log("start show items");
   }
 }
 
@@ -80,5 +80,5 @@ function handleMouseLeaveIcon(e, item) {
 }
 
 export function showWeather(items) {
-  console.log("weather items:", items);
+  //console.log("weather items:", items);
 }

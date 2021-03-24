@@ -16,7 +16,6 @@ function loadStorage() {
     initStorage = JSON.parse(mapLocal);
 
     if (!initStorage.legend) {
-      console.log("clear storage");
       localStorage.removeItem("map");
 
       initStorage.url = mainmap.map.url;

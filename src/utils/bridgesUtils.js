@@ -20,7 +20,6 @@ export function resetBridgeHandler() {
 function handlerClick(element, props) {
   const node = element.parentElement;
   const uid = node.getAttribute("id");
-  console.log(uid);
 
   props.openModal(true);
   props.fetchBridgeData(uid);

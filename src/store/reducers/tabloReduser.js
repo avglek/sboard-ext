@@ -1,6 +1,14 @@
-import { TABLO_TOGGLE_MAIN_MAP } from "../actions/actionTypes";
+import {
+  TABLO_TOGGLE_MAIN_MAP,
+  TABLO_FETCH_ERROR,
+  TABLO_FETCH_SUCCESS,
+  TABLO_START_LOADING,
+} from "../actions/actionTypes";
 
 const initialState = {
+  items: null,
+  error: null,
+  loading: false,
   url: "",
   legend: "",
   img: "",
@@ -14,6 +22,27 @@ export default function tabloReduser(state = initialState, action) {
       return {
         ...state,
         ...action.payload,
+      };
+    case TABLO_START_LOADING:
+      return {
+        ...state,
+        loading: true,
+        error: null,
+        items: null,
+      };
+    case TABLO_FETCH_SUCCESS:
+      return {
+        ...state,
+        loading: false,
+        error: null,
+        items: action.payload,
+      };
+    case TABLO_FETCH_ERROR:
+      return {
+        ...state,
+        loading: false,
+        items: null,
+        error: action.payload,
       };
     default:
       return state;
