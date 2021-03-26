@@ -22,3 +22,20 @@ function handlerClick(element, { fetchPipeData, openModal }) {
   openModal(true);
   fetchPipeData(uid);
 }
+
+export function loadPipeCount(props) {
+  if (props.stormRegionID === props.pipeRegion && !props.pipeLoad) {
+    showPipeCount(props.pipeData);
+  }
+}
+
+function showPipeCount(items) {
+  const nlist = d3.selectAll("#tubes");
+
+  items.forEach((item) => {
+    const node = nlist.select(`#${item.id_peregon}`);
+    if (node !== null) {
+      node.select("tspan").text(item.cnt);
+    }
+  });
+}

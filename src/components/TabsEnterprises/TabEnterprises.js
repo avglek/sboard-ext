@@ -8,6 +8,8 @@ import ModalWin from "../ModalWin/ModalWin";
 import ListView from "./ListView/ListView";
 import PipeTable from "./PipeTabs/PipeTable";
 import LoaderConteiner from "../LoaderSpinner/LoaderConteiner";
+import { customStyles as defaultStyles } from "./PerformanceTabs/CustomStyles";
+import { imgStyles } from "./PerformanceTabs/imgStyles";
 
 const mapStateToProps = (state) => {
   return {
@@ -38,7 +40,14 @@ const TabEnterprises = (props) => {
     } else {
       return (
         <Tab eventKey={item} title={props.items[item].header} key={index}>
-          <TableConteiner items={props.items[item]} />
+          <TableConteiner
+            items={props.items[item]}
+            rowsStyles={
+              props.items[item].header === "Руководство"
+                ? imgStyles
+                : defaultStyles
+            }
+          />
         </Tab>
       );
     }

@@ -173,6 +173,10 @@ class DataService {
     //return this.getResurce(`./data/load_artfeat_153_42.json`);
   }
 
+  async getPipeCount(id) {
+    return this.getResurce(`${config.pipe_count}${id}`);
+  }
+
   async getHealthInfo(id) {
     return this.getResurce(`${config.health}${id}`);
   }

@@ -2,6 +2,7 @@ var initialState = {
   config: {
     divisions: "http://10.35.49.146:8080/orw_tablo/division_json2.php",
     menu: "http://10.35.49.146:8080/orw_tablo/load_menu.php",
+    //pokaz: "./data/load_pred_pokaz_ruk.json",
     pokaz: "http://10.35.49.146:8080/orw_tablo/load_pred_pokaz.php?code_pred=",
     piket: "http://10.35.49.146:8080/orw_tablo/load_piket.php",
     prognoz: "http://10.35.49.146:8080/orw_tablo/load_prognoz.php?region=",
@@ -15,6 +16,8 @@ var initialState = {
     snow_tech: "http://10.35.49.146:8080/apps/api/snowtech/region?id=",
     port_dir: "http://10.35.49.146:8080/apps/api/ports/file",
     pipe: "http://10.35.49.146:8080/orw_tablo/load_isso_pipe.php?id_peregon=",
+    pipe_count:
+      "http://10.35.49.146:8080/orw_tablo/load_isso_pipe_count.php?region=",
     health: "http://10.35.49.146:8080/orw_tablo/load_fsk.php?id_map=",
   },
 

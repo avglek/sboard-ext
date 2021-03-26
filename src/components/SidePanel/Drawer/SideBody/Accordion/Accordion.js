@@ -23,14 +23,14 @@ function Accordion(props) {
 
   return (
     <div className={classes.AccordionSection}>
-      <button
+      <div
         className={`${classes.Accordion} ${classes[setActive]}`}
         onClick={toggleAccordion}
       >
         <Chevron className={setRotate} fill={"#777"} />
 
         <p className={classes.AccordionTitle}>{props.title}</p>
-      </button>
+      </div>
       <div
         ref={content}
         className={classes.AccordionContent}

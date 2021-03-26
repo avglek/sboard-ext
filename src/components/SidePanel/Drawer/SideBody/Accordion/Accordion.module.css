@@ -36,6 +36,7 @@
 .Accordion:hover,
 .active {
   background-color: #ccc;
+  border: none;
 }
 
 /* Style the accordion content title */

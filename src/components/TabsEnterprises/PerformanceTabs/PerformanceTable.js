@@ -1,6 +1,5 @@
 import React from "react";
 import DataTable from "react-data-table-component";
-import { customStyles as defaultStyles } from "./CustomStyles";
 import CustomCell from "./CustomCell/CustomCell";
 
 const calcWidths = (size, lenDev, cols) => {
@@ -27,7 +26,7 @@ const calcWidths = (size, lenDev, cols) => {
   return ret;
 };
 
-const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
+const PerformanceTable = ({ items, rowsStyles }) => {
   if (items === undefined) {
     return <div></div>;
   } else if (Object.keys(items).length === 0) {
@@ -64,9 +63,14 @@ const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
         };
       }
 
+      //const rowsStyle = { ...customStyles.rows.style };
+      //console.log(rowsStyle);
+
       if (key === "image") {
         //const prefix = "http://localhost:9080";
         const prefix = "";
+        //customStyles.rows.style.minHeight = "180px";
+        //console.log(customStyles);
         col.cell = (row) => (
           <img
             alt={row.name}
@@ -122,7 +126,7 @@ const PerformanceTable = ({ items, customStyles = defaultStyles }) => {
         fixedHeader
         fixedHeaderScrollHeight="22em"
         noHeader={true}
-        customStyles={customStyles}
+        customStyles={rowsStyles}
         striped={true}
         noDataComponent="Нет данных"
       />

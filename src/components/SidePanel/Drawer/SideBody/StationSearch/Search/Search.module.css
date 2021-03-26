@@ -33,6 +33,8 @@
   border: none;
   outline: none;
   background: #fff;
+  padding-left: 0.3em;
+  padding-right: 0.1em;
 }
 
 .searchList {
@@ -41,17 +43,19 @@
   overflow-y: auto;
   background: #fff;
   border: 1px solid #767676;
+
   z-index: 100;
 }
 .searchItem {
   cursor: pointer;
   margin-top: 5px;
+  padding-left: 0.3em;
 }
 
 .searchItem:hover {
-  background: rgb(158, 158, 238);
+  background: rgb(198, 217, 241);
 }
 
 .searchItem:active {
-  background: red;
+  background: rgb(198, 217, 241);
 }

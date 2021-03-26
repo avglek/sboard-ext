@@ -13,6 +13,15 @@ const Search = ({ loading, stantions, resetZoom }) => {
   const inputRef = useRef(null);
   //const listRef = useRef(null);
 
+  const replaceInputValue = (value, postfix) => {
+    const keys = ["ДС", "ДС(ПКО)"];
+    if (keys.find((item) => value === item)) {
+      return `${value} ${postfix}`;
+    } else {
+      return value;
+    }
+  };
+
   const getStantionList = () => {
     if (stantions) {
       const result = [];
@@ -25,7 +34,7 @@ const Search = ({ loading, stantions, resetZoom }) => {
         });
         stn.nodes.forEach((element) => {
           result.push({
-            name: element.name === "ДС" ? `ДС ${stn.ms}` : element.name,
+            name: replaceInputValue(element.name, stn.ms),
             code: item,
             region: stn.region,
           });
@@ -65,7 +74,10 @@ const Search = ({ loading, stantions, resetZoom }) => {
 
   const handlerSearchClick = () => {
     setInput("");
-    const stn = stantionsListDefault.find((item) => item.name === input);
+    setStantionsList([]);
+    const stn = stantionsListDefault.find(
+      (item) => item.name.toLowerCase() === input.toLowerCase()
+    );
 
     if (stn) {
       findRegion(stn.region, stn.code);
@@ -75,7 +87,7 @@ const Search = ({ loading, stantions, resetZoom }) => {
     }
   };
 
-  const handlerEnter = (key, keyCode) => {
+  const handlerEnter = (key) => {
     if (key === "Enter") {
       handlerSearchClick();
     }

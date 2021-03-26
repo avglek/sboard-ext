@@ -127,6 +127,7 @@ function loadRegions(url_reg, idRegion) {
     parentProps.postStorm(idRegion, clickStormFromRegion);
     parentProps.postWeather(idRegion);
     parentProps.postSnowTech(idRegion);
+    parentProps.postPipeCount(idRegion);
 
     let close_btn = d3.select("#close_button");
     close_btn

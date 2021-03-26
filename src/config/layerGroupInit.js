@@ -1,6 +1,6 @@
 export const layersGroupInit = [
   {
-    title: "Службы",
+    title: "Подразделения",
     groupIndex: 1,
     data: [
       {
@@ -44,17 +44,25 @@ export const layersGroupInit = [
         id: 4,
       },
       {
+        layer: "ngch",
+        show: false,
+        name: "НГЧ, дистанция гражданских сооружений",
+        visible: "visible",
+        disabled: false,
+        id: 5,
+      },
+      {
         layer: "current",
         show: false,
         name: "Электрификация",
         visible: "visible",
         disabled: false,
-        id: 5,
+        id: 6,
       },
     ],
   },
   {
-    title: "Локомотивы",
+    title: "Локомотивный комплекс",
     groupIndex: 2,
     data: [
       {
@@ -63,7 +71,7 @@ export const layersGroupInit = [
         name: "Схема тягового обслуживания локомотивами (грузовые поезда)",
         visible: "visible",
         disabled: false,
-        id: 6,
+        id: 7,
       },
       {
         layer: "loco_team dolb",
@@ -72,7 +80,7 @@ export const layersGroupInit = [
           "Схема тягового обслуживания локомотивными бригадами (грузовые поезда)",
         visible: "visible",
         disabled: false,
-        id: 7,
+        id: 8,
       },
       {
         layer: "loco_pass",
@@ -80,7 +88,7 @@ export const layersGroupInit = [
         name: "Схема тягового обслуживания локомотивами (пассажирские поезда)",
         visible: "visible",
         disabled: false,
-        id: 8,
+        id: 9,
       },
       {
         layer: "loco_team_pass",
@@ -89,7 +97,7 @@ export const layersGroupInit = [
           "Схема тягового обслуживания локомотивными бригадами (пассажирские поезда)",
         visible: "visible",
         disabled: false,
-        id: 9,
+        id: 10,
       },
       {
         layer: "spec_trains",
@@ -97,27 +105,18 @@ export const layersGroupInit = [
         name: "Восстановительные и пожарные поезда",
         visible: "visible",
         disabled: false,
-        id: 10,
+        id: 11,
       },
     ],
   },
   {
-    title: "Водоснабжение",
+    title: "Тепло/водоснабжение",
     groupIndex: 3,
     data: [
       {
         layer: "dtv",
         show: false,
         name: "ДТВУ",
-        visible: "visible",
-        disabled: false,
-        id: 11,
-      },
-
-      {
-        layer: "ngch",
-        show: false,
-        name: "НГЧ, дистанция гражданских сооружений",
         visible: "visible",
         disabled: false,
         id: 12,
@@ -201,13 +200,13 @@ export const layersGroupInit = [
     ],
   },
   {
-    title: "здоровый образ жизни",
+    title: "Здоровый образ жизни",
     groupIndex: 7,
     data: [
       {
         layer: "health_org",
         show: false,
-        name: "здоровый образ жизни",
+        name: "Физкультурно-спортивные клубы",
         visible: "visible",
         disabled: false,
         id: 20,

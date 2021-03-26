@@ -42,6 +42,7 @@ import { snowTechFetchData } from "../../store/actions/snowTechAction";
 import { tabloFetchData } from "../../store/actions/tabloAction";
 import { eventDivisions } from "../../utils/stantionUtils";
 import { showFindStantion } from "../../utils/searchUtils";
+import { pipeFetchData } from "../../store/actions/pipeActions";
 
 //import SocketService from "../../services/SocketService";
 
@@ -124,6 +125,9 @@ const mapStateToProps = (state) => {
     snowTechData: state.snowTech.items,
     snowTechLoad: state.snowTech.loading,
     snowTechRegion: state.snowTech.region,
+    pipeData: state.pipe.items,
+    pipeLoad: state.pipe.loading,
+    pipeRegion: state.pipe.region,
     layerFindStantion: state.layer.findCode,
   };
 };
@@ -153,6 +157,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(weatherWinOpen(x, y, selectItem)),
     weatherWinClose: () => dispatch(weatherWinClose()),
     postSnowTech: (id) => dispatch(snowTechFetchData(id)),
+    postPipeCount: (id) => dispatch(pipeFetchData(id)),
     postFindStantion: (code) => dispatch(postFindCode(code)),
     postResetZoom: (f) => dispatch(postResetZoom(f)),
   };
