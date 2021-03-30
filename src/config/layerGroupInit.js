@@ -102,7 +102,7 @@ export const layersGroupInit = [
       {
         layer: "spec_trains",
         show: false,
-        name: "Восстановительные и пожарные поезда",
+        name: "Восстановительные, пожарные и противоразмывные поезда",
         visible: "visible",
         disabled: false,
         id: 11,
