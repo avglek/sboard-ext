@@ -61,10 +61,10 @@ export function loadSnowStatus(props) {
 }
 
 function showSnowTechStatus(data) {
-  const layer = d3.select("#snow_tech");
+  const layers = d3.selectAll("#snow_tech");
 
   data.forEach((item) => {
-    const tech = layer.select(`#${item.id_map}`).select("circle");
+    const tech = layers.select(`#${item.id_map}`).select("circle");
 
     if (tech) {
       if (item.status === "работа") {
@@ -84,9 +84,9 @@ export function addSnowTechEvent(props) {
   if (!props.snowTechLoad) {
     const { snowTechData } = props;
 
-    const layer = d3.select("#snow_tech");
+    const layers = d3.selectAll("#snow_tech");
     snowTechData.forEach((item) => {
-      const node = layer.select(`#${item.id_map}`);
+      const node = layers.select(`#${item.id_map}`);
       node
         .on("click", function () {
           clickHandlerSnowRoute(this, props);

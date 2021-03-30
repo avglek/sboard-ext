@@ -19,6 +19,8 @@ var initialState = {
     pipe_count:
       "http://10.35.49.146:8080/orw_tablo/load_isso_pipe_count.php?region=",
     health: "http://10.35.49.146:8080/orw_tablo/load_fsk.php?id_map=",
+    spec_vp: "http://10.35.49.146:8080/orw_tablo/load_vp.php?id_map=",
+    spec_prp: "http://10.35.49.146:8080/orw_tablo/load_prp.php?region=",
   },
 
   wsocket: {

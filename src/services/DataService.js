@@ -22,8 +22,25 @@ class DataService {
     return this.getResurce(config.menu);
   }
 
-  getPokaz(id) {
-    return this.getResurce(`${config.pokaz}${id}`);
+  async getSpecTech(id) {
+    const items = await this.getResurce(`${config.spec_prp}${id}`);
+
+    const result = items.data.map((item) => {
+      const keys = Object.keys(item).filter((i) => items.title[i]);
+      const text = keys.map((i) => {
+        return `${items.title[i]}: <b>${item[i]}</b>`;
+      });
+      return {
+        id: item.id_map,
+        text: text,
+      };
+    });
+
+    return result;
+  }
+
+  getPokaz(id, label) {
+    return this.getResurce(`${config[label]}${id}`);
     //return this.getResurce(`${config.pokaz}`);
   }
 

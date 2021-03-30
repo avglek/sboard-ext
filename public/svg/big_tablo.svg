@@ -2684,7 +2684,7 @@
                 </text>
             </g>
             <g id="fsk_21" transform="translate(1386.000000, 43.000000)">
-                <rect id="Rectangle" stroke="#C8D880" fill="#F2FFD5" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <rect id="Rectangle" stroke="#C8D880" fill="#F8FFEA" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
                 <text id="Портовый-пр-д,-д.52" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
                     <tspan x="77.4" y="33">Портовый пр-д, д.52</tspan>
                 </text>
@@ -2717,7 +2717,7 @@
                 </text>
             </g>
             <g id="fsk_20" transform="translate(1386.000000, 86.000000)">
-                <rect id="Rectangle" stroke="#C8D880" fill="#F2FFD5" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <rect id="Rectangle" stroke="#C8D880" fill="#F8FFEA" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
                 <text id="ул.-Траловая,-д.27" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
                     <tspan x="87.08" y="33">ул. Траловая, д.27</tspan>
                 </text>
@@ -2750,7 +2750,7 @@
                 </text>
             </g>
             <g id="fsk_19" transform="translate(1386.000000, 0.000000)">
-                <rect id="Rectangle" stroke="#C8D880" fill="#F2FFD5" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
+                <rect id="Rectangle" stroke="#C8D880" fill="#F8FFEA" x="0.5" y="0.5" width="159" height="39" rx="5"></rect>
                 <text id="Портовый-пр-д,-д.42" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#454545">
                     <tspan x="77.4" y="34">Портовый пр-д, д.42</tspan>
                 </text>

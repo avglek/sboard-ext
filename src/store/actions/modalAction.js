@@ -36,11 +36,11 @@ export function modalFetchDataSuccess(items, viewer = null) {
   };
 }
 
-export function modalFetchData(id) {
+export function modalFetchData(id, label = "pokaz") {
   return async (dispatch) => {
     dispatch(modalStartLoading());
     try {
-      const data = await dataService.getPokaz(id);
+      const data = await dataService.getPokaz(id, label);
       dispatch(modalFetchDataSuccess(data));
     } catch (error) {
       console.log("Error:", error);

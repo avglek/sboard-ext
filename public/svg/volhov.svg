@@ -2327,73 +2327,88 @@
             </g>
         </g>
         <g id="spec_trains" opacity="0" transform="translate(10.000000, 242.000000)">
-            <g id="Group-4" transform="translate(92.000000, 257.000000)">
-                <g id="train_restore" transform="translate(25.000000, 0.000000)">
-                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
-                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
-                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
-                    <circle id="Oval" stroke="#0790F6" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
-                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
-                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
-                    <polygon id="Path-226" fill="#FFD100" points="1 23 4 29 6 29 3 23"></polygon>
-                    <polygon id="Path-226" fill="#FFD100" points="5 23 8 29 10 29 7 23"></polygon>
-                    <polygon id="Path-226" fill="#FFD100" transform="translate(16.500000, 26.000000) scale(-1, 1) translate(-16.500000, -26.000000) " points="14 23 17 29 19 29 16 23"></polygon>
-                    <polygon id="Path-226" fill="#FFD100" transform="translate(12.500000, 26.000000) scale(-1, 1) translate(-12.500000, -26.000000) " points="10 23 13 29 15 29 12 23"></polygon>
-                </g>
-                <text id="3011" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#0790F6">
-                    <tspan x="49.496" y="19">3011</tspan>
-                </text>
-                <g id="train_fire">
-                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
-                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
-                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
-                    <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
-                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
-                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
-                </g>
+            <path d="M106,211.5 L73,211.5 C71.7573593,211.5 70.6323593,212.00368 69.8180195,212.818019 C69.0036797,213.632359 68.5,214.757359 68.5,216 L68.5,235 C68.5,236.242641 69.0036797,237.367641 69.8180195,238.181981 C70.6323593,238.99632 71.7573593,239.5 73,239.5 L74.9150401,239.5 L109.612131,295.362985 L82.8834801,239.5 L106,239.5 C107.242641,239.5 108.367641,238.99632 109.181981,238.181981 C109.99632,237.367641 110.5,236.242641 110.5,235 L110.5,216 C110.5,214.757359 109.99632,213.632359 109.181981,212.818019 C108.367641,212.00368 107.242641,211.5 106,211.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <g id="vp_3011" transform="translate(72.000000, 213.000000)">
+                <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#0790F6"></path>
+                <path d="M0,18.4 L16,18.4 L16,21.2 C16,22.3045695 15.1045695,23.2 14,23.2 L2,23.2 C0.8954305,23.2 1.3527075e-16,22.3045695 0,21.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#2E2E2E"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                <circle id="Oval" stroke="#0790F6" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+                <polygon id="Path-226" fill="#FFD100" points="0.8 18.4 3.2 23.2 4.8 23.2 2.4 18.4"></polygon>
+                <polygon id="Path-226" fill="#FFD100" points="4 18.4 6.4 23.2 8 23.2 5.6 18.4"></polygon>
+                <polygon id="Path-226" fill="#FFD100" transform="translate(13.200000, 20.800000) scale(-1, 1) translate(-13.200000, -20.800000) " points="11.2 18.4 13.6 23.2 15.2 23.2 12.8 18.4"></polygon>
+                <polygon id="Path-226" fill="#FFD100" transform="translate(10.000000, 20.800000) scale(-1, 1) translate(-10.000000, -20.800000) " points="8 18.4 10.4 23.2 12 23.2 9.6 18.4"></polygon>
             </g>
-            <g id="Group-4" transform="translate(639.000000, 419.000000)">
-                <g id="train_restore" transform="translate(25.000000, 0.000000)">
-                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#0790F6"></path>
-                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#2E2E2E"></path>
-                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
-                    <circle id="Oval" stroke="#0790F6" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
-                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
-                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
-                    <polygon id="Path-226" fill="#FFD100" points="1 23 4 29 6 29 3 23"></polygon>
-                    <polygon id="Path-226" fill="#FFD100" points="5 23 8 29 10 29 7 23"></polygon>
-                    <polygon id="Path-226" fill="#FFD100" transform="translate(16.500000, 26.000000) scale(-1, 1) translate(-16.500000, -26.000000) " points="14 23 17 29 19 29 16 23"></polygon>
-                    <polygon id="Path-226" fill="#FFD100" transform="translate(12.500000, 26.000000) scale(-1, 1) translate(-12.500000, -26.000000) " points="10 23 13 29 15 29 12 23"></polygon>
-                </g>
-                <text id="4063" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#0790F6">
-                    <tspan x="49.496" y="19">4063</tspan>
-                </text>
-                <g id="train_fire">
-                    <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
-                    <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
-                    <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
-                    <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
-                    <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
-                    <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
-                </g>
+            <g id="train_fire" transform="translate(91.000000, 213.000000)">
+                <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#FF4141"></path>
+                <path d="M0,18.4 L16,18.4 L16,21.2 C16,22.3045695 15.1045695,23.2 14,23.2 L2,23.2 C0.8954305,23.2 1.3527075e-16,22.3045695 0,21.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#FF4141"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                <circle id="Oval" stroke="#FF4141" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
             </g>
-            <g id="train_fire" transform="translate(370.000000, 630.000000)">
-                <path d="M3,3 L17,3 C18.6568542,3 20,4.34314575 20,6 L20,21 L20,21 L0,21 L0,6 C-2.02906125e-16,4.34314575 1.34314575,3 3,3 Z" id="Rectangle" fill="#FF4141"></path>
-                <path d="M0,23 L20,23 L20,26 C20,27.6568542 18.6568542,29 17,29 L3,29 C1.34314575,29 2.02906125e-16,27.6568542 0,26 L0,23 L0,23 Z" id="Rectangle" fill="#FF4141"></path>
-                <rect id="Rectangle" fill="#2E2E2E" x="3" y="5" width="14" height="7" rx="1"></rect>
-                <circle id="Oval" stroke="#FF4141" stroke-width="1" fill="#FFFFFF" cx="10" cy="3" r="2.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="4" cy="17" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="16" cy="17" r="2"></circle>
+            <path d="M673,452.5 L640,452.5 C638.757359,452.5 637.632359,453.00368 636.818019,453.818019 C636.00368,454.632359 635.5,455.757359 635.5,457 L635.5,476 C635.5,476.328502 635.535124,476.648794 635.601935,476.957306 L603.193493,511.855905 L643.650674,480.5 L673,480.5 C674.242641,480.5 675.367641,479.99632 676.181981,479.181981 C676.99632,478.367641 677.5,477.242641 677.5,476 L677.5,457 C677.5,455.757359 676.99632,454.632359 676.181981,453.818019 C675.367641,453.00368 674.242641,452.5 673,452.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <g id="vp_4063" transform="translate(639.000000, 454.000000)">
+                <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#0790F6"></path>
+                <path d="M0,18.4 L16,18.4 L16,21.2 C16,22.3045695 15.1045695,23.2 14,23.2 L2,23.2 C0.8954305,23.2 1.3527075e-16,22.3045695 0,21.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#2E2E2E"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                <circle id="Oval" stroke="#0790F6" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+                <polygon id="Path-226" fill="#FFD100" points="0.8 18.4 3.2 23.2 4.8 23.2 2.4 18.4"></polygon>
+                <polygon id="Path-226" fill="#FFD100" points="4 18.4 6.4 23.2 8 23.2 5.6 18.4"></polygon>
+                <polygon id="Path-226" fill="#FFD100" transform="translate(13.200000, 20.800000) scale(-1, 1) translate(-13.200000, -20.800000) " points="11.2 18.4 13.6 23.2 15.2 23.2 12.8 18.4"></polygon>
+                <polygon id="Path-226" fill="#FFD100" transform="translate(10.000000, 20.800000) scale(-1, 1) translate(-10.000000, -20.800000) " points="8 18.4 10.4 23.2 12 23.2 9.6 18.4"></polygon>
+            </g>
+            <g id="train_fire" transform="translate(658.000000, 454.000000)">
+                <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#FF4141"></path>
+                <path d="M0,18.4 L16,18.4 L16,21.2 C16,22.3045695 15.1045695,23.2 14,23.2 L2,23.2 C0.8954305,23.2 1.3527075e-16,22.3045695 0,21.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#FF4141"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                <circle id="Oval" stroke="#FF4141" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+            </g>
+            <path d="M406,584.5 L373,584.5 C371.757359,584.5 370.632359,585.00368 369.818019,585.818019 C369.00368,586.632359 368.5,587.757359 368.5,589 L368.5,608 C368.5,609.242641 369.00368,610.367641 369.818019,611.181981 C370.632359,611.99632 371.757359,612.5 373,612.5 L397.517648,612.5 L397.721287,635.792977 L404.763819,612.5 L406,612.5 C407.242641,612.5 408.367641,611.99632 409.181981,611.181981 C409.99632,610.367641 410.5,609.242641 410.5,608 L410.5,589 C410.5,587.757359 409.99632,586.632359 409.181981,585.818019 C408.367641,585.00368 407.242641,584.5 406,584.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <g id="train_fire" transform="translate(372.000000, 586.000000)">
+                <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#FF4141"></path>
+                <path d="M0,18.4 L16,18.4 L16,21.2 C16,22.3045695 15.1045695,23.2 14,23.2 L2,23.2 C0.8954305,23.2 1.3527075e-16,22.3045695 0,21.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#FF4141"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                <circle id="Oval" stroke="#FF4141" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+            </g>
+            <g id="prp_19" transform="translate(391.000000, 586.000000)">
+                <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,12.5763321 L16,12.5763321 L12,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#4EC525"></path>
+                <path d="M0,18.4 C0.534755707,19.1940392 1.13863246,19.5910587 1.81163025,19.5910587 C2.48462804,19.5910587 3.06413905,19.1940392 3.55016327,18.4 C4.10936483,19.1940392 4.70310211,19.5910587 5.33137512,19.5910587 C5.95964813,19.5910587 6.52193324,19.1940392 7.01823044,18.4 C7.38819631,19.1940392 7.92422803,19.5910587 8.62632561,19.5910587 C9.32842318,19.5910587 10.0072314,19.1940392 10.6627502,18.4 L6.27378464,23.2 L0,23.2 L0,18.4 Z" id="Rectangle" fill="#085DD7"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                <circle id="Oval" stroke="#4EC525" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+                <polygon id="Path-329" fill="#616161" points="16 14.5 8 23.2 16 23.2"></polygon>
+            </g>
+            <path d="M338.828759,369.5 L324.828759,369.5 C323.586119,369.5 322.461119,370.00368 321.646779,370.818019 C320.832439,371.632359 320.328759,372.757359 320.328759,374 L320.328691,388.456416 L284.934118,418.70404 L322.334733,396.746267 C323.048548,397.22262 323.906278,397.5 324.828759,397.5 L338.828759,397.5 C340.0714,397.5 341.1964,396.99632 342.01074,396.181981 C342.82508,395.367641 343.328759,394.242641 343.328759,393 L343.328759,374 C343.328759,372.757359 342.82508,371.632359 342.01074,370.818019 C341.1964,370.00368 340.0714,369.5 338.828759,369.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <g id="prp_20" transform="translate(323.828759, 371.000000)">
+                <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,12.5763321 L16,12.5763321 L12,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#4EC525"></path>
+                <path d="M0,18.4 C0.534755707,19.1940392 1.13863246,19.5910587 1.81163025,19.5910587 C2.48462804,19.5910587 3.06413905,19.1940392 3.55016327,18.4 C4.10936483,19.1940392 4.70310211,19.5910587 5.33137512,19.5910587 C5.95964813,19.5910587 6.52193324,19.1940392 7.01823044,18.4 C7.38819631,19.1940392 7.92422803,19.5910587 8.62632561,19.5910587 C9.32842318,19.5910587 10.0072314,19.1940392 10.6627502,18.4 L6.27378464,23.2 L0,23.2 L0,18.4 Z" id="Rectangle" fill="#085DD7"></path>
+                <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                <circle id="Oval" stroke="#4EC525" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+                <polygon id="Path-329" fill="#616161" points="16 14.5 8 23.2 16 23.2"></polygon>
             </g>
             <g id="legend">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="189" height="64" rx="9"></rect>
-                <text id="Восстановительный-по" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="30.708" y="51">Восстановительный поезд</tspan>
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="181" height="82" rx="9"></rect>
+                <text id="Восстановительный-по" font-family="AvenirNext-Regular, Avenir Next" font-size="11" font-weight="normal" fill="#6D7C8A">
+                    <tspan x="31.399" y="46">Восстановительный поезд</tspan>
                 </text>
-                <text id="Пожарный-поезд" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="31.232" y="24">Пожарный поезд</tspan>
+                <text id="Противоразмывный-пое" font-family="AvenirNext-Regular, Avenir Next" font-size="11" font-weight="normal" fill="#6D7C8A">
+                    <tspan x="31.3545" y="69">Противоразмывный поезд</tspan>
                 </text>
-                <g id="train_restore" transform="translate(8.000000, 34.000000)">
+                <text id="Пожарный-поезд" font-family="AvenirNext-Regular, Avenir Next" font-size="11" font-weight="normal" fill="#6D7C8A">
+                    <tspan x="31.296" y="22">Пожарный поезд</tspan>
+                </text>
+                <g id="train_restore" transform="translate(8.000000, 29.000000)">
                     <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#0790F6"></path>
                     <path d="M0,18.4 L16,18.4 L16,20.2 C16,21.8568542 14.6568542,23.2 13,23.2 L3,23.2 C1.34314575,23.2 2.02906125e-16,21.8568542 0,20.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#2E2E2E"></path>
                     <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
@@ -2405,7 +2420,16 @@
                     <polygon id="Path-226" fill="#FFD100" transform="translate(13.200000, 20.800000) scale(-1, 1) translate(-13.200000, -20.800000) " points="11.2 18.4 13.6 23.2 15.2 23.2 12.8 18.4"></polygon>
                     <polygon id="Path-226" fill="#FFD100" transform="translate(10.000000, 20.800000) scale(-1, 1) translate(-10.000000, -20.800000) " points="8 18.4 10.4 23.2 12 23.2 9.6 18.4"></polygon>
                 </g>
-                <g id="train_fire" transform="translate(8.000000, 6.000000)">
+                <g id="prp" transform="translate(8.000000, 54.000000)">
+                    <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,12.5763321 L16,12.5763321 L12,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#4EC525"></path>
+                    <path d="M0,18.4 C0.534755707,19.1940392 1.13863246,19.5910587 1.81163025,19.5910587 C2.48462804,19.5910587 3.06413905,19.1940392 3.55016327,18.4 C4.10936483,19.1940392 4.70310211,19.5910587 5.33137512,19.5910587 C5.95964813,19.5910587 6.52193324,19.1940392 7.01823044,18.4 C7.38819631,19.1940392 7.92422803,19.5910587 8.62632561,19.5910587 C9.32842318,19.5910587 10.0072314,19.1940392 10.6627502,18.4 L6.27378464,23.2 L0,23.2 L0,18.4 Z" id="Rectangle" fill="#085DD7"></path>
+                    <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
+                    <circle id="Oval" stroke="#4EC525" fill="#FFFFFF" cx="8" cy="2.4" r="1.9"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="3.2" cy="13.6" r="1.6"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="12.8" cy="13.6" r="1.6"></circle>
+                    <polygon id="Path-329" fill="#616161" points="16 14.5 8 23.2 16 23.2"></polygon>
+                </g>
+                <g id="train_fire" transform="translate(8.000000, 4.000000)">
                     <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#FF4141"></path>
                     <path d="M0,18.4 L16,18.4 L16,20.2 C16,21.8568542 14.6568542,23.2 13,23.2 L3,23.2 C1.34314575,23.2 2.02906125e-16,21.8568542 0,20.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#FF4141"></path>
                     <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
@@ -2415,137 +2439,137 @@
                 </g>
             </g>
         </g>
-        <g id="snow_tech" opacity="0" transform="translate(4.000000, 7.000000)">
-            <path d="M82,352.5 L16,352.5 C14.7573593,352.5 13.6323593,353.00368 12.8180195,353.818019 C12.0036797,354.632359 11.5,355.757359 11.5,357 L11.5,436 C11.5,437.242641 12.0036797,438.367641 12.8180195,439.181981 C13.6323593,439.99632 14.7573593,440.5 16,440.5 L43.14804,440.5 L113.01484,532.446723 L53.0832601,440.5 L82,440.5 C83.2426407,440.5 84.3676407,439.99632 85.1819805,439.181981 C85.9963203,438.367641 86.5,437.242641 86.5,436 L86.5,357 C86.5,355.757359 85.9963203,354.632359 85.1819805,353.818019 C84.3676407,353.00368 83.2426407,352.5 82,352.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M530,366.44326 L464,366.44326 C463.759552,366.44326 463.523502,366.462077 463.29325,366.498366 L345.422091,366.499729 L459.5,371.371156 L459.5,398.94326 C459.5,400.185901 460.00368,401.310901 460.818019,402.12524 C461.632359,402.93958 462.757359,403.44326 464,403.44326 L530,403.44326 C531.242641,403.44326 532.367641,402.93958 533.181981,402.12524 C533.99632,401.310901 534.5,400.185901 534.5,398.94326 L534.5,370.94326 C534.5,369.700619 533.99632,368.575619 533.181981,367.761279 C532.367641,366.94694 531.242641,366.44326 530,366.44326 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M593.248815,770.026876 L590.51733,798.499607 L569.000009,798.5 C567.757359,798.5 566.632359,799.00368 565.818019,799.818019 C565.00368,800.632359 564.5,801.757359 564.5,803 L564.5,848 C564.5,849.242641 565.00368,850.367641 565.818019,851.181981 C566.632359,851.99632 567.757359,852.5 569,852.5 L635,852.5 C636.242641,852.5 637.367641,851.99632 638.181981,851.181981 C638.99632,850.367641 639.5,849.242641 639.5,848 L639.5,803 C639.5,801.757359 638.99632,800.632359 638.181981,799.818019 C637.367641,799.00368 636.242641,798.5 635,798.5 L601.541853,798.499611 L593.248815,770.026876 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M395.784493,889.467067 L375.124185,915.44278 L310.000004,915.44326 C308.757359,915.44326 307.632359,915.94694 306.818019,916.761279 C306.00368,917.575619 305.5,918.700619 305.5,919.94326 L305.5,947.94326 C305.5,949.185901 306.00368,950.310901 306.818019,951.12524 C307.632359,951.93958 308.757359,952.44326 310,952.44326 L376,952.44326 C377.242641,952.44326 378.367641,951.93958 379.181981,951.12524 C379.99632,950.310901 380.5,949.185901 380.5,947.94326 L380.5,919.94326 C380.5,919.345527 380.383633,918.774973 380.171977,918.253152 L395.784493,889.467067 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M278.68416,666.035337 L274.455215,705.442262 L228.000011,705.44326 C226.757359,705.44326 225.632359,705.94694 224.818019,706.761279 C224.00368,707.575619 223.5,708.700619 223.5,709.94326 L223.5,737.94326 C223.5,739.185901 224.00368,740.310901 224.818019,741.12524 C225.632359,741.93958 226.757359,742.44326 228,742.44326 L294,742.44326 C295.242641,742.44326 296.367641,741.93958 297.181981,741.12524 C297.99632,740.310901 298.5,739.185901 298.5,737.94326 L298.5,709.94326 C298.5,708.700619 297.99632,707.575619 297.181981,706.761279 C296.367641,705.94694 295.242641,705.44326 294,705.44326 L284.273912,705.442226 L278.68416,666.035337 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <g id="snow_route_1861" opacity="0.005" transform="translate(153.000000, 731.813962)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+        <g id="snow_tech" opacity="0" transform="translate(5.000000, 7.000000)">
+            <path d="M66,440.5 L14,440.5 C12.7573593,440.5 11.6323593,441.00368 10.8180195,441.818019 C10.0036797,442.632359 9.5,443.757359 9.5,445 L9.5,509 C9.5,510.242641 10.0036797,511.367641 10.8180195,512.181981 C11.6323593,512.99632 12.7573593,513.5 14,513.5 L59.7869234,513.5 L112.291384,538.490613 L70.5,509.260449 L70.5,445 C70.5,443.757359 69.9963203,442.632359 69.1819805,441.818019 C68.3676407,441.00368 67.2426407,440.5 66,440.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M334.708312,372.465055 L415.49929,397.209901 L415.5,411.943236 C415.5,413.185901 416.00368,414.310901 416.818019,415.12524 C417.632359,415.93958 418.757359,416.44326 420,416.44326 L472,416.44326 C473.242641,416.44326 474.367641,415.93958 475.181981,415.12524 C475.99632,414.310901 476.5,413.185901 476.5,411.94326 L476.5,389.94326 C476.5,388.700619 475.99632,387.575619 475.181981,386.761279 C474.367641,385.94694 473.242641,385.44326 472,385.44326 L420,385.44326 C418.808174,385.44326 417.724548,385.906567 416.91946,386.662953 C415.976292,387.549067 415.415105,388.837296 415.510525,390.254104 L334.708312,372.465055 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M592.248815,770.026876 L589.51733,798.499607 L568.000009,798.5 C566.757359,798.5 565.632359,799.00368 564.818019,799.818019 C564.00368,800.632359 563.5,801.757359 563.5,803 L563.5,839 C563.5,840.242641 564.00368,841.367641 564.818019,842.181981 C565.632359,842.99632 566.757359,843.5 568,843.5 L620,843.5 C621.242641,843.5 622.367641,842.99632 623.181981,842.181981 C623.99632,841.367641 624.5,840.242641 624.5,839 L624.5,803 C624.5,801.757359 623.99632,800.632359 623.181981,799.818019 C622.367641,799.00368 621.242641,798.5 620,798.5 L600.541852,798.499608 L592.248815,770.026876 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M396.056556,888.988536 L382.415602,910.442999 L331.000003,910.44326 C329.757359,910.44326 328.632359,910.94694 327.818019,911.761279 C327.00368,912.575619 326.5,913.700619 326.5,914.94326 L326.5,936.94326 C326.5,938.185901 327.00368,939.310901 327.818019,940.12524 C328.632359,940.93958 329.757359,941.44326 331,941.44326 L383,941.44326 C384.242641,941.44326 385.367641,940.93958 386.181981,940.12524 C386.99632,939.310901 387.5,938.185901 387.5,936.94326 L387.5,914.94326 C387.5,914.498431 387.435575,914.068655 387.315348,913.662811 L396.056556,888.988536 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M277.543491,665.899097 L272.791823,706.442262 L227.000011,706.44326 C225.757359,706.44326 224.632359,706.94694 223.818019,707.761279 C223.00368,708.575619 222.5,709.700619 222.5,710.94326 L222.5,732.94326 C222.5,734.185901 223.00368,735.310901 223.818019,736.12524 C224.632359,736.93958 225.757359,737.44326 227,737.44326 L279,737.44326 C280.242641,737.44326 281.367641,736.93958 282.181981,736.12524 C282.99632,735.310901 283.5,734.185901 283.5,732.94326 L283.5,710.94326 C283.5,709.233649 282.54658,707.746827 281.142692,706.985039 L277.543491,665.899097 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <g id="snow_route_1861" opacity="0.005" transform="translate(152.000000, 731.813962)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M260,134.186038 L311.164369,157.186038 L340,84.16846 L328.636719,0" id="Path-49"></path>
                 <path d="M311.164369,157.186038 L431,239.091587 L553.958686,311.186038 L569.25,318.302321" id="Path-50"></path>
                 <path d="M4,281.733918 L91,262.686038 L110.175802,225.422366 L110,168.186038 L105.5,106.076663 L237.5,159.186038" id="Path-52"></path>
                 <line x1="106.367188" y1="106.190101" x2="0" y2="36.1860381" id="Path-53"></line>
             </g>
-            <g id="sdpm_1861" transform="translate(295.000000, 918.000000)">
-                <rect id="Rectangle" fill="#375AF6" x="13" y="0" width="70" height="15" rx="3"></rect>
-                <text id="СДПМ-1861" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="18.87" y="11">СДПМ 1861</tspan>
+            <g id="sdpm_1861" transform="translate(317.000000, 913.000000)">
+                <rect id="Rectangle" fill="#375AF6" x="12" y="0" width="56" height="12" rx="3"></rect>
+                <text id="СДПМ-1861" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
+                    <tspan x="16.696" y="9">СДПМ 1861</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="sn_rem_1147" transform="translate(295.000000, 935.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="13.5" y="0.5" width="69" height="14" rx="3"></rect>
-                <text id="СM-2Б-1147" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="17.3" y="11">СM-2Б  1147</tspan>
+            <g id="sn_rem_1147" transform="translate(317.000000, 927.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="12.5" y="0.5" width="55" height="11" rx="3"></rect>
+                <text id="СM-2Б-1147" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
+                    <tspan x="15.44" y="9">СM-2Б  1147</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="snow_route_2377" opacity="0.005" transform="translate(132.000000, 563.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_2377" opacity="0.005" transform="translate(131.000000, 563.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M748,298 L705.452702,307 L545.196958,270.176353 L519.107373,246.498199 L448.464919,212.202575 L410,185.997841 L264.583286,162.5 L137,107.247834 L81,76.5390625 L47,26.0521978 L2,0" id="Path-54"></path>
                 <path d="M122,98.9902719 L43.5,139 L0,150.5" id="Path-57"></path>
             </g>
-            <g id="sdpm_2377" transform="translate(213.000000, 708.000000)">
-                <rect id="Rectangle" fill="#375AF6" x="13" y="0" width="70" height="15" rx="3"></rect>
-                <text id="СДПМ-2377" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="18.87" y="11">СДПМ 2377</tspan>
+            <g id="sdpm_2377" transform="translate(213.000000, 709.000000)">
+                <rect id="Rectangle" fill="#375AF6" x="12" y="0" width="56" height="12" rx="3"></rect>
+                <text id="СДПМ-2377" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
+                    <tspan x="16.696" y="9">СДПМ 2377</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="sn_rem_1205" transform="translate(213.000000, 725.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="13.5" y="0.5" width="69" height="14" rx="3"></rect>
-                <text id="СM-2M-1205" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="17.165" y="11">СM-2M 1205</tspan>
+            <g id="sn_rem_1205" transform="translate(213.000000, 723.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="12.5" y="0.5" width="55" height="11" rx="3"></rect>
+                <text id="СM-2M-1205" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
+                    <tspan x="15.332" y="9">СM-2M 1205</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="7" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="snow_route_2280" opacity="0.005" transform="translate(5.000000, 530.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_2280" opacity="0.005" transform="translate(4.000000, 530.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M67.4827819,117 L110,57 L100,34.5 L67,27 L0,48" id="Path-54"></path>
                 <path d="M123,0 L172.285575,13.7818507 L232.84495,47.9023438 L249,92.2707795 L278,113.531525" id="Path-60"></path>
             </g>
-            <g id="sdpm_2280" transform="translate(0.000000, 355.000000)">
-                <rect id="Rectangle" fill="#375AF6" x="14" y="0" width="70" height="15" rx="3"></rect>
-                <text id="СДПМ-2280" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="19.87" y="11">СДПМ 2280</tspan>
+            <g id="sdpm_2280" transform="translate(0.000000, 443.000000)">
+                <rect id="Rectangle" fill="#375AF6" x="12" y="0" width="56" height="12" rx="3"></rect>
+                <text id="СДПМ-2280" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
+                    <tspan x="16.696" y="9">СДПМ 2280</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="sn_rem_70" transform="translate(0.000000, 372.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="14.5" y="0.5" width="69" height="14" rx="3"></rect>
-                <text id="ПСС-1К-70" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="21.545" y="11">ПСС-1К  70</tspan>
+            <g id="sn_rem_70" transform="translate(0.000000, 457.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="12.5" y="0.5" width="55" height="11" rx="3"></rect>
+                <text id="ПСС-1К-70" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
+                    <tspan x="18.036" y="9">ПСС-1К  70</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="sn_rem_1856" transform="translate(0.000000, 389.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="14.5" y="0.5" width="69" height="14" rx="3"></rect>
-                <text id="СM-2M-1856" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="18.165" y="11">СM-2M 1856</tspan>
+            <g id="sn_rem_1856" transform="translate(0.000000, 471.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="12.5" y="0.5" width="55" height="11" rx="3"></rect>
+                <text id="СM-2M-1856" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
+                    <tspan x="15.332" y="9">СM-2M 1856</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="snow_route_ss29" opacity="0.005" transform="translate(126.000000, 271.000000)" stroke="#7E7E7E" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_ss29" opacity="0.005" transform="translate(125.000000, 271.000000)" stroke="#7E7E7E" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M318,0 L277.698177,38 L225,60 L148,95 L25,260 L0.266124442,258.5" id="Path-54"></path>
                 <path d="M42,317.5 L82,335.5 L93.5,367 L118,390.990272 C146.250186,399.581497 170.889568,407.449217 191.918146,414.593433 C212.946724,421.737649 247.199094,433.206504 294.675255,449 L353,470 L365,546.752291 L336.695984,613.05674 L288.681641,596.802657" id="Path-64"></path>
             </g>
-            <g id="sdpm_ss29" transform="translate(0.000000, 406.000000)">
-                <rect id="Rectangle" fill="#7E7E7E" x="14" y="0" width="70" height="15" rx="3"></rect>
-                <text id="СС-29" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="34.58" y="11">СС 29</tspan>
+            <g id="sdpm_ss29" transform="translate(0.000000, 485.000000)">
+                <rect id="Rectangle" fill="#7E7E7E" x="12" y="0" width="56" height="12" rx="3"></rect>
+                <text id="СС-29" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
+                    <tspan x="28.464" y="9">СС 29</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="snow_route_pom95" opacity="0.005" transform="translate(124.000000, 528.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_pom95" opacity="0.005" transform="translate(123.000000, 528.000000)" stroke="#1EBF37" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M756,301.395045 L700,303 L566,265.085065 L550.622205,236.070556 L496.179415,220.997841 L474.5,191.5 L363,175 L208.982874,132 L125.762361,90 L109,51 L59,32 L39.9828183,8 L-3.63797881e-12,-2.27373675e-13" id="Path-54"></path>
             </g>
-            <g id="sdpm_pom95" transform="translate(0.000000, 423.000000)">
-                <rect id="Rectangle" fill="#1EBF37" x="14" y="0" width="70" height="15" rx="3"></rect>
-                <text id="ПОМ-95" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="29.16" y="11">ПОМ 95</tspan>
+            <g id="sdpm_pom95" transform="translate(0.000000, 499.000000)">
+                <rect id="Rectangle" fill="#1EBF37" x="12" y="0" width="56" height="12" rx="3"></rect>
+                <text id="ПОМ-95" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
+                    <tspan x="24.128" y="9">ПОМ 95</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="4" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="3.5" cy="7.5" r="3.5"></circle>
             </g>
-            <g id="snow_route_3018" opacity="0.005" transform="translate(281.000000, 675.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_3018" opacity="0.005" transform="translate(280.000000, 675.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M599,191 L474,183.431402 L384,151.386767 L353.163086,119 L295,101 L272.498199,73.9978411 L191.5,62.4769886 L0.639222111,0" id="Path-54"></path>
             </g>
-            <g id="sdpm_3018" transform="translate(567.000000, 801.000000)">
-                <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
-                <text id="СДПМ-3018" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="5.87" y="11">СДПМ 3018</tspan>
+            <g id="sdpm_3018" transform="translate(566.000000, 801.000000)">
+                <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="56" height="12" rx="3"></rect>
+                <text id="СДПМ-3018" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
+                    <tspan x="4.696" y="9">СДПМ 3018</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="64.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="sn_rem_1457" transform="translate(567.000000, 818.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
-                <text id="СM-2-1457" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="8.765" y="11">СM-2 1457</tspan>
+            <g id="sn_rem_1457" transform="translate(566.000000, 815.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
+                <text id="СM-2-1457" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
+                    <tspan x="7.012" y="9">СM-2 1457</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="64.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="sn_rem_1552" transform="translate(567.000000, 835.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
-                <text id="СM-2M-1552" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="4.165" y="11">СM-2M 1552</tspan>
+            <g id="sn_rem_1552" transform="translate(566.000000, 829.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
+                <text id="СM-2M-1552" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
+                    <tspan x="3.332" y="9">СM-2M 1552</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="79" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="64.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="snow_route_2652" opacity="0.005" transform="translate(49.000000, 0.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
+            <g id="snow_route_2652" opacity="0.005" transform="translate(48.000000, 0.000000)" stroke="#375AF6" stroke-dasharray="1,5" stroke-linecap="round" stroke-width="3">
                 <path d="M250,360 L220,294 L180.982818,255 L95,155 L36.4646118,69 L0.885009766,-2.27373675e-13" id="Path-54"></path>
                 <path d="M125.650212,552.781616 L242.5,409 L278,383 L360.5,350 L413.5,305 L428.313537,261.5" id="Path-61"></path>
             </g>
-            <g id="sdpm_2652" transform="translate(462.000000, 369.000000)">
-                <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="70" height="15" rx="3"></rect>
-                <text id="СДПМ-2652" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#FFFFFF">
-                    <tspan x="5.87" y="11">СДПМ 2652</tspan>
+            <g id="sdpm_2652" transform="translate(418.000000, 388.000000)">
+                <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="56" height="12" rx="3"></rect>
+                <text id="СДПМ-2652" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#FFFFFF">
+                    <tspan x="4.696" y="9">СДПМ 2652</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="80" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="64.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="sn_rem_1508" transform="translate(462.000000, 386.000000)">
-                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="69" height="14" rx="3"></rect>
-                <text id="СM-2M-1508" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#375AF6">
-                    <tspan x="4.165" y="11">СM-2M 1508</tspan>
+            <g id="sn_rem_1508" transform="translate(418.000000, 402.000000)">
+                <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
+                <text id="СM-2M-1508" font-family="AvenirNext-DemiBold, Avenir Next" font-size="8" font-weight="500" fill="#375AF6">
+                    <tspan x="3.332" y="9">СM-2M 1508</tspan>
                 </text>
-                <circle id="status" fill="#05C62E" cx="80" cy="8" r="4"></circle>
+                <circle id="status" fill="#05C62E" cx="64.5" cy="6.5" r="3.5"></circle>
             </g>
         </g>
         <g id="bridges" opacity="0" transform="translate(12.000000, 4.000000)">
@@ -2615,9 +2639,9 @@
                     </g>
                 </g>
             </g>
-            <g id="142_31" transform="translate(82.000000, 526.000000)">
-                <line x1="12.5" y1="9.5" x2="0.5" y2="0.5" id="Path-51" stroke="#4B4B4B"></line>
-                <g id="icon" transform="translate(8.000000, 4.000000)">
+            <g id="142_31" transform="translate(90.000000, 530.000000)">
+                <line x1="15.5" y1="8.5" x2="20.5" y2="12.5" id="Path-51" stroke="#4B4B4B"></line>
+                <g id="icon">
                     <rect id="Rectangle" fill="#4B4B4B" x="0" y="0" width="20" height="11" rx="3"></rect>
                     <polyline id="Path-325" stroke="#FFFFFF" stroke-width="1.5" points="3.46153846 8.25 6.92888113 3.7196101 13.5049967 3.7196101 16.8654222 8.25"></polyline>
                     <line x1="8.07692308" y1="3.92857143" x2="8.07692308" y2="8.82414954" id="Path-326" stroke="#FFFFFF" stroke-width="1.5"></line>

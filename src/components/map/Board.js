@@ -43,6 +43,7 @@ import { tabloFetchData } from "../../store/actions/tabloAction";
 import { eventDivisions } from "../../utils/stantionUtils";
 import { showFindStantion } from "../../utils/searchUtils";
 import { pipeFetchData } from "../../store/actions/pipeActions";
+import { specTechFetchData } from "../../store/actions/specTechAction";
 
 //import SocketService from "../../services/SocketService";
 
@@ -127,6 +128,8 @@ const mapStateToProps = (state) => {
     snowTechRegion: state.snowTech.region,
     pipeData: state.pipe.items,
     pipeLoad: state.pipe.loading,
+    specTechData: state.specTech.items,
+    specTechLoad: state.specTech.loading,
     pipeRegion: state.pipe.region,
     layerFindStantion: state.layer.findCode,
   };
@@ -135,7 +138,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     fetchTabloStantion: () => dispatch(tabloFetchData()),
-    fetchData: (url) => dispatch(modalFetchData(url)),
+    fetchData: (url, label) => dispatch(modalFetchData(url, label)),
     forecastFetchData: (url) => dispatch(forecastFetchData(url)),
     forecastClose: () => dispatch(forecastClose()),
     forecastOpen: () => dispatch(forecastOpen()),
@@ -151,6 +154,7 @@ const mapDispatchToProps = (dispatch) => {
     fetchPipeData: (id) => dispatch(modalPipeFetchData(id)),
     fetchHealthData: (id) => dispatch(modalHealthFetchData(id)),
     fetchSnowData: (id) => dispatch(modalSnowFetchData(id)),
+    fectchSpecTechData: (id) => dispatch(specTechFetchData(id)),
     updateStormData: (id) => dispatch(stormUpdateData(id)),
     postLegend: (imgName) => dispatch(informLegendKey(imgName)),
     weatherWinOpen: (x, y, selectItem) =>

@@ -16,6 +16,8 @@ var initialState = {
     "pipe": "/orw_tablo/load_isso_pipe.php?id_peregon=",
     "pipe_count":"/orw_tablo/load_isso_pipe_count.php?region=",
     "health": "/orw_tablo/load_fsk.php?id_map=",
+    "spec_vp": "/orw_tablo/load_vp.php?id_map=",
+    "spec_prp": "/orw_tablo/load_prp.php?region=",
   },
 
   wsocket: {

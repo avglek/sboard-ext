@@ -2,7 +2,7 @@ import * as d3 from "d3";
 
 export function eventHealthHandler(props) {
   const nlist = d3.selectAll("#health_org").selectAll("g[id^='fsk_']");
-  console.log("add event health", nlist);
+
   nlist
     .on("click", function () {
       handlerClick(this, props);
