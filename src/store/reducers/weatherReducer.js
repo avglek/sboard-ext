@@ -17,7 +17,7 @@ const initialState = {
   selectItem: null,
 };
 
-export default function weatherReduser(state = initialState, action) {
+export default function weatherReducer(state = initialState, action) {
   switch (action.type) {
     case WEATHER_WIN_CLOSE:
       return {

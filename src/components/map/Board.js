@@ -81,10 +81,23 @@ const Board = (props) => {
     ShowLayer(props);
   });
 
+  // Показать найденную станцию
   useEffect(() => {
-    showFindStantion(props);
-    // eslint-disable-next-line
+    showFindStantion(props.layerFindStantion);
   }, [props.stormRegionID, props.layerFindStantion]);
+
+  //Показать gps
+  useEffect(() => {
+    if (props.layerFindGPS) {
+      let code = props.layerFindGPS.code;
+      if (code) {
+        code = code.slice(0, 5);
+        showFindStantion(code, "point-org", "gps");
+      } else {
+        showFindStantion("0", "point-org", "gps");
+      }
+    }
+  }, [props.stormItems, props.layerFindGPS]);
 
   useEffect(() => {
     showStorm(props.stormClick, props.stormItems, 2);
@@ -132,6 +145,7 @@ const mapStateToProps = (state) => {
     specTechLoad: state.specTech.loading,
     pipeRegion: state.pipe.region,
     layerFindStantion: state.layer.findCode,
+    layerFindGPS: state.gps.stantion,
   };
 };
 

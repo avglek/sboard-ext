@@ -5,7 +5,7 @@ const initialState = {
   spec: "",
 };
 
-export default function informReduser(state = initialState, action) {
+export default function informReducer(state = initialState, action) {
   switch (action.type) {
     case INFO_LEGEND_KEY:
       return {

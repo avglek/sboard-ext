@@ -1,10 +1,16 @@
-import { parsePeriodToString } from "../utils/common";
+import { parsePeriodToString, replaceURL } from "../utils/common";
 import Stantion from "../components/map/Stantion";
 
 const applicationInitialState = window.__INITIAL_STATE__;
 const config = applicationInitialState.config;
 
 class DataService {
+  async getGPS(long, lat) {
+    const url = replaceURL(config.gps, long, lat);
+    const data = await this.getResurce(url);
+    return data[0];
+  }
+
   async getDivisions() {
     const stantion = {};
     const data = await this.getResurce(config.divisions);

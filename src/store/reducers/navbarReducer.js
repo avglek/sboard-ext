@@ -10,7 +10,7 @@ const initialState = {
   items: [],
 };
 
-export default function modalReduser(state = initialState, action) {
+export default function modalReducer(state = initialState, action) {
   switch (action.type) {
     case NAVBAR_START_LOADING:
       return {

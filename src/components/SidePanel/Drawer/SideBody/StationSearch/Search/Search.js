@@ -4,8 +4,9 @@ import SearchBar from "./SearchBar";
 import { findRegion } from "../../../../../map/tablo";
 import SearchList from "./SearchList";
 import classes from "./Search.module.css";
+import { postFindCode } from "../../../../../../store/actions/layerAction";
 
-const Search = ({ loading, stantions, resetZoom }) => {
+const Search = ({ loading, stantions, resetZoom, postFindStantion }) => {
   const [input, setInput] = useState("");
   const [stantionsListDefault, setStantionsListDefault] = useState();
   const [stantionsList, setStantionsList] = useState();
@@ -80,7 +81,8 @@ const Search = ({ loading, stantions, resetZoom }) => {
     );
 
     if (stn) {
-      findRegion(stn.region, stn.code);
+      postFindStantion(stn.code);
+      findRegion(stn.region);
       if (resetZoom) {
         resetZoom();
       }
@@ -115,10 +117,10 @@ const mapStateToProps = (state) => {
   };
 };
 
-// const mapDispatchToProps = (dispatch) => {
-//   return {
+const mapDispatchToProps = (dispatch) => {
+  return {
+    postFindStantion: (code) => dispatch(postFindCode(code)),
+  };
+};
 
-//   };
-// };
-
-export default connect(mapStateToProps)(Search);
+export default connect(mapStateToProps, mapDispatchToProps)(Search);

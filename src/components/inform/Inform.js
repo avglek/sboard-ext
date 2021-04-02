@@ -4,12 +4,12 @@ import classes from "./Inform.module.css";
 import Legend from "./Legend";
 import SpecReg from "./SpecReg";
 import Forecast from "./Forecast/Forecast";
-import ToggleMapButton from "./ToggleMapButton/ToggleMapButton";
+import ToolsButtons from "./ToolsButtons/ToolsButtons";
 
 const Inform = (props) => {
   return (
     <div className={props.className}>
-      {props.forestIsOpen ? <Forecast /> : <ToggleMapButton />}
+      {props.forestIsOpen ? <Forecast /> : <ToolsButtons />}
       <SpecReg className={classes.spec_box} />
       <Legend className={classes.legend_box} />
     </div>

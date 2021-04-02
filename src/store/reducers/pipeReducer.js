@@ -1,39 +1,43 @@
 import {
-  SPEC_TECH_FETCH_ERROR,
-  SPEC_TECH_FETCH_SUCCESS,
-  SPEC_TECH_START_LOADING,
+  PIPE_FETCH_ERROR,
+  PIPE_START_LOADING,
+  PIPE_FETCH_SUCCESS,
 } from "../actions/actionTypes";
 
 const initialState = {
   loading: true,
   error: null,
   items: [],
+  region: 0,
 };
 
-export default function specTechReduser(state = initialState, action) {
+export default function pipeCountReducer(state = initialState, action) {
   switch (action.type) {
-    case SPEC_TECH_START_LOADING:
+    case PIPE_START_LOADING:
       return {
         ...state,
         error: null,
         items: [],
         loading: true,
+        region: 0,
       };
 
-    case SPEC_TECH_FETCH_SUCCESS:
+    case PIPE_FETCH_SUCCESS:
       return {
         ...state,
         error: null,
-        items: action.payload,
+        items: action.payload.items,
         loading: false,
+        region: action.payload.region,
       };
 
-    case SPEC_TECH_FETCH_ERROR:
+    case PIPE_FETCH_ERROR:
       return {
-        ...state,
+        isOpen: false,
         items: [],
-        error: action.payload,
+        error: action.error,
         loading: false,
+        region: 0,
       };
 
     default:

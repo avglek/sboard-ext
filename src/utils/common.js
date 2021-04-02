@@ -37,3 +37,9 @@ export const dateToStr = (date) => {
 
   return `${timeStr} ${dateStr}`;
 };
+
+export const replaceURL = (url, ...arg) => {
+  const a2 = url.trim().split("$");
+  const a3 = a2.map((i, index) => (i ? `${i}${arg[index]}` : ""));
+  return a3.join("");
+};

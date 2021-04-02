@@ -13,7 +13,7 @@ const initialState = {
   items: [],
 };
 
-export default function forecastReduser(state = initialState, action) {
+export default function forecastReducer(state = initialState, action) {
   switch (action.type) {
     case FORECAST_OPEN:
       return {

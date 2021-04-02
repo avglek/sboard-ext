@@ -15,7 +15,7 @@ const initialState = {
   id: 0,
 };
 
-export default function stormReduser(state = initialState, action) {
+export default function stormReducer(state = initialState, action) {
   switch (action.type) {
     case STORM_START_LOADING:
       return {

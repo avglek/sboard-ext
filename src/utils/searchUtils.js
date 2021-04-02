@@ -1,20 +1,26 @@
 import * as d3 from "d3";
 
-export function showFindStantion({ layerFindStantion }) {
-  //console.log("code:", layerFindStantion);
-  const href = "./svg/sprite/point-sprite.svg#point-fill";
+export function showFindStantion(
+  FindStantion,
+  iconUID = "point-fill",
+  iconClass = "pointer"
+) {
+  //console.log("code:", FindStantion);
+  const href = `./svg/sprite/point-sprite.svg#${iconUID}`;
 
-  if (layerFindStantion !== "") {
+  if (FindStantion !== "") {
     const allStn = d3.selectAll("#stations");
-    allStn.selectAll("use").remove();
+    allStn.selectAll(`use[href="${href}"]`).remove();
 
-    if (layerFindStantion !== "0") {
-      const stnNode = allStn.selectAll(`#st_${layerFindStantion}`);
+    if (FindStantion !== "0") {
+      const stnNode = allStn.selectAll(`#st_${FindStantion}`);
       const anchorNode = stnNode.select("#st");
       const iconNode = anchorNode.append("use");
 
+      //console.log(iconNode.node());
+
       iconNode
-        .attr("class", "pointer")
+        .attr("class", iconClass)
         .attr("href", href)
         .attr("width", "40px")
         .attr("height", "50px")

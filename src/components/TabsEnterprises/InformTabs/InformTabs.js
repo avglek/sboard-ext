@@ -28,6 +28,21 @@ const handleClickLink = (link) => {
   );
 };
 
+const handleClickLinkNoWindow = (link) => {
+  //console.log("href:", link);
+  if (link) {
+    window.open(link);
+    //console.log(link);
+    //const path = window.location.href;
+    //console.log(path);
+    //const url = new URL(link, path);
+    //url.searchParams.set("name", fname);
+    //console.log(url.href);
+
+    //window.open(url.href);
+  }
+};
+
 const renderDefault = (item, index) => {
   let str = item.value;
 
@@ -79,7 +94,11 @@ const InformTabs = (props) => {
                 <td>
                   <span
                     className="vlink"
-                    onClick={() => handleClickLink(item.value)}
+                    onClick={
+                      item.nowindow
+                        ? () => handleClickLinkNoWindow(item.value)
+                        : () => handleClickLink(item.value)
+                    }
                   >
                     {item.link_name ? item.link_name : "Выписка из ТРА"}
                   </span>

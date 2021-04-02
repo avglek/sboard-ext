@@ -13,7 +13,7 @@ const initialState = {
   items: [],
 };
 
-export default function modalReduser(state = initialState, action) {
+export default function modalReducer(state = initialState, action) {
   switch (action.type) {
     case MODAL_IS_OPEN:
       return {

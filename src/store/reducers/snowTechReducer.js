@@ -1,7 +1,7 @@
 import {
-  PIPE_FETCH_ERROR,
-  PIPE_START_LOADING,
-  PIPE_FETCH_SUCCESS,
+  SNOW_TECH_FETCH_ERROR,
+  SNOW_TECH_FETCH_SUCCESS,
+  SNOW_TECH_START_LOADING,
 } from "../actions/actionTypes";
 
 const initialState = {
@@ -11,9 +11,9 @@ const initialState = {
   region: 0,
 };
 
-export default function pipeCountReduser(state = initialState, action) {
+export default function snowTechReducer(state = initialState, action) {
   switch (action.type) {
-    case PIPE_START_LOADING:
+    case SNOW_TECH_START_LOADING:
       return {
         ...state,
         error: null,
@@ -22,7 +22,7 @@ export default function pipeCountReduser(state = initialState, action) {
         region: 0,
       };
 
-    case PIPE_FETCH_SUCCESS:
+    case SNOW_TECH_FETCH_SUCCESS:
       return {
         ...state,
         error: null,
@@ -31,7 +31,7 @@ export default function pipeCountReduser(state = initialState, action) {
         region: action.payload.region,
       };
 
-    case PIPE_FETCH_ERROR:
+    case SNOW_TECH_FETCH_ERROR:
       return {
         isOpen: false,
         items: [],

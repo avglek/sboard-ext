@@ -1,43 +1,39 @@
 import {
-  SNOW_TECH_FETCH_ERROR,
-  SNOW_TECH_FETCH_SUCCESS,
-  SNOW_TECH_START_LOADING,
+  SPEC_TECH_FETCH_ERROR,
+  SPEC_TECH_FETCH_SUCCESS,
+  SPEC_TECH_START_LOADING,
 } from "../actions/actionTypes";
 
 const initialState = {
   loading: true,
   error: null,
   items: [],
-  region: 0,
 };
 
-export default function snowTechReduser(state = initialState, action) {
+export default function specTechReducer(state = initialState, action) {
   switch (action.type) {
-    case SNOW_TECH_START_LOADING:
+    case SPEC_TECH_START_LOADING:
       return {
         ...state,
         error: null,
         items: [],
         loading: true,
-        region: 0,
       };
 
-    case SNOW_TECH_FETCH_SUCCESS:
+    case SPEC_TECH_FETCH_SUCCESS:
       return {
         ...state,
         error: null,
-        items: action.payload.items,
+        items: action.payload,
         loading: false,
-        region: action.payload.region,
       };
 
-    case SNOW_TECH_FETCH_ERROR:
+    case SPEC_TECH_FETCH_ERROR:
       return {
-        isOpen: false,
+        ...state,
         items: [],
-        error: action.error,
+        error: action.payload,
         loading: false,
-        region: 0,
       };
 
     default:

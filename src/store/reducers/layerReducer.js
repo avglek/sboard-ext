@@ -11,7 +11,7 @@ const initialState = {
   resetZoom: null,
 };
 
-export default function layerReduser(state = initialState, action) {
+export default function layerReducer(state = initialState, action) {
   switch (action.type) {
     case LAYER_SHOW_CHECKED:
       return {

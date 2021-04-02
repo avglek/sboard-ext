@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import classes from "./ToggleMapButton.module.css";
-import { toggleMainMap } from "../../../store/actions/tabloAction";
-import { hiddenTootTip, showToolTip } from "../../../utils/tabloUtils";
+import { toggleMainMap } from "../../../../store/actions/tabloAction";
+import { hiddenTootTip, showToolTip } from "../../../../utils/tabloUtils";
 
 const applicationInitialState = window.__INITIAL_STATE__;
 const mainmap = applicationInitialState.main;

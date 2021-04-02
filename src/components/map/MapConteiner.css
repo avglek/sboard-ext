@@ -5,7 +5,7 @@ svg {
   cursor: default;
 }
 .tools {
-  width: 90px;
+  width: 125px;
   height: 30px;
   position: absolute;
   z-index: 1;
@@ -46,4 +46,7 @@ g[id^="sdpm_"]:focus {
 }
 .pointer {
   color: rgb(170, 20, 20);
+}
+.gps {
+  color: rgb(50, 4, 216);
 }

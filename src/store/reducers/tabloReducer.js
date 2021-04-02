@@ -14,9 +14,12 @@ const initialState = {
   img: "",
   toggle: true,
   name: "",
+  gpsImg: "",
+  gpsName: "",
+  gpsToggle: false,
 };
 
-export default function tabloReduser(state = initialState, action) {
+export default function tabloReducer(state = initialState, action) {
   switch (action.type) {
     case TABLO_TOGGLE_MAIN_MAP:
       return {
