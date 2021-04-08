@@ -66,7 +66,7 @@ export const layersGroupInit = [
     groupIndex: 2,
     data: [
       {
-        layer: "loco",
+        layer: "loco fuel_base",
         show: false,
         name: "Схема тягового обслуживания локомотивами (грузовые поезда)",
         visible: "visible",
@@ -83,7 +83,7 @@ export const layersGroupInit = [
         id: 8,
       },
       {
-        layer: "loco_pass",
+        layer: "loco_pass fuel_base_pass",
         show: false,
         name: "Схема тягового обслуживания локомотивами (пассажирские поезда)",
         visible: "visible",
@@ -107,6 +107,14 @@ export const layersGroupInit = [
         disabled: false,
         id: 11,
       },
+      {
+        layer: "ftrains_area",
+        show: false,
+        name: "Зоны обслуживания пожарными поездами",
+        visible: "visible",
+        disabled: false,
+        id: 12,
+      },
     ],
   },
   {
@@ -119,7 +127,7 @@ export const layersGroupInit = [
         name: "ДТВУ",
         visible: "visible",
         disabled: false,
-        id: 12,
+        id: 13,
       },
     ],
   },
@@ -133,7 +141,7 @@ export const layersGroupInit = [
         name: "Границы РЦС, поездная радиосвязь",
         visible: "visible",
         disabled: false,
-        id: 13,
+        id: 14,
       },
 
       {
@@ -142,7 +150,7 @@ export const layersGroupInit = [
         name: "Границы РЦС, линии связи",
         visible: "visible",
         disabled: false,
-        id: 14,
+        id: 15,
       },
     ],
   },
@@ -156,7 +164,7 @@ export const layersGroupInit = [
         name: "Штормовое предупреждение",
         visible: "visible",
         disabled: false,
-        id: 15,
+        id: 16,
       },
 
       {
@@ -165,7 +173,7 @@ export const layersGroupInit = [
         name: "Снегоуборочная техника",
         visible: "visible",
         disabled: false,
-        id: 16,
+        id: 17,
       },
       {
         layer: "weather_st",
@@ -173,7 +181,7 @@ export const layersGroupInit = [
         name: "Фактическая погода",
         visible: "visible",
         disabled: false,
-        id: 17,
+        id: 18,
       },
     ],
   },
@@ -187,7 +195,7 @@ export const layersGroupInit = [
         name: "мосты",
         visible: "visible",
         disabled: false,
-        id: 18,
+        id: 19,
       },
       {
         layer: "tubes",
@@ -195,7 +203,7 @@ export const layersGroupInit = [
         name: "трубы ИССО",
         visible: "visible",
         disabled: false,
-        id: 19,
+        id: 20,
       },
     ],
   },
@@ -209,7 +217,7 @@ export const layersGroupInit = [
         name: "Физкультурно-спортивные клубы",
         visible: "visible",
         disabled: false,
-        id: 20,
+        id: 21,
       },
     ],
   },

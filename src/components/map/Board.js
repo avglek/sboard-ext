@@ -92,9 +92,9 @@ const Board = (props) => {
       let code = props.layerFindGPS.code;
       if (code) {
         code = code.slice(0, 5);
-        showFindStantion(code, "point-org", "gps");
+        showFindStantion(code, "point-gps2", "gps");
       } else {
-        showFindStantion("0", "point-org", "gps");
+        showFindStantion("0", "point-gps2", "gps");
       }
     }
   }, [props.stormItems, props.layerFindGPS]);

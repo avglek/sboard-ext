@@ -8,7 +8,7 @@ const CustomCell = ({ row, column }) => {
   let value, color;
   const cellItem = row[column.selector];
 
-  if (typeof cellItem === "object") {
+  if (typeof cellItem === "object" && cellItem) {
     value = cellItem.value;
     color = cellItem.style;
   } else {
