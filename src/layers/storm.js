@@ -1,6 +1,6 @@
 import * as d3 from "d3";
-import { dateToStr, parsePeriodToDate } from "./common";
-import { showToolTip, hiddenTootTip } from "./tabloUtils";
+import { dateToStr, parsePeriodToDate } from "../utils/common";
+import { showToolTip, hiddenTootTip } from "../utils/tabloUtils";
 
 const icon_storm = "./svg/sprite/storm-sprite.svg#storm_2";
 const icon_critical = "./svg/sprite/storm-sprite.svg#storm_0";

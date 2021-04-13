@@ -19,6 +19,7 @@ var initialState = {
     "spec_vp": "/orw_tablo/load_vp.php?id_map=",
     "spec_prp": "/orw_tablo/load_prp.php?region=",
     "gps": "/apps/api/geo/stn?lon=$&lat=$",
+    "mil_rails": "/orw_tablo/load_mil.php?id_map=",
   },
 
   wsocket: {

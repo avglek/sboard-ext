@@ -1,53 +1,32 @@
-import {
-  addedEvents,
-  resetEvents,
-  clearStormEvents,
-} from "../../utils/stormUtils";
-import {
-  loadSnowStatus,
-  addSnowTechEvent,
-  resetSnowTechEvent,
-} from "../../utils/snowUtils";
-import { loadWeatherIcon, cleanIconWeather } from "../../utils/weatherUtils";
-import {
-  eventBridgeHandler,
-  resetBridgeHandler,
-} from "../../utils/bridgesUtils";
-import {
-  eventPipeHandler,
-  resetPipeHandler,
-  loadPipeCount,
-} from "../../utils/pipeUtils";
-import {
-  eventHealthHandler,
-  resetHealthHandler,
-} from "../../utils/healthUtils";
-import { eventSpecTrains, resetSpecTrains } from "../../utils/specTrains";
+import { layerEvent } from "../../layers";
 
 export function addEventLayer(layerId, props) {
   switch (layerId) {
     case "trains_distantions":
-      addedEvents(props);
+      layerEvent.storm.addedEvents(props);
       return;
     case "snow_tech":
-      loadSnowStatus(props);
-      addSnowTechEvent(props);
+      layerEvent.snow.loadSnowStatus(props);
+      layerEvent.snow.addSnowTechEvent(props);
       break;
     case "weather_st":
-      loadWeatherIcon(props);
+      layerEvent.weather.loadWeatherIcon(props);
       break;
     case "bridges":
-      eventBridgeHandler(props);
+      layerEvent.bridges.eventBridgeHandler(props);
       break;
     case "tubes":
-      loadPipeCount(props);
-      eventPipeHandler(props);
+      layerEvent.pipe.loadPipeCount(props);
+      layerEvent.pipe.eventPipeHandler(props);
       break;
     case "health_org":
-      eventHealthHandler(props);
+      layerEvent.health.eventHealthHandler(props);
       break;
     case "spec_trains":
-      eventSpecTrains(props);
+      layerEvent.spec.eventSpecTrains(props);
+      break;
+    case "mil_rails":
+      layerEvent.milRails.addEvent(props);
       break;
     default:
       return;
@@ -57,27 +36,30 @@ export function addEventLayer(layerId, props) {
 export function removeEventLayer(layerId, props) {
   switch (layerId) {
     case "trains_distantions":
-      resetEvents();
-      clearStormEvents();
+      layerEvent.storm.resetEvents();
+      layerEvent.storm.clearStormEvents();
 
       return;
     case "snow_tech":
-      resetSnowTechEvent();
+      layerEvent.snow.resetSnowTechEvent();
       break;
     case "weather_st":
-      cleanIconWeather();
+      layerEvent.weather.cleanIconWeather();
       break;
     case "bridges":
-      resetBridgeHandler();
+      layerEvent.bridges.resetBridgeHandler();
       break;
     case "tubes":
-      resetPipeHandler();
+      layerEvent.pipe.resetPipeHandler();
       break;
     case "health_org":
-      resetHealthHandler();
+      layerEvent.health.resetHealthHandler();
       break;
     case "spec_trains":
-      resetSpecTrains();
+      layerEvent.spec.resetSpecTrains();
+      break;
+    case "mil_rails":
+      layerEvent.milRails.resetEvent();
       break;
     default:
       return;

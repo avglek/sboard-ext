@@ -221,4 +221,18 @@ export const layersGroupInit = [
       },
     ],
   },
+  {
+    title: "Без категории",
+    groupIndex: 8,
+    data: [
+      {
+        layer: "mil_rails",
+        show: false,
+        name: "Малоинтенсивные линии",
+        visible: "visible",
+        disabled: false,
+        id: 22,
+      },
+    ],
+  },
 ];

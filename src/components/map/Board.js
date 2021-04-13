@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { loadMapORW, ShowLayer } from "./tablo";
-import { showStorm } from "../../utils/stormUtils";
+import { showStorm } from "../../layers/storm";
 //import { showWeather } from "../../utils/weatherUtils";
 import {
   postShowLayer,
@@ -20,6 +20,7 @@ import {
   modalSnowFetchData,
   modalPipeFetchData,
   modalHealthFetchData,
+  modalMilRailsFetchData,
 } from "../../store/actions/modalAction";
 import {
   forecastFetchData,
@@ -167,6 +168,7 @@ const mapDispatchToProps = (dispatch) => {
     fetchBridgeData: (id) => dispatch(modalBridgeFetchData(id)),
     fetchPipeData: (id) => dispatch(modalPipeFetchData(id)),
     fetchHealthData: (id) => dispatch(modalHealthFetchData(id)),
+    fetchMilRails: (id) => dispatch(modalMilRailsFetchData(id)),
     fetchSnowData: (id) => dispatch(modalSnowFetchData(id)),
     fectchSpecTechData: (id) => dispatch(specTechFetchData(id)),
     updateStormData: (id) => dispatch(stormUpdateData(id)),

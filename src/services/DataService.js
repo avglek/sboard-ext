@@ -5,6 +5,78 @@ const applicationInitialState = window.__INITIAL_STATE__;
 const config = applicationInitialState.config;
 
 class DataService {
+  async getMilRailsPokaz(id) {
+    const data = await this.getResurce(`${config.mil_rails}${id}`);
+    const res = {
+      info: [
+        {
+          index: 1,
+          name: data.title.name_pu,
+          value: data.data[0].name_pu,
+        },
+        {
+          index: 2,
+          name: data.title.dlina_pu,
+          value: data.data[0].dlina_pu,
+        },
+        {
+          index: 3,
+          name: data.title.v_rab,
+          value: data.data[0].v_rab,
+        },
+        {
+          index: 4,
+          name: data.title.gruzonap,
+          value: data.data[0].gruzonap,
+        },
+        {
+          index: 5,
+          name: data.title.teh_skor,
+          value: data.data[0].teh_skor,
+        },
+        {
+          index: 6,
+          name: data.title.teh_skor_dal,
+          value: data.data[0].teh_skor_dal,
+        },
+        {
+          index: 7,
+          name: data.title.teh_skor_prig,
+          value: data.data[0].teh_skor_prig,
+        },
+        {
+          index: 8,
+          name: data.title.razmer_dvizh_gruzp,
+          value: data.data[0].razmer_dvizh_gruzp,
+        },
+        {
+          index: 9,
+          name: data.title.razmer_dvizh_gruz_mass,
+          value: data.data[0].razmer_dvizh_gruz_mass,
+        },
+        {
+          index: 10,
+          name: data.title.razmer_dizh_passp,
+          value: data.data[0].razmer_dizh_passp,
+        },
+        {
+          index: 11,
+          name: data.title.skor_pass,
+          value: data.data[0].skor_pass,
+        },
+        {
+          index: 12,
+          name: data.title.class_pu,
+          value: data.data[0].class_pu,
+        },
+      ],
+    };
+
+    console.log(res);
+
+    return res;
+  }
+
   async getGPS(long, lat) {
     const url = replaceURL(config.gps, long, lat);
     const data = await this.getResurce(url);

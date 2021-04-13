@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import { showToolTip, hiddenTootTip } from "./tabloUtils";
+import { showToolTip, hiddenTootTip } from "../utils/tabloUtils";
 
 export function eventSpecTrains(props) {
   const nlist = d3.selectAll("#spec_trains");

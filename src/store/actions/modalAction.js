@@ -113,3 +113,16 @@ export function modalHealthFetchData(id) {
     }
   };
 }
+
+export function modalMilRailsFetchData(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading());
+    try {
+      const data = await dataService.getMilRailsPokaz(id);
+      dispatch(modalFetchDataSuccess(data));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
+    }
+  };
+}
