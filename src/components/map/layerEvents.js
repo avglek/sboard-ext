@@ -28,6 +28,9 @@ export function addEventLayer(layerId, props) {
     case "mil_rails":
       layerEvent.milRails.addEvent(props);
       break;
+    case "dnc":
+      layerEvent.dnc.addEvent(props);
+      break;
     default:
       return;
   }
@@ -60,6 +63,9 @@ export function removeEventLayer(layerId, props) {
       break;
     case "mil_rails":
       layerEvent.milRails.resetEvent();
+      break;
+    case "dnc":
+      layerEvent.dnc.resetEvent();
       break;
     default:
       return;

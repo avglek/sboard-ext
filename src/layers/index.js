@@ -6,6 +6,7 @@ import * as spec from "./specTrains";
 import * as storm from "./storm";
 import * as weather from "./weather";
 import * as milRails from "./milRails";
+import * as dnc from "./dnc";
 
 export const layerEvent = {
   bridges,
@@ -16,4 +17,5 @@ export const layerEvent = {
   storm,
   weather,
   milRails,
+  dnc,
 };
