@@ -33,7 +33,6 @@ export function fetchGPS(long, lat) {
     dispatch(gpsStartLoading());
     try {
       const data = await dataService.getGPS(long, lat);
-      //console.log("get data:", data);
       dispatch(gpsFetchSuccess(data));
     } catch (error) {
       console.log("Error:", error);

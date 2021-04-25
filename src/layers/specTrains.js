@@ -8,13 +8,9 @@ export function eventSpecTrains(props) {
 
   prpList
     .on("click", function () {
-      // const current = e.currentTarget;
-      // const id = current.id;
-      //console.log("click:", this);
-      //current);
-      //const id = this.id;
-      // props.openModal(true);
-      // props.fetchData(id, "spes_prp");
+      const id = this.id;
+      props.openModal(true);
+      props.fetchData(id, "spes_prp");
     })
     .on("mouseenter", function () {
       //prpList.style("cursor", "pointer");
@@ -50,11 +46,7 @@ export function eventSpecTrains(props) {
 
   vpList
     .on("click", function () {
-      // const current = e.currentTarget;
-
-      //console.log("click:", this);
       const id = this.id;
-      //current);
 
       props.openModal(true);
       props.fetchData(id, "spec_vp");

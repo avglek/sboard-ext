@@ -28,8 +28,6 @@ const WeatherUI = (props) => {
 };
 
 const renderUI = (size, props) => {
-  // console.log("props:", props);
-  // console.log("size:", size);
   if (props.isOpen) {
     const { width, height } = size;
     const dX = width + 5;

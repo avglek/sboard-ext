@@ -10,6 +10,7 @@ import PipeTable from "./PipeTabs/PipeTable";
 import LoaderConteiner from "../LoaderSpinner/LoaderConteiner";
 import { customStyles as defaultStyles } from "./PerformanceTabs/CustomStyles";
 import { imgStyles } from "./PerformanceTabs/imgStyles";
+import ChartView from "./ChartView/ChartView";
 
 const mapStateToProps = (state) => {
   return {
@@ -25,31 +26,38 @@ const TabEnterprises = (props) => {
   const activs = keys.filter((item) => item !== "info");
 
   const customTabs = activs.map((item, index) => {
-    if (props.viewer === "list") {
-      return (
-        <Tab eventKey={item} title={props.items[item].header} key={index}>
-          <ListView items={props.items[item]} />
-        </Tab>
-      );
-    } else if (props.viewer === "pipe") {
-      return (
-        <Tab eventKey={item} title={props.items[item].header} key={index}>
-          <PipeTable items={props.items[item]} />
-        </Tab>
-      );
-    } else {
-      return (
-        <Tab eventKey={item} title={props.items[item].header} key={index}>
-          <TableConteiner
-            items={props.items[item]}
-            rowsStyles={
-              props.items[item].header === "Руководство"
-                ? imgStyles
-                : defaultStyles
-            }
-          />
-        </Tab>
-      );
+    switch (props.viewer) {
+      case "chart":
+        return (
+          <Tab eventKey={item} title={props.items[0].title} key={index}>
+            <ChartView items={props.items[0]} />
+          </Tab>
+        );
+      case "list":
+        return (
+          <Tab eventKey={item} title={props.items[item].header} key={index}>
+            <ListView items={props.items[item]} />
+          </Tab>
+        );
+      case "pipe":
+        return (
+          <Tab eventKey={item} title={props.items[item].header} key={index}>
+            <PipeTable items={props.items[item]} />
+          </Tab>
+        );
+      default:
+        return (
+          <Tab eventKey={item} title={props.items[item].header} key={index}>
+            <TableConteiner
+              items={props.items[item]}
+              rowsStyles={
+                props.items[item].header === "Руководство"
+                  ? imgStyles
+                  : defaultStyles
+              }
+            />
+          </Tab>
+        );
     }
   });
 

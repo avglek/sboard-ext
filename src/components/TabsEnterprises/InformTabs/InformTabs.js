@@ -29,17 +29,8 @@ const handleClickLink = (link) => {
 };
 
 const handleClickLinkNoWindow = (link) => {
-  //console.log("href:", link);
   if (link) {
     window.open(link);
-    //console.log(link);
-    //const path = window.location.href;
-    //console.log(path);
-    //const url = new URL(link, path);
-    //url.searchParams.set("name", fname);
-    //console.log(url.href);
-
-    //window.open(url.href);
   }
 };
 
@@ -76,8 +67,6 @@ const InformTabs = (props) => {
   // характеристики
 
   const data = props.items;
-
-  //console.log(data);
 
   if (data === undefined) {
     return null;

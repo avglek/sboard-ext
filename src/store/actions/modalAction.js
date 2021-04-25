@@ -126,3 +126,16 @@ export function modalMilRailsFetchData(id) {
     }
   };
 }
+
+export function modalDncUchFetchData(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading());
+    try {
+      const data = await dataService.getDncUch(id);
+      dispatch(modalFetchDataSuccess(data, "chart"));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
+    }
+  };
+}

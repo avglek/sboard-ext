@@ -129,6 +129,7 @@ function loadRegions(url_reg, idRegion) {
     parentProps.postSnowTech(idRegion);
     parentProps.postPipeCount(idRegion);
     parentProps.fectchSpecTechData(idRegion);
+    parentProps.postDnc(idRegion);
 
     let close_btn = d3.select("#close_button");
     close_btn
@@ -339,9 +340,7 @@ function loadPortMap(url, parentId, port) {
 
         if (fname) {
           const link = config.port_dir;
-          //console.log(link);
           const path = window.location.href;
-          //console.log(path);
           const url = new URL(link, path);
           url.searchParams.set("name", fname);
 

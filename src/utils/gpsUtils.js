@@ -1,12 +1,8 @@
 export function startLocation(callback) {
-  //console.log("start location");
-
   let uid = null;
   if (navigator.geolocation) {
     uid = navigator.geolocation.watchPosition(
       (pos) => {
-        // console.log("pos latitude:", pos.coords.latitude);
-        // console.log("pos longitude:", pos.coords.longitude);
         callback(pos.coords.longitude, pos.coords.latitude);
       },
       (err) => {
@@ -21,7 +17,6 @@ export function startLocation(callback) {
 
 export function stopLocation(uid) {
   if (uid) {
-    //console.log("stop location");
     navigator.geolocation.clearWatch(uid);
   }
 }
@@ -29,13 +24,11 @@ export function stopLocation(uid) {
 export function loadStorage() {
   let initStorage = {};
   const gpsLocal = localStorage.getItem("gps");
-  //console.log(gpsLocal);
 
   if (gpsLocal) {
     initStorage = JSON.parse(gpsLocal);
 
     if (!initStorage.gpsName) {
-      //console.log("clear storage");
       localStorage.removeItem("gps");
 
       initStorage.gpsImg = "./svg/icons/button/gps_off.svg";

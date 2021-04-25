@@ -21,19 +21,15 @@ const MapConteiner = (props) => {
   const { stantion } = useSelector((state) => state.gps);
   const [uid, setUid] = useState(0);
   const dispatch = useDispatch();
-  //console.log("selector:", stantion);
 
   useEffect(() => {
     if (gpsToggle) {
-      //console.log("start location");
       setUid(
         startLocation((long, lat) => {
-          //console.log(`long: ${long} lat: ${lat}`);
           dispatch(fetchGPS(long, lat));
         })
       );
     } else {
-      //console.log("stop location", uid);
       if (uid) {
         stopLocation(uid);
         dispatch(resetGPS());

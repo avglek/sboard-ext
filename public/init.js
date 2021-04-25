@@ -23,6 +23,8 @@ var initialState = {
     spec_prp: "http://10.35.49.146:8080/orw_tablo/load_prp.php?region=",
     mil_rails: "http://10.35.49.146:8080/orw_tablo/load_mil.php?id_map=",
     gps: "http://10.35.49.146:8080/apps/api/geo/stn?lon=$&lat=$",
+    dnc_reg: "http://10.35.49.146:8080/apps/api/dnc/region?id=",
+    dnc_uch: "http://10.35.49.146:8080/apps/api/dnc/uch?id=",
   },
 
   wsocket: {

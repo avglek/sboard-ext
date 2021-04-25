@@ -11,6 +11,7 @@ import snowTechReducer from "./snowTechReducer";
 import pipeCountReducer from "./pipeReducer";
 import specTechReducer from "./specTechReducer";
 import gpsReducer from "./gpsReducer";
+import dncReducer from "./dncReducer";
 
 export default combineReducers({
   modal: modalReducer,
@@ -25,4 +26,5 @@ export default combineReducers({
   pipe: pipeCountReducer,
   specTech: specTechReducer,
   gps: gpsReducer,
+  dnc: dncReducer,
 });

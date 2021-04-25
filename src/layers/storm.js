@@ -11,12 +11,6 @@ export function showStorm(handleClick, data = []) {
 }
 
 export function clearStormEvents() {
-  // console.log("clear storm events");
-  // const trains = d3.selectAll("#trains_distantions > *").selectAll("#icon");
-  // const icons = trains.selectAll("use");
-
-  // icons.on("click", null).on("mouseenter", null).on("mouseleave", null);
-  // console.log(icons);
   clearLayer();
 }
 
@@ -30,7 +24,6 @@ export function resetEvents() {
 }
 
 export function addedEvents({ stormClick, stormItems }) {
-  //  console.log("add evend");
   showLayer(stormClick, stormItems);
 }
 
@@ -68,7 +61,7 @@ const getHitsText = (data) => {
 
 function showStormIcon(iconsMap) {
   const { train, icon, eventClick, info, critical } = iconsMap;
-  //console.log(iconsMap);
+
   const trainNode = d3.select(`#dist_${train}`);
   trainNode.attr("opacity", "1");
 
@@ -94,7 +87,6 @@ function showStormIcon(iconsMap) {
       hiddenTootTip();
       iconNode.style("cursor", "default");
     });
-  // console.log("add event storm");
 
   critical.forEach((item, index) => {
     const itemNode = anchorNode.append("use");

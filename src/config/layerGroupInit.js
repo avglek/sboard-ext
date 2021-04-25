@@ -36,7 +36,7 @@ export const layersGroupInit = [
         id: 3,
       },
       {
-        layer: "dnc",
+        layer: "dnc dnc_active",
         show: false,
         name: "Диспетчерские участки",
         visible: "visible",

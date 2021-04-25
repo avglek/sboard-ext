@@ -63,14 +63,10 @@ const PerformanceTable = ({ items, rowsStyles }) => {
         };
       }
 
-      //const rowsStyle = { ...customStyles.rows.style };
-      //console.log(rowsStyle);
-
       if (key === "image") {
         //const prefix = "http://localhost:9080";
         const prefix = "";
-        //customStyles.rows.style.minHeight = "180px";
-        //console.log(customStyles);
+
         col.cell = (row) => (
           <img
             alt={row.name}

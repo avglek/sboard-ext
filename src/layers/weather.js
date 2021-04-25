@@ -12,7 +12,6 @@ function showIconWeather(items, clickFunction) {
     const el = xml.documentElement.getElementsByTagName("g")[0];
 
     items.forEach((element) => {
-      //console.log(element.map_id);
       const anchorNode = d3.select("#weather_st").select(`#${element.map_id}`);
       if (anchorNode.node()) {
         anchorNode.attr("opacity", "1");
@@ -33,15 +32,6 @@ function showIconWeather(items, clickFunction) {
   });
 }
 
-export function testLoad(props) {
-  // console.log(props.weatherRegion);
-  // console.log("Load:", props.weatherLoad);
-  // console.log("Items:", props.weatherItems);
-  if (props.stormRegionID === props.weatherRegion && !props.weatherLoad) {
-    // console.log("start show items");
-  }
-}
-
 export function cleanIconWeather() {
   const nodeList = d3.selectAll('g[id ^= "wst_"]');
   nodeList.attr("opacity", "0");
@@ -58,11 +48,9 @@ function insertParam(node, params) {
   visNode.textContent = `${vis} км`;
   tempNode.textContent = `${params.temperature}  C`;
   windNode.textContent = `${params.wind_speed} м/с`;
-  //console.log(visNode.textContent);
 }
 
 function handleClickIcon(e, item, winOpen) {
-  // console.log("click:", e, item);
   e.stopPropagation();
   hiddenTootTip();
   winOpen(e.pageX, e.pageY, item);
@@ -75,10 +63,6 @@ function handleMouseEnterIcon(e, item) {
   showToolTip(info, e.pageX, e.pageY);
 }
 
-function handleMouseLeaveIcon(e, item) {
+function handleMouseLeaveIcon() {
   hiddenTootTip();
-}
-
-export function showWeather(items) {
-  //console.log("weather items:", items);
 }

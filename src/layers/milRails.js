@@ -20,7 +20,6 @@ export function resetEvent() {
 
 function handlerClick(element, { fetchMilRails, openModal }) {
   const uid = element.getAttribute("id");
-  console.log("mil:", uid);
   openModal(true);
   fetchMilRails(uid);
 }

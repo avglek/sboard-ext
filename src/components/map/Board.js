@@ -21,6 +21,7 @@ import {
   modalPipeFetchData,
   modalHealthFetchData,
   modalMilRailsFetchData,
+  modalDncUchFetchData,
 } from "../../store/actions/modalAction";
 import {
   forecastFetchData,
@@ -45,24 +46,13 @@ import { eventDivisions } from "../../utils/stantionUtils";
 import { showFindStantion } from "../../utils/searchUtils";
 import { pipeFetchData } from "../../store/actions/pipeActions";
 import { specTechFetchData } from "../../store/actions/specTechAction";
+import { fetchDncData } from "../../store/actions/dncAction";
 
 //import SocketService from "../../services/SocketService";
 
 //const socket = new SocketService();
 
 const Board = (props) => {
-  //const { stormRegionID, updateStormData, postWeather } = props;
-  // useEffect(() => {
-  //   socket.switchListner("storm", () => {
-  //     console.log("storm update:", stormRegionID);
-  //     updateStormData(stormRegionID);
-  //   });
-  //   socket.switchListner("weather.update", () => {
-  //     console.log("weather update:", stormRegionID);
-  //     postWeather(stormRegionID);
-  //   });
-  // }, [stormRegionID, updateStormData, postWeather]);
-
   useEffect(() => {
     loadMapORW(props);
     props.fetchTabloStantion();
@@ -147,6 +137,9 @@ const mapStateToProps = (state) => {
     pipeRegion: state.pipe.region,
     layerFindStantion: state.layer.findCode,
     layerFindGPS: state.gps.stantion,
+    dncData: state.dnc.items,
+    dncLoading: state.dnc.loading,
+    dncRegion: state.dnc.region,
   };
 };
 
@@ -166,6 +159,7 @@ const mapDispatchToProps = (dispatch) => {
     postWeather: (id) => dispatch(weatherFetchData(id)),
     fetchStormData: (id) => dispatch(modalStormFetchData(id)),
     fetchBridgeData: (id) => dispatch(modalBridgeFetchData(id)),
+    fetchDncUchData: (id) => dispatch(modalDncUchFetchData(id)),
     fetchPipeData: (id) => dispatch(modalPipeFetchData(id)),
     fetchHealthData: (id) => dispatch(modalHealthFetchData(id)),
     fetchMilRails: (id) => dispatch(modalMilRailsFetchData(id)),
@@ -180,6 +174,7 @@ const mapDispatchToProps = (dispatch) => {
     postPipeCount: (id) => dispatch(pipeFetchData(id)),
     postFindStantion: (code) => dispatch(postFindCode(code)),
     postResetZoom: (f) => dispatch(postResetZoom(f)),
+    postDnc: (id) => dispatch(fetchDncData(id)),
   };
 };
 

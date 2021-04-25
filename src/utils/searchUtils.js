@@ -5,7 +5,6 @@ export function showFindStantion(
   iconUID = "point-fill",
   iconClass = "pointer"
 ) {
-  //console.log("code:", FindStantion);
   const href = `./svg/sprite/point-sprite.svg#${iconUID}`;
 
   if (FindStantion !== "") {
@@ -16,8 +15,6 @@ export function showFindStantion(
       const stnNode = allStn.selectAll(`#st_${FindStantion}`);
       const anchorNode = stnNode.select("#st");
       const iconNode = anchorNode.append("use");
-
-      //console.log(iconNode.node());
 
       iconNode
         .attr("class", iconClass)

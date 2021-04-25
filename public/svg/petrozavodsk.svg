@@ -89,12 +89,17 @@
                     <rect id="Rectangle" fill="#58C340" x="1" y="1" width="20" height="20" rx="3"></rect>
                     <path d="M13.5109935,3.51045424 C14.5300685,3.8433993 15.4590985,4.37544677 16.2521248,5.06063792 L15.9149105,8.15488137 L18.8503429,9.44880555 C18.964406,9.9867105 19.0244141,10.5445842 19.0244141,11.1164736 C19.0244141,11.5821246 18.9846302,12.0384835 18.9082761,12.4823369 L15.9149105,13.8019402 L16.2793418,17.1486865 C15.547105,17.7871054 14.6975443,18.2943772 13.7672701,18.6338915 L11.0244141,16.6254696 L8.28155802,18.6338915 C7.35128378,18.2943772 6.50172314,17.7871054 5.76948634,17.1486865 L6.13391766,13.8019402 L3.14055203,12.4823369 C3.06419792,12.0384835 3.02441406,11.5821246 3.02441406,11.1164736 C3.02441406,10.5445842 3.08442216,9.9867105 3.19848521,9.44880555 L6.13391766,8.15488137 L5.79670335,5.06063792 C6.58972959,4.37544677 7.51875958,3.8433993 8.53783459,3.51045424 L11.0244141,5.33135195 L13.5109935,3.51045424 Z M11.0244141,9.09605784 C9.98481924,9.09605784 9.14206112,9.93881595 9.14206112,10.9784108 C9.14206112,12.0180056 9.98481924,12.8607637 11.0244141,12.8607637 C12.0640089,12.8607637 12.906767,12.0180056 12.906767,10.9784108 C12.906767,9.93881595 12.0640089,9.09605784 11.0244141,9.09605784 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(11.024414, 11.072282) rotate(-30.000000) translate(-11.024414, -11.072282) "></path>
                 </g>
-                <g id="pskp" transform="translate(785.000000, 1.000000)">
+                <g id="pskp" transform="translate(786.000000, 1.000000)">
                     <rect id="Rectangle" fill="#797979" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
                     <polygon id="Path-177" fill="#FBFBFB" fill-rule="evenodd" transform="translate(9.995178, 15.033142) scale(-1, 1) rotate(-90.000000) translate(-9.995178, -15.033142) " points="11.9884033 12.0106201 7.99060059 15.0097656 11.9997559 18.0556641"></polygon>
                     <line x1="3" y1="9" x2="17" y2="9" id="Path-169" stroke="#FFFFFF" stroke-width="2"></line>
                     <line x1="4" y1="5" x2="4" y2="13" id="Path-168" stroke="#FFFFFF" stroke-width="2"></line>
                     <line x1="16" y1="5" x2="16" y2="13" id="Path-168" stroke="#FFFFFF" stroke-width="2"></line>
+                </g>
+                <g id="utorc" transform="translate(809.000000, 1.000000)">
+                    <rect id="Rectangle" fill="#545454" x="0" y="0" width="20" height="20" rx="3"></rect>
+                    <path d="M13,2 C13.5010531,2 13.9848924,2.07370098 14.4412684,2.21085348 L11.0769231,5.8316306 L11.7087075,8.36991883 L14.3989067,8.92307692 L17.7389343,5.40122183 C17.9082312,5.90322028 18,6.44089326 18,7 C18,9.76142375 15.7614237,12 13,12 C10.2385763,12 8,9.76142375 8,7 C8,4.23857625 10.2385763,2 13,2 Z" id="Combined-Shape" fill="#FFFEFE"></path>
+                    <rect id="Rectangle" fill="#FFFEFE" transform="translate(7.500000, 12.625001) rotate(45.000000) translate(-7.500000, -12.625001) " x="6" y="7" width="3" height="11.250001"></rect>
                 </g>
                 <g id="pot" transform="translate(785.000000, 269.000000)">
                     <rect id="Rectangle" fill="#7764B1" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
@@ -123,6 +128,11 @@
                         <line x1="14" y1="5.16677856" x2="9" y2="10.3125" id="Path-169"></line>
                         <line x1="14.0000002" y1="0.458221433" x2="9" y2="6.08322163" id="Path-169" transform="translate(11.500000, 3.281250) scale(1, -1) rotate(0.000000) translate(-11.500000, -3.281250) "></line>
                     </g>
+                </g>
+                <g id="utorc" transform="translate(541.000000, 788.000000)">
+                    <rect id="Rectangle" fill="#545454" x="0" y="0" width="20" height="20" rx="3"></rect>
+                    <path d="M13,2 C13.5010531,2 13.9848924,2.07370098 14.4412684,2.21085348 L11.0769231,5.8316306 L11.7087075,8.36991883 L14.3989067,8.92307692 L17.7389343,5.40122183 C17.9082312,5.90322028 18,6.44089326 18,7 C18,9.76142375 15.7614237,12 13,12 C10.2385763,12 8,9.76142375 8,7 C8,4.23857625 10.2385763,2 13,2 Z" id="Combined-Shape" fill="#FFFEFE"></path>
+                    <rect id="Rectangle" fill="#FFFEFE" transform="translate(7.500000, 12.625001) rotate(45.000000) translate(-7.500000, -12.625001) " x="6" y="7" width="3" height="11.250001"></rect>
                 </g>
                 <g id="pot" transform="translate(354.000000, 820.000000)">
                     <rect id="Rectangle" fill="#7764B1" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
@@ -154,11 +164,31 @@
                     <path d="M5,4.5 C3.68698739,6.14572981 3.02046679,7.95443841 3.00043822,9.92612578 C2.98040964,11.8978131 3.64693024,13.7557712 5,15.5" id="Path-169" stroke="#FFFFFF" stroke-width="2"></path>
                     <path d="M17,4.5 C15.6869874,6.14572981 15.0204668,7.95443841 15.0004382,9.92612578 C14.9804096,11.8978131 15.6469302,13.7557712 17,15.5" id="Path-169" stroke="#FFFFFF" stroke-width="2" transform="translate(16.000000, 10.000000) scale(-1, 1) translate(-16.000000, -10.000000) "></path>
                 </g>
+                <g id="pot" transform="translate(544.000000, 1096.000000)">
+                    <rect id="Rectangle" fill="#7764B1" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="10" cy="10" r="4"></circle>
+                    <path d="M5,4.5 C3.68698739,6.14572981 3.02046679,7.95443841 3.00043822,9.92612578 C2.98040964,11.8978131 3.64693024,13.7557712 5,15.5" id="Path-169" stroke="#FFFFFF" stroke-width="2"></path>
+                    <path d="M17,4.5 C15.6869874,6.14572981 15.0204668,7.95443841 15.0004382,9.92612578 C14.9804096,11.8978131 15.6469302,13.7557712 17,15.5" id="Path-169" stroke="#FFFFFF" stroke-width="2" transform="translate(16.000000, 10.000000) scale(-1, 1) translate(-16.000000, -10.000000) "></path>
+                </g>
                 <g id="pto" transform="translate(351.000000, 102.000000)">
                     <rect id="Rectangle" fill="#58C340" x="1" y="1" width="20" height="20" rx="3"></rect>
                     <path d="M13.5109935,3.51045424 C14.5300685,3.8433993 15.4590985,4.37544677 16.2521248,5.06063792 L15.9149105,8.15488137 L18.8503429,9.44880555 C18.964406,9.9867105 19.0244141,10.5445842 19.0244141,11.1164736 C19.0244141,11.5821246 18.9846302,12.0384835 18.9082761,12.4823369 L15.9149105,13.8019402 L16.2793418,17.1486865 C15.547105,17.7871054 14.6975443,18.2943772 13.7672701,18.6338915 L11.0244141,16.6254696 L8.28155802,18.6338915 C7.35128378,18.2943772 6.50172314,17.7871054 5.76948634,17.1486865 L6.13391766,13.8019402 L3.14055203,12.4823369 C3.06419792,12.0384835 3.02441406,11.5821246 3.02441406,11.1164736 C3.02441406,10.5445842 3.08442216,9.9867105 3.19848521,9.44880555 L6.13391766,8.15488137 L5.79670335,5.06063792 C6.58972959,4.37544677 7.51875958,3.8433993 8.53783459,3.51045424 L11.0244141,5.33135195 L13.5109935,3.51045424 Z M11.0244141,9.09605784 C9.98481924,9.09605784 9.14206112,9.93881595 9.14206112,10.9784108 C9.14206112,12.0180056 9.98481924,12.8607637 11.0244141,12.8607637 C12.0640089,12.8607637 12.906767,12.0180056 12.906767,10.9784108 C12.906767,9.93881595 12.0640089,9.09605784 11.0244141,9.09605784 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(11.024414, 11.072282) rotate(-30.000000) translate(-11.024414, -11.072282) "></path>
                 </g>
+                <g id="pto" transform="translate(762.000000, 157.000000)">
+                    <rect id="Rectangle" fill="#58C340" x="1" y="1" width="20" height="20" rx="3"></rect>
+                    <path d="M13.5109935,3.51045424 C14.5300685,3.8433993 15.4590985,4.37544677 16.2521248,5.06063792 L15.9149105,8.15488137 L18.8503429,9.44880555 C18.964406,9.9867105 19.0244141,10.5445842 19.0244141,11.1164736 C19.0244141,11.5821246 18.9846302,12.0384835 18.9082761,12.4823369 L15.9149105,13.8019402 L16.2793418,17.1486865 C15.547105,17.7871054 14.6975443,18.2943772 13.7672701,18.6338915 L11.0244141,16.6254696 L8.28155802,18.6338915 C7.35128378,18.2943772 6.50172314,17.7871054 5.76948634,17.1486865 L6.13391766,13.8019402 L3.14055203,12.4823369 C3.06419792,12.0384835 3.02441406,11.5821246 3.02441406,11.1164736 C3.02441406,10.5445842 3.08442216,9.9867105 3.19848521,9.44880555 L6.13391766,8.15488137 L5.79670335,5.06063792 C6.58972959,4.37544677 7.51875958,3.8433993 8.53783459,3.51045424 L11.0244141,5.33135195 L13.5109935,3.51045424 Z M11.0244141,9.09605784 C9.98481924,9.09605784 9.14206112,9.93881595 9.14206112,10.9784108 C9.14206112,12.0180056 9.98481924,12.8607637 11.0244141,12.8607637 C12.0640089,12.8607637 12.906767,12.0180056 12.906767,10.9784108 C12.906767,9.93881595 12.0640089,9.09605784 11.0244141,9.09605784 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(11.024414, 11.072282) rotate(-30.000000) translate(-11.024414, -11.072282) "></path>
+                </g>
                 <g id="utor" transform="translate(398.000000, 103.000000)">
+                    <rect id="Rectangle" fill="#D15164" x="0" y="0" width="20" height="20" rx="3"></rect>
+                    <path d="M13,2 C13.5010531,2 13.9848924,2.07370098 14.4412684,2.21085348 L11.0769231,5.8316306 L11.7087075,8.36991883 L14.3989067,8.92307692 L17.7389343,5.40122183 C17.9082312,5.90322028 18,6.44089326 18,7 C18,9.76142375 15.7614237,12 13,12 C10.2385763,12 8,9.76142375 8,7 C8,4.23857625 10.2385763,2 13,2 Z" id="Combined-Shape" fill="#FFFEFE"></path>
+                    <rect id="Rectangle" fill="#FFFEFE" transform="translate(7.500000, 12.625001) rotate(45.000000) translate(-7.500000, -12.625001) " x="6" y="7" width="3" height="11.250001"></rect>
+                </g>
+                <g id="utor" transform="translate(701.000000, 944.000000)">
+                    <rect id="Rectangle" fill="#D15164" x="0" y="0" width="20" height="20" rx="3"></rect>
+                    <path d="M13,2 C13.5010531,2 13.9848924,2.07370098 14.4412684,2.21085348 L11.0769231,5.8316306 L11.7087075,8.36991883 L14.3989067,8.92307692 L17.7389343,5.40122183 C17.9082312,5.90322028 18,6.44089326 18,7 C18,9.76142375 15.7614237,12 13,12 C10.2385763,12 8,9.76142375 8,7 C8,4.23857625 10.2385763,2 13,2 Z" id="Combined-Shape" fill="#FFFEFE"></path>
+                    <rect id="Rectangle" fill="#FFFEFE" transform="translate(7.500000, 12.625001) rotate(45.000000) translate(-7.500000, -12.625001) " x="6" y="7" width="3" height="11.250001"></rect>
+                </g>
+                <g id="utor" transform="translate(786.000000, 158.000000)">
                     <rect id="Rectangle" fill="#D15164" x="0" y="0" width="20" height="20" rx="3"></rect>
                     <path d="M13,2 C13.5010531,2 13.9848924,2.07370098 14.4412684,2.21085348 L11.0769231,5.8316306 L11.7087075,8.36991883 L14.3989067,8.92307692 L17.7389343,5.40122183 C17.9082312,5.90322028 18,6.44089326 18,7 C18,9.76142375 15.7614237,12 13,12 C10.2385763,12 8,9.76142375 8,7 C8,4.23857625 10.2385763,2 13,2 Z" id="Combined-Shape" fill="#FFFEFE"></path>
                     <rect id="Rectangle" fill="#FFFEFE" transform="translate(7.500000, 12.625001) rotate(45.000000) translate(-7.500000, -12.625001) " x="6" y="7" width="3" height="11.250001"></rect>
@@ -185,19 +215,19 @@
                     <line x1="16" y1="5" x2="16" y2="13" id="Path-168" stroke="#FFFFFF" stroke-width="2"></line>
                 </g>
             </g>
-            <g id="legend" transform="translate(753.500000, 1292.388585)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="254" height="189" rx="9"></rect>
-                <g id="pto" transform="translate(12.000000, 84.000000)">
+            <g id="legend" transform="translate(753.500000, 1266.388585)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="254" height="215" rx="9"></rect>
+                <g id="pto" transform="translate(12.000000, 110.000000)">
                     <rect id="Rectangle" fill="#58C340" x="1" y="1" width="20" height="20" rx="3"></rect>
                     <path d="M13.5109935,3.51045424 C14.5300685,3.8433993 15.4590985,4.37544677 16.2521248,5.06063792 L15.9149105,8.15488137 L18.8503429,9.44880555 C18.964406,9.9867105 19.0244141,10.5445842 19.0244141,11.1164736 C19.0244141,11.5821246 18.9846302,12.0384835 18.9082761,12.4823369 L15.9149105,13.8019402 L16.2793418,17.1486865 C15.547105,17.7871054 14.6975443,18.2943772 13.7672701,18.6338915 L11.0244141,16.6254696 L8.28155802,18.6338915 C7.35128378,18.2943772 6.50172314,17.7871054 5.76948634,17.1486865 L6.13391766,13.8019402 L3.14055203,12.4823369 C3.06419792,12.0384835 3.02441406,11.5821246 3.02441406,11.1164736 C3.02441406,10.5445842 3.08442216,9.9867105 3.19848521,9.44880555 L6.13391766,8.15488137 L5.79670335,5.06063792 C6.58972959,4.37544677 7.51875958,3.8433993 8.53783459,3.51045424 L11.0244141,5.33135195 L13.5109935,3.51045424 Z M11.0244141,9.09605784 C9.98481924,9.09605784 9.14206112,9.93881595 9.14206112,10.9784108 C9.14206112,12.0180056 9.98481924,12.8607637 11.0244141,12.8607637 C12.0640089,12.8607637 12.906767,12.0180056 12.906767,10.9784108 C12.906767,9.93881595 12.0640089,9.09605784 11.0244141,9.09605784 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(11.024414, 11.072282) rotate(-30.000000) translate(-11.024414, -11.072282) "></path>
                 </g>
-                <g id="pot" transform="translate(13.000000, 36.000000)">
+                <g id="pot" transform="translate(13.000000, 62.000000)">
                     <rect id="Rectangle" fill="#7764B1" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
                     <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="10" cy="10" r="4"></circle>
                     <path d="M5,4.5 C3.68698739,6.14572981 3.02046679,7.95443841 3.00043822,9.92612578 C2.98040964,11.8978131 3.64693024,13.7557712 5,15.5" id="Path-169" stroke="#FFFFFF" stroke-width="2"></path>
                     <path d="M17,4.5 C15.6869874,6.14572981 15.0204668,7.95443841 15.0004382,9.92612578 C14.9804096,11.8978131 15.6469302,13.7557712 17,15.5" id="Path-169" stroke="#FFFFFF" stroke-width="2" transform="translate(16.000000, 10.000000) scale(-1, 1) translate(-16.000000, -10.000000) "></path>
                 </g>
-                <g id="ptp" transform="translate(13.000000, 60.000000)">
+                <g id="ptp" transform="translate(13.000000, 86.000000)">
                     <rect id="Rectangle" fill="#5F9AE6" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
                     <g id="arrow" transform="translate(3.000000, 4.500000)" stroke="#FFFEFE" stroke-width="2">
                         <path d="M13,5.60427856 C9.45572917,5.60427856 5.12239583,5.60427856 0,5.60427856" id="Path-168"></path>
@@ -205,23 +235,23 @@
                         <line x1="14.0000002" y1="0.458221433" x2="9" y2="6.08322163" id="Path-169" transform="translate(11.500000, 3.281250) scale(1, -1) rotate(0.000000) translate(-11.500000, -3.281250) "></line>
                     </g>
                 </g>
-                <g id="pskp" transform="translate(13.000000, 159.000000)">
+                <g id="pskp" transform="translate(13.000000, 185.000000)">
                     <rect id="Rectangle" fill="#797979" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
                     <polygon id="Path-177" fill="#FBFBFB" fill-rule="evenodd" transform="translate(9.995178, 15.033142) scale(-1, 1) rotate(-90.000000) translate(-9.995178, -15.033142) " points="11.9884033 12.0106201 7.99060059 15.0097656 11.9997559 18.0556641"></polygon>
                     <line x1="3" y1="9" x2="17" y2="9" id="Path-169" stroke="#FFFFFF" stroke-width="2"></line>
                     <line x1="4" y1="5" x2="4" y2="13" id="Path-168" stroke="#FFFFFF" stroke-width="2"></line>
                     <line x1="16" y1="5" x2="16" y2="13" id="Path-168" stroke="#FFFFFF" stroke-width="2"></line>
                 </g>
-                <g id="ppv" transform="translate(13.000000, 109.000000)">
+                <g id="ppv" transform="translate(13.000000, 135.000000)">
                     <rect id="Rectangle" fill="#58C340" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
                     <polyline id="Path-168" stroke="#FFFFFF" stroke-width="3" points="4 9.65625 9.44335937 14.7998047 15.9072266 4.61816406"></polyline>
                 </g>
-                <g id="utor" transform="translate(13.000000, 11.000000)">
+                <g id="utor" transform="translate(13.000000, 12.000000)">
                     <rect id="Rectangle" fill="#D15164" x="0" y="0" width="20" height="20" rx="3"></rect>
                     <path d="M13,2 C13.5010531,2 13.9848924,2.07370098 14.4412684,2.21085348 L11.0769231,5.8316306 L11.7087075,8.36991883 L14.3989067,8.92307692 L17.7389343,5.40122183 C17.9082312,5.90322028 18,6.44089326 18,7 C18,9.76142375 15.7614237,12 13,12 C10.2385763,12 8,9.76142375 8,7 C8,4.23857625 10.2385763,2 13,2 Z" id="Combined-Shape" fill="#FFFEFE"></path>
                     <rect id="Rectangle" fill="#FFFEFE" transform="translate(7.500000, 12.625001) rotate(45.000000) translate(-7.500000, -12.625001) " x="6" y="7" width="3" height="11.250001"></rect>
                 </g>
-                <g id="mptpv" transform="translate(13.000000, 134.000000)">
+                <g id="mptpv" transform="translate(13.000000, 160.000000)">
                     <rect id="Rectangle" fill="#FF9942" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
                     <polygon id="Path-174" stroke="#FFFFFF" stroke-width="1" points="10.057433 2.13427734 7.48632813 4.99585852 7.50463867 17.5305176 12.5129395 17.5625 12.476561 5.00329506"></polygon>
                     <path d="" id="Path-175" stroke="#979797" stroke-width="1"></path>
@@ -229,25 +259,33 @@
                     <polygon id="Path-176" fill="#FFFCFC" fill-rule="evenodd" points="7.82556152 10.1412354 12.170166 7.9185791 12.2011719 4.91625977 7.81188965 7.16674805"></polygon>
                 </g>
                 <text id="Уч.-текущего-отцепоч" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="40.444" y="26">Уч. текущего отцепочного ремонта</tspan>
+                    <tspan x="40.444" y="27">Уч. текущего отцепочного ремонта</tspan>
+                </text>
+                <g id="utorc" transform="translate(13.000000, 37.000000)">
+                    <rect id="Rectangle" fill="#545454" x="0" y="0" width="20" height="20" rx="3"></rect>
+                    <path d="M13,2 C13.5010531,2 13.9848924,2.07370098 14.4412684,2.21085348 L11.0769231,5.8316306 L11.7087075,8.36991883 L14.3989067,8.92307692 L17.7389343,5.40122183 C17.9082312,5.90322028 18,6.44089326 18,7 C18,9.76142375 15.7614237,12 13,12 C10.2385763,12 8,9.76142375 8,7 C8,4.23857625 10.2385763,2 13,2 Z" id="Combined-Shape" fill="#FFFEFE"></path>
+                    <rect id="Rectangle" fill="#FFFEFE" transform="translate(7.500000, 12.625001) rotate(45.000000) translate(-7.500000, -12.625001) " x="6" y="7" width="3" height="11.250001"></rect>
+                </g>
+                <text id="Уч.-тек.-отцеп.-ремо" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
+                    <tspan x="41.26" y="52">Уч. тек. отцеп. ремонта (законсерв.)</tspan>
                 </text>
                 <text id="Пункт-опробования-то" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="39.47" y="50">Пункт опробования тормозов</tspan>
+                    <tspan x="39.47" y="76">Пункт опробования тормозов</tspan>
                 </text>
                 <text id="Пункт-технической-пе" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="39.344" y="74">Пункт технической передачи</tspan>
+                    <tspan x="39.344" y="100">Пункт технической передачи</tspan>
                 </text>
                 <text id="Пункт-технического-о" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="39.79" y="99">Пункт технического обслуживания</tspan>
+                    <tspan x="39.79" y="125">Пункт технического обслуживания</tspan>
                 </text>
                 <text id="Пункт-подготовки-ваг" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="40.108" y="123">Пункт подготовки вагонов</tspan>
+                    <tspan x="40.108" y="149">Пункт подготовки вагонов</tspan>
                 </text>
                 <text id="Межгос.-пункты-техн." font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="39.954" y="149">Межгос. пункты техн. передачи </tspan>
+                    <tspan x="39.954" y="175">Межгос. пункты техн. передачи </tspan>
                 </text>
                 <text id="Пункт-смены-колёсных" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="40.594" y="173">Пункт смены колёсных пар</tspan>
+                    <tspan x="40.594" y="199">Пункт смены колёсных пар</tspan>
                 </text>
             </g>
         </g>
@@ -417,6 +455,31 @@
                 <tspan x="678.02" y="1382.50058" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal"></tspan>
                 <tspan x="616" y="1401.50058" font-family="AvenirNext-Regular, Avenir Next" font-weight="normal">Лодейнопольский</tspan>
             </text>
+            <g id="dnc_legend" transform="translate(264.000000, 89.500582)">
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="173" height="59" rx="5"></rect>
+                <text id="speed_load_time" font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#6D7C8A">
+                    <tspan x="7" y="52">Отображены данные на 15:15</tspan>
+                </text>
+                <text id="текущая" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#454545">
+                    <tspan x="11.84" y="32">текущая </tspan>
+                </text>
+                <text id="Участковая-скорость" font-family="AvenirNext-Bold, Avenir Next" font-size="10" font-weight="bold" fill="#6D7C8A">
+                    <tspan x="34.35" y="14">Участковая скорость </tspan>
+                </text>
+                <text id="плановая" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#49CF3A">
+                    <tspan x="122" y="32">плановая</tspan>
+                </text>
+                <g id="dnc_sp" transform="translate(58.000000, 21.000000)">
+                    <rect id="Rectangle" stroke="#A9A9A9" stroke-width="0.5" fill="#FFFFFF" x="0.25" y="0.25" width="57.5" height="15.5" rx="5"></rect>
+                    <path d="M29,0 L53,0 C55.7614237,-5.07265313e-16 58,2.23857625 58,5 L58,11 C58,13.7614237 55.7614237,16 53,16 L29,16 L29,16 L29,0 Z" id="Rectangle" fill="#6BD85E"></path>
+                    <text id="speed1" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#454545">
+                        <tspan x="5.5" y="12">40.8</tspan>
+                    </text>
+                    <text id="speed2" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="33.5" y="12">45.5</tspan>
+                    </text>
+                </g>
+            </g>
         </g>
         <g id="loco" opacity="0" transform="translate(30.000000, 31.000000)">
             <g id="tch_26" transform="translate(204.000000, 245.000000)">
@@ -6601,7 +6664,25 @@
                     <rect id="Rectangle" fill="#1C9FDD" x="9" y="1" width="1.5" height="2"></rect>
                 </g>
             </g>
-            <g id="32_37" transform="translate(658.000000, 769.000000)">
+            <g id="33_37" transform="translate(622.000000, 769.000000)">
+                <g id="icon">
+                    <line x1="0" y1="0.5" x2="12.5" y2="0.5" id="Path-28" stroke="#1C9FDD" stroke-width="1.2" transform="translate(6.500000, 0.500000) rotate(-0.000000) translate(-6.500000, -0.500000) "></line>
+                    <rect id="Rectangle" fill="#1C9FDD" x="2" y="1" width="1.5" height="2"></rect>
+                    <rect id="Rectangle" fill="#1C9FDD" x="9" y="1" width="1.5" height="2"></rect>
+                </g>
+            </g>
+            <g id="32_37" transform="translate(622.000000, 765.000000)">
+                <polyline id="Path-51" stroke="#1C9FDD" stroke-width="0.5" points="14 7 36 7 50 8"></polyline>
+                <text id="ручей" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#1C9FDD">
+                    <tspan x="17.405" y="5">ручей</tspan>
+                </text>
+                <g id="icon" transform="translate(0.000000, 8.000000)">
+                    <line x1="0" y1="0.5" x2="12.5" y2="0.5" id="Path-28" stroke="#1C9FDD" stroke-width="1.2" transform="translate(6.500000, 0.500000) rotate(-0.000000) translate(-6.500000, -0.500000) "></line>
+                    <rect id="Rectangle" fill="#1C9FDD" x="2" y="1" width="1.5" height="2"></rect>
+                    <rect id="Rectangle" fill="#1C9FDD" x="9" y="1" width="1.5" height="2"></rect>
+                </g>
+            </g>
+            <g id="31_37" transform="translate(658.000000, 769.000000)">
                 <polyline id="Path-51" stroke="#1C9FDD" stroke-width="0.5" points="48.5 6 13.667796 5.7767944 0 5"></polyline>
                 <text id="ручей" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#1C9FDD">
                     <tspan x="26.905" y="5">ручей</tspan>
@@ -6613,24 +6694,6 @@
                 </g>
             </g>
             <g id="30_37" transform="translate(706.000000, 772.000000)">
-                <g id="icon">
-                    <line x1="0" y1="0.5" x2="12.5" y2="0.5" id="Path-28" stroke="#1C9FDD" stroke-width="1.2" transform="translate(6.500000, 0.500000) rotate(-0.000000) translate(-6.500000, -0.500000) "></line>
-                    <rect id="Rectangle" fill="#1C9FDD" x="2" y="1" width="1.5" height="2"></rect>
-                    <rect id="Rectangle" fill="#1C9FDD" x="9" y="1" width="1.5" height="2"></rect>
-                </g>
-            </g>
-            <g id="31_37" transform="translate(622.000000, 765.000000)">
-                <polyline id="Path-51" stroke="#1C9FDD" stroke-width="0.5" points="14 7 36 7 50 8"></polyline>
-                <text id="ручей" font-family="AvenirNext-Italic, Avenir Next" font-size="5" font-style="italic" font-weight="normal" fill="#1C9FDD">
-                    <tspan x="17.405" y="5">ручей</tspan>
-                </text>
-                <g id="icon" transform="translate(0.000000, 8.000000)">
-                    <line x1="0" y1="0.5" x2="12.5" y2="0.5" id="Path-28" stroke="#1C9FDD" stroke-width="1.2" transform="translate(6.500000, 0.500000) rotate(-0.000000) translate(-6.500000, -0.500000) "></line>
-                    <rect id="Rectangle" fill="#1C9FDD" x="2" y="1" width="1.5" height="2"></rect>
-                    <rect id="Rectangle" fill="#1C9FDD" x="9" y="1" width="1.5" height="2"></rect>
-                </g>
-            </g>
-            <g id="33_37" transform="translate(622.000000, 769.000000)">
                 <g id="icon">
                     <line x1="0" y1="0.5" x2="12.5" y2="0.5" id="Path-28" stroke="#1C9FDD" stroke-width="1.2" transform="translate(6.500000, 0.500000) rotate(-0.000000) translate(-6.500000, -0.500000) "></line>
                     <rect id="Rectangle" fill="#1C9FDD" x="2" y="1" width="1.5" height="2"></rect>
@@ -6798,6 +6861,32 @@
                     <rect id="Rectangle" fill="#000000" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
                     <rect id="Rectangle" fill="#000000" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
                 </g>
+            </g>
+        </g>
+        <g id="dnc_active" transform="translate(222.000000, 145.000000)">
+            <g id="dnc_403" transform="translate(315.000000, 0.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="dnc_402" transform="translate(410.000000, 202.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="dnc_404" transform="translate(616.000000, 550.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="dnc_407" transform="translate(353.000000, 569.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="dnc_406" transform="translate(81.000000, 383.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="dnc_405" transform="translate(0.000000, 1026.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="dnc_401" transform="translate(480.000000, 1064.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
+            </g>
+            <g id="dnc_604" transform="translate(434.000000, 1279.000000)">
+                <circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle>
             </g>
         </g>
         <g id="close_button" opacity="0.757719494" transform="translate(981.000000, 15.000000)" stroke="#B6B6B6" stroke-width="3">

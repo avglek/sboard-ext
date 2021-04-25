@@ -5,6 +5,15 @@ const applicationInitialState = window.__INITIAL_STATE__;
 const config = applicationInitialState.config;
 
 class DataService {
+  async getDncUch(id) {
+    const data = await this.getResurce(`${config.dnc_uch}${id}`);
+    return data;
+  }
+  async getDncData(id) {
+    const data = await this.getResurce(`${config.dnc_reg}${id}`);
+    return data;
+  }
+
   async getMilRailsPokaz(id) {
     const data = await this.getResurce(`${config.mil_rails}${id}`);
     const res = {
@@ -71,8 +80,6 @@ class DataService {
         },
       ],
     };
-
-    console.log(res);
 
     return res;
   }
@@ -229,7 +236,6 @@ class DataService {
           isCritical,
         };
       });
-      //console.log(dataTrains);
       return dataTrains;
     } else {
       return [];
