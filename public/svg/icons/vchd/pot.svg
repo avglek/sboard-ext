@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pot</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pot">
+            <rect id="Rectangle" fill="#7764B1" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="10" cy="10" r="4"></circle>
+            <path d="M5,4.5 C3.68698739,6.14572981 3.02046679,7.95443841 3.00043822,9.92612578 C2.98040964,11.8978131 3.64693024,13.7557712 5,15.5" id="Path-169" stroke="#FFFFFF" stroke-width="2"></path>
+            <path d="M17,4.5 C15.6869874,6.14572981 15.0204668,7.95443841 15.0004382,9.92612578 C14.9804096,11.8978131 15.6469302,13.7557712 17,15.5" id="Path-169" stroke="#FFFFFF" stroke-width="2" transform="translate(16.000000, 10.000000) scale(-1, 1) translate(-16.000000, -10.000000) "></path>
+        </g>
+    </g>
+</svg>

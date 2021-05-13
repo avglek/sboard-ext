@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="184px" height="52px" viewBox="0 0 184 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>legend_v</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="legend_v">
+            <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="183" height="51" rx="9"></rect>
+            <line x1="30" y1="16.5" x2="12.5" y2="16.5" id="line-fact" ></line>
+            <line x1="29.5" y1="35.5" x2="12" y2="35.5" id="line-plan" ></line>
+            <text id="заданная-скорость"  font-size="12" font-weight="normal" fill="#6D7C8A">
+                <tspan x="44" y="39">заданная скорость</tspan>
+            </text>
+            <text id="фактическая-скорость" font-size="12" font-weight="normal" fill="#6D7C8A">
+                <tspan x="44" y="20">фактическая скорость</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

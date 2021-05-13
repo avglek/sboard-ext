@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mptpv</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mptpv">
+            <rect id="Rectangle" fill="#FF9942" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"></rect>
+            <polygon id="Path-174" stroke="#FFFFFF" stroke-width="1" points="10.057433 2.13427734 7.48632813 4.99585852 7.50463867 17.5305176 12.5129395 17.5625 12.476561 5.00329506"></polygon>
+            <path d="" id="Path-175" stroke="#979797" stroke-width="1"></path>
+            <polygon id="Path-176" fill="#FFFCFC" fill-rule="evenodd" points="7.70690918 16.154541 12.3327637 13.8271484 12.3505859 10.8139648 7.73156738 13.2261963"></polygon>
+            <polygon id="Path-176" fill="#FFFCFC" fill-rule="evenodd" points="7.82556152 10.1412354 12.170166 7.9185791 12.2011719 4.91625977 7.81188965 7.16674805"></polygon>
+        </g>
+    </g>
+</svg>

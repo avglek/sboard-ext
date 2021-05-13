@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>utorc</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="utorc">
+            <rect id="Rectangle" fill="#545454" x="0" y="0" width="20" height="20" rx="3"></rect>
+            <path d="M13,2 C13.5010531,2 13.9848924,2.07370098 14.4412684,2.21085348 L11.0769231,5.8316306 L11.7087075,8.36991883 L14.3989067,8.92307692 L17.7389343,5.40122183 C17.9082312,5.90322028 18,6.44089326 18,7 C18,9.76142375 15.7614237,12 13,12 C10.2385763,12 8,9.76142375 8,7 C8,4.23857625 10.2385763,2 13,2 Z" id="Combined-Shape" fill="#FFFEFE"></path>
+            <rect id="Rectangle" fill="#FFFEFE" transform="translate(7.500000, 12.625001) rotate(45.000000) translate(-7.500000, -12.625001) " x="6" y="7" width="3" height="11.250001"></rect>
+        </g>
+    </g>
+</svg>

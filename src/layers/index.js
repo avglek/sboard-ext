@@ -7,6 +7,8 @@ import * as storm from "./storm";
 import * as weather from "./weather";
 import * as milRails from "./milRails";
 import * as dnc from "./dnc";
+import * as vchd from "./vchd";
+import * as stok from "./stok";
 
 export const layerEvent = {
   bridges,
@@ -18,4 +20,6 @@ export const layerEvent = {
   weather,
   milRails,
   dnc,
+  vchd,
+  stok,
 };

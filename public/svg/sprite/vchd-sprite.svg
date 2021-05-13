@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 20 20" id="kp" xmlns="http://www.w3.org/2000/svg">
+    <g id="aPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="akp">
+            <rect id="aRectangle" fill="#D15164" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"/>
+            <path id="aPath-172" stroke="#FFF" stroke-width="3" d="M10 14.75v2.75"/>
+            <path stroke="#FFF" stroke-width="3" d="M10 3.124V12.5"/>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="mptpv" xmlns="http://www.w3.org/2000/svg">
+    <g id="bPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bmptpv">
+            <rect id="bRectangle" fill="#FF9942" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"/>
+            <path id="bPath-174" stroke="#FFF" stroke-width="1" d="M10.057 2.134l-2.57 2.862.018 12.535 5.008.032-.036-12.56z"/>
+            <path id="bPath-176" fill="#FFFCFC" fill-rule="evenodd" d="M7.707 16.155l4.626-2.328.018-3.013-4.62 2.412z"/>
+            <path fill="#FFFCFC" d="M7.826 10.141L12.17 7.92l.031-3.003-4.39 2.25z"/>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="park" xmlns="http://www.w3.org/2000/svg">
+    <g id="cPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cmurm" transform="translate(-33 -256)">
+            <g id="cvchd" transform="translate(21 2)">
+                <g id="clegend" transform="translate(0 76)">
+                    <g id="cpark-2" transform="translate(12 178)">
+                        <g id="cpark">
+                            <rect id="cRectangle" fill="#4681CC" x="0" y="0" width="20" height="20" rx="3"/>
+                            <path d="M10.602 16c.623 0 1.21-.068 1.76-.204a4.403 4.403 0 001.444-.629c.414-.283.74-.64.978-1.071.238-.43.357-.935.357-1.513 0-.42-.065-.796-.196-1.13a2.62 2.62 0 00-.543-.867 2.818 2.818 0 00-.825-.595 3.622 3.622 0 00-1.02-.315v-.034c.612-.17 1.105-.482 1.479-.935.374-.453.561-1.003.561-1.649 0-.612-.122-1.116-.365-1.513a2.81 2.81 0 00-.935-.944 3.93 3.93 0 00-1.284-.492 7.1 7.1 0 00-1.411-.145H6.369V16h4.233zm-.187-7.021H8.443V5.698h1.751c.691 0 1.252.125 1.683.374.43.25.646.657.646 1.224 0 .306-.057.564-.17.773-.113.21-.266.383-.459.519a1.958 1.958 0 01-.671.298 3.39 3.39 0 01-.808.093zm-.051 5.27H8.443v-3.655h2.023c.782 0 1.4.139 1.853.417.453.277.68.739.68 1.385 0 .351-.077.646-.23.884a1.734 1.734 0 01-.595.57 2.695 2.695 0 01-.841.306c-.317.062-.64.093-.969.093z" id="cВ" fill="#FFF" fill-rule="nonzero"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="pot" xmlns="http://www.w3.org/2000/svg">
+    <g id="dPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dpot">
+            <rect id="dRectangle" fill="#7764B1" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"/>
+            <circle id="dOval" stroke="#FFF" stroke-width="2" cx="10" cy="10" r="4"/>
+            <path d="M5 4.5C3.687 6.146 3.02 7.954 3 9.926c-.02 1.972.647 3.83 2 5.574" id="dPath-169" stroke="#FFF" stroke-width="2"/>
+            <path d="M15 4.5c1.313 1.646 1.98 3.454 2 5.426.02 1.972-.647 3.83-2 5.574" stroke="#FFF" stroke-width="2"/>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="ppv" xmlns="http://www.w3.org/2000/svg">
+    <g id="ePage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eppv">
+            <rect id="eRectangle" fill="#58C340" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"/>
+            <path id="ePath-168" stroke="#FFF" stroke-width="3" d="M4 9.656L9.443 14.8l6.464-10.182"/>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="pskp" xmlns="http://www.w3.org/2000/svg">
+    <g id="fPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fpskp">
+            <rect id="fRectangle" fill="#797979" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"/>
+            <path id="fPath-177" fill="#FBFBFB" fill-rule="evenodd" transform="matrix(0 -1 -1 0 25.028 25.028)" d="M11.988 12.01l-3.997 3L12 18.056z"/>
+            <path id="fPath-169" stroke="#FFF" stroke-width="2" d="M3 9h14"/>
+            <path id="fPath-168" stroke="#FFF" stroke-width="2" d="M4 5v8"/>
+            <path stroke="#FFF" stroke-width="2" d="M16 5v8"/>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="pto" xmlns="http://www.w3.org/2000/svg">
+    <g id="gPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gpto" transform="translate(-1 -1)">
+            <rect id="gRectangle" fill="#58C340" x="1" y="1" width="20" height="20" rx="3"/>
+            <path d="M13.511 3.51a7.988 7.988 0 012.741 1.55l-.337 3.095 2.935 1.294a8.033 8.033 0 01.058 3.033l-2.993 1.32.364 3.347a7.995 7.995 0 01-2.512 1.485l-2.743-2.009-2.742 2.009a7.995 7.995 0 01-2.513-1.485l.365-3.347-2.993-1.32a8.052 8.052 0 01.057-3.033l2.936-1.294-.337-3.094a7.988 7.988 0 012.74-1.55l2.487 1.82 2.487-1.82zm-2.487 5.586a1.882 1.882 0 100 3.765 1.882 1.882 0 000-3.765z" id="gCombined-Shape" fill="#FFF" transform="rotate(-30 11.024 11.072)"/>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="ptp" xmlns="http://www.w3.org/2000/svg">
+    <g id="hPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hptp">
+            <rect id="hRectangle" fill="#5F9AE6" fill-rule="evenodd" x="0" y="0" width="20" height="20" rx="3"/>
+            <g id="harrow" transform="translate(3 4.5)" stroke="#FFFEFE" stroke-width="2">
+                <path d="M13 5.604H0" id="hPath-168"/>
+                <path id="hPath-169" d="M14 5.167l-5 5.146"/>
+                <path d="M14 6.104L9 .48"/>
+            </g>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="utor" xmlns="http://www.w3.org/2000/svg">
+    <g id="iPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iutor">
+            <rect id="iRectangle" fill="#D15164" x="0" y="0" width="20" height="20" rx="3"/>
+            <path d="M13 2a5 5 0 011.441.21l-3.364 3.622.632 2.538 2.69.553 3.34-3.522A5 5 0 1113 2z" id="iCombined-Shape" fill="#FFFEFE"/>
+            <path fill="#FFFEFE" transform="rotate(45 7.5 12.625)" d="M6 7h3v11.25H6z"/>
+        </g>
+    </g>
+</symbol><symbol viewBox="0 0 20 20" id="utorc" xmlns="http://www.w3.org/2000/svg">
+    <g id="jPage-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="jutorc">
+            <rect id="jRectangle" fill="#545454" x="0" y="0" width="20" height="20" rx="3"/>
+            <path d="M13 2a5 5 0 011.441.21l-3.364 3.622.632 2.538 2.69.553 3.34-3.522A5 5 0 1113 2z" id="jCombined-Shape" fill="#FFFEFE"/>
+            <path fill="#FFFEFE" transform="rotate(45 7.5 12.625)" d="M6 7h3v11.25H6z"/>
+        </g>
+    </g>
+</symbol></svg>

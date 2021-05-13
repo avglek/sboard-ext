@@ -1,6 +1,8 @@
 import { select, selectAll, xml } from "d3";
 
-const icon2 = "./svg/icons/dnc_sp.svg";
+const icon2 = "./svg/icons/dnc/dnc_sp.svg";
+const fillUp = "#22E329";
+const fillDown = "#FC5656";
 
 export async function addEvent({
   dncData,
@@ -17,14 +19,15 @@ export async function addEvent({
       lastLoad.textContent = `${txtTime.slice(0, -5)}${dncData[0].last}`;
 
       const doc = await xml(icon2);
-      const iconElement = doc.documentElement.querySelector("#dnc_spa");
+      const iconElement = doc.documentElement.querySelector("#dnc_sp");
 
       dncData.forEach((item) => {
-        const dncNode = select("#dnc_active").select(`#dnc_${item.id}`);
+        const dncNode = select("#dnc_active").selectAll(`#dnc_${item.id}`);
         if (!dncNode.empty()) {
           const elClone = iconElement.cloneNode(true);
           setSpeedText("speed1", elClone, item.fact);
           setSpeedText("speed2", elClone, item.plan);
+          setSpeedFill(elClone, item.fact, item.plan);
 
           dncNode.node().appendChild(elClone);
 
@@ -60,4 +63,11 @@ function handlerClick(uid, openModal, fetchDncUchData) {
   // const uid = node.getAttribute("id");
   openModal(true);
   fetchDncUchData(uid);
+}
+
+function setSpeedFill(element, fact, plan) {
+  const node = element.querySelector("#big_rect");
+
+  if (fact < plan) node.setAttribute("fill", fillDown);
+  else node.setAttribute("fill", fillUp);
 }

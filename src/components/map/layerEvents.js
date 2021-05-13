@@ -31,6 +31,12 @@ export function addEventLayer(layerId, props) {
     case "dnc":
       layerEvent.dnc.addEvent(props);
       break;
+    case "vchd":
+      layerEvent.vchd.addEvent(props);
+      break;
+    case "cleaners_active":
+      layerEvent.stok.addEvent(props);
+      break;
     default:
       return;
   }
@@ -66,6 +72,12 @@ export function removeEventLayer(layerId, props) {
       break;
     case "dnc":
       layerEvent.dnc.resetEvent();
+      break;
+    case "vchd":
+      layerEvent.vchd.resetEvent();
+      break;
+    case "cleaners_active":
+      layerEvent.stok.resetEvent();
       break;
     default:
       return;

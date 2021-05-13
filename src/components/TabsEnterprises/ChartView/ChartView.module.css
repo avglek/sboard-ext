@@ -6,7 +6,7 @@
 .axis path,
 .axis line {
   fill: none;
-  stroke: steelblue;
+  stroke: #909090;
 }
 
 .axis .gridLine {
@@ -18,4 +18,5 @@
 
 .axis text {
   font: 10px Verdana;
+  color: #909090;
 }

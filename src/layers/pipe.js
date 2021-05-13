@@ -1,17 +1,20 @@
 import * as d3 from "d3";
 
 export function eventPipeHandler(props) {
-  const nlist = d3.selectAll("#tubes").selectAll("g[id^='isso_']");
-
+  const nlist = d3
+    .selectAll("#tubes")
+    .selectAll("g[id^='isso_']")
+    .select("#icon");
   nlist
     .on("click", function () {
-      handlerClick(this, props);
+      handlerClick(this.parentNode, props);
     })
     .on("mouseenter", () => nlist.style("cursor", "pointer"))
     .on("mouseleave", () => nlist.style("cursor", "default"));
 }
 
 export function resetPipeHandler() {
+  //console.log("reset pipe");
   const nlist = d3.selectAll("#tubes").selectAll("g[id^='isso_']");
 
   nlist.on("click", null).on("mouseenter", null).on("mouseleave", null);

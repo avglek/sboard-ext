@@ -76,8 +76,7 @@ export const layersGroupInit = [
       {
         layer: "loco_team dolb",
         show: false,
-        name:
-          "Схема тягового обслуживания локомотивными бригадами (грузовые поезда)",
+        name: "Схема тягового обслуживания локомотивными бригадами (грузовые поезда)",
         visible: "visible",
         disabled: false,
         id: 8,
@@ -93,8 +92,7 @@ export const layersGroupInit = [
       {
         layer: "loco_team_pass",
         show: false,
-        name:
-          "Схема тягового обслуживания локомотивными бригадами (пассажирские поезда)",
+        name: "Схема тягового обслуживания локомотивными бригадами (пассажирские поезда)",
         visible: "visible",
         disabled: false,
         id: 10,
@@ -205,6 +203,14 @@ export const layersGroupInit = [
         disabled: false,
         id: 20,
       },
+      {
+        layer: "cleaners_active",
+        show: false,
+        name: "Очистные сооружения.",
+        visible: "visible",
+        disabled: false,
+        id: 21,
+      },
     ],
   },
   {
@@ -217,7 +223,7 @@ export const layersGroupInit = [
         name: "Физкультурно-спортивные клубы",
         visible: "visible",
         disabled: false,
-        id: 21,
+        id: 22,
       },
     ],
   },
@@ -231,7 +237,7 @@ export const layersGroupInit = [
         name: "Малоинтенсивные линии",
         visible: "visible",
         disabled: false,
-        id: 22,
+        id: 23,
       },
     ],
   },

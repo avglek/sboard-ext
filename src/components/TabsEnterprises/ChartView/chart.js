@@ -2,6 +2,9 @@ import * as d3 from "d3";
 import classes from "./ChartView.module.css";
 import { showToolTip, hiddenTootTip } from "../../../utils/tabloUtils";
 
+const colorStroke = "blue";
+const planStroke = "black";
+
 export function startChart(idNode, data, plan) {
   clearNode(idNode);
   const canvas = d3.select("#" + idNode);
@@ -90,10 +93,10 @@ function createAxes(svg, width, height, data, plan) {
     .attr("y", margin - 10)
     .attr("text-anchor", "middle")
     .style("font-size", "22px")
-    .text("График фактической скорости на участке");
+    .text("Динамика выполнения участковой скорости");
 
   g.append("text")
-    .attr("x", width - margin)
+    .attr("x", width - margin - 5)
     .attr("y", height - margin - 11)
     .attr("text-anchor", "end")
     .style("font-size", "11px")
@@ -106,26 +109,38 @@ function createAxes(svg, width, height, data, plan) {
     .style("font-size", "11px")
     .text("Скорость (км/ч)");
 
+  const lx = width - margin;
+  const ly = margin;
+
+  addLegend(svg, lx, ly);
+
   const dataNorm = rawData.filter((v) => v.speed != null);
 
   createChart(svg, dataNorm, scaleX, scaleY, margin, plan, xAxisLength);
 }
 
 function createChart(svg, data, scaleX, scaleY, margin, plan, xAxisLength) {
-  const colorStroke = "red";
-  const planStroke = "blue";
-
   svg
     .append("g")
     .append("line")
     .style("stroke", planStroke)
     .style("stroke-width", 2)
+    .style("stroke-dasharray", "10,5")
     .attr("x1", margin)
     .attr("y1", scaleY(plan) + margin)
     .attr("x2", xAxisLength + margin)
     .attr("y2", scaleY(plan) + margin)
     .on("mouseenter", () => showToolTip(`V.план = ${plan} км/ч`))
     .on("mouseleave", () => hiddenTootTip());
+
+  svg
+    .append("text")
+    .attr("x", margin + 11)
+    .attr("y", scaleY(plan) + margin - 11)
+    .attr("text-anchor", "start")
+    .style("font-size", "11px")
+    .attr("fill", planStroke)
+    .text(plan);
 
   const line = d3
     .line()
@@ -151,4 +166,48 @@ function createChart(svg, data, scaleX, scaleY, margin, plan, xAxisLength) {
     .attr("cy", (d) => scaleY(d.speed) + margin)
     .on("mouseenter", (d) => showToolTip(`V.факт = ${d.speed} км/ч`))
     .on("mouseleave", () => hiddenTootTip());
+
+  svg
+    .selectAll(".label")
+    .data(data)
+    .enter()
+    .append("text")
+    .attr("class", "label")
+    .attr("x", (d) => scaleX(d.date) + margin + 3)
+    .attr("y", (d) => scaleY(d.speed) + margin - 11)
+    .attr("text-anchor", "start")
+    .style("font-size", "11px")
+    .attr("fill", colorStroke)
+    .text((d) => d.speed);
+}
+
+async function addLegend(svg, x, y) {
+  const urlLegend = "./svg/icons/dnc/legend_v.svg";
+
+  try {
+    const doc = await d3.xml(urlLegend);
+
+    const legendElement = doc.documentElement.querySelector("#legend_v");
+
+    //const len = Number.parseInt(legendNode.style("width").slice(0, -2));
+    const len = 183; //legendElement.console.log(len);
+
+    const g = svg.append("g");
+    g.attr("id", "legend").attr(
+      "transform",
+      `translate(${x - len - 5},${y + 5})`
+    );
+
+    g.node().appendChild(legendElement);
+
+    g.select("#line-fact")
+      .style("stroke", colorStroke)
+      .style("stroke-width", 3);
+    g.select("#line-plan")
+      .style("stroke", planStroke)
+      .style("stroke-width", 3)
+      .style("stroke-dasharray", "5,5");
+  } catch (e) {
+    console.log("Error load chart legend:", e);
+  }
 }

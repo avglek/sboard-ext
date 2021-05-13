@@ -12,6 +12,8 @@ import pipeCountReducer from "./pipeReducer";
 import specTechReducer from "./specTechReducer";
 import gpsReducer from "./gpsReducer";
 import dncReducer from "./dncReducer";
+import vchdReducer from "./vchdReducer";
+import stokReducer from "./stokReducer";
 
 export default combineReducers({
   modal: modalReducer,
@@ -27,4 +29,6 @@ export default combineReducers({
   specTech: specTechReducer,
   gps: gpsReducer,
   dnc: dncReducer,
+  vchd: vchdReducer,
+  stok: stokReducer,
 });

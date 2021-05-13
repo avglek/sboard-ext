@@ -5,6 +5,20 @@ const applicationInitialState = window.__INITIAL_STATE__;
 const config = applicationInitialState.config;
 
 class DataService {
+  async getStokInfo(id) {
+    const data = await this.getResurce(`${config.stok_info}${id}`);
+    return data;
+  }
+  async getStokRegion(id) {
+    const data = await this.getResurce(`${config.stok}${id}`);
+    return data;
+  }
+
+  async getVchd(id) {
+    const data = await this.getResurce(`${config.vchd}${id}`);
+    return data;
+  }
+
   async getDncUch(id) {
     const data = await this.getResurce(`${config.dnc_uch}${id}`);
     return data;

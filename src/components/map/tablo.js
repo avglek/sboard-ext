@@ -130,6 +130,8 @@ function loadRegions(url_reg, idRegion) {
     parentProps.postPipeCount(idRegion);
     parentProps.fectchSpecTechData(idRegion);
     parentProps.postDnc(idRegion);
+    parentProps.postVchd(idRegion);
+    parentProps.postStok(idRegion);
 
     let close_btn = d3.select("#close_button");
     close_btn

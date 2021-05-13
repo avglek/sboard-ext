@@ -139,3 +139,16 @@ export function modalDncUchFetchData(id) {
     }
   };
 }
+
+export function modalStokFetchData(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading());
+    try {
+      const data = await dataService.getStokInfo(id);
+      dispatch(modalFetchDataSuccess(data));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
+    }
+  };
+}
