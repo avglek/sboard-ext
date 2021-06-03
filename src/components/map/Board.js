@@ -23,6 +23,7 @@ import {
   modalMilRailsFetchData,
   modalDncUchFetchData,
   modalStokFetchData,
+  modalRiskobjFetchData,
 } from "../../store/actions/modalAction";
 import {
   forecastFetchData,
@@ -50,6 +51,7 @@ import { specTechFetchData } from "../../store/actions/specTechAction";
 import { fetchDncData } from "../../store/actions/dncAction";
 import { fetchVchdData } from "../../store/actions/vchdAction";
 import { fetchStokData } from "../../store/actions/stokAction";
+import { fetchRiskobjData } from "../../store/actions/riskobjAction"
 //import SocketService from "../../services/SocketService";
 
 //const socket = new SocketService();
@@ -148,6 +150,9 @@ const mapStateToProps = (state) => {
     stokData: state.stok.items,
     stokLoading: state.stok.loading,
     stokRegion: state.stok.region,
+    riskobjData: state.riskobj.items,
+    riskobjLoading: state.riskobj.loading,
+    riskobjRegion: state.riskobj.region,
   };
 };
 
@@ -166,6 +171,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(stormFetchData(id, clickFunction)),
     postWeather: (id) => dispatch(weatherFetchData(id)),
     fetchStokInfoData: (id) => dispatch(modalStokFetchData(id)),
+    fetchRiskobjInfoData: (id) => dispatch(modalRiskobjFetchData(id)),
     fetchStormData: (id) => dispatch(modalStormFetchData(id)),
     fetchBridgeData: (id) => dispatch(modalBridgeFetchData(id)),
     fetchDncUchData: (id) => dispatch(modalDncUchFetchData(id)),
@@ -186,6 +192,7 @@ const mapDispatchToProps = (dispatch) => {
     postDnc: (id) => dispatch(fetchDncData(id)),
     postVchd: (id) => dispatch(fetchVchdData(id)),
     postStok: (id) => dispatch(fetchStokData(id)),
+    postRiskobj: (id) => dispatch(fetchRiskobjData(id)),
   };
 };
 

@@ -1,36 +1,36 @@
 import { selectAll } from "d3";
 import { showToolTip, hiddenTootTip } from "../utils/tabloUtils";
 
-const sprite = "./svg/sprite/stok-sprite.svg";
+const sprite = "./svg/sprite/stok-sprite.svg#oneu";
 
 export async function addEvent({
-  stokData,
-  stokRegion,
-  stokLoading,
+  riskobjData,
+  riskobjRegion,
+  riskobjLoading,
   stormRegionID,
-  fetchStokInfoData,
+  fetchRiskobjInfoData,
   openModal,
 }) {
-  if (stormRegionID === stokRegion && !stokLoading && stokData) {
-    const stokNodes = selectAll("#cleaners_active");
+  if (stormRegionID === riskobjRegion && !riskobjLoading && riskobjData) {
+    const riskobjNodes = selectAll("#oneu_active");
 
-    stokNodes
-      .selectAll("g[id^='clbld_']")
+    riskobjNodes
+      .selectAll("g[id^='oneu_']")
       .nodes()
       .forEach((element) => {
         const uid = element.getAttribute("id");
-        const stokItems = stokData.filter((i) => i.id === uid);
+        const riskobjItems = riskobjData.filter((i) => i.id === uid);
 
-        const anchorNode = stokNodes.selectAll(`#${uid}`);
+        const anchorNode = riskobjNodes.selectAll(`#${uid}`);
 
-        stokItems.forEach((item, index) => {
+        riskobjItems.forEach((item, index) => {
           const itemNode = anchorNode.append("use");
-          const href = `${sprite}#${item.icon}`;
+          const href = sprite;
 
           const dX = index * 22;
 
           itemNode
-            .attr("class", "stok-icon")
+            .attr("class", "oneu-icon")
             .attr("href", href)
             .attr("width", "20px")
             .attr("height", "20px")
@@ -47,7 +47,7 @@ export async function addEvent({
               itemNode.style("cursor", "default");
             })
             .on("click", () =>
-              handleClick(item.code, openModal, fetchStokInfoData)
+              handleClick(item.code, openModal, fetchRiskobjInfoData)
             );
         });
       });
@@ -55,24 +55,23 @@ export async function addEvent({
 }
 
 export function resetEvent() {
-  selectAll("#cleaners_active")
-    .selectAll("g[id^='clbld_']")
+  selectAll("#oneu_active")
+    .selectAll("g[id^='oneu_']")
     .selectAll("use")
     .remove();
 }
 
 function hintText(item) {
-  if (item.location) {
-    const txt = `<b>${item.location}</b>
-    </br>${item.category}`;
+  if (item.name) {
+    const txt = item.name.split(" - ");
 
-    return txt;
+    return txt[0];
   } else {
     return null;
   }
 }
 
-function handleClick(code, openModal, fetchStokInfoData) {
+function handleClick(code, openModal, fetchRiskobjInfoData) {
   openModal(true);
-  fetchStokInfoData(code);
+  fetchRiskobjInfoData(code);
 }

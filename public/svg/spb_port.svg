@@ -202,102 +202,102 @@
             </g>
         </g>
         <g id="digits" transform="translate(5.000000, 27.000000)">
-            <text id="1" opacity="0.505780175" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="118.332" y="84">1</tspan>
+            <text id="1" opacity="0.505780175" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="117.8125" y="84">1</tspan>
             </text>
-            <text id="2" opacity="0.505780175" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="109.332" y="233">2</tspan>
+            <text id="2" opacity="0.505780175" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="108.8125" y="233">2</tspan>
             </text>
-            <text id="3" opacity="0.505780175" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="70.332" y="396">3</tspan>
+            <text id="3" opacity="0.505780175" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="69.8125" y="396">3</tspan>
             </text>
-            <text id="4" opacity="0.505780175" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="102.332" y="543">4</tspan>
+            <text id="4" opacity="0.505780175" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="101.8125" y="543">4</tspan>
             </text>
-            <text id="10" opacity="0.65074303" font-family="AvenirNext-Bold, Avenir Next" font-size="10" font-weight="bold" fill="#FFFFFF">
-                <tspan x="171.54" y="605">10</tspan>
+            <text id="10" opacity="0.65074303" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold" fill="#FFFFFF">
+                <tspan x="170.890625" y="605">10</tspan>
             </text>
-            <text id="16" opacity="0.65074303" font-family="AvenirNext-Bold, Avenir Next" font-size="10" font-weight="bold" fill="#FFFFFF">
-                <tspan x="265.04" y="535">16</tspan>
+            <text id="16" opacity="0.65074303" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold" fill="#FFFFFF">
+                <tspan x="264.390625" y="535">16</tspan>
             </text>
-            <text id="12" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="10" font-weight="bold" fill="#FFFFFF">
-                <tspan x="160.04" y="535">12</tspan>
+            <text id="12" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold" fill="#FFFFFF">
+                <tspan x="159.390625" y="535">12</tspan>
             </text>
-            <text id="13" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="10" font-weight="bold" fill="#FFFFFF">
-                <tspan x="423.04" y="613">13</tspan>
+            <text id="13" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold" fill="#FFFFFF">
+                <tspan x="422.390625" y="613">13</tspan>
             </text>
-            <text id="14" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="10" font-weight="bold" fill="#FFFFFF">
-                <tspan x="431.04" y="577">14</tspan>
+            <text id="14" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold" fill="#FFFFFF">
+                <tspan x="430.390625" y="577">14</tspan>
             </text>
-            <text id="11" opacity="0.652772449" font-family="AvenirNext-Bold, Avenir Next" font-size="9" font-weight="bold" fill="#FFFFFF">
-                <tspan x="170.186" y="660">11</tspan>
+            <text id="11" opacity="0.652772449" font-family="Verdana-Bold, Verdana" font-size="9" font-weight="bold" fill="#FFFFFF">
+                <tspan x="169.601562" y="660">11</tspan>
             </text>
-            <text id="6" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="319.332" y="314">6</tspan>
+            <text id="6" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="318.8125" y="314">6</tspan>
             </text>
-            <text id="7" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="662.332" y="314">7</tspan>
+            <text id="7" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="661.8125" y="314">7</tspan>
             </text>
-            <text id="15" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#FFFFFF">
-                <tspan x="619.748" y="311">15</tspan>
+            <text id="15" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="12" font-weight="bold" fill="#FFFFFF">
+                <tspan x="618.96875" y="311">15</tspan>
             </text>
-            <text id="7" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="902.332" y="444">7</tspan>
+            <text id="7" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="901.8125" y="444">7</tspan>
             </text>
-            <text id="8" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="715.332" y="416">8</tspan>
+            <text id="8" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="714.8125" y="416">8</tspan>
             </text>
-            <text id="9" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="642.332" y="208">9</tspan>
+            <text id="9" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="641.8125" y="208">9</tspan>
             </text>
-            <text id="7" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="289.332" y="438">7</tspan>
+            <text id="7" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="288.8125" y="438">7</tspan>
             </text>
-            <text id="ЗСД" opacity="0.503032139" font-family="AvenirNext-Medium, Avenir Next" font-size="16" font-weight="400" fill="#FFFFFF">
-                <tspan x="784.288" y="34">ЗСД</tspan>
+            <text id="ЗСД" opacity="0.503032139" font-family="Verdana" font-size="16" font-weight="normal" fill="#FFFFFF">
+                <tspan x="784.523438" y="34">ЗСД</tspan>
             </text>
-            <text id="5" opacity="0.503032139" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#FFFFFF">
-                <tspan x="283.332" y="269">5</tspan>
+            <text id="5" opacity="0.503032139" font-family="Verdana-Bold, Verdana" font-size="16" font-weight="bold" fill="#FFFFFF">
+                <tspan x="282.8125" y="269">5</tspan>
             </text>
-            <text id="гавань-Гутуевский-Ко" opacity="0.24655442" transform="translate(977.525146, 314.784576) rotate(53.000000) translate(-977.525146, -314.784576) " font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="961.840146" y="310.784576">гавань</tspan>
-                <tspan x="935.955146" y="324.784576">Гутуевский Ковш</tspan>
+            <text id="гавань-Гутуевский-Ко" opacity="0.24655442" transform="translate(979.122418, 313.580946) rotate(53.000000) translate(-979.122418, -313.580946) " font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="961.746929" y="311.580946">гавань</tspan>
+                <tspan x="934.325054" y="323.580946">Гутуевский Ковш</tspan>
             </text>
-            <text id="р.-Екатерингофка" opacity="0.24655442" font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="778.155" y="500">р. Екатерингофка</tspan>
+            <text id="р.-Екатерингофка" opacity="0.24655442" font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="774.166992" y="500">р. Екатерингофка</tspan>
             </text>
-            <text id="Угольная-гавань" opacity="0.24655442" font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="165.39" y="324">Угольная </tspan>
-                <tspan x="171.815" y="338">гавань</tspan>
+            <text id="Угольная-гавань" opacity="0.24655442" font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="163.88916" y="324">Угольная </tspan>
+                <tspan x="170.124512" y="336">гавань</tspan>
             </text>
-            <text id="Нефтяная-гавань" opacity="0.24655442" font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="109.165" y="11">Нефтяная </tspan>
-                <tspan x="116.815" y="25">гавань</tspan>
+            <text id="Нефтяная-гавань" opacity="0.24655442" font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="106.894531" y="11">Нефтяная </tspan>
+                <tspan x="115.124512" y="23">гавань</tspan>
             </text>
-            <text id="Екатерингофский-басс" opacity="0.24655442" font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="308.76" y="517">Екатерингофский</tspan>
-                <tspan x="331.95" y="531">бассейн</tspan>
+            <text id="Екатерингофский-басс" opacity="0.24655442" font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="305.806641" y="517">Екатерингофский</tspan>
+                <tspan x="330.75293" y="529">бассейн</tspan>
             </text>
-            <text id="Восточный-бассейн" opacity="0.24655442" font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="531.35" y="464">Восточный</tspan>
-                <tspan x="537.95" y="478">бассейн</tspan>
+            <text id="Восточный-бассейн" opacity="0.24655442" font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="529.482422" y="464">Восточный</tspan>
+                <tspan x="536.75293" y="476">бассейн</tspan>
             </text>
-            <text id="Барочный-бассейн" opacity="0.24655442" font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="529.565" y="371">Барочный</tspan>
-                <tspan x="533.95" y="385">бассейн</tspan>
+            <text id="Барочный-бассейн" opacity="0.24655442" font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="527.533203" y="371">Барочный</tspan>
+                <tspan x="532.75293" y="383">бассейн</tspan>
             </text>
-            <text id="о.-Кривая-Дамба" opacity="0.349052793" transform="translate(375.837130, 458.334687) rotate(-44.000000) translate(-375.837130, -458.334687) " font-family="AvenirNext-Italic, Avenir Next" font-size="8" font-style="italic" font-weight="normal" fill="#323232">
-                <tspan x="357.15313" y="455.334687">о. Кривая </tspan>
-                <tspan x="363.44113" y="466.334687">Дамба</tspan>
+            <text id="о.-Кривая-Дамба" opacity="0.349052793" transform="translate(375.142472, 457.615347) rotate(-44.000000) translate(-375.142472, -457.615347) " font-family="Verdana-Italic, Verdana" font-size="8" font-style="italic" font-weight="normal" fill="#323232">
+                <tspan x="354.849503" y="455.615347">о. Кривая </tspan>
+                <tspan x="362.113175" y="465.615347">Дамба</tspan>
             </text>
-            <text id="Новая-Канонерская-га" opacity="0.24655442" font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="793.175" y="194">Новая Канонерская гавань</tspan>
+            <text id="Новая-Канонерская-га" opacity="0.24655442" font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="787.760742" y="194">Новая Канонерская гавань</tspan>
             </text>
-            <text id="Санкт-Петербургский" opacity="0.24655442" transform="translate(323.340149, 184.287231) rotate(43.000000) translate(-323.340149, -184.287231) " font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="232.220149" y="187.287231">Санкт-Петербургский Морской канал</tspan>
+            <text id="Санкт-Петербургский" opacity="0.24655442" transform="translate(324.022147, 183.555878) rotate(43.000000) translate(-324.022147, -183.555878) " font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="226.829764" y="187.555878">Санкт-Петербургский Морской канал</tspan>
             </text>
-            <text id="Санкт-Петербургский" opacity="0.24655442" font-family="AvenirNext-Italic, Avenir Next" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
-                <tspan x="487.50936" y="271.48913">Санкт-Петербургский Морской канал</tspan>
+            <text id="Санкт-Петербургский" opacity="0.24655442" font-family="Verdana-Italic, Verdana" font-size="10" font-style="italic" font-weight="normal" fill="#FFFFFF">
+                <tspan x="481.436977" y="271.48913">Санкт-Петербургский Морской канал</tspan>
             </text>
         </g>
         <g id="rails" transform="translate(75.000000, 18.000000)">
@@ -397,101 +397,101 @@
             <path d="M27.7088618,480.684246 C27.7088618,493.102839 27.9938954,501.280073 29.1285242,507.47551 C30.2631531,513.670947 34.286484,519.268337 38.2855677,521.622467 C40.9516235,523.191887 46.7796966,523.191887 55.7697871,521.622467 C84.1479008,517.620744 104.536543,515.366856 116.935714,514.860802 C129.334885,514.354748 143.335552,514.819935 158.937713,516.256363" id="Path-21" stroke="url(#linearGradient-51)" stroke-width="5" opacity="0.38919576"></path>
             <path d="M46.9697871,574.680923 L42.9697871,555.828629 C40.7120661,544.571782 43.4926142,536.834666 51.3114313,532.617279 C63.0396571,526.291199 80.5373835,524.466511 95.8793635,522.799532 C101.901873,522.145158 113.509098,520.892599 126.832702,521.00885 C133.035222,521.062969 143.736892,521.659863 158.937713,522.799532" id="Path-22" stroke="url(#linearGradient-52)" stroke-width="5" opacity="0.38919576"></path>
         </g>
-        <g id="legend" transform="translate(620.000000, 529.000000)">
-            <g id="Group-7" transform="translate(200.000000, 0.000000)">
-                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="320.894569" height="262" rx="10"></rect>
-                <text id="1.-АО-«Петербургский" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+        <g id="legend" transform="translate(613.000000, 529.000000)">
+            <g id="Group-7" transform="translate(203.000000, 0.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="328" height="262" rx="10"></rect>
+                <text id="1.-АО-«Петербургский" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="23">1.  АО «Петербургский нефтяной терминал»</tspan>
                 </text>
-                <text id="2.-АО-«Балтийский-ба" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="2.-АО-«Балтийский-ба" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="38">2.  АО «Балтийский балкерный терминал»</tspan>
                 </text>
-                <text id="3.-ЗАО-«Контейнерный" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="3.-ЗАО-«Контейнерный" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="53">3.  ЗАО «Контейнерный терминал Санкт-Петербург»</tspan>
                 </text>
-                <text id="4.-ООО-«Терминал-мор" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="4.-ООО-«Терминал-мор" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="68">4.  ООО «Терминал морской рыбный порт»</tspan>
                 </text>
-                <text id="5.-АО-«Первый-контей" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="5.-АО-«Первый-контей" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="83">5.  АО «Первый контейнерный терминал»</tspan>
                 </text>
-                <text id="6.-АО-«Нева-металл»" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="6.-АО-«Нева-металл»" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="97">6.  АО «Нева-металл» </tspan>
                 </text>
-                <text id="7.-АО-«Морской-порт" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="7.-АО-«Морской-порт" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="112">7.  АО «Морской порт Санкт-Петербург»</tspan>
                 </text>
-                <text id="8.-АО-«Петролеспорт»" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="8.-АО-«Петролеспорт»" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="127">8.  АО «Петролеспорт»</tspan>
                 </text>
-                <text id="11.-ЗАО-«Интерферрум" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="11.-ЗАО-«Интерферрум" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="172">11.  ЗАО «Интерферрум-металл»</tspan>
                 </text>
-                <text id="9.-ООО-«Терминал-Свя" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="9.-ООО-«Терминал-Свя" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="142">9.  ООО  «Терминал Святого Петра»</tspan>
                 </text>
-                <text id="10.-ООО-«МГС-Термина" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="10.-ООО-«МГС-Термина" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="157">10.  ООО «МГС-Терминал»</tspan>
                 </text>
-                <text id="12.-ОАО-«БСМЗ»" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="12.-ОАО-«БСМЗ»" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="187">12.  ОАО «БСМЗ»</tspan>
                 </text>
-                <text id="13.-ПАО-«КЦТЛ»" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="13.-ПАО-«КЦТЛ»" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="202">13.  ПАО «КЦТЛ»</tspan>
                 </text>
-                <text id="14.-АО-«Тетрамет»" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="14.-АО-«Тетрамет»" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.2926211" y="217">14.  АО «Тетрамет»</tspan>
                 </text>
-                <text id="15.-ООО-«Балтийский" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="15.-ООО-«Балтийский" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.456869" y="232">15.  ООО «Балтийский порт»</tspan>
                 </text>
-                <text id="16.-ООО-«Контур-СПб»" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#727273">
+                <text id="16.-ООО-«Контур-СПб»" font-family="Verdana" font-size="11" font-weight="normal" fill="#727273">
                     <tspan x="13.456869" y="247">16.  ООО «Контур СПб»</tspan>
                 </text>
             </g>
             <g id="Group-8" transform="translate(0.000000, 49.000000)">
-                <rect id="Rectangle" fill="#9A9A9A" x="0" y="0" width="180" height="213" rx="10"></rect>
-                <g id="Group-9" transform="translate(14.000000, 24.000000)">
-                    <text id="наливные-грузы" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                <rect id="Rectangle" fill="#9A9A9A" x="0" y="0" width="186" height="213" rx="10"></rect>
+                <g id="Group-9" transform="translate(14.000000, 25.000000)">
+                    <text id="наливные-грузы" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                         <tspan x="20" y="100">наливные грузы</tspan>
                     </text>
-                    <text id="насыпные-грузы" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <text id="насыпные-грузы" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                         <tspan x="20" y="10">насыпные грузы</tspan>
                     </text>
-                    <text id="навалочные-грузы" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <text id="навалочные-грузы" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                         <tspan x="20" y="22">навалочные грузы</tspan>
                     </text>
-                    <text id="контейнеры" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <text id="контейнеры" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                         <tspan x="20" y="35">контейнеры</tspan>
                     </text>
-                    <g id="Group-10" transform="translate(0.000000, 128.000000)">
-                        <text id="контейнерная-площадк" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <g id="Group-10" transform="translate(0.000000, 127.000000)">
+                        <text id="контейнерная-площадк" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                             <tspan x="28" y="10">контейнерная площадка</tspan>
                         </text>
-                        <text id="автомобильный-термин" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                        <text id="автомобильный-термин" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                             <tspan x="28" y="28">автомобильный терминал</tspan>
                         </text>
-                        <text id="ро-ро-терминал" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                        <text id="ро-ро-терминал" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                             <tspan x="28" y="45">ро-ро терминал</tspan>
                         </text>
                         <path d="M18,0 L2,0 C0.8954305,2.02906125e-16 -1.3527075e-16,0.8954305 0,2 L0,13 C1.3527075e-16,14.1045695 0.8954305,15 2,15 L18,15 C19.1045695,15 20,14.1045695 20,13 L20,2 C20,0.8954305 19.1045695,-2.02906125e-16 18,0 Z" id="Path-16" fill="url(#pattern-53)" opacity="0.49961853"></path>
                         <path d="M20,20 L20,31 C20,32.1045695 19.1045695,33 18,33 L2,33 C0.8954305,33 1.3527075e-16,32.1045695 0,31 L0,20 C-1.3527075e-16,18.8954305 0.8954305,18 2,18 L18,18 C19.1045695,18 20,18.8954305 20,20 Z" id="Path-252" fill="url(#pattern-55)" opacity="0.49961853"></path>
                         <path d="M0,38 L0,49 C1.3527075e-16,50.1045695 0.8954305,51 2,51 L18,51 C19.1045695,51 20,50.1045695 20,49 L20,38 C20,36.8954305 19.1045695,36 18,36 L2,36 C0.8954305,36 -1.3527075e-16,36.8954305 0,38 Z" id="Path-251" fill="url(#pattern-57)" opacity="0.49961853"></path>
                     </g>
-                    <text id="генеральные-грузы" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <text id="генеральные-грузы" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                         <tspan x="20" y="48">генеральные грузы</tspan>
                     </text>
-                    <text id="ро-ро" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <text id="ро-ро" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                         <tspan x="20" y="61">ро-ро</tspan>
                     </text>
-                    <text id="лесные-грузы" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <text id="лесные-грузы" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                         <tspan x="20" y="74">лесные грузы</tspan>
                     </text>
-                    <text id="проектные-грузы" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <text id="проектные-грузы" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
                         <tspan x="20" y="87">проектные грузы</tspan>
                     </text>
-                    <rect id="Rectangle" stroke="#FFFFFF" x="2.5" y="41.5" width="7" height="7" rx="2"></rect>
-                    <g id="Group-33" transform="translate(0.000000, 28.000000)" stroke="#FFFFFF">
+                    <rect id="Rectangle" stroke="#FFFFFF" x="2.5" y="40.5" width="7" height="7" rx="2"></rect>
+                    <g id="Group-33" transform="translate(0.000000, 27.000000)" stroke="#FFFFFF">
                         <rect id="Rectangle" x="0.5" y="0.5" width="11.8" height="7" rx="1"></rect>
                         <g id="Group" transform="translate(2.000000, 1.600000)">
                             <line x1="3.2" y1="0.4" x2="3.2" y2="4.4" id="Path-255"></line>
@@ -500,30 +500,30 @@
                             <line x1="0.8" y1="0.4" x2="0.8" y2="4.4" id="Path-255"></line>
                         </g>
                     </g>
-                    <path d="M6,81 C8.209139,81 10,82.790861 10,85 C10,87.209139 8.209139,89 6,89 C3.790861,89 2,87.209139 2,85 C2,82.790861 3.790861,81 6,81 Z M6.16155839,82.6059954 L4.11280418,83.5181595 C3.60826695,83.742794 3.38136092,84.3339044 3.60599536,84.8384416 L4.51815951,86.8871958 C4.74279395,87.391733 5.33390438,87.6186391 5.83844161,87.3940046 L7.88719582,86.4818405 C8.39173305,86.257206 8.61863908,85.6660956 8.39400464,85.1615584 L7.48184049,83.1128042 C7.25720605,82.608267 6.66609562,82.3813609 6.16155839,82.6059954 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-                    <g id="Group-34" transform="translate(1.000000, 94.000000)" fill="#FFFFFF">
+                    <path d="M6,80 C8.209139,80 10,81.790861 10,84 C10,86.209139 8.209139,88 6,88 C3.790861,88 2,86.209139 2,84 C2,81.790861 3.790861,80 6,80 Z M6.16155839,81.6059954 L4.11280418,82.5181595 C3.60826695,82.742794 3.38136092,83.3339044 3.60599536,83.8384416 L4.51815951,85.8871958 C4.74279395,86.391733 5.33390438,86.6186391 5.83844161,86.3940046 L7.88719582,85.4818405 C8.39173305,85.257206 8.61863908,84.6660956 8.39400464,84.1615584 L7.48184049,82.1128042 C7.25720605,81.608267 6.66609562,81.3813609 6.16155839,81.6059954 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <g id="Group-34" transform="translate(1.000000, 93.000000)" fill="#FFFFFF">
                         <path d="M7.39626059,2 C6.32729972,4.04243568 5.72408497,5.25856686 5.58661634,5.64839354 C5.38041339,6.23313356 4.61434677,8.66666667 7.39626059,8.66666667 C10.1781744,8.66666667 9.43710733,6.23357343 9.19615429,5.64839354 C9.03551893,5.25827361 8.43555436,4.04214243 7.39626059,2 Z" id="Path-181"></path>
                         <path d="M2.06292726,0 C0.993966391,2.04243568 0.39075164,3.25856686 0.253283009,3.64839354 C0.0470800613,4.23313356 -0.718986561,6.66666667 2.06292726,6.66666667 C4.84484108,6.66666667 4.103774,4.23357343 3.86282096,3.64839354 C3.70218559,3.25827361 3.10222103,2.04214243 2.06292726,0 Z" id="Path-181"></path>
                     </g>
-                    <g id="Group-32" transform="translate(2.000000, 55.000000)" fill="#FFFFFF">
+                    <g id="Group-32" transform="translate(2.000000, 54.000000)" fill="#FFFFFF">
                         <rect id="Rectangle" x="0.666666667" y="0" width="7.33333333" height="5.33333333" rx="1"></rect>
                         <circle id="Oval" cx="1" cy="7" r="1"></circle>
                         <circle id="Oval" cx="7.66666667" cy="7" r="1"></circle>
                         <circle id="Oval" cx="4.33333333" cy="7" r="1"></circle>
                     </g>
-                    <g id="Group-31" transform="translate(2.000000, 15.000000)" stroke="#FFFFFF" stroke-linecap="round">
+                    <g id="Group-31" transform="translate(2.000000, 14.000000)" stroke="#FFFFFF" stroke-linecap="round">
                         <line x1="0" y1="7" x2="8" y2="7" id="Path-256"></line>
                         <line x1="1" y1="5" x2="7" y2="5" id="Path-256"></line>
                         <line x1="2" y1="3" x2="6" y2="3" id="Path-256"></line>
                         <line x1="3" y1="1" x2="5" y2="1" id="Path-256"></line>
                     </g>
-                    <path d="M5.88418974,3.42163908 C5.75970833,3.45127751 5.6465336,3.528404 5.57417084,3.64599348 L2.36373527,8.86295129 C2.31524059,8.94175514 2.28956442,9.03247011 2.28956442,9.125 C2.28956442,9.26307119 2.34552883,9.38807119 2.43601103,9.47855339 C2.52649324,9.56903559 2.65149324,9.625 2.78956442,9.625 L9.21043558,9.625 C9.30296546,9.625 9.39368044,9.59932383 9.47248429,9.55082916 C9.59007376,9.4784664 9.66720025,9.36529167 9.69683868,9.24081026 C9.72647711,9.11632885 9.70862749,8.98054076 9.63626473,8.86295129 L5.88418974,3.42163908 Z" id="Triangle" stroke="#FFFFFF"></path>
-                    <g id="Group" transform="translate(1.000000, 67.000000)" fill="#FFFFFF">
+                    <path d="M5.88418974,2.42163908 C5.75970833,2.45127751 5.6465336,2.528404 5.57417084,2.64599348 L2.36373527,7.86295129 C2.31524059,7.94175514 2.28956442,8.03247011 2.28956442,8.125 C2.28956442,8.26307119 2.34552883,8.38807119 2.43601103,8.47855339 C2.52649324,8.56903559 2.65149324,8.625 2.78956442,8.625 L9.21043558,8.625 C9.30296546,8.625 9.39368044,8.59932383 9.47248429,8.55082916 C9.59007376,8.4784664 9.66720025,8.36529167 9.69683868,8.24081026 C9.72647711,8.11632885 9.70862749,7.98054076 9.63626473,7.86295129 L5.88418974,2.42163908 Z" id="Triangle" stroke="#FFFFFF"></path>
+                    <g id="Group" transform="translate(1.000000, 66.000000)" fill="#FFFFFF">
                         <path d="M5,3.24629212e-13 L7.14285714,2.85714286 L6.191,2.857 L8.57142857,5.71428571 L6.875,5.714 L10,9.28571429 L0,9.28571429 L3.125,5.714 L1.42857143,5.71428571 L3.809,2.857 L2.85714286,2.85714286 L5,3.24629212e-13 Z" id="Combined-Shape"></path>
                     </g>
                 </g>
-                <text id="Условные-обозначения" font-family="AvenirNext-Regular, Avenir Next" font-size="12" font-weight="normal" fill="#FFFFFF">
-                    <tspan x="24" y="16">Условные обозначения</tspan>
+                <text id="Условные-обозначения" font-family="Verdana" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="16" y="18">Условные обозначения</tspan>
                 </text>
                 <line x1="30.6666667" y1="139" x2="150.666667" y2="139" id="Path-20" stroke="#FFFFFF" opacity="0.482519967"></line>
             </g>
@@ -702,21 +702,21 @@
         <g id="compass" transform="translate(1011.000000, 26.000000)" fill="#FFFFFF">
             <path id="Path-258" d="M69.7615318,27.8943621 L69.3517129,28.6831409 L65.1198712,36.828171 L64.2324951,36.3671248 L67.584,29.915 L62.5226838,33.2265511 L18.5142819,62.0112506 L13.452,65.322 L20.7064436,64.8363321 L20.7732374,65.8340989 L11.6149555,66.4471845 L10.7280517,66.5065568 L11.1378706,65.717778 L15.3697122,57.5727479 L16.2570884,58.0337941 L12.905,64.484 L17.9668997,61.1743678 L61.9753016,32.3896683 L67.036,29.078 L59.7831399,29.5645868 L59.7163461,28.56682 L68.8746279,27.9537344 L69.7615318,27.8943621 Z" fill-rule="nonzero"></path>
             <path id="Path-259" d="M21.171378,17.7258833 L21.9590838,18.1377608 L30.0930338,22.3908603 L29.6296717,23.2770293 L23.187,19.908 L26.4854578,24.9798853 L55.1534933,69.0608085 L58.452,74.133 L57.9851051,66.8772853 L58.9830429,66.8130976 L59.5722079,75.9729494 L59.6292636,76.8600052 L58.8415579,76.4481277 L50.7076078,72.1950281 L51.17097,71.3088592 L57.612,74.676 L54.3151838,69.6060032 L25.6471484,25.52508 L22.348,20.454 L22.8155365,27.7086032 L21.8175987,27.7727909 L21.2284337,18.6129391 L21.171378,17.7258833 Z" fill-rule="nonzero"></path>
-            <text id="N" font-family="AvenirNext-Regular, Avenir Next" font-size="16" font-weight="normal">
+            <text id="N" font-family="Verdana" font-size="16" font-weight="normal">
                 <tspan x="70" y="32">N</tspan>
             </text>
-            <text id="S" font-family="AvenirNext-UltraLight, Avenir Next" font-size="16" font-weight="200">
+            <text id="S" font-family="Verdana" font-size="16" font-weight="normal">
                 <tspan x="0" y="76">S</tspan>
             </text>
-            <text id="E" font-family="AvenirNext-UltraLight, Avenir Next" font-size="16" font-weight="200">
+            <text id="E" font-family="Verdana" font-size="16" font-weight="normal">
                 <tspan x="60" y="88">E</tspan>
             </text>
-            <text id="W" font-family="AvenirNext-UltraLight, Avenir Next" font-size="16" font-weight="200">
+            <text id="W" font-family="Verdana" font-size="16" font-weight="normal">
                 <tspan x="12" y="16">W</tspan>
             </text>
         </g>
-        <text id="Морской-порт-Санкт-П" opacity="0.7363957" font-family="AvenirNext-DemiBold, Avenir Next" font-size="24" font-weight="500" fill="#FFFFFF">
-            <tspan x="414.368" y="34">Морской порт Санкт-Петербург</tspan>
+        <text id="Морской-порт-Санкт-П" opacity="0.7363957" font-family="Verdana-Bold, Verdana" font-size="24" font-weight="bold" fill="#FFFFFF">
+            <tspan x="386.193359" y="34">Морской порт Санкт-Петербург</tspan>
         </text>
         <g id="info_button" transform="translate(592.000000, 61.000000)">
             <circle id="Oval" stroke="#56A7E8" stroke-width="3" fill="#FFFFFF" cx="16" cy="16" r="14.5"></circle>

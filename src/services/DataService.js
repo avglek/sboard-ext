@@ -5,6 +5,14 @@ const applicationInitialState = window.__INITIAL_STATE__;
 const config = applicationInitialState.config;
 
 class DataService {
+  async getRiskobjInfo(id) {
+    const data = await this.getResurce(`${config.riskobj_info}${id}`);
+    return data;
+  }
+  async getRiskobjRegion(id) {
+    const data = await this.getResurce(`${config.riskobj}${id}`);
+    return data;
+  }
   async getStokInfo(id) {
     const data = await this.getResurce(`${config.stok_info}${id}`);
     return data;

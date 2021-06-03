@@ -9,6 +9,7 @@ import * as milRails from "./milRails";
 import * as dnc from "./dnc";
 import * as vchd from "./vchd";
 import * as stok from "./stok";
+import * as riskobj from "./riskobj";
 
 export const layerEvent = {
   bridges,
@@ -22,4 +23,5 @@ export const layerEvent = {
   dnc,
   vchd,
   stok,
+  riskobj,
 };

@@ -26,8 +26,10 @@ var initialState = {
     dnc_reg: "http://10.35.49.146:8080/apps/api/dnc/region?id=",
     dnc_uch: "http://10.35.49.146:8080/apps/api/dnc/uch?id=",
     vchd: "http://10.35.49.146:8080/apps/api/vchd/region?id=",
-    stok_info: "http://localhost:8080/apps/api/clear/info?id=",
-    stok: "http://localhost:8080/apps/api/clear/region?id=",
+    stok_info: "http://10.35.49.146:8080/apps/api/clear/info?id=",
+    stok: "http://10.35.49.146:8080/apps/api/clear/region?id=",
+    riskobj: "http://10.35.49.146:8080/apps/api/riskobject/region?id=",
+    riskobj_info: "http://10.35.49.146:8080/apps/api/riskobject/info?id=",
   },
 
   wsocket: {

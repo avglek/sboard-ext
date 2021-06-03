@@ -152,3 +152,16 @@ export function modalStokFetchData(id) {
     }
   };
 }
+
+export function modalRiskobjFetchData(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading());
+    try {
+      const data = await dataService.getRiskobjInfo(id);
+      dispatch(modalFetchDataSuccess(data));
+    } catch (error) {
+      console.log("Error:", error);
+      dispatch(modalFetchError(error));
+    }
+  };
+}

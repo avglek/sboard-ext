@@ -37,6 +37,9 @@ export function addEventLayer(layerId, props) {
     case "cleaners_active":
       layerEvent.stok.addEvent(props);
       break;
+    case "oneu_active":
+      layerEvent.riskobj.addEvent(props);
+      break;
     default:
       return;
   }
@@ -78,6 +81,9 @@ export function removeEventLayer(layerId, props) {
       break;
     case "cleaners_active":
       layerEvent.stok.resetEvent();
+      break;
+    case "oneu_active":
+      layerEvent.riskobj.resetEvent();
       break;
     default:
       return;

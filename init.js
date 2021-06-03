@@ -23,6 +23,10 @@ var initialState = {
     "dnc_reg": "/apps/api/dnc/region?id=",
     "dnc_uch": "/apps/api/dnc/uch?id=",
     "vchd": "/apps/api/vchd/region?id=",
+    "stok_info": "/apps/api/clear/info?id=",
+    "stok": "/apps/api/clear/region?id=",
+    "riskobj": "/apps/api/riskobject/region?id=",
+    "riskobj_info": "/apps/api/riskobject/info?id=",
   },
 
   wsocket: {

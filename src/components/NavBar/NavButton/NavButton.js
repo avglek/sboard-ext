@@ -36,9 +36,19 @@ const NavButton = (props) => {
 
   if (disabled === "true") {
     return <div className={classes.disabled}>{props.name}</div>;
-  } else {
+  } else if (props.name.length < 30) {
     return (
       <div className={style_button} onClick={handleClick}>
+        {props.name}
+      </div>
+    );
+  } else {
+    return (
+      <div
+        className={style_button}
+        onClick={handleClick}
+        style={{ fontSize: ".95rem", wordWrap: "break-word" }}
+      >
         {props.name}
       </div>
     );

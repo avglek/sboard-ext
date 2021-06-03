@@ -3,47 +3,47 @@
     <title>moscow_legend_table</title>
     <g id="moscow_legend_table" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" stroke="#B3BDC7" stroke-width="3" fill="#FFFFFF" x="1.5" y="1.5" width="317" height="297" rx="8"></rect>
-        <text id="131-ед." font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="255.438" y="277">131 ед.</tspan>
+        <text id="Железнодорожные-стан" font-family="Verdana" font-size="12" font-weight="normal" fill="#000000">
+            <tspan x="19" y="278">Железнодорожные станции  </tspan>
         </text>
-        <text id="280-ед." font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="255.438" y="230">280 ед.</tspan>
+        <text id="Железнодорожные-пере" font-family="Verdana" font-size="12" font-weight="normal" fill="#000000">
+            <tspan x="19" y="229">Железнодорожные переезды  </tspan>
         </text>
-        <text id="737-ед." font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="255.438" y="179">737 ед.</tspan>
+        <text id="Ж.д.-мосты-и-путепро" font-family="Verdana" font-size="12" font-weight="normal" fill="#000000">
+            <tspan x="19" y="178">Ж.д. мосты и путепроводы  </tspan>
         </text>
-        <text id="1442,4-км" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="237.464" y="129">1442,4 км</tspan>
+        <text id="Развернутая-длина-эл" font-family="Verdana" font-size="12" font-weight="normal" fill="#000000">
+            <tspan x="19" y="121">Развернутая длина </tspan>
+            <tspan x="19" y="136">электрифицированных путей  </tspan>
         </text>
-        <text id="2552,1-км" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="237.464" y="80">2552,1 км</tspan>
+        <text id="Развернутая-длина" font-family="Verdana" font-size="12" font-weight="normal" fill="#000000">
+            <tspan x="19" y="78">Развернутая длина  </tspan>
         </text>
-        <text id="Железнодорожные-стан" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="19.578" y="278">Железнодорожные станции  </tspan>
+        <text id="Эксплуатационная-дли" font-family="Verdana" font-size="12" font-weight="normal" fill="#000000">
+            <tspan x="19" y="31">Эксплуатационная длина  </tspan>
         </text>
-        <text id="Железнодорожные-пере" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="17.695" y="230">Железнодорожные переезды  </tspan>
+        <text id="131-ед." font-family="Verdana" font-size="13" font-weight="normal" fill="#000000">
+            <tspan x="249.541016" y="278">131 ед.</tspan>
         </text>
-        <text id="Ж.д.-мосты-и-путепро" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="17.689" y="179">Ж.д. мосты и путепроводы  </tspan>
+        <text id="280-ед." font-family="Verdana" font-size="13" font-weight="normal" fill="#000000">
+            <tspan x="248.041016" y="229">280 ед.</tspan>
         </text>
-        <text id="Развернутая-длина-эл" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="18" y="119">Развернутая длина </tspan>
-            <tspan x="18" y="138">электрифицированных путей  </tspan>
+        <text id="737-ед." font-family="Verdana" font-size="13" font-weight="normal" fill="#000000">
+            <tspan x="249.541016" y="178">737 ед.</tspan>
         </text>
-        <text id="Развернутая-длина" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="17.763" y="80">Развернутая длина  </tspan>
+        <text id="1442,4-км" font-family="Verdana" font-size="13" font-weight="normal" fill="#000000">
+            <tspan x="239.316162" y="129">1442,4 км</tspan>
         </text>
-        <text id="Эксплуатационная-дли" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="17.676" y="32">Эксплуатационная длина  </tspan>
+        <text id="2552,1-км" font-family="Verdana" font-size="13" font-weight="normal" fill="#000000">
+            <tspan x="239.316162" y="79">2552,1 км</tspan>
         </text>
         <line x1="0" y1="50" x2="320" y2="50" id="Path-141" stroke="#B3BDC7"></line>
         <line x1="0" y1="100" x2="320" y2="100" id="Path-141" stroke="#B3BDC7"></line>
         <line x1="0" y1="150" x2="320" y2="150" id="Path-141" stroke="#B3BDC7"></line>
         <line x1="0" y1="200" x2="320" y2="200" id="Path-141" stroke="#B3BDC7"></line>
         <line x1="0" y1="250" x2="320" y2="250" id="Path-141" stroke="#B3BDC7"></line>
-        <text id="2054,5-км" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#000000">
-            <tspan x="237.464" y="32">2054,5 км</tspan>
+        <text id="2054,5-км" font-family="Verdana" font-size="13" font-weight="normal" fill="#000000">
+            <tspan x="240.816162" y="31">2054,5 км</tspan>
         </text>
         <line x1="226.5" y1="299.5" x2="226.5" y2="-0.5" id="Path-141" stroke="#B3BDC7"></line>
     </g>

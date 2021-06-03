@@ -132,6 +132,7 @@ function loadRegions(url_reg, idRegion) {
     parentProps.postDnc(idRegion);
     parentProps.postVchd(idRegion);
     parentProps.postStok(idRegion);
+    parentProps.postRiskobj(idRegion);
 
     let close_btn = d3.select("#close_button");
     close_btn

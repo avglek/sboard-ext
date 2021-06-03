@@ -14,6 +14,7 @@ import gpsReducer from "./gpsReducer";
 import dncReducer from "./dncReducer";
 import vchdReducer from "./vchdReducer";
 import stokReducer from "./stokReducer";
+import riskobjReducer from "./riskobjReducer";
 
 export default combineReducers({
   modal: modalReducer,
@@ -31,4 +32,5 @@ export default combineReducers({
   dnc: dncReducer,
   vchd: vchdReducer,
   stok: stokReducer,
+  riskobj: riskobjReducer,
 });
