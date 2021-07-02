@@ -157,7 +157,7 @@ var initialState = {
       region: "5",
     },
     st_02000: {
-      url: "./svg/Vyborg.svg",
+      url: "./svg/vyborg.svg",
       file: "Выборг!.xlsx",
       region: "3",
     },

@@ -162,7 +162,7 @@ export const layersGroupInit = [
         layer: "mls",
         show: false,
         name: "Границы РЦС, линии связи",
-        visible: "visible",
+        visible: "hidden",
         disabled: false,
         id: 18,
       },

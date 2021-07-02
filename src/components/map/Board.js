@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { loadMapORW, ShowLayer } from "./tablo";
+import { showRegionSpeed } from "../../utils/tabloUtils";
 import { showStorm } from "../../layers/storm";
 //import { showWeather } from "../../utils/weatherUtils";
 import {
@@ -51,7 +52,7 @@ import { specTechFetchData } from "../../store/actions/specTechAction";
 import { fetchDncData } from "../../store/actions/dncAction";
 import { fetchVchdData } from "../../store/actions/vchdAction";
 import { fetchStokData } from "../../store/actions/stokAction";
-import { fetchRiskobjData } from "../../store/actions/riskobjAction"
+import { fetchRiskobjData } from "../../store/actions/riskobjAction";
 //import SocketService from "../../services/SocketService";
 
 //const socket = new SocketService();
@@ -64,6 +65,12 @@ const Board = (props) => {
     props.postResetZoom(props.resetZoom);
     // eslint-disable-next-line
   }, [props.tabloUrl]);
+
+  useEffect(() => {
+    if (props.dncData && props.dncRegion === 0) {
+      showRegionSpeed(props.dncData);
+    }
+  }, [props.dncData, props.dncRegion]);
 
   useEffect(() => {
     if (props.stantionItems) {

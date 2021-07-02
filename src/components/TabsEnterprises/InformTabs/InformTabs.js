@@ -1,47 +1,52 @@
-import React from "react";
-import "./InformTabs.css";
+import React from 'react'
+import './InformTabs.css'
 
-import Table from "react-bootstrap/Table";
-import { Dimensions } from "react-native";
-import parse from "html-react-parser";
+import Table from 'react-bootstrap/Table'
+import { Dimensions } from 'react-native'
+import parse from 'html-react-parser'
 
 const handleClickLink = (link) => {
-  const screenWidth = Dimensions.get("screen").width;
-  const screenHeight = Dimensions.get("screen").height;
-  const winTop = 0;
-  const winLeft = screenWidth / 2;
-  const height = screenHeight - 100;
-  const width = screenWidth / 2 - 50;
+  const screenWidth = Dimensions.get('screen').width
+  const screenHeight = Dimensions.get('screen').height
+  const winTop = 0
+  const winLeft = screenWidth / 2
+  const height = screenHeight - 100
+  const width = screenWidth / 2 - 50
 
   window.open(
     link,
-    "myWindow",
-    "width=" +
+    'myWindow',
+    'width=' +
       width +
-      ", height=" +
+      ', height=' +
       height +
-      ", left=" +
+      ', left=' +
       winLeft +
-      ", top=" +
+      ', top=' +
       winTop +
-      ", scrollbars=yes, resizable=yes"
-  );
-};
+      ', scrollbars=yes, resizable=yes'
+  )
+}
 
 const handleClickLinkNoWindow = (link) => {
   if (link) {
-    window.open(link);
+    window.open(link)
   }
-};
+}
 
 const renderDefault = (item, index) => {
-  let str = item.value;
+  let str = item.value
 
-  if (item.style) {
-    str = item.style === "bold" ? `<b>${str}</b>` : str;
+  //str = str || ''
+  if (!str) {
+    return
   }
 
-  const text = str.split("\n");
+  if (item.style) {
+    str = item.style === 'bold' ? `<b>${str}</b>` : str
+  }
+
+  const text = str.split('\n')
 
   return (
     <tr key={index.toString()}>
@@ -49,14 +54,14 @@ const renderDefault = (item, index) => {
       <td>
         {text.map((i, index) => (
           <p key={index.toString()}>
-            <span style={{ paddingLeft: "1em" }}></span>
+            <span style={{ paddingLeft: '1em' }}></span>
             {parse(i)}
           </p>
         ))}
       </td>
     </tr>
-  );
-};
+  )
+}
 
 const InformTabs = (props) => {
   // код станции;
@@ -66,17 +71,17 @@ const InformTabs = (props) => {
   // телефон;
   // характеристики
 
-  const data = props.items;
+  const data = props.items
 
   if (data === undefined) {
-    return null;
+    return null
   }
 
   const renderRowItems = () =>
     data.map((item, index) => {
       if (item.type) {
         switch (item.type) {
-          case "link":
+          case 'link':
             return (
               <tr key={index.toString()}>
                 <td>{item.name}</td>
@@ -89,18 +94,18 @@ const InformTabs = (props) => {
                         : () => handleClickLink(item.value)
                     }
                   >
-                    {item.link_name ? item.link_name : "Выписка из ТРА"}
+                    {item.link_name ? item.link_name : 'Выписка из ТРА'}
                   </span>
                 </td>
               </tr>
-            );
+            )
           default:
-            return renderDefault(item, index);
+            return renderDefault(item, index)
         }
       } else {
-        return renderDefault(item, index);
+        return renderDefault(item, index)
       }
-    });
+    })
 
   return (
     <div className="scroll-table">
@@ -108,7 +113,7 @@ const InformTabs = (props) => {
         <tbody>{renderRowItems()}</tbody>
       </Table>
     </div>
-  );
-};
+  )
+}
 
-export default InformTabs;
+export default InformTabs

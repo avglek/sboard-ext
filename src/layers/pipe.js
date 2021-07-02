@@ -1,44 +1,43 @@
-import * as d3 from "d3";
+import * as d3 from 'd3'
 
 export function eventPipeHandler(props) {
   const nlist = d3
-    .selectAll("#tubes")
+    .selectAll('#tubes')
     .selectAll("g[id^='isso_']")
-    .select("#icon");
+    .select('#icon')
   nlist
-    .on("click", function () {
-      handlerClick(this.parentNode, props);
+    .on('click', function () {
+      handlerClick(this.parentNode, props)
     })
-    .on("mouseenter", () => nlist.style("cursor", "pointer"))
-    .on("mouseleave", () => nlist.style("cursor", "default"));
+    .on('mouseenter', () => nlist.style('cursor', 'pointer'))
+    .on('mouseleave', () => nlist.style('cursor', 'default'))
 }
 
 export function resetPipeHandler() {
-  //console.log("reset pipe");
-  const nlist = d3.selectAll("#tubes").selectAll("g[id^='isso_']");
+  const nlist = d3.selectAll('#tubes').selectAll("g[id^='isso_']")
 
-  nlist.on("click", null).on("mouseenter", null).on("mouseleave", null);
+  nlist.on('click', null).on('mouseenter', null).on('mouseleave', null)
 }
 
 function handlerClick(element, { fetchPipeData, openModal }) {
-  const uid = element.getAttribute("id");
-  openModal(true);
-  fetchPipeData(uid);
+  const uid = element.getAttribute('id')
+  openModal(true)
+  fetchPipeData(uid)
 }
 
 export function loadPipeCount(props) {
   if (props.stormRegionID === props.pipeRegion && !props.pipeLoad) {
-    showPipeCount(props.pipeData);
+    showPipeCount(props.pipeData)
   }
 }
 
 function showPipeCount(items) {
-  const nlist = d3.selectAll("#tubes");
+  const nlist = d3.selectAll('#tubes')
 
   items.forEach((item) => {
-    const node = nlist.select(`#${item.id_peregon}`);
+    const node = nlist.select(`#${item.id_peregon}`)
     if (node !== null) {
-      node.select("tspan").text(item.cnt);
+      node.select('tspan').text(item.cnt)
     }
-  });
+  })
 }

@@ -180,13 +180,11 @@
             <line x1="734" y1="493" x2="769" y2="478" id="Path-3" stroke="#B6EFAC" stroke-width="8"></line>
             <path d="M767,423 C749.124482,435.988077 737.791149,446.988077 733,456 C728.208851,465.011923 725.542185,480.345256 725,502" id="Path-17" stroke="#B6EFAC" stroke-width="12"></path>
             <line x1="456" y1="520" x2="425" y2="478" id="Path-160" stroke="#B6EFAC" stroke-width="10"></line>
-            <g id="mil_rails" transform="translate(163.060494, 519.000000)" stroke="#B6EFAC" stroke-width="12">
-                <path d="M6.15097527,616.924712 C10.6626196,607.549354 1.43021507,593.280064 0.463320855,584.985505 C-0.503573357,576.690946 -0.523298936,561.491769 6.15097527,548.22471 C12.8252495,534.95765 19.5235885,531.104989 22.6800119,523.970703 C24.7842942,519.214513 23.6853359,511.355138 19.3831369,500.392578 L15.8831369,488" id="Path-15"></path>
-                <path d="M292.383137,0 C269.144524,62.1916671 267.000916,107.645337 265.591771,127.696635 C263.301746,160.282351 267.041723,206.423831 276.811702,266.121076 C291.581105,345.748791 299.123706,396.041766 299.439506,417 C299.755306,437.958234 296.588639,460.958234 289.939506,486" id="Path-14"></path>
-                <path d="M293.991782,467 C291.163778,486.420863 283.955528,501.008892 269.395459,524.394083 C259.688745,539.984211 247.536761,555.187975 232.939506,570.005377" id="Path-14"></path>
-                <path d="M274.939506,257.136318 C240.939506,243.3125 220.606173,233.928519 213.939506,228.984375 C203.939506,221.568159 207.554782,215.559786 197.939506,208 C191.529322,202.960143 178.529322,195.626809 158.939506,186" id="Path-97" stroke-linecap="round"></path>
-                <path d="M234.939506,569.72787 C203.537877,571.360443 182.335026,573.284486 171.330952,575.5 C150.019648,579.790728 140.978568,585 129.812429,591.100116 C117.525567,597.812488 117.113218,603 102.928553,603 C88.7438892,603 60.4980997,594.429688 48.0449747,587.714844 C39.7428914,583.238281 25.7077352,570 5.93950598,548" id="Path-16"></path>
-            </g>
+            <path d="M169.211469,1135.92471 C173.723114,1126.54935 164.490709,1112.28006 163.523815,1103.9855 C162.556921,1095.69095 162.537195,1080.49177 169.211469,1067.22471 C175.885743,1053.95765 182.584082,1050.10499 185.740506,1042.9707 C187.844788,1038.21451 186.74583,1030.35514 182.443631,1019.39258 L178.943631,1007" id="Path-15" stroke="#B6EFAC" stroke-width="12"></path>
+            <path d="M455.443631,519 C432.205018,581.191667 430.06141,626.645337 428.652265,646.696635 C426.36224,679.282351 430.102217,725.423831 439.872196,785.121076 C454.641599,864.748791 462.1842,915.041766 462.5,936 C462.8158,956.958234 459.649133,979.958234 453,1005" id="Path-14" stroke="#B6EFAC" stroke-width="12"></path>
+            <path d="M457.052276,986 C454.224272,1005.42086 447.016022,1020.00889 432.455953,1043.39408 C422.749239,1058.98421 410.597255,1074.18798 396,1089.00538" id="Path-14" stroke="#B6EFAC" stroke-width="12"></path>
+            <path d="M438,776.136318 C404,762.3125 383.666667,752.928519 377,747.984375 C367,740.568159 370.615276,734.559786 361,727 C354.589816,721.960143 341.589816,714.626809 322,705" id="Path-97" stroke="#B6EFAC" stroke-width="12" stroke-linecap="round"></path>
+            <path d="M398,1088.72787 C366.598371,1090.36044 345.39552,1092.28449 334.391446,1094.5 C313.080142,1098.79073 304.039062,1104 292.872923,1110.10012 C280.586061,1116.81249 280.173712,1122 265.989047,1122 C251.804383,1122 223.558594,1113.42969 211.105469,1106.71484 C202.803385,1102.23828 188.768229,1089 169,1067" id="Path-16" stroke="#B6EFAC" stroke-width="12"></path>
         </g>
         <g id="ftrains_area" opacity="0" transform="translate(0.000000, -2.000000)">
             <path d="M538.458954,70.5258623 L714.456513,6.88554568 C721.999828,4.15790005 730.354157,7.84751713 733.419083,15.260201 L998.745219,656.965248 C999.571949,658.964738 999.95633,661.119414 999.871986,663.281434 L996.180784,757.899865 C995.857848,766.177839 988.885432,772.626672 980.607458,772.303737 C976.446007,772.141392 972.539367,770.256264 969.822784,767.099652 L803.337109,573.646771 L803.337109,573.646771 L647.514551,573.046299 C640.492301,573.019238 634.428698,568.123962 632.921788,561.265248 L528.909127,87.8508146 C527.293567,80.4975804 531.378985,73.0859632 538.458954,70.5258623 Z" id="Path-59" stroke="#7CE08B" stroke-width="3" fill-opacity="0.1" fill="#57A763"></path>
@@ -2201,12 +2199,12 @@
             </text>
         </g>
         <g id="mil_rails" opacity="0" transform="translate(19.000000, 516.000000)">
-            <path d="M141.964645,621.5 C148,613 139.490709,594.280064 138.523815,585.985505 C137.556921,577.690946 135.825726,564.76706 142.5,551.5" id="Path-15" stroke="#7B7B7B" stroke-width="16" stroke-dasharray="2,3"></path>
-            <path d="M373,570.72787 C341.598371,572.360443 320.39552,574.284486 309.391446,576.5 C288.080142,580.790728 279.039063,586 267.872923,592.100116 C255.586061,598.812488 255.173712,604 240.989047,604 C226.804383,604 198.558594,595.429687 186.105469,588.714844 C177.803385,584.238281 165.768229,573.576942 150,556.730826" id="Path-16" stroke="#7B7B7B" stroke-width="16" stroke-dasharray="2,3"></path>
-            <path d="M431,0.45 C407.761387,62.6416671 405.06141,108.645337 403.652265,128.696635 C401.36224,161.282351 405.144818,209.646964 415,273.790476" id="Path-14" stroke="#7B7B7B" stroke-width="16" stroke-dasharray="2,3"></path>
-            <path d="M144.211469,549.22471 C150.885743,535.95765 157.584082,532.104989 160.740506,524.970703 C162.844788,520.214513 161.74583,512.355138 157.443631,501.392578 L153.943631,489" id="Path-15" stroke="#7B7B7B" stroke-width="16" stroke-dasharray="2,3"></path>
-            <path d="M407,256 C377,243.600394 358.666667,234.928519 352,229.984375 C342,222.568159 345.615276,216.559786 336,209 C329.589816,203.960143 316.589816,196.626809 297,187" id="Path-97" stroke="#7B7B7B" stroke-width="16" stroke-dasharray="2,3"></path>
-            <path d="M369.443631,574 C402.400481,534.850575 422.085938,504.183908 428.5,482 C438.121094,448.724138 437.78744,435.5 437.075666,408.295589 C436.60115,390.159315 429.575928,346.060785 416,276" id="Path-72" stroke="#7B7B7B" stroke-width="16" stroke-dasharray="2,3"></path>
+            <path d="M136.964645,621.5 C143,613 134.490709,594.280064 133.523815,585.985505 C132.556921,577.690946 130.825726,564.76706 137.5,551.5" id="Path-15" stroke="#FF810A" stroke-width="8" stroke-linecap="round"></path>
+            <path d="M372,578.72787 C340.598371,580.360443 319.39552,582.284486 308.391446,584.5 C287.080142,588.790728 278.039063,594 266.872923,600.100116 C254.586061,606.812488 254.173712,612 239.989047,612 C225.804383,612 197.558594,603.429687 185.105469,596.714844 C176.803385,592.238281 164.768229,581.576942 149,564.730826" id="Path-16" stroke="#FF810A" stroke-width="8" stroke-linecap="round"></path>
+            <path d="M424,0.45 C400.761387,62.6416671 398.06141,108.645337 396.652265,128.696635 C394.36224,161.282351 398.144818,209.646964 408,273.790476" id="Path-14" stroke="#FF810A" stroke-width="8" stroke-linecap="round"></path>
+            <path d="M138.211469,549.22471 C144.885743,535.95765 151.584082,532.104989 154.740506,524.970703 C156.844788,520.214513 155.74583,512.355138 151.443631,501.392578 L147.943631,489" id="Path-15" stroke="#FF810A" stroke-width="8" stroke-linecap="round"></path>
+            <path d="M405,263 C375,250.600394 356.666667,241.928519 350,236.984375 C340,229.568159 343.615276,223.559786 334,216 C327.589816,210.960143 314.589816,203.626809 295,194" id="Path-97" stroke="#FF810A" stroke-width="8" stroke-linecap="round"></path>
+            <path d="M362.443631,574 C395.400481,534.850575 415.085938,504.183908 421.5,482 C431.121094,448.724138 430.78744,435.5 430.075666,408.295589 C429.60115,390.159315 422.575928,346.060785 409,276" id="Path-72" stroke="#FF810A" stroke-width="8" stroke-linecap="round"></path>
             <g id="mil_4_1" transform="translate(343.000000, 221.000000)">
                 <rect id="Rectangle" stroke="#707070" fill="#FFFFFF" x="0.5" y="0.5" width="17" height="17" rx="4"></rect>
                 <g id="Group-52" transform="translate(2.526070, 2.892151)" fill="#707070">
@@ -2215,7 +2213,7 @@
                     <rect id="Rectangle" x="9.47393036" y="9.10784912" width="3" height="3" rx="1"></rect>
                 </g>
             </g>
-            <g id="mil_4_3" transform="translate(389.000000, 123.000000)">
+            <g id="mil_4_3" transform="translate(387.000000, 123.000000)">
                 <rect id="Rectangle" stroke="#707070" fill="#FFFFFF" x="0.5" y="0.5" width="17" height="17" rx="4"></rect>
                 <g id="Group-52" transform="translate(2.526070, 2.892151)" fill="#707070">
                     <rect id="Rectangle" x="0.473930359" y="0.107849121" width="3" height="12" rx="1"></rect>
@@ -2239,7 +2237,7 @@
                     <rect id="Rectangle" x="9.47393036" y="9.10784912" width="3" height="3" rx="1"></rect>
                 </g>
             </g>
-            <g id="mil_4_4" transform="translate(239.000000, 597.000000)">
+            <g id="mil_4_4" transform="translate(239.000000, 601.000000)">
                 <rect id="Rectangle" stroke="#707070" fill="#FFFFFF" x="0.5" y="0.5" width="17" height="17" rx="4"></rect>
                 <g id="Group-52" transform="translate(2.526070, 2.892151)" fill="#707070">
                     <rect id="Rectangle" x="0.473930359" y="0.107849121" width="3" height="12" rx="1"></rect>
@@ -2257,7 +2255,7 @@
             </g>
             <g id="mils_legend" transform="translate(0.000000, 363.000000)">
                 <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="208" height="37" rx="5"></rect>
-                <line x1="9.78253174" y1="19" x2="49.2318115" y2="19" id="Path-2" stroke="#7B7B7B" stroke-width="16" stroke-dasharray="2,3"></line>
+                <line x1="9.78253174" y1="19" x2="49.2318115" y2="19" id="Path-2" stroke="#FF810A" stroke-width="8" stroke-linecap="round"></line>
                 <g id="mil_5_6" transform="translate(24.000000, 15.000000)">
                     <rect id="Rectangle" stroke="#707070" fill="#FFFFFF" x="0.5" y="0.5" width="15" height="15" rx="4"></rect>
                     <g id="Group-52" transform="translate(2.245395, 2.570801)" fill="#707070">
@@ -2309,7 +2307,7 @@
                     <circle id="Oval" cx="12" cy="12" r="10"></circle>
                 </g>
             </g>
-            <g id="st_02370" transform="translate(32.000000, 1098.000000)">
+            <g id="st_02370" transform="translate(32.000000, 1097.000000)">
                 <g id="st" transform="translate(82.000000, 5.000000)" fill="#FFFDFD" stroke="#6EA8F0" stroke-width="2">
                     <circle id="Oval" cx="9" cy="9" r="8"></circle>
                 </g>
@@ -2461,7 +2459,7 @@
                     <tspan x="4.57373047" y="20">Куокканиеми</tspan>
                 </text>
             </g>
-            <g id="st_02380" transform="translate(63.000000, 1079.000000)">
+            <g id="st_02380" transform="translate(64.000000, 1079.000000)">
                 <g id="st" transform="translate(55.000000, 1.000000)" fill="#FFFDFD" stroke="#A3A3A3" stroke-width="2">
                     <circle id="Oval" cx="6.5" cy="6.5" r="5.5"></circle>
                 </g>
@@ -2469,7 +2467,7 @@
                     <tspan x="0.737304688" y="12">Хелюля</tspan>
                 </text>
             </g>
-            <g id="st_02390" transform="translate(54.000000, 1051.000000)">
+            <g id="st_02390" transform="translate(55.000000, 1051.000000)">
                 <g id="st" transform="translate(60.000000, 2.000000)" fill="#FFFDFD" stroke="#A3A3A3" stroke-width="2">
                     <circle id="Oval" cx="6.5" cy="6.5" r="5.5"></circle>
                 </g>
@@ -5983,16 +5981,16 @@
             </g>
             <g id="209_35" transform="translate(283.000000, 1097.000000)">
                 <polyline id="Path-51" stroke="#1C9FDD" stroke-width="0.5" points="40.5 21 10.9513537 21 0 0"></polyline>
-                <g id="Group-45" transform="translate(40.000000, 19.000000)" fill="#1C9FDD">
+                <g id="icon" transform="translate(40.000000, 19.000000)" fill="#1C9FDD">
                     <path d="M7,4.17687401 L6.38475037,4.17687401 C6.22242932,2.31536826 5.40214655,1.38461538 3.92390207,1.38461538 C2.44565759,1.38461538 1.62541982,2.31536826 1.46318876,4.17687401 L0.853137677,4.17687401 L0.853137677,0.461538462 L7,0.461538462 L7,4.17687401 Z" id="Path-312"></path>
-                    <path d="M13.2023902,4.17687401 L12.6143494,4.17687401 C12.4015264,2.31536826 11.5559927,1.38461538 10.0777482,1.38461538 C8.59950375,1.38461538 7.77936966,2.31536826 7.61734596,4.17687401 L7,4.17687401 L7,0.461538462 L13.2023902,0.50439101 L13.2023902,4.17687401 Z" id="Path-312"></path>
+                    <path d="M13.0023902,4.17687401 L12.4143494,4.17687401 C12.2015264,2.31536826 11.3559927,1.38461538 9.87774823,1.38461538 C8.39950375,1.38461538 7.57936966,2.31536826 7.41734596,4.17687401 L6.8,4.17687401 L6.8,0.461538462 L13.0023902,0.50439101 L13.0023902,4.17687401 Z" id="Path-312"></path>
                 </g>
             </g>
             <g id="206_35" transform="translate(281.000000, 1098.000000)">
                 <polyline id="Path-51" stroke="#1C9FDD" stroke-width="0.5" points="38.5 25 13 25 0 0.466530398"></polyline>
-                <g id="Group-45" transform="translate(38.000000, 23.000000)" fill="#1C9FDD">
+                <g id="icon" transform="translate(38.000000, 23.000000)" fill="#1C9FDD">
                     <path d="M7,4.17687401 L6.38475037,4.17687401 C6.22242932,2.31536826 5.40214655,1.38461538 3.92390207,1.38461538 C2.44565759,1.38461538 1.62541982,2.31536826 1.46318876,4.17687401 L0.853137677,4.17687401 L0.853137677,0.461538462 L7,0.461538462 L7,4.17687401 Z" id="Path-312"></path>
-                    <path d="M13.2023902,4.17687401 L12.6143494,4.17687401 C12.4015264,2.31536826 11.5559927,1.38461538 10.0777482,1.38461538 C8.59950375,1.38461538 7.77936966,2.31536826 7.61734596,4.17687401 L7,4.17687401 L7,0.461538462 L13.2023902,0.50439101 L13.2023902,4.17687401 Z" id="Path-312"></path>
+                    <path d="M13.0023902,4.17687401 L12.4143494,4.17687401 C12.2015264,2.31536826 11.3559927,1.38461538 9.87774823,1.38461538 C8.39950375,1.38461538 7.57936966,2.31536826 7.41734596,4.17687401 L6.8,4.17687401 L6.8,0.461538462 L13.0023902,0.50439101 L13.0023902,4.17687401 Z" id="Path-312"></path>
                 </g>
             </g>
             <g id="179_35" transform="translate(187.000000, 1109.000000)">
@@ -6850,6 +6848,296 @@
                 </g>
             </g>
         </g>
+        <g id="tubes" opacity="0" transform="translate(31.000000, 41.000000)">
+            <g id="isso_01371_01352" transform="translate(617.000000, 0.000000)">
+                <path d="M-0.000225594202,4.54747351e-13 C12.009873,25.0629951 24.1766148,45.7296618 36.5,62 C42.9584585,70.5269837 57.577948,84.860317 80.3584683,105" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(28.000000, 53.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01352_01322" transform="translate(683.000000, 106.000000)">
+                <path d="M15,-4.54747351e-13 C8.05432943,13.6923077 5.18457845,28.6153846 6.39074707,44.7692308 C7.59691569,60.9230769 12.6791209,77.6666667 21.6373626,95" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 38.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01322_01311" transform="translate(697.000000, 204.000000)">
+                <path d="M8.44230769,0 C2.25061058,26 1.10317468,46.3333333 5,61 C8.89682532,75.6666667 16.8968253,90.0489153 29,104.146746" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 56.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01311_01314" transform="translate(708.000000, 310.000000)">
+                <path d="M19,-4.54747351e-13 C9.96756421,8 5.20945527,19 4.72567316,33 C4.24189105,47 7.66666667,58.2564103 15,66.7692308" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 16.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01314_01231" transform="translate(668.000000, 378.000000)">
+                <path d="M53,0 C23.9848727,9.47191388 8.15153941,19.8494763 5.5,31.1326873 C1.65771077,47.4829477 4.4910441,63.4387186 14,79" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 55.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01274_01270" transform="translate(737.000000, 428.000000)">
+                <path d="M-2.20268248e-13,4.54747351e-13 C13.2542372,4.30561984 26.5042372,13.3056198 39.75,27 C48.4166667,35.9601958 55.8276061,51.7935291 61.9828183,74.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(30.000000, 18.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01314_01232" transform="translate(700.000000, 381.000000)">
+                <path d="M35.2499341,0 C44.1057948,14.3333333 44.191678,26.3333333 35.5075837,36 C31.6962543,40.2425669 20.0507765,51.2425669 0.571150439,69" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(12.000000, 47.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01270_01251" transform="translate(790.000000, 514.000000)">
+                <path d="M0.948100257,0.5 C9.39457552,24.1817377 20.9118754,44.7843018 35.5,62.3076923 C45.0416667,73.7692308 63.2083333,85.6666667 90,98" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(28.000000, 55.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01251_29603" transform="translate(882.000000, 615.000000)">
+                <path d="M9.09494702e-13,0.0255900026 C11.1802493,21.8988155 23.1802493,37.2236188 36,46 C49.6332964,55.3333333 64.2615516,62.3394359 79.8847656,67.0183077" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(16.000000, 28.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01231_01200" transform="translate(646.000000, 457.000000)">
+                <path d="M36,-4.54747351e-13 C23.0333333,9.25288252 13.6166667,21.3298056 7.75,36.2307692 C1.88333333,51.1317329 -0.536074503,66.7214765 0.491776489,83" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(3.000000, 24.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01200_01180" transform="translate(626.000000, 552.000000)">
+                <path d="M20,-4.54747351e-13 C10.9675642,10.6666667 6.20945527,23 5.72567316,37 C5.24189105,51 8.66666667,62.2564103 16,70.7692308" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 32.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01180_01152" transform="translate(620.000000, 632.000000)">
+                <path d="M22,-4.54747351e-13 C11.6923077,14 6.26921693,32 5.7307277,54 C5.19223848,76 9.05877158,96 17.330327,114" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 45.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01152_01130" transform="translate(619.000000, 746.000000)">
+                <path d="M17,-4.54747351e-13 C10.0644337,13 6.09297385,28 5.08562039,45 C4.53693332,54.2595903 8.18229613,64.9896508 9.5,74.3076923 C10.2343426,79.5005397 10.9010093,86.8298184 11.5,96.2955283" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 45.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01130_01150" transform="translate(620.000000, 857.000000)">
+                <path d="M24.3632812,0 C26.7877604,9.37760417 26.5,24.3776042 23.5,45 C20.5,65.6223958 12.6952361,84.6735026 0.085708154,102.15332" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(12.000000, 61.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01150_01090" transform="translate(569.000000, 967.000000)">
+                <path d="M39,0 C22.4762174,10.0208333 12.1502236,19.0208333 8.02201843,27 C3.8938133,34.9791667 1.21980716,48.1458333 -9.09494702e-13,66.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(3.000000, 19.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01090_01030" transform="translate(547.000000, 1050.000000)">
+                <path d="M17.4828183,0.5 C9.38323964,15.1008855 5.88896688,29.067995 7,42.4013283 C8.11103312,55.7346616 12.6702277,71.2675522 20.6775837,89" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 32.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01030_02550" transform="translate(447.000000, 1131.000000)">
+                <path d="M0.615180219,0.360863024 C21.0240919,18.453621 43.1523651,27.8333333 67,28.5 C90.8476349,29.1666667 108.293899,25.8 119.338792,18.4" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(31.000000, 17.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02550_02580" transform="translate(365.000000, 1047.000000)">
+                <path d="M0.5,0 C23.8341611,6.21369327 42.8341611,15.986762 57.5,29.3192062 C72.1658389,42.6516505 81.1658389,56.8016586 84.5,71.7692308" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(47.000000, 20.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02580_02620" transform="translate(221.000000, 1028.000000)">
+                <path d="M3.63797881e-12,44.8579387 C18.2666667,22.3482316 39.0666667,9.74604925 62.4,7.0513916 C85.7333333,4.35673396 109.035897,6.09816869 132.307692,12.2756958" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(54.000000, 0.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02580_02680" transform="translate(357.000000, 900.000000)">
+                <path d="M62.5,0 C47.4120879,26.3333333 36.7912088,44.5 30.6373626,54.5 C24.4835165,64.5 14.5683903,92.5 0.891983986,138.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(15.000000, 69.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02680_02701" transform="translate(387.000000, 737.000000)">
+                <path d="M8,-4.54747351e-13 C4.87678828,33.6666667 5.16982857,62.3333333 8.87912088,86 C12.5884132,109.666667 20.2953729,135 32,162" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 64.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02701_02723" transform="translate(287.000000, 657.000000)">
+                <path d="M111.965564,70 C91.9885213,46.3333333 74.5110677,29.6666667 59.5332031,20 C44.5553385,10.3333333 24.7109375,3.66666667 0,0" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(56.000000, 16.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02701_02761" transform="translate(406.000000, 529.000000)">
+                <path d="M3.75,-1.13686838e-13 C11.1218226,51.7575758 14.5384892,88.6363636 14,110.636364 C13.4615108,132.636364 8.99283784,162.090909 0.593981199,199" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(8.000000, 94.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02761_02831" transform="translate(409.000000, 345.000000)">
+                <path d="M79.5384615,0.9 C73.1794872,54.4546115 64.6923077,90.4879448 54.0769231,109 C43.4615385,127.512055 25.6025641,151.928722 0.5,182.25" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(58.000000, 80.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01200_02773" transform="translate(435.000000, 456.000000)">
+                <path d="M0.5,-4.26325641e-14 C53.5613346,3.37887291 87.7280013,9.12246265 103,17.2307692 C127.307692,30.1363636 140.491452,43.2492431 174,68.5 C180.763431,73.5966621 193.898816,79.0966621 213.406156,85" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(104.000000, 15.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02770_02773" transform="translate(380.000000, 434.000000)">
+                <path d="M1,0 C-0.666666667,12.3333333 1.00868988,22.5600384 6.02606964,30.6801151 C11.0434494,38.8001918 20.3680929,43.3683585 34,44.3846154" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 22.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02773_02800" transform="translate(221.000000, 336.000000)">
+                <path d="M1.8189894e-12,-4.54747351e-13 C32.6666667,32.1145833 59,54.9479167 79,68.5 C99,82.0520833 125.333333,91.8854167 158,98" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(62.000000, 55.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02620_02400" transform="translate(132.000000, 1035.000000)">
+                <path d="M0.0334720612,2.48689958e-14 C10.8745286,22.7323697 22.6283902,36.7323697 35.2950569,42 C47.9617236,47.2676303 64.0300379,49.5057255 83.5,48.7142857" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(31.000000, 36.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02370_02320" transform="translate(0.000000, 1109.000000)">
+                <path d="M-9.09494702e-13,71 C17.8092323,68.1361226 37.2451297,61.2643277 58.3076923,50.3846154 C79.3702549,39.5049031 101.853703,22.7100313 125.758035,0" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(51.000000, 44.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_02410_02370" transform="translate(103.000000, 988.000000)">
+                <path d="M18.8034537,103 C8.08969674,83.3333333 4.32187885,64.1666667 7.5,45.5 C10.6781211,26.8333333 21.5114545,11.8333333 40,0.5" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 63.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_01030_04980" transform="translate(542.000000, 1149.000000)">
+                <path d="M26,0.830571499 C13.4604766,18.4505736 6.96047665,32.1323695 6.5,41.8759592 C6.03952335,51.6195489 15.9509737,73.6275625 36.2343511,107.9" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(0.000000, 38.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="isso_04980_04943" transform="translate(544.000000, 1265.000000)">
+                <path d="M45.9684891,0 C52.5600225,31.2223774 52.2180278,57.2223774 44.9425049,78 C40.0866962,91.8673415 25.1341706,108.534008 0.0849279924,128" id="Path-327" stroke="#1A9B3D" stroke-dasharray="1,1"></path>
+                <g id="icon" transform="translate(39.000000, 71.000000)">
+                    <circle id="Oval" fill="#1A9B3D" cx="6" cy="6" r="6"></circle>
+                    <text id="tube_count" font-family="Verdana" font-size="5" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="2.82128906" y="8">00</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
         <g id="oneu_active" transform="translate(624.000000, 541.000000)">
             <g id="oneu_01210" transform="translate(27.000000, 0.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
@@ -6881,29 +7169,32 @@
                 <circle id="Oval" cx="1" cy="1" r="1"></circle>
             </g>
         </g>
-        <g id="dnc_active" transform="translate(219.000000, 145.000000)">
-            <g id="dnc_403" transform="translate(308.000000, 0.000000)">
+        <g id="dnc_active" transform="translate(219.000000, 120.000000)">
+            <g id="dnc_4" transform="translate(139.000000, 0.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
             </g>
-            <g id="dnc_402" transform="translate(413.000000, 202.000000)">
+            <g id="dnc_403" transform="translate(308.000000, 25.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
             </g>
-            <g id="dnc_404" transform="translate(619.000000, 550.000000)">
+            <g id="dnc_402" transform="translate(413.000000, 227.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
             </g>
-            <g id="dnc_407" transform="translate(356.000000, 569.000000)">
+            <g id="dnc_404" transform="translate(619.000000, 575.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
             </g>
-            <g id="dnc_406" transform="translate(84.000000, 383.000000)">
+            <g id="dnc_407" transform="translate(356.000000, 594.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
             </g>
-            <g id="dnc_405" transform="translate(0.000000, 1026.000000)">
+            <g id="dnc_406" transform="translate(84.000000, 408.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
             </g>
-            <g id="dnc_401" transform="translate(483.000000, 1064.000000)">
+            <g id="dnc_405" transform="translate(0.000000, 1051.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
             </g>
-            <g id="dnc_604" transform="translate(437.000000, 1279.000000)">
+            <g id="dnc_401" transform="translate(483.000000, 1089.000000)">
+                <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
+            </g>
+            <g id="dnc_604" transform="translate(437.000000, 1304.000000)">
                 <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
             </g>
         </g>
@@ -7142,13 +7433,13 @@
                     <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
                 </g>
             </g>
-            <g id="dist_4-1" opacity="0" transform="translate(410.000000, 259.000000)">
-                <g id="icon" transform="translate(70.708984, 8.000000)">
+            <g id="dist_4-1" opacity="0" transform="translate(407.000000, 259.000000)">
+                <g id="icon" transform="translate(73.708984, 8.000000)">
                     <circle id="Oval" cx="0.5" cy="0.5" r="1"></circle>
                 </g>
-                <text id="по-региону" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" fill="#C000FF">
-                    <tspan x="36.4649844" y="14"> по </tspan>
-                    <tspan x="1.42298437" y="33">региону</tspan>
+                <text id="по-региону" font-family="Verdana" font-size="14" font-weight="normal" fill="#C000FF">
+                    <tspan x="37.3691406" y="14"> по </tspan>
+                    <tspan x="1.38476562" y="31">региону</tspan>
                 </text>
             </g>
         </g>
