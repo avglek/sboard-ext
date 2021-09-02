@@ -3847,8 +3847,8 @@
             </g>
         </g>
         <g id="spec_trains" opacity="0" transform="translate(331.000000, 106.000000)">
-            <path d="M742,636.35 L705,636.35 C703.715938,636.35 702.553438,636.870469 701.711953,637.711953 C700.870469,638.553438 700.35,639.715938 700.35,641 L700.349789,659.156409 L664.297564,676.611473 L707.406134,664.65 L742,664.65 C743.284062,664.65 744.446562,664.129531 745.288047,663.288047 C746.129531,662.446562 746.65,661.284062 746.65,660 L746.65,641 C746.65,639.715938 746.129531,638.553438 745.288047,637.711953 C744.446562,636.870469 743.284062,636.35 742,636.35 Z" id="Combined-Shape" stroke="#ACACAC" stroke-width="0.7" fill="#FFFFFF"></path>
-            <g id="vp_3021" transform="translate(701.000000, 638.000000)">
+            <path d="M741,630.35 L704,630.35 C702.715938,630.35 701.553438,630.870469 700.711953,631.711953 C699.870469,632.553438 699.35,633.715938 699.35,635 L699.349767,653.500557 L664.576027,673.481485 L707.777363,658.65 L741,658.65 C742.284062,658.65 743.446562,658.129531 744.288047,657.288047 C745.129531,656.446562 745.65,655.284062 745.65,654 L745.65,635 C745.65,633.715938 745.129531,632.553438 744.288047,631.711953 C743.446562,630.870469 742.284062,630.35 741,630.35 Z" id="Combined-Shape" stroke="#ACACAC" stroke-width="0.7" fill="#FFFFFF"></path>
+            <g id="vp_3021" transform="translate(700.000000, 632.000000)">
                 <path d="M10,2.4 L20,2.4 C21.6568542,2.4 23,3.74314575 23,5.4 L23,16.8 L23,16.8 L7,16.8 L7,5.4 C7,3.74314575 8.34314575,2.4 10,2.4 Z" id="Rectangle" fill="#0790F6"></path>
                 <text id="3021" transform="translate(3.500000, 13.000000) rotate(-90.000000) translate(-3.500000, -13.000000) " font-family="Verdana-Bold, Verdana" font-size="6" font-weight="bold" fill="#0790F6">
                     <tspan x="-5.03125" y="15.5">3021</tspan>
@@ -3863,7 +3863,7 @@
                 <polygon id="Path-226" fill="#FFD100" transform="translate(20.200000, 20.800000) scale(-1, 1) translate(-20.200000, -20.800000) " points="18.2 18.4 20.6 23.2 22.2 23.2 19.8 18.4"></polygon>
                 <polygon id="Path-226" fill="#FFD100" transform="translate(17.000000, 20.800000) scale(-1, 1) translate(-17.000000, -20.800000) " points="15 18.4 17.4 23.2 19 23.2 16.6 18.4"></polygon>
             </g>
-            <g id="train_fire" transform="translate(727.000000, 638.000000)">
+            <g id="train_fire" transform="translate(726.000000, 632.000000)">
                 <path d="M3,2.4 L13,2.4 C14.6568542,2.4 16,3.74314575 16,5.4 L16,16.8 L16,16.8 L0,16.8 L0,5.4 C-2.02906125e-16,3.74314575 1.34314575,2.4 3,2.4 Z" id="Rectangle" fill="#FF4141"></path>
                 <path d="M0,18.4 L16,18.4 L16,21.2 C16,22.3045695 15.1045695,23.2 14,23.2 L2,23.2 C0.8954305,23.2 1.3527075e-16,22.3045695 0,21.2 L0,18.4 L0,18.4 Z" id="Rectangle" fill="#FF4141"></path>
                 <rect id="Rectangle" fill="#2E2E2E" x="2.4" y="4" width="11.2" height="5.6" rx="1"></rect>
@@ -4073,7 +4073,7 @@
             <path d="M336,51.5 L284,51.5 C282.757359,51.5 281.632359,52.0036797 280.818019,52.8180195 C280.00368,53.6323593 279.5,54.7573593 279.5,56 L279.5,64 C279.5,65.2426407 280.00368,66.3676407 280.818019,67.1819805 C281.632359,67.9963203 282.757359,68.5 284,68.5 L289.575851,68.5 L292.070838,93.6493293 L295.395753,68.5 L336,68.5 C337.242641,68.5 338.367641,67.9963203 339.181981,67.1819805 C339.99632,66.3676407 340.5,65.2426407 340.5,64 L340.5,56 C340.5,54.7573593 339.99632,53.6323593 339.181981,52.8180195 C338.367641,52.0036797 337.242641,51.5 336,51.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M944,134 L892,134 C890.757359,134 889.632359,134.50368 888.818019,135.318019 C888.00368,136.132359 887.5,137.257359 887.5,138.5 L887.5,174.5 C887.5,175.742641 888.00368,176.867641 888.818019,177.681981 C889.632359,178.49632 890.757359,179 892,179 L941.979088,179 L957.940548,215.785945 L948.141522,176.263337 C948.372424,175.721843 948.5,175.125818 948.5,174.5 L948.5,138.5 C948.5,137.257359 947.99632,136.132359 947.181981,135.318019 C946.367641,134.50368 945.242641,134 944,134 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M707,404.5 L655,404.5 C653.874818,404.5 652.846052,404.91291 652.05709,405.59559 C651.158943,406.372746 650.571119,407.499243 650.506085,408.764138 L642.026315,409.108263 L650.5,413.176409 L650.5,431 C650.5,432.242641 651.00368,433.367641 651.818019,434.181981 C652.632359,434.99632 653.757359,435.5 655,435.5 L707,435.5 C708.242641,435.5 709.367641,434.99632 710.181981,434.181981 C710.99632,433.367641 711.5,432.242641 711.5,431 L711.5,409 C711.5,407.757359 710.99632,406.632359 710.181981,405.818019 C709.367641,405.00368 708.242641,404.5 707,404.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
-            <path d="M956.962105,735.750452 L995.574591,743.994846 L995.574627,763.999999 C995.574627,765.242641 996.078307,766.367641 996.892646,767.181981 C997.706986,767.99632 998.831986,768.5 1000.07463,768.5 L1052.07463,768.5 C1053.31727,768.5 1054.44227,767.99632 1055.25661,767.181981 C1056.07095,766.367641 1056.57463,765.242641 1056.57463,764 L1056.57463,742 C1056.57463,740.757359 1056.07095,739.632359 1055.25661,738.818019 C1054.44227,738.00368 1053.31727,737.5 1052.07463,737.5 L1000.07463,737.5 C999.720693,737.5 999.376292,737.540785 999.045244,737.618784 L956.962105,735.750452 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
+            <path d="M1098.09504,717.515642 L1046.09504,717.515642 C1044.85239,717.515642 1043.72739,718.019322 1042.91305,718.833662 C1042.09871,719.648001 1041.59504,720.773001 1041.59504,722.015642 L1041.595,733.521162 L965.7136,734.664993 L1041.595,740.007608 L1041.59504,744.015637 C1041.59504,745.258283 1042.09871,746.383283 1042.91305,747.197623 C1043.72739,748.011962 1044.85239,748.515642 1046.09504,748.515642 L1098.09504,748.515642 C1099.33768,748.515642 1100.46268,748.011962 1101.27702,747.197623 C1102.09136,746.383283 1102.59504,745.258283 1102.59504,744.015642 L1102.59504,722.015642 C1102.59504,720.773001 1102.09136,719.648001 1101.27702,718.833662 C1100.46268,718.019322 1099.33768,717.515642 1098.09504,717.515642 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M752,492.5 L700,492.5 C698.757359,492.5 697.632359,493.00368 696.818019,493.818019 C696.00368,494.632359 695.5,495.757359 695.5,497 L695.5,547 C695.5,548.242641 696.00368,549.367641 696.818019,550.181981 C697.632359,550.99632 698.757359,551.5 700,551.5 L752,551.5 C753.242641,551.5 754.367641,550.99632 755.181981,550.181981 C755.99632,549.367641 756.5,548.242641 756.5,547 L756.5,509.133748 L778.0475,506.035651 L756.5,501.725897 L756.5,497 C756.5,495.757359 755.99632,494.632359 755.181981,493.818019 C754.367641,493.00368 753.242641,492.5 752,492.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M528.851872,636.82505 L536.455268,658.499892 L510.000002,658.5 C508.757359,658.5 507.632359,659.00368 506.818019,659.818019 C506.00368,660.632359 505.5,661.757359 505.5,663 L505.5,699 C505.5,700.242641 506.00368,701.367641 506.818019,702.181981 C507.632359,702.99632 508.757359,703.5 510,703.5 L562,703.5 C563.242641,703.5 564.367641,702.99632 565.181981,702.181981 C565.99632,701.367641 566.5,700.242641 566.5,699 L566.5,663 C566.5,661.757359 565.99632,660.632359 565.181981,659.818019 C564.367641,659.00368 563.242641,658.5 562,658.5 L545.726604,658.499894 L528.851872,636.82505 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
             <path d="M247,489.5 L195,489.5 C193.757359,489.5 192.632359,490.00368 191.818019,490.818019 C191.00368,491.632359 190.5,492.757359 190.5,494 L190.5,502 C190.5,503.246222 191.006819,504.374121 191.836168,505.188583 C192.807387,506.142367 194.219746,506.665372 195.776472,506.453066 L188.496094,530.840808 L202.751787,506.5 L247,506.5 C248.242641,506.5 249.367641,505.99632 250.181981,505.181981 C250.99632,504.367641 251.5,503.242641 251.5,502 L251.5,494 C251.5,492.757359 250.99632,491.632359 250.181981,490.818019 C249.367641,490.00368 248.242641,489.5 247,489.5 Z" id="Combined-Shape" stroke="#ACACAC" fill="#FFFFFF"></path>
@@ -4149,7 +4149,7 @@
                 <line x1="10.3791651" y1="-2.84217094e-14" x2="140.665771" y2="201.337279" id="Path-60"></line>
                 <line x1="0.5" y1="53.626933" x2="17" y2="52.1440652" id="Path-60"></line>
             </g>
-            <g id="sdpm_3124" transform="translate(998.000000, 740.000000)">
+            <g id="sdpm_3124" transform="translate(1044.020408, 720.015642)">
                 <rect id="Rectangle" fill="#375AF6" x="0" y="0" width="56" height="12" rx="3"></rect>
                 <text id="СДПМ-3124" font-family="Verdana" font-size="8" font-weight="normal" fill="#FFFFFF">
                     <tspan x="4.26953125" y="9">СДПМ 3124</tspan>
@@ -4163,7 +4163,7 @@
                 </text>
                 <circle id="status" fill="#05C62E" opacity="0" cx="3.5" cy="6.5" r="3.5"></circle>
             </g>
-            <g id="sn_rem_1693" transform="translate(998.000000, 754.000000)">
+            <g id="sn_rem_1693" transform="translate(1044.020408, 734.015642)">
                 <rect id="Rectangle" stroke="#375AF6" fill="#FFFFFF" x="0.5" y="0.5" width="55" height="11" rx="3"></rect>
                 <text id="СM-2-1693" font-family="Verdana" font-size="8" font-weight="normal" fill="#375AF6">
                     <tspan x="5.8984375" y="9">СM-2 1693</tspan>
@@ -5765,10 +5765,10 @@
                     <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="4.9" width="2.30769231" height="3.1"></rect>
                 </g>
             </g>
-            <g id="56_01" transform="translate(919.000000, 789.000000)">
-                <polyline id="Path-51" stroke="#616161" points="13.5 8.5 59.5 8.5 71.5 0"></polyline>
+            <g id="56_01" transform="translate(900.000000, 791.000000)">
+                <polyline id="Path-51" stroke="#616161" points="23.5 8.5 78.5 8.5 90.5 0"></polyline>
                 <g id="icon" transform="translate(0.000000, 1.000000)">
-                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <rect id="Rectangle" fill="#4B4B4B" x="0" y="0" width="26" height="14" rx="4"></rect>
                     <line x1="5" y1="4.73076923" x2="21" y2="4.73076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(13.000000, 4.730769) rotate(-0.000000) translate(-13.000000, -4.730769) "></line>
                     <polygon id="Path-313" fill="#FFFFFF" points="11.1971103 8.23076923 9 12.2307692 11.1971103 12.2307692 12 8.23076923"></polygon>
                     <polygon id="Path-313" fill="#FFFFFF" transform="translate(15.500000, 10.230769) scale(-1, 1) translate(-15.500000, -10.230769) " points="16.2168407 8.23076923 14 12.2307692 16.25 12.2307692 17 8.23076923"></polygon>
@@ -5779,7 +5779,7 @@
             <g id="36_04" transform="translate(574.000000, 169.000000)">
                 <polyline id="Path-51" stroke="#616161" points="16.6153846 9.16162477 5.01792476 10 0.0431289673 12.9737206"></polyline>
                 <g id="icon" transform="translate(2.000000, 0.000000)">
-                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <rect id="Rectangle" fill="#4B4B4B" x="0" y="0" width="26" height="14" rx="4"></rect>
                     <line x1="5" y1="4.73076923" x2="21" y2="4.73076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(13.000000, 4.730769) rotate(-0.000000) translate(-13.000000, -4.730769) "></line>
                     <polygon id="Path-313" fill="#FFFFFF" points="11.1971103 8.23076923 9 12.2307692 11.1971103 12.2307692 12 8.23076923"></polygon>
                     <polygon id="Path-313" fill="#FFFFFF" transform="translate(15.500000, 10.230769) scale(-1, 1) translate(-15.500000, -10.230769) " points="16.2168407 8.23076923 14 12.2307692 16.25 12.2307692 17 8.23076923"></polygon>
@@ -5787,29 +5787,187 @@
                     <rect id="Rectangle" fill="#FFFFFF" x="5" y="5.23076923" width="3" height="4"></rect>
                 </g>
             </g>
-            <g id="46_01" transform="translate(961.000000, 755.000000)">
-                <polyline id="Path-50" stroke="#676767" points="77 7.25 19 7 0.5 20"></polyline>
-                <text id="к.-Москва-Волга" font-family="Verdana-Italic, Verdana" font-size="5" font-style="italic" font-weight="normal" fill="#616161">
-                    <tspan x="14" y="6">к. Москва-Волга</tspan>
+            <g id="38_04" transform="translate(502.000000, 186.000000)">
+                <polyline id="Path-51" stroke="#616161" points="14 6.39753196 46 6 53.3076923 5"></polyline>
+                <text id="ручей" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="25.7792969" y="5">ручей</tspan>
                 </text>
-                <g id="icon" transform="translate(58.000000, 0.000000)">
+                <g id="icon">
+                    <rect id="Rectangle" fill="#616161" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="4.9" width="2.30769231" height="3.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="4.9" width="2.30769231" height="3.1"></rect>
+                </g>
+            </g>
+            <g id="77_04" transform="translate(570.000000, 158.000000)">
+                <polyline id="Path-51" stroke="#616161" points="41 6.39753196 7.5 5.93141556 0.5 14.976143"></polyline>
+                <text id="р-Змейка" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="7.140625" y="5">р Змейка</tspan>
+                </text>
+                <g id="icon" transform="translate(27.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="4.9" width="2.30769231" height="3.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="4.9" width="2.30769231" height="3.1"></rect>
+                </g>
+            </g>
+            <g id="46_01" transform="translate(963.000000, 755.000000)">
+                <polyline id="Path-50" stroke="#676767" points="75 7.25 17 7 1.0658141e-12 18.8894168"></polyline>
+                <text id="к.-Москва-Волга" font-family="Verdana-Italic, Verdana" font-size="5" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="12" y="6">к. Москва-Волга</tspan>
+                </text>
+                <g id="icon" transform="translate(56.000000, 0.000000)">
                     <rect id="Rectangle" fill="#616161" x="0" y="0" width="26" height="14" rx="4"></rect>
                     <line x1="4" y1="5.5" x2="22" y2="5.5" id="Path-28" stroke="#FFFFFF" stroke-width="2" transform="translate(13.000000, 5.500000) rotate(-0.000000) translate(-13.000000, -5.500000) "></line>
                     <rect id="Rectangle" fill="#FFFFFF" x="16" y="6.5" width="3" height="4"></rect>
                     <rect id="Rectangle" fill="#FFFFFF" x="7" y="6.5" width="3" height="4"></rect>
                 </g>
             </g>
-            <g id="19_01" transform="translate(988.000000, 777.000000)">
-                <polyline id="Path-50" stroke="#676767" points="61.5 7.1830127 12.8851367 7.1830127 0 6"></polyline>
-                <text id="р.-Лихоборка" font-family="Verdana-Italic, Verdana" font-size="5" font-style="italic" font-weight="normal" fill="#616161">
-                    <tspan x="15" y="6">р. Лихоборка</tspan>
+            <g id="60_01" transform="translate(1012.000000, 811.000000)">
+                <polyline id="Path-51" stroke="#616161" points="37.6923077 6 4.5 5.70493608 0.25 10"></polyline>
+                <text id="д-Ольховская" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="0.728515625" y="5">д Ольховская</tspan>
                 </text>
-                <g id="icon" transform="translate(53.000000, 0.000000)">
+                <g id="icon" transform="translate(30.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="4.9" width="2.30769231" height="3.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="4.9" width="2.30769231" height="3.1"></rect>
+                </g>
+            </g>
+            <g id="64_01" transform="translate(878.000000, 601.000000)">
+                <polyline id="Path-50" stroke="#676767" points="72 9.25 14 9 0 7.10542736e-15"></polyline>
+                <text id="р.-Дойбица" font-family="Verdana-Italic, Verdana" font-size="5" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="20" y="7">р. Дойбица</tspan>
+                </text>
+                <g id="icon" transform="translate(53.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="26" height="14" rx="4"></rect>
+                    <line x1="4" y1="5.5" x2="22" y2="5.5" id="Path-28" stroke="#FFFFFF" stroke-width="2" transform="translate(13.000000, 5.500000) rotate(-0.000000) translate(-13.000000, -5.500000) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="16" y="6.5" width="3" height="4"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="7" y="6.5" width="3" height="4"></rect>
+                </g>
+            </g>
+            <g id="83_01" transform="translate(906.000000, 566.000000)">
+                <polyline id="Path-51" stroke="#616161" points="46.6923077 9 13.5 8.70493608 -1.31450406e-13 -4.26325641e-14"></polyline>
+                <text id="р-Донховка" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="14.1992188" y="8">р Донховка</tspan>
+                </text>
+                <g id="icon" transform="translate(39.000000, 3.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="4.9" width="2.30769231" height="3.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="4.9" width="2.30769231" height="3.1"></rect>
+                </g>
+            </g>
+            <g id="3_01" transform="translate(881.000000, 633.000000)">
+                <polyline id="Path-51" stroke="#616161" points="47.6923077 6 11.2307692 6 -4.4600221e-13 14"></polyline>
+                <text id="р.-Липня" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="17.6523438" y="5">р. Липня</tspan>
+                </text>
+                <g id="icon" transform="translate(40.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="4.9" width="2.30769231" height="3.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="4.9" width="2.30769231" height="3.1"></rect>
+                </g>
+            </g>
+            <g id="19_01" transform="translate(987.000000, 773.000000)">
+                <polyline id="Path-50" stroke="#676767" points="50.5 7.1830127 4 7.1830127 0 6.5"></polyline>
+                <text id="р.-Лихоборка" font-family="Verdana-Italic, Verdana" font-size="5" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="4" y="6">р. Лихоборка</tspan>
+                </text>
+                <g id="icon" transform="translate(42.000000, 0.000000)">
                     <rect id="Rectangle" fill="#616161" x="0" y="0" width="26" height="14" rx="4"></rect>
                     <line x1="23" y1="5.05378498" x2="3" y2="5.05378498" id="Path-28" stroke="#FFFFFF" stroke-width="2"></line>
                     <path d="M6.02902985,10.5419865 C7.07458496,6.88318547 9.39058813,5.05378498 12.9770394,5.05378498 C16.5634906,5.05378498 18.8794937,6.88318547 19.9250488,10.5419865" id="Path-320" stroke="#FFFDFD" stroke-width="1.5" transform="translate(12.977039, 7.797886) rotate(180.000000) translate(-12.977039, -7.797886) "></path>
                     <line x1="15.9706965" y1="9.98414958" x2="12.9770393" y2="5.05378498" id="Path-321" stroke="#FFFFFF" stroke-width="1.5"></line>
                     <line x1="9.97938349" y1="9.98414961" x2="12.9770393" y2="5.05378498" id="Path-321" stroke="#FFFFFF" stroke-width="1.5"></line>
+                </g>
+            </g>
+            <g id="53_01" transform="translate(905.000000, 778.000000)">
+                <line x1="17.9823379" y1="5" x2="60.1734694" y2="5.59150635" id="Path-51" stroke="#616161"></line>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="17.6923077" y1="3.88752691" x2="2.30769231" y2="3.88752691" id="Path-28" stroke="#FFFFFF" stroke-width="1.5"></line>
+                    <path d="M4.63771527,8.10922036 C5.44198843,5.29475806 7.22352933,3.88752691 9.98233797,3.88752691 C12.7411466,3.88752691 14.5226875,5.29475806 15.3269606,8.10922036" id="Path-320" stroke="#FFFDFD" stroke-width="1.2" transform="translate(9.982338, 5.998374) rotate(180.000000) translate(-9.982338, -5.998374) "></path>
+                    <line x1="12.2851511" y1="7.68011506" x2="9.98233795" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                    <line x1="7.67644884" y1="7.68011509" x2="9.98233794" y2="3.88752691" id="Path-321" stroke="#FFFFFF" stroke-width="1.2"></line>
+                </g>
+            </g>
+            <g id="52_01" transform="translate(923.000000, 766.000000)">
+                <polyline id="Path-51" stroke="#616161" points="42 10.7692308 33 6.0799666 11.1337445 6"></polyline>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="34_01" transform="translate(982.000000, 763.000000)">
+                <polyline id="Path-51" stroke="#4A4A4A" points="18.7792747 1.27164373 11.5 6.5 5 7.30769231"></polyline>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" points="8.19711031 6 6.35708618 9.23076923 8.19711031 9.23076923 9 6"></polygon>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(12.307692, 7.615385) scale(-1, 1) translate(-12.307692, -7.615385) " points="12.8322254 6 11 9.23076923 12.8322254 9.23076923 13.6153846 6"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="9_17" transform="translate(888.000000, 687.000000)">
+                <line x1="27.5" y1="11.5" x2="10.5" y2="2.5" id="Path-51" stroke="#4A4A4A"></line>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(10.000000, 7.500000) scale(-1, 1) translate(-10.000000, -7.500000) " points="8.00384521 5.76923077 6.15384615 9.23076923 13.8461538 9.23076923 11.9919739 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="50_01" transform="translate(951.000000, 786.000000)">
+                <polyline id="Path-51" stroke="#4A4A4A" points="18.7792747 1.27164373 11.5 6.5 5 7.30769231"></polyline>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" points="8.19711031 6 6.35708618 9.23076923 8.19711031 9.23076923 9 6"></polygon>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(12.307692, 7.615385) scale(-1, 1) translate(-12.307692, -7.615385) " points="12.8322254 6 11 9.23076923 12.8322254 9.23076923 13.6153846 6"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="49_01" transform="translate(929.000000, 786.000000)">
+                <polyline id="Path-51" stroke="#4A4A4A" points="18.7792747 1.27164373 11.5 6.5 5 7.30769231"></polyline>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" points="8.19711031 6 6.35708618 9.23076923 8.19711031 9.23076923 9 6"></polygon>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(12.307692, 7.615385) scale(-1, 1) translate(-12.307692, -7.615385) " points="12.8322254 6 11 9.23076923 12.8322254 9.23076923 13.6153846 6"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <rect id="Rectangle" stroke="#4A4A4A" fill="#FFFFFF" x="1057.5" y="775.5" width="23" height="26" rx="4"></rect>
+            <g id="55_01" transform="translate(1059.000000, 789.000000)">
+                <g id="icon">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(10.000000, 7.500000) scale(-1, 1) translate(-10.000000, -7.500000) " points="8.00384521 5.76923077 6.15384615 9.23076923 13.8461538 9.23076923 11.9919739 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="54_01" transform="translate(978.000000, 777.000000)">
+                <polyline id="Path-51" stroke="#4A4A4A" points="-0.00120815419 21 12.5 12 79.8 11.7692308"></polyline>
+                <g id="icon" transform="translate(81.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(10.000000, 7.500000) scale(-1, 1) translate(-10.000000, -7.500000) " points="8.00384521 5.76923077 6.15384615 9.23076923 13.8461538 9.23076923 11.9919739 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
                 </g>
             </g>
             <g id="31_03" transform="translate(798.000000, 484.000000)">
@@ -5826,6 +5984,16 @@
                         <line x1="10" y1="0" x2="13.6560059" y2="7.27272727" id="Path-116"></line>
                         <line x1="10" y1="0" x2="6.36932546" y2="7.27272727" id="Path-117"></line>
                     </g>
+                </g>
+            </g>
+            <g id="32_03" transform="translate(772.000000, 511.000000)">
+                <polyline id="Path-51" stroke="#4A4A4A" points="38 0.6 27.4921875 8 12.5 8"></polyline>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(10.000000, 7.500000) scale(-1, 1) translate(-10.000000, -7.500000) " points="8.00384521 5.76923077 6.15384615 9.23076923 13.8461538 9.23076923 11.9919739 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
                 </g>
             </g>
             <g id="53_03" transform="translate(786.000000, 591.000000)">
@@ -5860,7 +6028,173 @@
                     </g>
                 </g>
             </g>
-            <g id="26_03" transform="translate(718.000000, 472.000000)">
+            <g id="53_04" transform="translate(604.000000, 280.000000)">
+                <polyline id="Path-51" stroke="#616161" points="39.5717968 7 37 5.88123279 11.1337445 6"></polyline>
+                <text id="р.-Цна" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="21.7155991" y="4.0799666">р. Цна</tspan>
+                </text>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="108_04" transform="translate(659.000000, 289.000000)">
+                <polyline id="Path-51" stroke="#616161" points="40.6923077 6 7.5 5.70493608 0.75 3.20493608"></polyline>
+                <text id="к-Тверецкий" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="6.05859375" y="5">к Тверецкий</tspan>
+                </text>
+                <g id="icon" transform="translate(33.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="-1.4033219e-13" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="4.23076923" x2="16.9230769" y2="4.23076923" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 4.230769) rotate(-0.000000) translate(-10.000000, -4.230769) "></line>
+                    <rect id="Rectangle" fill="#FFFFFF" x="12.3076923" y="4.9" width="2.30769231" height="3.1"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5.38461538" y="4.9" width="2.30769231" height="3.1"></rect>
+                </g>
+            </g>
+            <g id="66_04" transform="translate(621.000000, 318.000000)">
+                <polyline id="Path-51" stroke="#616161" points="50.9645547 2.76923077 47.8828125 6 11.1337445 6"></polyline>
+                <text id="р.-Осеченка" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="20.8691406" y="5">р. Осеченка</tspan>
+                </text>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="72_04" transform="translate(634.000000, 332.000000)">
+                <polyline id="Path-51" stroke="#616161" points="58 9 53.2548095 6.44061639 11.1337445 6"></polyline>
+                <text id="р.-М-Тигомка" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="21.041771" y="4.0799666">р. М Тигомка</tspan>
+                </text>
+                <g id="icon">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="2_03" transform="translate(697.000000, 350.000000)">
+                <polyline id="Path-51" stroke="#616161" points="0.82179677 12 11 5.76923077 56.1337445 6"></polyline>
+                <text id="р.-Б-Тигомка" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="14.6054688" y="5">р. Б Тигомка</tspan>
+                </text>
+                <g id="icon" transform="translate(45.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="41_04" transform="translate(601.000000, 220.000000)">
+                <polyline id="Path-51" stroke="#616161" points="0.5 15 10.2071734 6 46.1337445 6"></polyline>
+                <text id="р.-Лобынка" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="10.328125" y="5">р. Лобынка</tspan>
+                </text>
+                <g id="icon" transform="translate(35.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="46_04" transform="translate(636.000000, 258.000000)">
+                <polyline id="Path-51" stroke="#616161" points="0.44994461 4.86954618 7 5.76923077 52.1337445 6"></polyline>
+                <text id="р.-Никулинка" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="8.98828125" y="5">р. Никулинка</tspan>
+                </text>
+                <g id="icon" transform="translate(41.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="33_03" transform="translate(835.000000, 554.000000)">
+                <polyline id="Path-51" stroke="#616161" points="0.0490381057 2.7128943 6 6.11628316 40.1337445 11"></polyline>
+                <text id="р.-Тьмака" transform="translate(18.500000, 4.500000) rotate(8.000000) translate(-18.500000, -4.500000) " font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="8.94140625" y="6">р. Тьмака</tspan>
+                </text>
+                <g id="icon" transform="translate(29.000000, 5.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="87_03" transform="translate(834.000000, 560.000000)">
+                <polyline id="Path-51" stroke="#616161" points="2.42724905e-12 -3.50830476e-14 6.75425253 7.30769231 39.1337445 17"></polyline>
+                <text id="р.-Тьмака" transform="translate(18.500000, 8.500000) rotate(16.000000) translate(-18.500000, -8.500000) " font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="8.94140625" y="10">р. Тьмака</tspan>
+                </text>
+                <g id="icon" transform="translate(28.000000, 11.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="34_03" transform="translate(794.000000, 560.000000)">
+                <line x1="24.8" y1="0.5" x2="12.5" y2="8" id="Path-51" stroke="#4A4A4A"></line>
+                <g id="icon" transform="translate(0.000000, 2.000000)">
+                    <rect id="Rectangle" fill="#4A4A4A" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <line x1="3.07692308" y1="3.5" x2="16.9230769" y2="3.5" id="Path-28" stroke="#FFFFFF" stroke-width="1.5" transform="translate(10.000000, 3.500000) rotate(-0.000000) translate(-10.000000, -3.500000) "></line>
+                    <polygon id="Path-313" fill="#FFFFFF" transform="translate(10.000000, 7.500000) scale(-1, 1) translate(-10.000000, -7.500000) " points="8.00384521 5.76923077 6.15384615 9.23076923 13.8461538 9.23076923 11.9919739 5.76923077"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" x="14.6153846" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="3.07692308" y="3.46153846" width="2.30769231" height="3.07692308"></rect>
+                </g>
+            </g>
+            <g id="20_04" transform="translate(485.000000, 131.000000)">
+                <polyline id="Path-51" stroke="#616161" points="0.977241336 7.32324955 8.49137275 5.5 47.1337445 6"></polyline>
+                <text id="р.-Березайка" font-family="Verdana-Italic, Verdana" font-size="4" font-style="italic" font-weight="normal" fill="#616161">
+                    <tspan x="7.81640625" y="4">р. Березайка</tspan>
+                </text>
+                <g id="icon" transform="translate(36.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#616161" x="0" y="0" width="20" height="10.7692308" rx="3"></rect>
+                    <g id="Group" transform="translate(2.307692, 2.307692)" stroke="#FFFFFF" stroke-width="1.2">
+                        <path d="M2.72130642,0.271951436 L0.373131435,4.85367591 C0.247183691,5.0994233 0.344300488,5.40074173 0.590047873,5.52668948 C0.66062381,5.56286028 0.738791393,5.58172448 0.818096437,5.58172448 L14.585529,5.58172448 C14.8616714,5.58172448 15.085529,5.35786685 15.085529,5.08172448 C15.085529,5.00597258 15.0683168,4.93121088 15.0351921,4.86308522 L12.8074244,0.281360741 C12.7237368,0.109245175 12.5491442,2.79667118e-14 12.3577613,2.85707743e-14 L3.16627143,2.85707743e-14 C2.97867756,2.89937295e-14 2.80686745,0.10500603 2.72130642,0.271951436 Z" id="Path-109"></path>
+                        <line x1="2.38133477" y1="0.454773269" x2="4.89948113" y2="5.58172448" id="Path-114"></line>
+                        <line x1="13.1422523" y1="0.454773269" x2="10.5046199" y2="5.59440559" id="Path-115"></line>
+                        <line x1="7.69230769" y1="0" x2="10.5046199" y2="5.59440559" id="Path-116"></line>
+                        <line x1="7.69230769" y1="0" x2="4.89948113" y2="5.59440559" id="Path-117"></line>
+                    </g>
+                </g>
+            </g>
+            <g id="26_03" transform="translate(721.000000, 477.000000)">
                 <polyline id="Path-50" stroke="#676767" points="66 1 55.2 7.23076923 11.5 7"></polyline>
                 <text id="р.-Тверца" font-family="Verdana-Italic, Verdana" font-size="5" font-style="italic" font-weight="normal" fill="#616161">
                     <tspan x="27" y="5">р. Тверца</tspan>
@@ -7561,8 +7895,8 @@
                     </g>
                 </g>
                 <g id="6_09" transform="translate(632.000000, 355.000000)">
-                    <polyline id="Path-51" stroke="#1C9FDD" stroke-width="0.3" points="18.25 7 34 22.6806704 38 34.33431"></polyline>
-                    <g id="icon" transform="translate(12.000000, 4.000000)">
+                    <polyline id="Path-51" stroke="#1C9FDD" stroke-width="0.3" points="33.2141016 21.5 38 36.5 46.3693255 42.1450901"></polyline>
+                    <g id="icon" transform="translate(41.000000, 43.000000)">
                         <line x1="0" y1="0.5" x2="12.5" y2="0.5" id="Path-28" stroke="#1C9FDD" stroke-width="1.2" transform="translate(6.500000, 0.500000) rotate(-0.000000) translate(-6.500000, -0.500000) "></line>
                         <rect id="Rectangle" fill="#1C9FDD" x="2" y="1" width="1.5" height="2"></rect>
                         <rect id="Rectangle" fill="#1C9FDD" x="9" y="1" width="1.5" height="2"></rect>
