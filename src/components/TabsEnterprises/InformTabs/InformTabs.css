@@ -75,6 +75,11 @@
   cursor: pointer;
 }
 
+/* add space */
+.vspace {
+  margin-left: 1rem;
+}
+
 .scroll-table {
   height: 25rem;
   overflow-y: auto;

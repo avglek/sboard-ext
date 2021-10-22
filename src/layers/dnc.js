@@ -1,6 +1,7 @@
 import { select, selectAll, xml } from 'd3'
 
 const icon2 = './svg/icons/dnc/dnc_sp.svg'
+const abandonedIcon = './svg/icons/b_trains_dnc.svg'
 const fillUp = '#22E329'
 const fillDown = '#FC5656'
 
@@ -11,6 +12,9 @@ export async function addEvent({
   stormRegionID,
   openModal,
   fetchDncUchData,
+  abandonedData,
+  abandonedLoad,
+  abandonedRegion,
 }) {
   if (
     stormRegionID === dncRegion &&
@@ -18,46 +22,54 @@ export async function addEvent({
     dncData &&
     dncRegion !== 0
   ) {
-    if (selectAll('#dnc_spa').empty()) {
-      const lastLoad = select('#speed_load_time').node().children[0]
-      const txtTime = lastLoad.textContent
-      lastLoad.textContent = `${txtTime.slice(0, -5)}${dncData[0].last}`
-
-      const doc = await xml(icon2)
-      const iconElement = doc.documentElement.querySelector('#dnc_sp')
-
-      dncData.forEach((item) => {
-        const dncNode = select('#dnc_active').selectAll(`#dnc_${item.id}`)
-        if (!dncNode.empty()) {
-          const elClone = iconElement.cloneNode(true)
-          setSpeedText('speed1', elClone, item.fact)
-          setSpeedText('speed2', elClone, item.plan)
-          setSpeedFill(elClone, item.fact, item.plan)
-
-          dncNode.node().appendChild(elClone)
-
-          if (item.id > 100) {
-            dncNode
-              .on('click', () => {
-                handlerClick(item.id, openModal, fetchDncUchData)
-              })
-              .on('mouseenter', () => {
-                dncNode.style('cursor', 'pointer')
-              })
-              .on('mouseleave', () => {
-                dncNode.style('cursor', 'default')
-              })
-          }
-        }
-      })
-    }
+    await showDncSpeed(dncData, openModal, fetchDncUchData)
+  }
+  if (abandonedData && !abandonedLoad) {
+    await showAbandoned(abandonedData, openModal)
   }
 }
 
 export function resetEvent() {
   const dncNode = select('#dnc_active').select("g[id^='dnc_']")
   dncNode.on('click', null).on('mouseenter', null).on('mouseleave', null)
-  selectAll('#dnc_spa').remove()
+  selectAll('#dnc_sp').remove()
+  selectAll('#b_trains_dnc').remove()
+}
+
+//Участковая скорость
+async function showDncSpeed(data, openModal, fetchDncUchData) {
+  const lastLoad = select('#speed_load_time').node().children[0]
+  const txtTime = lastLoad.textContent
+  lastLoad.textContent = `${txtTime.slice(0, -5)}${data[0].last}`
+
+  const doc = await xml(icon2)
+  const iconElement = doc.documentElement.querySelector('#dnc_sp')
+
+  data.forEach((item) => {
+    const dncNode = select('#dnc_active').selectAll(`#dnc_${item.id}`)
+    if (!dncNode.empty()) {
+      const elClone = iconElement.cloneNode(true)
+      setSpeedText('speed1', elClone, item.fact)
+      setSpeedText('speed2', elClone, item.plan)
+      setSpeedFill(elClone, item.fact, item.plan)
+
+      const speedElement = dncNode.node().appendChild(elClone)
+      const speedNode = select(speedElement)
+
+      if (item.id > 100) {
+        speedNode
+          .on('click', () => {
+            handlerClick(item.id, openModal, fetchDncUchData)
+          })
+          .on('mouseenter', () => {
+            speedNode.style('cursor', 'pointer')
+          })
+          .on('mouseleave', () => {
+            speedNode.style('cursor', 'default')
+          })
+      }
+    }
+  })
 }
 
 function setSpeedText(id, element, txt) {
@@ -66,8 +78,7 @@ function setSpeedText(id, element, txt) {
 }
 
 function handlerClick(uid, openModal, fetchDncUchData) {
-  // const node = element.parentElement;
-  // const uid = node.getAttribute("id");
+  console.log('speed:', uid)
   openModal(true)
   fetchDncUchData(uid)
 }
@@ -77,4 +88,39 @@ function setSpeedFill(element, fact, plan) {
 
   if (fact < plan) node.setAttribute('fill', fillDown)
   else node.setAttribute('fill', fillUp)
+}
+
+//Брошенные поезда
+async function showAbandoned(data, openModal) {
+  const doc = await xml(abandonedIcon)
+  const iconElement = doc.documentElement.querySelector('#b_trains_dnc')
+  iconElement.setAttribute('transform', 'translate(0,20)')
+
+  data.forEach((item) => {
+    const dncNode = select('#dnc_active').selectAll(`#dnc_${item.disp}`)
+    if (!dncNode.empty()) {
+      const elClone = iconElement.cloneNode(true)
+      const node = elClone.querySelector(`#numb`)
+      node.children[0].textContent = item.count
+
+      const abandonedElenemt = dncNode.node().appendChild(elClone)
+      const abandonedNode = select(abandonedElenemt)
+
+      abandonedNode
+        .on('click', () => {
+          handlerAbandonedClick(item.disp, openModal)
+        })
+        .on('mouseenter', () => {
+          abandonedNode.style('cursor', 'pointer')
+        })
+        .on('mouseleave', () => {
+          abandonedNode.style('cursor', 'default')
+        })
+    }
+  })
+}
+
+function handlerAbandonedClick(id, openModal) {
+  console.log('id:', id)
+  openModal(true)
 }

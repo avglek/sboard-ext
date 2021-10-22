@@ -2,7 +2,7 @@ var initialState = {
   config: {
     divisions: 'http://10.35.49.146:8080/orw_tablo/division_json2.php',
     menu: 'http://10.35.49.146:8080/orw_tablo/load_menu.php',
-    //pokaz: "./data/load_pred_pokaz_ruk.json",
+    //pokaz: './data/pokaz.json',
     pokaz: 'http://10.35.49.146:8080/orw_tablo/load_pred_pokaz.php?code_pred=',
     piket: 'http://10.35.49.146:8080/orw_tablo/load_piket.php',
     prognoz: 'http://10.35.49.146:8080/orw_tablo/load_prognoz.php?region=',
@@ -30,6 +30,10 @@ var initialState = {
     stok: 'http://10.35.49.146:8080/apps/api/clear/region?id=',
     riskobj: 'http://10.35.49.146:8080/apps/api/riskobject/region?id=',
     riskobj_info: 'http://10.35.49.146:8080/apps/api/riskobject/info?id=',
+    abandoned_all: 'http://10.35.49.146:8080/apps/api/abandoned/all',
+    abandoned_reg: 'http://10.35.49.146:8080/apps/api/abandoned/region?id=',
+    abandoned_trains: 'http://10.35.49.146:8080/apps/api/abandoned/trains?id=',
+    abandoned_chart: 'http://10.35.49.146:8080/apps/api/abandoned/chart?id=',
   },
 
   wsocket: {

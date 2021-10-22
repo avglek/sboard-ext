@@ -89,6 +89,7 @@ export function loadMapORW(fprops) {
 
     parentProps.postStorm(0, clickStormFromORW)
     parentProps.postDnc(0)
+    parentProps.postAbandoned(0)
     //eventDivisions(parentProps);
     eventRegion()
     eventPiket()
@@ -172,6 +173,7 @@ function loadRegions(url_reg, idRegion) {
     parentProps.postPipeCount(idRegion)
     parentProps.fectchSpecTechData(idRegion)
     parentProps.postDnc(idRegion)
+    parentProps.postAbandoned(idRegion)
     parentProps.postVchd(idRegion)
     parentProps.postStok(idRegion)
     parentProps.postRiskobj(idRegion)

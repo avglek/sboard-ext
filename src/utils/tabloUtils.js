@@ -92,6 +92,28 @@ export function showRegionSpeed(data) {
   })
 }
 
+// Брошенные поезда
+export function showAbonedTrains(data) {
+  const rootNodes = d3.select('#reg_br_trains')
+
+  data.forEach((item) => {
+    const id = Number.parseInt(item.reg)
+
+    const regNode = rootNodes.select(`#reg_${id}`)
+    regNode.select('#trains').select('tspan').text(item.count)
+    regNode
+      .on('click', () => {
+        handleClick(id)
+      })
+      .on('mouseenter', () => {
+        regNode.style('cursor', 'pointer')
+      })
+      .on('mouseleave', () => {
+        regNode.style('cursor', 'default')
+      })
+  })
+}
+
 function handleClick(id) {
   gotoRegionMap(id)
 }

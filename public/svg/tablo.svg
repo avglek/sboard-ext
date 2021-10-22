@@ -12,12 +12,12 @@
             <path d="M575,0 L1034,0 C1042.28427,-1.52179594e-15 1049,6.71572875 1049,15 L1049,245 L1049,245 L575,245 L575,0 Z" id="Rectangle" fill="#DEEEFC"></path>
             <rect id="Rectangle" fill="#ECF9F0" x="575" y="245" width="474" height="255"></rect>
             <rect id="Rectangle" fill="#E6E8FF" x="575" y="500" width="474" height="237"></rect>
-            <path d="M510,736 L1049,736 L1049,985 C1049,993.284271 1042.28427,1000 1034,1000 L510,1000 L510,1000 L510,736 Z" id="Rectangle" fill="#F8FAEB"></path>
+            <path d="M510,736 L1049,736 L1049,978 C1049,990.150264 1039.15026,1000 1027,1000 L510,1000 L510,1000 L510,736 Z" id="Rectangle" fill="#F8FAEB"></path>
             <path d="M49,527 L387,527 L387.557231,618.5 L303.5,657.375898 L304.5,734 L510.5,735.030675 L511,1000 L64,1000 C55.7157288,1000 49,993.284271 49,985 L49,527 L49,527 Z" id="Rectangle" fill="#E0F8FF"></path>
             <path d="M295,345 L588,345 L588,736 L296.0037,736 L296.0037,663.117866 C296.0037,659.362785 298.107372,655.924213 301.450655,654.214508 L381.276522,613.392746 C382.948164,612.537893 384,610.818607 384,608.941067 L384,536.994878 C384,534.233455 381.761424,531.994878 379,531.994878 C378.980169,531.994878 378.960338,531.994996 378.940509,531.995232 L294.5,533 L294.5,533 L295,345 Z" id="Rectangle" fill="#FAEEEE"></path>
             <path d="M0,1 L578,1 C583.522847,1 588,5.4771525 588,11 L588,335 C588,340.522847 583.522847,345 578,345 L273.165949,345 C271.879221,345 270.604584,344.751671 269.411962,344.268634 L6.24601291,237.681024 C2.47062492,236.151914 -8.57824609e-15,232.485684 0,228.41239 L0,1 L0,1 Z" id="Rectangle" stroke="#C6C6C6" stroke-width="2" fill="#EDEBEB" stroke-linecap="round" stroke-dasharray="4,6"></path>
-            <path d="M621,997 C621,984.333333 625.666667,978 635,978 C643.338899,978 706.66554,978 733,978 C753.666667,978 781.833333,978 817.5,978 C884.166667,977.666667 921.5,977.666667 929.5,978 C941.5,978.5 981.666882,976.721209 996,978 C1010.33312,979.278791 1017,975.5 1017,964 C1017,952.5 1016.5,890 1016.5,878 C1016.5,866 1017,864 1024,857 C1028.66667,852.333333 1037,850 1049,850 L1049,983.887457 C1049,992.724013 1041.83656,999.887457 1033,999.887457 C1032.96262,999.887457 1032.92523,999.887326 1032.88785,999.887064 L621,997 L621,997 Z" id="Path-44" fill="#D9D9D9" opacity="0.349655878"></path>
-            <path d="M1045.5,847 C1026.5,847.611742 1017,837.278409 1017,816 C1017,794.721591 1017,623.388258 1017,302 L1049,299 L1045.5,847 Z" id="Path-59" fill="#D9D9D9" opacity="0.354352679"></path>
+            <path d="M621,997 C621,984.333333 625.666667,978 635,978 C643.338899,978 706.66554,978 733,978 C753.666667,978 781.833333,978 817.5,978 C884.166667,977.666667 921.5,977.666667 929.5,978 C941.5,978.5 981.666882,976.721209 996,978 C1010.33312,979.278791 1017,975.5 1017,964 C1017,952.5 1016.5,890 1016.5,878 C1016.5,866 1017,864 1024,857 C1028.66667,852.333333 1037,850 1049,850 L1049,977.845254 C1049,989.995518 1039.15026,999.845254 1027,999.845254 C1026.9486,999.845254 1026.8972,999.845074 1026.8458,999.844714 L621,997 L621,997 Z" id="Path-44" fill="#D9D9D9" opacity="0.349655878"></path>
+            <path d="M1046.5,847 C1026.83333,847.611742 1017,837.278409 1017,816 C1017,794.721591 1017,623.388258 1017,302 L1046.5,300 L1046.5,847 Z" id="Path-59" fill="#D9D9D9" opacity="0.354352679"></path>
             <path d="M587,47 L510.027848,46.5853839 C501.249633,46.5380994 494.148734,39.4269146 494.114156,30.6486401 L494,1.66796875 L494,1.66796875" id="Path-78" stroke="#C6C6C6" stroke-width="2" fill="#EDEBEB" stroke-linecap="round" stroke-dasharray="4,6"></path>
         </g>
         <g id="spb_vkz" transform="translate(456.000000, 472.000000)">
@@ -362,7 +362,7 @@
                 <text id="Сортавала" transform="translate(38.023872, 26.371474) rotate(29.000000) translate(-38.023872, -26.371474) " font-family="Verdana" font-size="14" font-weight="normal" fill="#6D7C8A">
                     <tspan x="-0.0659716298" y="31.871474">Сортавала</tspan>
                 </text>
-                <g id="st" transform="translate(67.000000, 49.000000)" fill="#FFFDFD" stroke="#6EA8F0">
+                <g id="st" transform="translate(67.000000, 48.000000)" fill="#FFFDFD" stroke="#6EA8F0">
                     <circle id="Oval" cx="6" cy="6" r="5.5"></circle>
                 </g>
             </g>
@@ -2013,82 +2013,82 @@
                     <line x1="10.885409" y1="13.68" x2="2.75294118" y2="13.68" id="Path-2"></line>
                     <line x1="8.13246783" y1="9.576" x2="0" y2="9.576" id="Path-2"></line>
                 </g>
-                <g id="reg_6" transform="translate(29.000000, 253.000000)">
-                    <rect id="rect1" fill="#22E329" x="20" y="1" width="48" height="20" rx="3"></rect>
-                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="73.5" y="1.5" width="45" height="19" rx="3"></rect>
+                <g id="reg_6" transform="translate(27.000000, 253.000000)">
+                    <rect id="rect1" fill="#22E329" x="22" y="1" width="48" height="20" rx="3"></rect>
+                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="75.5" y="1.5" width="45" height="19" rx="3"></rect>
                     <text id="speed2" font-family="Verdana" font-size="14" font-weight="normal" fill="#979797">
-                        <tspan x="80.1030273" y="16">12.3</tspan>
+                        <tspan x="82.1030273" y="16">12.3</tspan>
                     </text>
                     <text id="speed1" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="26.5410156" y="16">12.3</tspan>
+                        <tspan x="28.5410156" y="16">12.3</tspan>
                     </text>
-                    <text id="reg" font-family="Verdana-Bold, Verdana" font-size="18" font-weight="bold" fill="#A3A9EC">
-                        <tspan x="0.203125" y="18">6</tspan>
+                    <text id="reg" font-family="Verdana" font-size="18" font-weight="normal" fill="#A3A9EC">
+                        <tspan x="0.556640625" y="18">6</tspan>
                     </text>
                 </g>
-                <g id="reg_5" transform="translate(29.000000, 229.000000)">
-                    <rect id="rect1" fill="#22E329" x="20" y="1" width="48" height="20" rx="3"></rect>
-                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="73.5" y="1.5" width="45" height="19" rx="3"></rect>
+                <g id="reg_5" transform="translate(27.000000, 229.000000)">
+                    <rect id="rect1" fill="#22E329" x="22" y="1" width="48" height="20" rx="3"></rect>
+                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="75.5" y="1.5" width="45" height="19" rx="3"></rect>
                     <text id="speed2" font-family="Verdana" font-size="14" font-weight="normal" fill="#979797">
-                        <tspan x="80.1030273" y="16">12.3</tspan>
+                        <tspan x="82.1030273" y="16">12.3</tspan>
                     </text>
                     <text id="speed1" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="26.5410156" y="16">12.3</tspan>
+                        <tspan x="28.5410156" y="16">12.3</tspan>
                     </text>
-                    <text id="reg" font-family="Verdana-Bold, Verdana" font-size="18" font-weight="bold" fill="#89BAED">
-                        <tspan x="0.203125" y="18">5</tspan>
+                    <text id="reg" font-family="Verdana" font-size="18" font-weight="normal" fill="#89BAED">
+                        <tspan x="0.556640625" y="18">5</tspan>
                     </text>
                 </g>
-                <g id="reg_4" transform="translate(29.000000, 205.000000)">
-                    <rect id="rect1" fill="#FC8080" x="20" y="1" width="48" height="20" rx="3"></rect>
-                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="73.5" y="1.5" width="45" height="19" rx="3"></rect>
+                <g id="reg_4" transform="translate(27.000000, 205.000000)">
+                    <rect id="rect1" fill="#FC8080" x="22" y="1" width="48" height="20" rx="3"></rect>
+                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="75.5" y="1.5" width="45" height="19" rx="3"></rect>
                     <text id="speed2" font-family="Verdana" font-size="14" font-weight="normal" fill="#979797">
-                        <tspan x="80.1030273" y="16">12.3</tspan>
+                        <tspan x="82.1030273" y="16">12.3</tspan>
                     </text>
                     <text id="speed1" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="26.5410156" y="16">12.3</tspan>
+                        <tspan x="28.5410156" y="16">12.3</tspan>
                     </text>
-                    <text id="reg" font-family="Verdana-Bold, Verdana" font-size="18" font-weight="bold" fill="#9ED6B1">
-                        <tspan x="0.203125" y="18">4</tspan>
+                    <text id="reg" font-family="Verdana" font-size="18" font-weight="normal" fill="#9ED6B1">
+                        <tspan x="0.556640625" y="18">4</tspan>
                     </text>
                 </g>
-                <g id="reg_3" transform="translate(29.000000, 181.000000)">
-                    <rect id="rect1" fill="#22E329" x="20" y="1" width="48" height="20" rx="3"></rect>
-                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="73.5" y="1.5" width="45" height="19" rx="3"></rect>
+                <g id="reg_3" transform="translate(27.000000, 181.000000)">
+                    <rect id="rect1" fill="#22E329" x="22" y="1" width="48" height="20" rx="3"></rect>
+                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="75.5" y="1.5" width="45" height="19" rx="3"></rect>
                     <text id="speed2" font-family="Verdana" font-size="14" font-weight="normal" fill="#979797">
-                        <tspan x="80.1030273" y="16">12.3</tspan>
+                        <tspan x="82.1030273" y="16">12.3</tspan>
                     </text>
                     <text id="speed1" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="26.5410156" y="16">12.3</tspan>
+                        <tspan x="28.5410156" y="16">12.3</tspan>
                     </text>
-                    <text id="reg" font-family="Verdana-Bold, Verdana" font-size="18" font-weight="bold" fill="#DFABAB">
-                        <tspan x="0.203125" y="18">3</tspan>
+                    <text id="reg" font-family="Verdana" font-size="18" font-weight="normal" fill="#DFABAB">
+                        <tspan x="0.556640625" y="18">3</tspan>
                     </text>
                 </g>
-                <g id="reg_2" transform="translate(29.000000, 157.000000)">
-                    <rect id="rect1" fill="#22E329" x="20" y="1" width="48" height="20" rx="3"></rect>
-                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="73.5" y="1.5" width="45" height="19" rx="3"></rect>
+                <g id="reg_2" transform="translate(27.000000, 157.000000)">
+                    <rect id="rect1" fill="#22E329" x="22" y="1" width="48" height="20" rx="3"></rect>
+                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="75.5" y="1.5" width="45" height="19" rx="3"></rect>
                     <text id="speed2" font-family="Verdana" font-size="14" font-weight="normal" fill="#979797">
-                        <tspan x="80.1030273" y="16">12.3</tspan>
+                        <tspan x="82.1030273" y="16">12.3</tspan>
                     </text>
                     <text id="speed1" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="26.5410156" y="16">12.3</tspan>
+                        <tspan x="28.5410156" y="16">12.3</tspan>
                     </text>
-                    <text id="reg" font-family="Verdana-Bold, Verdana" font-size="18" font-weight="bold" fill="#8DCFE2">
-                        <tspan x="0.203125" y="18">2</tspan>
+                    <text id="reg" font-family="Verdana" font-size="18" font-weight="normal" fill="#8DCFE2">
+                        <tspan x="0.556640625" y="18">2</tspan>
                     </text>
                 </g>
-                <g id="reg_1" transform="translate(29.000000, 133.000000)">
-                    <rect id="rect1" fill="#FC8080" x="20" y="1" width="48" height="20" rx="3"></rect>
-                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="73.5" y="1.5" width="45" height="19" rx="3"></rect>
+                <g id="reg_1" transform="translate(27.000000, 133.000000)">
+                    <rect id="rect1" fill="#FC8080" x="22" y="1" width="48" height="20" rx="3"></rect>
+                    <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="75.5" y="1.5" width="45" height="19" rx="3"></rect>
                     <text id="speed2" font-family="Verdana" font-size="14" font-weight="normal" fill="#979797">
-                        <tspan x="80.1030273" y="16">12.3</tspan>
+                        <tspan x="82.1030273" y="16">12.3</tspan>
                     </text>
                     <text id="speed1" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
-                        <tspan x="26.5410156" y="16">12.3</tspan>
+                        <tspan x="28.5410156" y="16">12.3</tspan>
                     </text>
-                    <text id="reg" font-family="Verdana-Bold, Verdana" font-size="18" font-weight="bold" fill="#C6D084">
-                        <tspan x="0.203125" y="18">1</tspan>
+                    <text id="reg" font-family="Verdana" font-size="18" font-weight="normal" fill="#C6D084">
+                        <tspan x="0.556640625" y="18">1</tspan>
                     </text>
                 </g>
                 <g id="reg_0" transform="translate(26.000000, 61.000000)">
@@ -2116,6 +2116,78 @@
                     <tspan x="49.7324219" y="126">по регионам</tspan>
                 </text>
                 <line x1="18" y1="104" x2="161" y2="104" id="Path-79" stroke="#DDDDDD"></line>
+            </g>
+            <g id="reg_br_trains" transform="translate(0.000000, 328.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="176" height="118" rx="6"></rect>
+                <g id="Group-24" transform="translate(8.000000, 14.000000)">
+                    <path d="M3,2.04281037e-14 L3,8 C3,9.1045695 3.8954305,10 5,10 L27,10 C28.1045695,10 29,9.1045695 29,8 L29,2.04281037e-14 L29,2.04281037e-14 L3,2.04281037e-14 Z" id="Path-83" stroke="#979797" stroke-width="2"></path>
+                    <g id="Group-26" transform="translate(16.596194, 4.596194) rotate(-45.000000) translate(-16.596194, -4.596194) translate(13.096194, 1.596194)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                        <line x1="5.7524531" y1="2.70710678" x2="0.419119771" y2="2.70710678" id="Line-4"></line>
+                        <line x1="3.08578644" y1="0.207106781" x2="3.08578644" y2="5.20710678" id="Line-4"></line>
+                    </g>
+                    <circle id="Oval" fill="#979797" cx="2" cy="14" r="2"></circle>
+                    <circle id="Oval" fill="#979797" cx="25" cy="14" r="2"></circle>
+                    <circle id="Oval" fill="#979797" cx="30" cy="14" r="2"></circle>
+                    <circle id="Oval" fill="#979797" cx="7" cy="14" r="2"></circle>
+                </g>
+                <g id="reg_6" transform="translate(93.000000, 87.000000)">
+                    <rect id="Rectangle" fill="#E0AFAF" x="0" y="0" width="60" height="18" rx="3"></rect>
+                    <text id="trains" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="15.0703125" y="14">123</tspan>
+                    </text>
+                    <text id="reg" font-family="Verdana" font-size="14" font-weight="normal" fill="#A3A9EC">
+                        <tspan x="65.0996094" y="14">6</tspan>
+                    </text>
+                </g>
+                <g id="reg_5" transform="translate(93.000000, 65.000000)">
+                    <rect id="Rectangle" fill="#E0AFAF" x="0" y="0" width="60" height="18" rx="3"></rect>
+                    <text id="trains" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="15.0703125" y="14">000</tspan>
+                    </text>
+                    <text id="reg" font-family="Verdana" font-size="14" font-weight="normal" fill="#89BAED">
+                        <tspan x="65.0996094" y="14">5</tspan>
+                    </text>
+                </g>
+                <g id="reg_4" transform="translate(93.000000, 43.000000)">
+                    <rect id="Rectangle" fill="#E0AFAF" x="0" y="0" width="60" height="18" rx="3"></rect>
+                    <text id="trains" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="15.0703125" y="14">123</tspan>
+                    </text>
+                    <text id="reg" font-family="Verdana" font-size="14" font-weight="normal" fill="#9ED6B1">
+                        <tspan x="65.0996094" y="14">4</tspan>
+                    </text>
+                </g>
+                <g id="reg_3" transform="translate(9.000000, 87.000000)">
+                    <rect id="Rectangle" fill="#E0AFAF" x="14" y="0" width="60" height="18" rx="3"></rect>
+                    <text id="trains" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="29.0703125" y="14">000</tspan>
+                    </text>
+                    <text id="reg" font-family="Verdana" font-size="14" font-weight="normal" fill="#DFABAB">
+                        <tspan x="0.099609375" y="14">3</tspan>
+                    </text>
+                </g>
+                <g id="reg_2" transform="translate(9.000000, 65.000000)">
+                    <rect id="Rectangle" fill="#E0AFAF" x="14" y="0" width="60" height="18" rx="3"></rect>
+                    <text id="trains" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="29.0703125" y="14">000</tspan>
+                    </text>
+                    <text id="reg" font-family="Verdana" font-size="14" font-weight="normal" fill="#8DCFE2">
+                        <tspan x="0.099609375" y="14">2</tspan>
+                    </text>
+                </g>
+                <g id="reg_1" transform="translate(9.000000, 43.000000)">
+                    <rect id="Rectangle" fill="#E0AFAF" x="14" y="0" width="60" height="18" rx="3"></rect>
+                    <text id="trains" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="29.0703125" y="14">234</tspan>
+                    </text>
+                    <text id="reg" font-family="Verdana" font-size="14" font-weight="normal" fill="#C6D084">
+                        <tspan x="0.099609375" y="14">1</tspan>
+                    </text>
+                </g>
+                <text id="Брошенные-поезда" font-family="Verdana-Bold, Verdana" font-size="14" font-weight="bold" fill="#C6A1A1">
+                    <tspan x="49.0458984" y="17">Брошенные </tspan>
+                    <tspan x="68.8769531" y="34">поезда</tspan>
+                </text>
             </g>
         </g>
     </g>

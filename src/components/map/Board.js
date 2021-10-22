@@ -1,18 +1,18 @@
-import React, { useEffect } from "react";
-import { connect } from "react-redux";
-import { loadMapORW, ShowLayer } from "./tablo";
-import { showRegionSpeed } from "../../utils/tabloUtils";
-import { showStorm } from "../../layers/storm";
+import React, { useEffect } from 'react'
+import { connect } from 'react-redux'
+import { loadMapORW, ShowLayer } from './tablo'
+import { showRegionSpeed, showAbonedTrains } from '../../utils/tabloUtils'
+import { showStorm } from '../../layers/storm'
 //import { showWeather } from "../../utils/weatherUtils";
 import {
   postShowLayer,
   postFindCode,
   postResetZoom,
-} from "../../store/actions/layerAction";
+} from '../../store/actions/layerAction'
 import {
   informLegendKey,
   informSpecKey,
-} from "../../store/actions/informActions";
+} from '../../store/actions/informActions'
 import {
   modalFetchData,
   ModalIsOpen,
@@ -25,85 +25,92 @@ import {
   modalDncUchFetchData,
   modalStokFetchData,
   modalRiskobjFetchData,
-} from "../../store/actions/modalAction";
+} from '../../store/actions/modalAction'
 import {
   forecastFetchData,
   forecastClose,
   forecastOpen,
-} from "../../store/actions/forecastAction";
+} from '../../store/actions/forecastAction'
 
 import {
   stormFetchData,
   stormUpdateData,
-} from "../../store/actions/stormAction";
+} from '../../store/actions/stormAction'
 
 import {
   weatherFetchData,
   weatherWinOpen,
   weatherWinClose,
-} from "../../store/actions/weatherAction";
+} from '../../store/actions/weatherAction'
 
-import { snowTechFetchData } from "../../store/actions/snowTechAction";
-import { tabloFetchData } from "../../store/actions/tabloAction";
-import { eventDivisions } from "../../utils/stantionUtils";
-import { showFindStantion } from "../../utils/searchUtils";
-import { pipeFetchData } from "../../store/actions/pipeActions";
-import { specTechFetchData } from "../../store/actions/specTechAction";
-import { fetchDncData } from "../../store/actions/dncAction";
-import { fetchVchdData } from "../../store/actions/vchdAction";
-import { fetchStokData } from "../../store/actions/stokAction";
-import { fetchRiskobjData } from "../../store/actions/riskobjAction";
+import { snowTechFetchData } from '../../store/actions/snowTechAction'
+import { tabloFetchData } from '../../store/actions/tabloAction'
+import { eventDivisions } from '../../utils/stantionUtils'
+import { showFindStantion } from '../../utils/searchUtils'
+import { pipeFetchData } from '../../store/actions/pipeActions'
+import { specTechFetchData } from '../../store/actions/specTechAction'
+import { fetchDncData } from '../../store/actions/dncAction'
+import { fetchVchdData } from '../../store/actions/vchdAction'
+import { fetchStokData } from '../../store/actions/stokAction'
+import { fetchRiskobjData } from '../../store/actions/riskobjAction'
+import { fetchAbandonedData } from '../../store/actions/abandonedAction'
 //import SocketService from "../../services/SocketService";
 
 //const socket = new SocketService();
 
 const Board = (props) => {
   useEffect(() => {
-    loadMapORW(props);
-    props.fetchTabloStantion();
+    loadMapORW(props)
+    props.fetchTabloStantion()
 
-    props.postResetZoom(props.resetZoom);
+    props.postResetZoom(props.resetZoom)
     // eslint-disable-next-line
-  }, [props.tabloUrl]);
+  }, [props.tabloUrl])
 
   useEffect(() => {
     if (props.dncData && props.dncRegion === 0) {
-      showRegionSpeed(props.dncData);
+      showRegionSpeed(props.dncData)
     }
-  }, [props.dncData, props.dncRegion]);
+  }, [props.dncData, props.dncRegion])
+
+  useEffect(() => {
+    if (props.abandonedData && props.abandonedRegion === 0) {
+      showAbonedTrains(props.abandonedData)
+    }
+  }, [props.abandonedData, props.abandonedRegion])
 
   useEffect(() => {
     if (props.stantionItems) {
-      eventDivisions(props);
+      eventDivisions(props)
     }
     // eslint-disable-next-line
-  }, [props.stantionItems, props.stormRegionID]);
+  }, [props.stantionItems, props.stormRegionID])
 
   useEffect(() => {
-    ShowLayer(props);
-  });
+    ShowLayer(props)
+  })
 
   // Показать найденную станцию
   useEffect(() => {
-    showFindStantion(props.layerFindStantion);
-  }, [props.stormRegionID, props.layerFindStantion]);
+    showFindStantion(props.layerFindStantion)
+  }, [props.stormRegionID, props.layerFindStantion])
 
   //Показать gps
   useEffect(() => {
     if (props.layerFindGPS) {
-      let code = props.layerFindGPS.code;
+      let code = props.layerFindGPS.code
       if (code) {
-        code = code.slice(0, 5);
-        showFindStantion(code, "point-gps2", "gps");
+        code = code.slice(0, 5)
+        showFindStantion(code, 'point-gps2', 'gps')
       } else {
-        showFindStantion("0", "point-gps2", "gps");
+        showFindStantion('0', 'point-gps2', 'gps')
       }
     }
-  }, [props.stormItems, props.layerFindGPS]);
+  }, [props.stormItems, props.layerFindGPS])
 
   useEffect(() => {
-    showStorm(props.stormClick, props.stormItems, 2);
-  }, [props.stormItems, props.stormClick]);
+    showStorm(props.stormClick, props.stormItems, 2)
+  }, [props.stormItems, props.stormClick])
 
   // useEffect(() => {
   //   showWeather(props.weatherItems);
@@ -118,8 +125,8 @@ const Board = (props) => {
       }}
       //layer={this.props.refreshLayer.toString()}
     ></div>
-  );
-};
+  )
+}
 
 const mapStateToProps = (state) => {
   return {
@@ -160,8 +167,11 @@ const mapStateToProps = (state) => {
     riskobjData: state.riskobj.items,
     riskobjLoading: state.riskobj.loading,
     riskobjRegion: state.riskobj.region,
-  };
-};
+    abandonedData: state.abandoned.items,
+    abandonedLoad: state.abandoned.loading,
+    abandonedRegion: state.abandoned.region,
+  }
+}
 
 const mapDispatchToProps = (dispatch) => {
   return {
@@ -200,7 +210,8 @@ const mapDispatchToProps = (dispatch) => {
     postVchd: (id) => dispatch(fetchVchdData(id)),
     postStok: (id) => dispatch(fetchStokData(id)),
     postRiskobj: (id) => dispatch(fetchRiskobjData(id)),
-  };
-};
+    postAbandoned: (id) => dispatch(fetchAbandonedData(id)),
+  }
+}
 
-export default connect(mapStateToProps, mapDispatchToProps)(Board);
+export default connect(mapStateToProps, mapDispatchToProps)(Board)

@@ -1,16 +1,17 @@
-import React from "react";
-import Tabs from "react-bootstrap/Tabs";
-import Tab from "react-bootstrap/Tab";
-import InformTabs from "./InformTabs/InformTabs";
-import TableConteiner from "./PerformanceTabs/TableConteiner";
-import { connect } from "react-redux";
-import ModalWin from "../ModalWin/ModalWin";
-import ListView from "./ListView/ListView";
-import PipeTable from "./PipeTabs/PipeTable";
-import LoaderConteiner from "../LoaderSpinner/LoaderConteiner";
-import { customStyles as defaultStyles } from "./PerformanceTabs/CustomStyles";
-import { imgStyles } from "./PerformanceTabs/imgStyles";
-import ChartView from "./ChartView/ChartView";
+import React from 'react'
+import Tabs from 'react-bootstrap/Tabs'
+import Tab from 'react-bootstrap/Tab'
+import InformTabs from './InformTabs/InformTabs'
+import TableConteiner from './PerformanceTabs/TableConteiner'
+import { connect } from 'react-redux'
+import ModalWin from '../ModalWin/ModalWin'
+import ListView from './ListView/ListView'
+import PipeTable from './PipeTabs/PipeTable'
+import LoaderConteiner from '../LoaderSpinner/LoaderConteiner'
+import { customStyles as defaultStyles } from './PerformanceTabs/CustomStyles'
+import { imgStyles } from './PerformanceTabs/imgStyles'
+import ChartView from './ChartView/ChartView'
+import { modalFetchData } from '../../store/actions/modalAction'
 
 const mapStateToProps = (state) => {
   return {
@@ -18,52 +19,58 @@ const mapStateToProps = (state) => {
     viewer: state.modal.viewer,
     hasErrored: state.modal.error,
     isLoading: state.modal.loading,
-  };
-};
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    fetchData: (url, label) => dispatch(modalFetchData(url, label)),
+  }
+}
 
 const TabEnterprises = (props) => {
-  const keys = Object.keys(props.items);
-  const activs = keys.filter((item) => item !== "info");
+  const keys = Object.keys(props.items)
+  const activs = keys.filter((item) => item !== 'info')
 
   const customTabs = activs.map((item, index) => {
     switch (props.viewer) {
-      case "chart":
+      case 'chart':
         return (
           <Tab eventKey={item} title={props.items[0].title} key={index}>
             <ChartView items={props.items[0]} />
           </Tab>
-        );
-      case "list":
+        )
+      case 'list':
         return (
           <Tab eventKey={item} title={props.items[item].header} key={index}>
             <ListView items={props.items[item]} />
           </Tab>
-        );
-      case "pipe":
+        )
+      case 'pipe':
         return (
           <Tab eventKey={item} title={props.items[item].header} key={index}>
             <PipeTable items={props.items[item]} />
           </Tab>
-        );
+        )
       default:
         return (
           <Tab eventKey={item} title={props.items[item].header} key={index}>
             <TableConteiner
               items={props.items[item]}
               rowsStyles={
-                props.items[item].header === "Руководство"
+                props.items[item].header === 'Руководство'
                   ? imgStyles
                   : defaultStyles
               }
             />
           </Tab>
-        );
+        )
     }
-  });
+  })
 
   const contentRender = () => {
     if (props.hasErrored) {
-      return <p>Ошибка загрузки данных: {props.hasErrored}</p>;
+      return <p>Ошибка загрузки данных: {props.hasErrored}</p>
     }
 
     if (props.isLoading) {
@@ -71,24 +78,24 @@ const TabEnterprises = (props) => {
         <div>
           <LoaderConteiner />
         </div>
-      );
+      )
     } else {
       if (props.items.info) {
         return (
           <Tabs defaultActiveKey="info" id="uncontrolled-tab-example">
             <Tab eventKey="info" title="Информация">
-              <InformTabs items={props.items.info} />
+              <InformTabs items={props.items.info} goSubStn={props.fetchData} />
             </Tab>
             {customTabs}
           </Tabs>
-        );
+        )
       } else {
-        return <Tabs id="uncontrolled-tab-example">{customTabs}</Tabs>;
+        return <Tabs id="uncontrolled-tab-example">{customTabs}</Tabs>
       }
     }
-  };
+  }
 
-  return <ModalWin>{contentRender()}</ModalWin>;
-};
+  return <ModalWin>{contentRender()}</ModalWin>
+}
 
-export default connect(mapStateToProps, null)(TabEnterprises);
+export default connect(mapStateToProps, mapDispatchToProps)(TabEnterprises)

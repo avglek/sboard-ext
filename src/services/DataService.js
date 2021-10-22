@@ -158,7 +158,7 @@ class DataService {
 
   getPokaz(id, label) {
     return this.getResurce(`${config[label]}${id}`)
-    //return this.getResurce(`${config.pokaz}`);
+    //return this.getResurce(`${config.pokaz}`)
   }
 
   async getStormPokaz(id) {
@@ -316,6 +316,14 @@ class DataService {
 
   async getSnowPokaz(id) {
     return this.getResurce(`${config.snow_pokaz}${id}`)
+  }
+
+  async getAbandonedAll() {
+    return this.getResurce(`${config.abandoned_all}`)
+  }
+
+  async getAbandonedByRegion(id) {
+    return this.getResurce(`${config.abandoned_reg}0${id}`)
   }
 
   async getResurce(url) {
