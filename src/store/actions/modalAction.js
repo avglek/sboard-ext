@@ -165,3 +165,16 @@ export function modalRiskobjFetchData(id) {
     }
   }
 }
+
+export function modalShowAbandonedTrains(id) {
+  return async (dispatch) => {
+    dispatch(modalStartLoading())
+    try {
+      const data = await dataService.getAbandonedTrains(id)
+      dispatch(modalFetchDataSuccess(data, 'pipe'))
+    } catch (error) {
+      console.log('Error:', error)
+      dispatch(modalFetchError(error))
+    }
+  }
+}

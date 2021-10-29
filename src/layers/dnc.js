@@ -12,6 +12,7 @@ export async function addEvent({
   stormRegionID,
   openModal,
   fetchDncUchData,
+  fetchAbandonedTrains,
   abandonedData,
   abandonedLoad,
   abandonedRegion,
@@ -25,7 +26,7 @@ export async function addEvent({
     await showDncSpeed(dncData, openModal, fetchDncUchData)
   }
   if (abandonedData && !abandonedLoad) {
-    await showAbandoned(abandonedData, openModal)
+    await showAbandoned(abandonedData, openModal, fetchAbandonedTrains)
   }
 }
 
@@ -91,7 +92,7 @@ function setSpeedFill(element, fact, plan) {
 }
 
 //Брошенные поезда
-async function showAbandoned(data, openModal) {
+async function showAbandoned(data, openModal, fetchAbandonedTrains) {
   const doc = await xml(abandonedIcon)
   const iconElement = doc.documentElement.querySelector('#b_trains_dnc')
   iconElement.setAttribute('transform', 'translate(0,20)')
@@ -108,7 +109,7 @@ async function showAbandoned(data, openModal) {
 
       abandonedNode
         .on('click', () => {
-          handlerAbandonedClick(item.disp, openModal)
+          handlerAbandonedClick(item.disp, openModal, fetchAbandonedTrains)
         })
         .on('mouseenter', () => {
           abandonedNode.style('cursor', 'pointer')
@@ -120,7 +121,7 @@ async function showAbandoned(data, openModal) {
   })
 }
 
-function handlerAbandonedClick(id, openModal) {
-  console.log('id:', id)
+function handlerAbandonedClick(id, openModal, fetchAbandonedTrains) {
   openModal(true)
+  fetchAbandonedTrains(id)
 }

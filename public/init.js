@@ -33,7 +33,6 @@ var initialState = {
     abandoned_all: 'http://10.35.49.146:8080/apps/api/abandoned/all',
     abandoned_reg: 'http://10.35.49.146:8080/apps/api/abandoned/region?id=',
     abandoned_trains: 'http://10.35.49.146:8080/apps/api/abandoned/trains?id=',
-    abandoned_chart: 'http://10.35.49.146:8080/apps/api/abandoned/chart?id=',
   },
 
   wsocket: {

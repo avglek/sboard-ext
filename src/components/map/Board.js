@@ -25,6 +25,7 @@ import {
   modalDncUchFetchData,
   modalStokFetchData,
   modalRiskobjFetchData,
+  modalShowAbandonedTrains,
 } from '../../store/actions/modalAction'
 import {
   forecastFetchData,
@@ -54,6 +55,7 @@ import { fetchVchdData } from '../../store/actions/vchdAction'
 import { fetchStokData } from '../../store/actions/stokAction'
 import { fetchRiskobjData } from '../../store/actions/riskobjAction'
 import { fetchAbandonedData } from '../../store/actions/abandonedAction'
+
 //import SocketService from "../../services/SocketService";
 
 //const socket = new SocketService();
@@ -196,6 +198,7 @@ const mapDispatchToProps = (dispatch) => {
     fetchHealthData: (id) => dispatch(modalHealthFetchData(id)),
     fetchMilRails: (id) => dispatch(modalMilRailsFetchData(id)),
     fetchSnowData: (id) => dispatch(modalSnowFetchData(id)),
+    fetchAbandonedTrains: (id) => dispatch(modalShowAbandonedTrains(id)),
     fectchSpecTechData: (id) => dispatch(specTechFetchData(id)),
     updateStormData: (id) => dispatch(stormUpdateData(id)),
     postLegend: (imgName) => dispatch(informLegendKey(imgName)),

@@ -326,6 +326,10 @@ class DataService {
     return this.getResurce(`${config.abandoned_reg}0${id}`)
   }
 
+  async getAbandonedTrains(id) {
+    return this.getResurce(`${config.abandoned_trains}${id}`)
+  }
+
   async getResurce(url) {
     const response = await fetch(url)
 
