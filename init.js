@@ -27,6 +27,9 @@ var initialState = {
     "stok": "/apps/api/clear/region?id=",
     "riskobj": "/apps/api/riskobject/region?id=",
     "riskobj_info": "/apps/api/riskobject/info?id=",
+    "abandoned_all": "/apps/api/abandoned/all",
+    "abandoned_reg": "/apps/api/abandoned/region?id=",
+    "abandoned_trains": "/apps/api/abandoned/trains?id=",
   },
 
   wsocket: {
