@@ -1,7 +1,7 @@
 import { select, selectAll, xml } from 'd3'
 
 const icon2 = './svg/icons/dnc/dnc_sp.svg'
-const abandonedIcon = './svg/icons/b_trains_dnc.svg'
+const abandonedIcon = './svg/icons/b_trains_dnc-2.svg'
 const fillUp = '#22E329'
 const fillDown = '#FC5656'
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="27px" height="12px" viewBox="0 0 27 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="29px" height="12px" viewBox="0 0 29 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>b_trains_dnc</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="b_trains_dnc">
@@ -8,7 +8,7 @@
                 <line x1="0.5" y1="6.75" x2="6.5" y2="0.75" id="Path-184"></line>
                 <line x1="6.6446967" y1="6.57141239" x2="0.540896092" y2="0.677040662" id="Path-184"></line>
             </g>
-            <text id="numb" font-family="Verdana" font-size="10" font-weight="normal" fill="#C87272">
+            <text id="numb" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold" fill="#C87272">
                 <tspan x="13.5" y="10">00</tspan>
             </text>
         </g>
