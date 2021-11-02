@@ -497,9 +497,22 @@
             </text>
             <line x1="769.547364" y1="17.5184598" x2="754.547364" y2="49.5184598" id="Path-264" stroke="#2F9372" stroke-width="2" stroke-linecap="round"></line>
             <g id="dnc_legend" transform="translate(0.547364, 546.518460)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="185" height="59" rx="5"></rect>
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="185" height="73" rx="5"></rect>
                 <text id="speed_load_time" font-family="Verdana-Italic, Verdana" font-size="9" font-style="italic" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="7" y="52">Отображены данные на 15:15</tspan>
+                    <tspan x="7" y="67">Отображены данные на 15:15</tspan>
+                </text>
+                <g id="b_trains_" transform="translate(68.000000, 41.000000)">
+                    <rect id="Rectangle" fill="#C87272" x="0" y="1" width="29" height="12" rx="3"></rect>
+                    <g id="icon_" transform="translate(2.500000, 3.400000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <line x1="0.5" y1="6.75" x2="6.5" y2="0.75" id="Path-184"></line>
+                        <line x1="6.6446967" y1="6.57141239" x2="0.540896092" y2="0.677040662" id="Path-184"></line>
+                    </g>
+                    <text id="numb" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="14.6425781" y="10.5">00</tspan>
+                    </text>
+                </g>
+                <text id="брошенные-поезда" font-family="Verdana" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="101.326172" y="50">брошенные поезда</tspan>
                 </text>
                 <text id="фактическая" font-family="Verdana" font-size="9" font-weight="normal" fill="#22E329">
                     <tspan x="4.86450195" y="33">фактическая </tspan>
@@ -1844,51 +1857,51 @@
                 <path d="M283,141.992187 C279.457232,143.962656 276.139039,147.667295 273.045419,153.106106 C268.40499,161.264323 268.40499,174.181333 262.041097,178.839484 C255.677203,183.497636 244.090168,185.090496 238.428521,195.128703 C232.766874,205.16691 233.674282,221.926192 230.688801,234.792645 C227.703321,247.659099 224.844593,249.896429 223.614864,258.970762 C222.795045,265.020317 222.795045,274.360792 223.614864,286.992187" id="Path-59"></path>
                 <path d="M350,156.992187 C354.546243,166.996701 360.659159,173.830034 368.33875,177.492187 C379.858137,182.985417 396.158306,185.041374 414.499305,187.749858 C432.840304,190.458343 442.333958,188.553822 455.526234,190.367492 C464.321084,191.576604 475.479006,194.11817 489,197.992187" id="Path-61"></path>
             </g>
-            <g id="legenda" transform="translate(431.000000, 759.000000)">
-                <rect id="Rectangle" stroke="#9E9E9E" fill="#FFFFFF" x="0.5" y="0.5" width="159" height="175" rx="5"></rect>
-                <g id="Group-3" transform="translate(10.000000, 73.000000)">
-                    <text id="ИЧ-3" font-family="Verdana" font-size="12" font-weight="normal" fill="#6D7C8A">
-                        <tspan x="38.1865234" y="12">ИЧ-3</tspan>
+            <g id="legenda" transform="translate(460.000000, 763.000000)">
+                <rect id="Rectangle" stroke="#9E9E9E" fill="#FFFFFF" x="0.5" y="0.5" width="139" height="155" rx="5"></rect>
+                <g id="Group-3" transform="translate(10.000000, 64.000000)">
+                    <text id="ИЧ-3" font-family="Verdana" font-size="11" font-weight="normal" fill="#6D7C8A">
+                        <tspan x="36.4626465" y="11">ИЧ-3</tspan>
                     </text>
-                    <line x1="26" y1="8" x2="0" y2="8" id="Path-5" stroke="#54733A" stroke-width="4"></line>
+                    <line x1="26" y1="7" x2="0" y2="7" id="Path-5" stroke="#54733A" stroke-width="4"></line>
                 </g>
-                <g id="Group-3" transform="translate(11.000000, 13.000000)">
-                    <text id="ШЧ-23-/-ШЧ-16" font-family="Verdana" font-size="12" font-weight="normal" fill="#6D7C8A">
-                        <tspan x="36.9433594" y="12.5">ШЧ-23 / ШЧ-16</tspan>
+                <g id="Group-3" transform="translate(11.000000, 10.000000)">
+                    <text id="ШЧ-23/ШЧ-16" font-family="Verdana" font-size="11" font-weight="normal" fill="#6D7C8A">
+                        <tspan x="34.8569336" y="11.5">ШЧ-23/ШЧ-16</tspan>
                     </text>
-                    <line x1="26" y1="8" x2="-7.38964445e-13" y2="8" id="Path-5" stroke="#B768E2" stroke-width="4"></line>
+                    <line x1="26" y1="7" x2="-7.38964445e-13" y2="7" id="Path-5" stroke="#B768E2" stroke-width="4"></line>
                 </g>
-                <g id="Group-3" transform="translate(10.000000, 33.000000)">
-                    <text id="ШЧ-15-/-ШЧ-16" font-family="Verdana" font-size="12" font-weight="normal" fill="#6D7C8A">
-                        <tspan x="37.9433594" y="12.5">ШЧ-15 / ШЧ-16</tspan>
+                <g id="Group-3" transform="translate(10.000000, 28.000000)">
+                    <text id="ШЧ-15/ШЧ-16" font-family="Verdana" font-size="11" font-weight="normal" fill="#6D7C8A">
+                        <tspan x="35.8569336" y="11.5">ШЧ-15/ШЧ-16</tspan>
                     </text>
-                    <line x1="26" y1="8" x2="-7.38964445e-13" y2="8" id="Path-5" stroke="#EEE62E" stroke-width="4"></line>
+                    <line x1="26" y1="7" x2="-7.38964445e-13" y2="7" id="Path-5" stroke="#EEE62E" stroke-width="4"></line>
                 </g>
-                <g id="Group-3" transform="translate(10.000000, 53.000000)">
-                    <text id="ШЧ-9-/-ШЧ-14" font-family="Verdana" font-size="12" font-weight="normal" fill="#6D7C8A">
-                        <tspan x="38.2578125" y="12.5">ШЧ-9 / ШЧ-14</tspan>
+                <g id="Group-3" transform="translate(10.000000, 46.000000)">
+                    <text id="ШЧ-9/ШЧ-14" font-family="Verdana" font-size="11" font-weight="normal" fill="#6D7C8A">
+                        <tspan x="35.8535156" y="11.5">ШЧ-9/ШЧ-14</tspan>
                     </text>
-                    <line x1="26" y1="8" x2="-5.11646281e-13" y2="8" id="Path-5" stroke="#C56F6F" stroke-width="4"></line>
+                    <line x1="26" y1="7" x2="-5.11646281e-13" y2="7" id="Path-5" stroke="#C56F6F" stroke-width="4"></line>
                 </g>
-                <g id="Group-3" transform="translate(10.000000, 92.000000)">
-                    <text id="ИЧ-4" font-family="Verdana" font-size="12" font-weight="normal" fill="#6D7C8A">
-                        <tspan x="38.1865234" y="12">ИЧ-4</tspan>
+                <g id="Group-3" transform="translate(10.000000, 81.000000)">
+                    <text id="ИЧ-4" font-family="Verdana" font-size="11" font-weight="normal" fill="#6D7C8A">
+                        <tspan x="36.4626465" y="11">ИЧ-4</tspan>
                     </text>
-                    <line x1="26" y1="8" x2="0" y2="8" id="Path-5" stroke="#FD6D1D" stroke-width="4"></line>
+                    <line x1="26" y1="7" x2="0" y2="7" id="Path-5" stroke="#FD6D1D" stroke-width="4"></line>
                 </g>
-                <g id="Group-3" transform="translate(11.000000, 128.500000)">
+                <g id="Group-3" transform="translate(11.000000, 112.500000)">
                     <text id="авт-блок." font-family="Verdana" font-size="11" font-weight="normal" fill="#6D7C8A">
                         <tspan x="43.8781738" y="11">авт блок.</tspan>
                     </text>
                     <line x1="36" y1="8" x2="0" y2="8" id="Path-5" stroke="#001AFF" stroke-width="2"></line>
                 </g>
-                <g id="Group-3" transform="translate(11.000000, 147.500000)">
+                <g id="Group-3" transform="translate(11.000000, 131.500000)">
                     <text id="п/а-блок." font-family="Verdana" font-size="11" font-weight="normal" fill="#6D7C8A">
                         <tspan x="43.8754883" y="11">п/а блок.</tspan>
                     </text>
                     <line x1="36" y1="7" x2="0" y2="7" id="Path-5" stroke="#001AFF" stroke-width="2" stroke-dasharray="3,2"></line>
                 </g>
-                <line x1="42" y1="119.5" x2="131.178243" y2="119.5" id="Path-25" stroke="#C2C0C0"></line>
+                <line x1="25" y1="103.5" x2="114.178243" y2="103.5" id="Path-25" stroke="#C2C0C0"></line>
             </g>
             <g id="block" transform="translate(6.000000, 0.000000)" stroke-width="2">
                 <path d="M300.722656,147.628906 L300.416016,151.75 C284.040452,165.909245 272.689168,176.569343 266.362164,183.730293 C260.035161,190.891244 252.336858,201.963458 243.267255,216.946936 C239.743159,222.733973 235.051945,227.604262 229.193615,231.557804 C223.335285,235.511347 214.454893,239.799966 202.55244,244.423662 C189.581959,248.206944 180.631129,251.948448 175.69995,255.648173 C170.76877,259.347898 168.834933,261.47559 169.898438,262.03125" id="Path-52" stroke="#0720FF" stroke-dasharray="3,2"></path>

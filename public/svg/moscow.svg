@@ -345,11 +345,24 @@
             </text>
             <path d="M28,534.373932 L23,565.11337 L68.7189111,571.213678 C80.4661343,573.826067 87.3680581,569.690919 89.4246825,558.808233 C91.4813068,547.925547 86.7580158,542.119353 75.2548095,541.389649 L28,534.373932 Z" id="Path-10" stroke="#B18D32" fill-opacity="0.15" fill="#AC6B0A" stroke-dasharray="5"></path>
             <g id="dnc_legend" transform="translate(0.000000, 278.373932)">
-                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="185" height="59" rx="5"></rect>
+                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0.5" y="0.5" width="185" height="73" rx="5"></rect>
                 <text id="speed_load_time" font-family="Verdana-Italic, Verdana" font-size="9" font-style="italic" font-weight="normal" fill="#6D7C8A">
-                    <tspan x="7" y="52">Отображены данные на 15:15</tspan>
+                    <tspan x="7" y="67">Отображены данные на 15:15</tspan>
                 </text>
-                <text id="фактическая" font-family="Verdana" font-size="9" font-weight="normal" fill="#22E329">
+                <g id="b_trains_reg" transform="translate(68.000000, 41.000000)">
+                    <rect id="Rectangle" fill="#C87272" x="0" y="1" width="29" height="12" rx="3"></rect>
+                    <g id="icon_" transform="translate(2.500000, 3.400000)" stroke="#FFFFFF" stroke-width="1.5">
+                        <line x1="0.5" y1="6.75" x2="6.5" y2="0.75" id="Path-184"></line>
+                        <line x1="6.6446967" y1="6.57141239" x2="0.540896092" y2="0.677040662" id="Path-184"></line>
+                    </g>
+                    <text id="numb" font-family="Verdana" font-size="10" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="14.6425781" y="10.5">00</tspan>
+                    </text>
+                </g>
+                <text id="брошенные-поезда" font-family="Verdana" font-size="8" font-weight="normal" fill="#454545">
+                    <tspan x="101.326172" y="50">брошенные поезда</tspan>
+                </text>
+                <text id="фактическая" font-family="Verdana" font-size="9" font-weight="normal" fill="#454545">
                     <tspan x="4.86450195" y="33">фактическая </tspan>
                 </text>
                 <text id="Участковая-скорость," font-family="Verdana" font-size="10" font-weight="normal" fill="#454545">
