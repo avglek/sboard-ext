@@ -1,3 +1,4 @@
+// Массив конфигурации слоев
 export const layersGroupInit = [
   {
     title: 'Подразделения',
@@ -249,4 +250,4 @@ export const layersGroupInit = [
       },
     ],
   },
-]
+];
