@@ -1,4 +1,5 @@
-import socketIOClient from "socket.io-client";
+// Сервис для использования сокетов (Пока не используется)
+import socketIOClient from 'socket.io-client';
 
 const applicationInitialState = window.__INITIAL_STATE__;
 const wsocket = applicationInitialState.wsocket;

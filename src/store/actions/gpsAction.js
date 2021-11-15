@@ -1,10 +1,11 @@
-import DataService from "../../services/DataService";
+// GPS
+import DataService from '../../services/DataService';
 import {
   GPS_FETCH_ERROR,
   GPS_FETCH_SUCCESS,
   GPS_START_LOADING,
   GPS_RESET_CODE,
-} from "../actions/actionTypes";
+} from '../actions/actionTypes';
 
 const dataService = new DataService();
 
@@ -35,7 +36,7 @@ export function fetchGPS(long, lat) {
       const data = await dataService.getGPS(long, lat);
       dispatch(gpsFetchSuccess(data));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(gpsFetchError(error));
     }
   };

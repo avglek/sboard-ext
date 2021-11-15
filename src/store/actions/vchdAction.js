@@ -1,9 +1,10 @@
-import DataService from "../../services/DataService";
+//ВЧД
+import DataService from '../../services/DataService';
 import {
   VCHD_FETCH_ERROR,
   VCHD_START_LOADING,
   VCHD_FETCH_SUCCESS,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -39,7 +40,7 @@ export function fetchVchdData(region) {
       const data = await dataService.getVchd(region);
       dispatch(vchdFetchSuccess(data, region));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(vchdFetchError(error));
     }
   };

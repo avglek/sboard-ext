@@ -1,9 +1,10 @@
-import DataService from "../../services/DataService";
+// трубы
+import DataService from '../../services/DataService';
 import {
   PIPE_FETCH_ERROR,
   PIPE_START_LOADING,
   PIPE_FETCH_SUCCESS,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -39,7 +40,7 @@ export function pipeFetchData(region) {
       const data = await dataService.getPipeCount(region);
       dispatch(pipeFetchSuccess(data, region));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(pipeFetchError(error));
     }
   };

@@ -1,10 +1,11 @@
-import React from "react";
-import classes from "./WeatherUI.module.css";
-import { connect } from "react-redux";
-import { SizeMe } from "react-sizeme";
-import WeatherInfo from "./WeatherInfo";
+// Показ информации о фактической погоде
+import React from 'react';
+import classes from './WeatherUI.module.css';
+import { connect } from 'react-redux';
+import { SizeMe } from 'react-sizeme';
+import WeatherInfo from './WeatherInfo';
 
-import { weatherWinClose } from "../../store/actions/weatherAction";
+import { weatherWinClose } from '../../store/actions/weatherAction';
 
 const mapStateToProps = (state) => {
   return {
@@ -23,7 +24,7 @@ const mapDispatchToProps = (dispatch) => {
 
 const WeatherUI = (props) => {
   return (
-    <SizeMe monitorHeight="true">{({ size }) => renderUI(size, props)}</SizeMe>
+    <SizeMe monitorHeight='true'>{({ size }) => renderUI(size, props)}</SizeMe>
   );
 };
 
@@ -43,7 +44,7 @@ const renderUI = (size, props) => {
       <div
         className={classes.Weather}
         style={{
-          visibility: props.isOpen ? "visible" : "hidden",
+          visibility: props.isOpen ? 'visible' : 'hidden',
           top: coorY,
           left: coorX,
         }}

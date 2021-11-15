@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
-import { connect } from "react-redux";
+// Левое меню
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
 
-import NavButton from "./NavButton/NavButton";
-import classes from "./NavBar.module.css";
-import { navbarFetchData } from "../../store/actions/navbarActions";
+import NavButton from './NavButton/NavButton';
+import classes from './NavBar.module.css';
+import { navbarFetchData } from '../../store/actions/navbarActions';
 
 // Замена наименования стиля с "bg-blue" на "bgBlue"
 const translate = (name) => {
@@ -31,7 +32,7 @@ const NavBar = ({ fetchData, isLoading, items, hasErrored, className }) => {
   }, [fetchData]);
 
   if (hasErrored) {
-    console.log("Error:", hasErrored);
+    console.log('Error:', hasErrored);
     return <div>Error</div>;
   }
 
@@ -43,7 +44,7 @@ const NavBar = ({ fetchData, isLoading, items, hasErrored, className }) => {
     leftBox.sort((a, b) => a.order_num - b.order_num);
 
     return (
-      <div className={className + " " + classes.NavBar}>
+      <div className={className + ' ' + classes.NavBar}>
         {leftBox.map((item, index) => {
           return (
             <NavButton

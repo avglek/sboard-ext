@@ -1,3 +1,4 @@
+// Класс для пикетов
 export default class Piket {
   // "code": "31",
   // "param1": "Рег-3 - Рег-6",
@@ -8,11 +9,10 @@ export default class Piket {
   constructor(code, id_picket, params) {
     this.code = code;
     this.id_picket = id_picket;
-    this.params = params.map(item => item);
+    this.params = params.map((item) => item);
   }
 
   getParamsTxt() {
     return this.params.join(',');
   }
-
 }

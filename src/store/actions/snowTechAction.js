@@ -1,9 +1,10 @@
-import DataService from "../../services/DataService";
+// Снегоуборочная техника
+import DataService from '../../services/DataService';
 import {
   SNOW_TECH_FETCH_ERROR,
   SNOW_TECH_FETCH_SUCCESS,
   SNOW_TECH_START_LOADING,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -39,7 +40,7 @@ export function snowTechFetchData(region) {
       const data = await dataService.getSnowTech(region);
       dispatch(snowTechFetchSuccess(data, region));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(snowTechFetchError(error));
     }
   };

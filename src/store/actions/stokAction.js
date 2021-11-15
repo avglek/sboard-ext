@@ -1,9 +1,10 @@
-import DataService from "../../services/DataService";
+// Стоки
+import DataService from '../../services/DataService';
 import {
   STOK_FETCH_ERROR,
   STOK_START_LOADING,
   STOK_FETCH_SUCCESS,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -39,7 +40,7 @@ export function fetchStokData(region) {
       const data = await dataService.getStokRegion(region);
       dispatch(stokFetchSuccess(data, region));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(stokFetchError(error));
     }
   };

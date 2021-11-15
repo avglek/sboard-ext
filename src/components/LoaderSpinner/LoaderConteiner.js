@@ -1,6 +1,7 @@
-import React from "react";
-import LoaderSpinner from "./LoaderSpinner";
-import classes from "./LoaderSpinner.module.css";
+// Компонент ожидания загрузки
+import React from 'react';
+import LoaderSpinner from './LoaderSpinner';
+import classes from './LoaderSpinner.module.css';
 
 const LoaderConteiner = () => {
   return (

@@ -1,3 +1,4 @@
+// Утилиты для работы с датами
 export const parsePeriodToDate = (dateString) => {
   const strBegin = dateString.substr(0, 16);
   const strEnd = dateString.substr(17, dateString.length);
@@ -14,15 +15,15 @@ export const parsePeriodToString = (dateString) => {
 };
 
 export const parsePeriodToString2 = (dateString) => {
-  const arr = dateString.split(" - ");
+  const arr = dateString.split(' - ');
   const result = `${arr[0]}-${arr[1]}`;
 
   return parsePeriodToString(result);
 };
 
 export const strToDate = (dateString) => {
-  const arrAll = dateString.trim().split(" ");
-  const arrDate = arrAll[0].split("-");
+  const arrAll = dateString.trim().split(' ');
+  const arrDate = arrAll[0].split('-');
   const strDate = `${arrDate[2]}-${arrDate[1]}-${arrDate[0]}`;
 
   const date = new Date(`${strDate}T${arrAll[1]}`);
@@ -39,7 +40,7 @@ export const dateToStr = (date) => {
 };
 
 export const replaceURL = (url, ...arg) => {
-  const a2 = url.trim().split("$");
-  const a3 = a2.map((i, index) => (i ? `${i}${arg[index]}` : ""));
-  return a3.join("");
+  const a2 = url.trim().split('$');
+  const a3 = a2.map((i, index) => (i ? `${i}${arg[index]}` : ''));
+  return a3.join('');
 };

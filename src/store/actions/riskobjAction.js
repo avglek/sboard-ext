@@ -1,9 +1,10 @@
-import DataService from "../../services/DataService";
+// рисковые объекты
+import DataService from '../../services/DataService';
 import {
   RISKOBJ_FETCH_ERROR,
   RISKOBJ_START_LOADING,
   RISKOBJ_FETCH_SUCCESS,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -39,7 +40,7 @@ export function fetchRiskobjData(region) {
       const data = await dataService.getRiskobjRegion(region);
       dispatch(riskobjFetchSuccess(data, region));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(riskobjFetchError(error));
     }
   };

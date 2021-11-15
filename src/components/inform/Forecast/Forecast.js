@@ -1,26 +1,27 @@
-import React, { useEffect, useState } from "react";
-import { connect } from "react-redux";
-import { parsePeriodToString2 } from "../../../utils/common";
-import classes from "./Forecast.module.css";
-import ForecastTitle from "./ForecastTitle";
+// Компонент вывода информации о погоде справа
+import React, { useEffect, useState } from 'react';
+import { connect } from 'react-redux';
+import { parsePeriodToString2 } from '../../../utils/common';
+import classes from './Forecast.module.css';
+import ForecastTitle from './ForecastTitle';
 
-const dayIcon = "./svg/icons/forecast/day.svg";
-const nightIcon = "./svg/icons/forecast/night.svg";
+const dayIcon = './svg/icons/forecast/day.svg';
+const nightIcon = './svg/icons/forecast/night.svg';
 
 const parseDate = (dateString) => {
-  const arr = dateString.trim().split("-");
+  const arr = dateString.trim().split('-');
   return `${arr[2]}-${arr[1]}-${arr[0]}`;
 };
 
 const initForecast = {
   url: dayIcon,
-  period: "",
-  text: "",
-  name: "day",
+  period: '',
+  text: '',
+  name: 'day',
 };
 
 const Forecast = ({ isOpen, items }) => {
-  const [forecastShow, setForecastShow] = useState("hidden");
+  const [forecastShow, setForecastShow] = useState('hidden');
   const [forecastItem, setForecastItem] = useState(initForecast);
 
   useEffect(() => {
@@ -29,7 +30,7 @@ const Forecast = ({ isOpen, items }) => {
         url: dayIcon,
         period: parsePeriodToString2(items[0].day.period),
         text: items[0].day.prognoz,
-        name: "day",
+        name: 'day',
       });
     }
     // eslint-disable-next-line
@@ -38,29 +39,29 @@ const Forecast = ({ isOpen, items }) => {
   useEffect(() => {
     if (isOpen) {
       if (items.length > 0) {
-        setForecastShow("visible");
+        setForecastShow('visible');
       } else {
-        setForecastShow("hidden");
+        setForecastShow('hidden');
       }
     } else {
-      setForecastShow("hidden");
+      setForecastShow('hidden');
     }
   }, [isOpen, items.length]);
 
   const handleClick = () => {
-    if (forecastItem.name === "day") {
+    if (forecastItem.name === 'day') {
       setForecastItem({
         url: nightIcon,
         period: parsePeriodToString2(items[0].night.period),
         text: items[0].night.prognoz,
-        name: "night",
+        name: 'night',
       });
     } else {
       setForecastItem({
         url: dayIcon,
         period: parsePeriodToString2(items[0].day.period),
         text: items[0].day.prognoz,
-        name: "day",
+        name: 'day',
       });
     }
   };
@@ -68,7 +69,7 @@ const Forecast = ({ isOpen, items }) => {
   if (items.length > 0) {
     const dateStr = parseDate(items[0].date);
     const date = new Date(dateStr);
-    const textFormat = forecastItem.text.split(";").join(". ");
+    const textFormat = forecastItem.text.split(';').join('. ');
     return (
       <div className={classes.Forecast} style={{ visibility: forecastShow }}>
         <div className={classes.Header}>

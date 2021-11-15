@@ -1,9 +1,10 @@
-import DataService from "../../services/DataService";
+//Диспечерские участки
+import DataService from '../../services/DataService';
 import {
   DNC_FETCH_ERROR,
   DNC_FETCH_SUCCESS,
   DNC_START_LOADING,
-} from "../actions/actionTypes";
+} from '../actions/actionTypes';
 
 const dataService = new DataService();
 
@@ -38,7 +39,7 @@ export function fetchDncData(id) {
 
       dispatch(dncFetchSuccess(data, id));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(dncFetchError(error));
     }
   };

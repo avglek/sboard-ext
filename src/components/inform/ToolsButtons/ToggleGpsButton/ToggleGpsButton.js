@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
-import classes from "./ToggleGpsButton.module.css";
-import { connect } from "react-redux";
-import { hiddenTootTip, showToolTip } from "../../../../utils/tabloUtils";
-import { toggleMainMap } from "../../../../store/actions/tabloAction";
-import { loadStorage } from "../../../../utils/gpsUtils";
+// Компонент кнопки переключения GPS
+import React, { useEffect } from 'react';
+import classes from './ToggleGpsButton.module.css';
+import { connect } from 'react-redux';
+import { hiddenTootTip, showToolTip } from '../../../../utils/tabloUtils';
+import { toggleMainMap } from '../../../../store/actions/tabloAction';
+import { loadStorage } from '../../../../utils/gpsUtils';
 //import { fetchGPS } from "../../../../store/actions/gpsAction";
 //import { findRegion } from "../../../map/tablo";
 
@@ -17,20 +18,20 @@ const ToggleGpsButton = ({ toggleMainMap, gpsName, gpsImg, gpsToggle }) => {
     const mainGpsObj = {};
 
     if (gpsToggle) {
-      mainGpsObj.gpsImg = "./svg/icons/button/gps_off.svg";
+      mainGpsObj.gpsImg = './svg/icons/button/gps_off.svg';
       mainGpsObj.gpsToggle = false;
-      mainGpsObj.gpsName = "gpsOff";
+      mainGpsObj.gpsName = 'gpsOff';
     } else {
-      mainGpsObj.gpsImg = "./svg/icons/button/gps_on.svg";
+      mainGpsObj.gpsImg = './svg/icons/button/gps_on.svg';
       mainGpsObj.gpsToggle = true;
-      mainGpsObj.gpsName = "gpsOn";
+      mainGpsObj.gpsName = 'gpsOn';
       // if (stantion) {
       //   findRegion(stantion.region, stantion.code);
       // }
     }
 
     const gpsRaw = JSON.stringify(mainGpsObj);
-    localStorage.setItem("gps", gpsRaw);
+    localStorage.setItem('gps', gpsRaw);
     toggleMainMap(mainGpsObj);
   };
 
@@ -38,9 +39,9 @@ const ToggleGpsButton = ({ toggleMainMap, gpsName, gpsImg, gpsToggle }) => {
     const x = e.pageX;
     const y = e.pageY;
 
-    const text = "Включение GPS";
+    const text = 'Включение GPS';
 
-    showToolTip(text, x, y, "down");
+    showToolTip(text, x, y, 'down');
   };
 
   const handleMouseLeave = () => {

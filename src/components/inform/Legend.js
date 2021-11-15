@@ -1,11 +1,12 @@
-import React from "react";
-import { connect } from "react-redux";
+// Компонент легенды
+import React from 'react';
+import { connect } from 'react-redux';
 
 const Legend = (props) => {
   if (props.legendKey) {
     return (
       <div className={props.className}>
-        <img src={props.legendKey} alt="legend" width="100%" />
+        <img src={props.legendKey} alt='legend' width='100%' />
       </div>
     );
   } else {

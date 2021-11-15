@@ -1,10 +1,11 @@
-import React from "react";
-import { connect } from "react-redux";
-import classes from "./Inform.module.css";
-import Legend from "./Legend";
-import SpecReg from "./SpecReg";
-import Forecast from "./Forecast/Forecast";
-import ToolsButtons from "./ToolsButtons/ToolsButtons";
+// Блок информации
+import React from 'react';
+import { connect } from 'react-redux';
+import classes from './Inform.module.css';
+import Legend from './Legend';
+import SpecReg from './SpecReg';
+import Forecast from './Forecast/Forecast';
+import ToolsButtons from './ToolsButtons/ToolsButtons';
 
 const Inform = (props) => {
   return (

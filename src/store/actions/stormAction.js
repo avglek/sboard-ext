@@ -1,4 +1,5 @@
-import DataService from "../../services/DataService";
+// Штормовое предупредение
+import DataService from '../../services/DataService';
 import {
   STORM_FETCH_ERRORED,
   STORM_START_LOADING,
@@ -6,7 +7,7 @@ import {
   STORM_ALL_FETCH_SUCCESS,
   STORM_REGION_UPDATE_SUCCESS,
   STORM_ALL_UPDATE_SUCCESS,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -81,7 +82,7 @@ export function stormFetchData(id, clickFunction) {
         dispatch(stormRegionFetchSuccess(data, id, clickFunction));
       }
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(stormFetchError(error));
     }
   };
@@ -99,7 +100,7 @@ export function stormUpdateData(id) {
         dispatch(stormRegionUpdateSuccess(data, id));
       }
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(stormFetchError(error));
     }
   };

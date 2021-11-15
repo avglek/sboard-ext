@@ -1,9 +1,10 @@
-import React from "react";
+//Сайтбар с выбором слоев
+import React from 'react';
 //import Backdrop from "../Backdrop/Backdrop";
-import classes from "./Drawer.module.css";
-import SideBody from "./SideBody/SideBody";
-import { FiChevronsLeft, FiChevronsRight } from "react-icons/fi";
-import { IconContext } from "react-icons";
+import classes from './Drawer.module.css';
+import SideBody from './SideBody/SideBody';
+import { FiChevronsLeft, FiChevronsRight } from 'react-icons/fi';
+import { IconContext } from 'react-icons';
 
 const Drawer = (props) => {
   const cls = [classes.Drawer];
@@ -13,7 +14,7 @@ const Drawer = (props) => {
   }
 
   return (
-    <div className={cls.join(" ")}>
+    <div className={cls.join(' ')}>
       <div className={classes.bookmark} onClick={props.onToggleHandle}>
         <IconContext.Provider value={{ className: classes.icon }}>
           <div>{props.isOpen ? <FiChevronsRight /> : <FiChevronsLeft />}</div>

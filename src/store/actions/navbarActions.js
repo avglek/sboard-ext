@@ -1,13 +1,14 @@
-import DataService from "../../services/DataService"
+// Меню слева
+import DataService from '../../services/DataService';
 import {
   NAVBAR_FETCH_ERRORED,
   NAVBAR_FETCH_DATA_SUCCESS,
   NAVBAR_START_LOADING,
-} from "./actionTypes";
+} from './actionTypes';
 
-const KEY = "left_box";
+const KEY = 'left_box';
 
-const dataService = new DataService()
+const dataService = new DataService();
 
 export function navbarFetchError(error) {
   return {
@@ -38,19 +39,15 @@ export function navbarFetchDataSlow(url) {
   };
 }
 
-
 export function navbarFetchData() {
   return async (dispatch) => {
-
-    dispatch(navbarStartLoading())
+    dispatch(navbarStartLoading());
     try {
-      const data = await dataService.getMenu()
-       dispatch(navbarFetchDataSuccess(data[KEY]))
+      const data = await dataService.getMenu();
+      dispatch(navbarFetchDataSuccess(data[KEY]));
     } catch (error) {
-      console.log("Error:", error)
-      dispatch(navbarFetchError(error))
+      console.log('Error:', error);
+      dispatch(navbarFetchError(error));
     }
-
-  }
+  };
 }
-

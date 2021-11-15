@@ -1,43 +1,44 @@
-import { parsePeriodToString, replaceURL } from '../utils/common'
-import Stantion from '../components/map/Stantion'
+// Сервис для загрузки данных
+import { parsePeriodToString, replaceURL } from '../utils/common';
+import Stantion from '../components/map/Stantion';
 
-const applicationInitialState = window.__INITIAL_STATE__
-const config = applicationInitialState.config
+const applicationInitialState = window.__INITIAL_STATE__;
+const config = applicationInitialState.config;
 
 class DataService {
   async getRiskobjInfo(id) {
-    const data = await this.getResurce(`${config.riskobj_info}${id}`)
-    return data
+    const data = await this.getResurce(`${config.riskobj_info}${id}`);
+    return data;
   }
   async getRiskobjRegion(id) {
-    const data = await this.getResurce(`${config.riskobj}${id}`)
-    return data
+    const data = await this.getResurce(`${config.riskobj}${id}`);
+    return data;
   }
   async getStokInfo(id) {
-    const data = await this.getResurce(`${config.stok_info}${id}`)
-    return data
+    const data = await this.getResurce(`${config.stok_info}${id}`);
+    return data;
   }
   async getStokRegion(id) {
-    const data = await this.getResurce(`${config.stok}${id}`)
-    return data
+    const data = await this.getResurce(`${config.stok}${id}`);
+    return data;
   }
 
   async getVchd(id) {
-    const data = await this.getResurce(`${config.vchd}${id}`)
-    return data
+    const data = await this.getResurce(`${config.vchd}${id}`);
+    return data;
   }
 
   async getDncUch(id) {
-    const data = await this.getResurce(`${config.dnc_uch}${id}`)
-    return data
+    const data = await this.getResurce(`${config.dnc_uch}${id}`);
+    return data;
   }
   async getDncData(id) {
-    const data = await this.getResurce(`${config.dnc_reg}${id}`)
-    return data
+    const data = await this.getResurce(`${config.dnc_reg}${id}`);
+    return data;
   }
 
   async getMilRailsPokaz(id) {
-    const data = await this.getResurce(`${config.mil_rails}${id}`)
+    const data = await this.getResurce(`${config.mil_rails}${id}`);
     const res = {
       info: [
         {
@@ -112,85 +113,85 @@ class DataService {
           value: data.data[0].class_pu,
         },
       ],
-    }
-    return res
+    };
+    return res;
   }
 
   async getGPS(long, lat) {
-    const url = replaceURL(config.gps, long, lat)
-    const data = await this.getResurce(url)
-    return data[0]
+    const url = replaceURL(config.gps, long, lat);
+    const data = await this.getResurce(url);
+    return data[0];
   }
 
   async getDivisions() {
-    const stantion = {}
-    const data = await this.getResurce(config.divisions)
+    const stantion = {};
+    const data = await this.getResurce(config.divisions);
 
     for (const t of data) {
-      let key = t.ks.substr(0, 5)
-      let stn = new Stantion(t.ks, t.ms, t.km, t.nodes, t.region)
-      stantion[key] = stn
+      let key = t.ks.substr(0, 5);
+      let stn = new Stantion(t.ks, t.ms, t.km, t.nodes, t.region);
+      stantion[key] = stn;
     }
 
-    return stantion
+    return stantion;
   }
 
   getMenu() {
-    return this.getResurce(config.menu)
+    return this.getResurce(config.menu);
   }
 
   async getSpecTech(id) {
-    const items = await this.getResurce(`${config.spec_prp}${id}`)
+    const items = await this.getResurce(`${config.spec_prp}${id}`);
 
     const result = items.data.map((item) => {
-      const keys = Object.keys(item).filter((i) => items.title[i])
+      const keys = Object.keys(item).filter((i) => items.title[i]);
       const text = keys.map((i) => {
-        return `${items.title[i]}: <b>${item[i]}</b>`
-      })
+        return `${items.title[i]}: <b>${item[i]}</b>`;
+      });
       return {
         id: item.id_map,
         text: text,
-      }
-    })
+      };
+    });
 
-    return result
+    return result;
   }
 
   getPokaz(id, label) {
-    return this.getResurce(`${config[label]}${id}`)
+    return this.getResurce(`${config[label]}${id}`);
     //return this.getResurce(`${config.pokaz}`)
   }
 
   async getStormPokaz(id) {
-    const data = await this.getResurce(`${config.storm_uch}${id}`)
-    const informItems = data[0].data[0].data
-    const actions = data[0].data[0].action
+    const data = await this.getResurce(`${config.storm_uch}${id}`);
+    const informItems = data[0].data[0].data;
+    const actions = data[0].data[0].action;
     const nameTrain = {
       name: data[0].data[0].name_trainuch,
       value: '',
-    }
+    };
 
-    let info = []
+    let info = [];
 
     informItems.forEach((item) => {
-      const value = parsePeriodToString(item.period)
+      const value = parsePeriodToString(item.period);
 
       const result = item.event.map((item) => {
         return {
           name: item.name_event,
           value: value,
-        }
-      })
+        };
+      });
 
-      info = [...info, ...result]
-    })
+      info = [...info, ...result];
+    });
 
     const replaseItem = (item) => {
-      const arr = item.split(';')
-      return arr.join('\n')
-    }
+      const arr = item.split(';');
+      return arr.join('\n');
+    };
 
-    let arrPokaz = []
+    let arrPokaz = [];
 
     if (actions) {
       arrPokaz = actions.map((item) => {
@@ -200,145 +201,145 @@ class DataService {
             c_name: 'Мероприятия для формирования оперативного приказа',
           },
           data: item.data.map((item) => ({ c_name: replaseItem(item) })),
-        }
-      })
+        };
+      });
     }
 
-    const objPokaz = { ...arrPokaz }
+    const objPokaz = { ...arrPokaz };
 
     const result = {
       info: [nameTrain, ...info],
       ...objPokaz,
-    }
+    };
 
-    return result
+    return result;
   }
 
   async getStormAll() {
-    const data = await this.getResurce(config.storm_all)
+    const data = await this.getResurce(config.storm_all);
 
     const result = data.map((item) => {
-      const isCritical = this.getCriticalEvent(item)
+      const isCritical = this.getCriticalEvent(item);
       const res = {
         id: item.region,
         //hits: firstUch.length > 0 ? firstUch[0].data : [],
         hits: [],
         isCritical,
-      }
-      return res
-    })
-    return result
+      };
+      return res;
+    });
+    return result;
   }
 
   getCriticalEvent({ data }) {
-    let bool = false
+    let bool = false;
     data.forEach((item) => {
-      const { data } = item
+      const { data } = item;
       data.forEach((item) => {
-        const { event } = item
+        const { event } = item;
         event.forEach((item) => {
-          if (item['type_critical']) bool = true
-        })
-      })
-    })
-    return bool
+          if (item['type_critical']) bool = true;
+        });
+      });
+    });
+    return bool;
   }
 
   async getStormRegion(id) {
-    const data = await this.getResurce(`${config.storm_region}${id}`)
+    const data = await this.getResurce(`${config.storm_region}${id}`);
 
     if (data.length > 0) {
       const dataTrains = data[0].data.map((item) => {
-        let isCritical = false
+        let isCritical = false;
         const arr = item.data.map((ev) => {
-          const critical = ev.event.filter((item) => item['type_critical'])
+          const critical = ev.event.filter((item) => item['type_critical']);
           if (critical.length > 0) {
-            isCritical = true
+            isCritical = true;
           }
           return {
             period: ev.period,
             data: ev.data,
             critical: critical,
-          }
-        })
+          };
+        });
 
         return {
           id: item.map,
           hits: arr,
           isCritical,
-        }
-      })
-      return dataTrains
+        };
+      });
+      return dataTrains;
     } else {
-      return []
+      return [];
     }
   }
 
   getStormActions(id) {
-    const data = this.getResurce(config.storm_uch)
+    const data = this.getResurce(config.storm_uch);
 
-    return data
+    return data;
   }
 
   getPiket() {
-    return this.getResurce(config.piket)
+    return this.getResurce(config.piket);
   }
 
   getPrognoz(id) {
-    return this.getResurce(`${config.prognoz}${id}`)
+    return this.getResurce(`${config.prognoz}${id}`);
   }
 
   getWeather(id) {
-    return this.getResurce(`${config.weather_region}${id}`)
+    return this.getResurce(`${config.weather_region}${id}`);
   }
 
   getSnowTech(id) {
-    return this.getResurce(`${config.snow_tech}${id}`)
+    return this.getResurce(`${config.snow_tech}${id}`);
   }
 
   async getBridgePokaz(id) {
-    return this.getResurce(`${config.bridges_pokaz}${id}`)
+    return this.getResurce(`${config.bridges_pokaz}${id}`);
     //return this.getResurce(`./data/load_artfeat_153_42.json`);
   }
 
   async getPipePokaz(id) {
-    return this.getResurce(`${config.pipe}${id}`)
+    return this.getResurce(`${config.pipe}${id}`);
     //return this.getResurce(`./data/load_artfeat_153_42.json`);
   }
 
   async getPipeCount(id) {
-    return this.getResurce(`${config.pipe_count}${id}`)
+    return this.getResurce(`${config.pipe_count}${id}`);
   }
 
   async getHealthInfo(id) {
-    return this.getResurce(`${config.health}${id}`)
+    return this.getResurce(`${config.health}${id}`);
   }
 
   async getSnowPokaz(id) {
-    return this.getResurce(`${config.snow_pokaz}${id}`)
+    return this.getResurce(`${config.snow_pokaz}${id}`);
   }
 
   async getAbandonedAll() {
-    return this.getResurce(`${config.abandoned_all}`)
+    return this.getResurce(`${config.abandoned_all}`);
   }
 
   async getAbandonedByRegion(id) {
-    return this.getResurce(`${config.abandoned_reg}0${id}`)
+    return this.getResurce(`${config.abandoned_reg}0${id}`);
   }
 
   async getAbandonedTrains(id) {
-    return this.getResurce(`${config.abandoned_trains}${id}`)
+    return this.getResurce(`${config.abandoned_trains}${id}`);
   }
 
   async getResurce(url) {
-    const response = await fetch(url)
+    const response = await fetch(url);
 
     if (!response.ok) {
-      throw new Error(`Cloud not fetch ${url}, received ${response.status}`)
+      throw new Error(`Cloud not fetch ${url}, received ${response.status}`);
     } else {
-      return await response.json()
+      return await response.json();
     }
   }
 }
 
-export default DataService
+export default DataService;

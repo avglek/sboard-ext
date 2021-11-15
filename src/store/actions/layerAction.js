@@ -1,10 +1,11 @@
+// Уровни на карте
 import {
   LAYER_SHOW_CHECKED,
   LAYER_REFRESH,
   LAYER_FIND_STANTION,
   LAYER_RESET_ZOOM,
-} from "./actionTypes";
-import * as d3 from "d3";
+} from './actionTypes';
+import * as d3 from 'd3';
 
 export function postShowLayer(layers) {
   return {
@@ -37,8 +38,8 @@ export function postRefreshLayer(layers) {
 function scanLayer(layers) {
   const newLayers = layers.map((item) => {
     let dis = item.disabled;
-    item.layer.split(" ").forEach((text) => {
-      const selectLayer = d3.selectAll("#" + text.trim());
+    item.layer.split(' ').forEach((text) => {
+      const selectLayer = d3.selectAll('#' + text.trim());
       if (selectLayer.node()) {
         dis = false;
       } else {

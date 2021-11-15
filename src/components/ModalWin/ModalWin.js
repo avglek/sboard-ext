@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import Draggable from "react-draggable";
-import { MdCancel } from "react-icons/md";
-import { connect } from "react-redux";
-import { ModalIsOpen } from "../../store/actions/modalAction";
-import "./ModalWin.css";
+// Шаблон модального окна
+import React, { useState } from 'react';
+import Draggable from 'react-draggable';
+import { MdCancel } from 'react-icons/md';
+import { connect } from 'react-redux';
+import { ModalIsOpen } from '../../store/actions/modalAction';
+import './ModalWin.css';
 
 const mapStateToProps = (state) => {
   return {
@@ -18,26 +19,26 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 const ModalWin = (props) => {
-  const [cursor, setCursor] = useState("default");
+  const [cursor, setCursor] = useState('default');
 
   const handleStart = () => {
-    setCursor("move");
+    setCursor('move');
   };
 
   const handleStop = () => {
-    setCursor("default");
+    setCursor('default');
   };
 
   return (
     <div
-      className="ModalBackgraund"
-      style={{ visibility: props.isOpen ? "visible" : "hidden" }}
+      className='ModalBackgraund'
+      style={{ visibility: props.isOpen ? 'visible' : 'hidden' }}
     >
-      <Draggable handle=".ModalHead" onStart={handleStart} onStop={handleStop}>
-        <div className="ModalWin" style={{ cursor: cursor }}>
-          <div className="ModalHead">
+      <Draggable handle='.ModalHead' onStart={handleStart} onStop={handleStop}>
+        <div className='ModalWin' style={{ cursor: cursor }}>
+          <div className='ModalHead'>
             {props.title}
-            <div className="ModalBtnClose" onClick={() => props.isModalClose()}>
+            <div className='ModalBtnClose' onClick={() => props.isModalClose()}>
               <MdCancel />
             </div>
           </div>

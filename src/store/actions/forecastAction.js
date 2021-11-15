@@ -1,11 +1,12 @@
-import DataService from "../../services/DataService";
+// Погода на дшборте справа
+import DataService from '../../services/DataService';
 import {
   FORECAST_FETCH_ERRORED,
   FORECAST_START_LOADING,
   FORECAST_CLOSE,
   FORECAST_OPEN,
   FORECAST_FETCH_DATA_SUCCESS,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -48,7 +49,7 @@ export function forecastFetchData(id) {
       const data = await dataService.getPrognoz(id);
       dispatch(forecastFetchDataSuccess(data));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(forecastFetchError(error));
     }
   };

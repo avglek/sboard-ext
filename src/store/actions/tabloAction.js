@@ -1,10 +1,11 @@
-import DataService from "../../services/DataService";
+// Переключениие и загрузка карты
+import DataService from '../../services/DataService';
 import {
   TABLO_TOGGLE_MAIN_MAP,
   TABLO_FETCH_ERROR,
   TABLO_FETCH_SUCCESS,
   TABLO_START_LOADING,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -35,7 +36,7 @@ export function tabloFetchData() {
       const data = await dataService.getDivisions();
       dispatch(tabloFetchSuccess(data));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(tabloFetchError(error));
     }
   };

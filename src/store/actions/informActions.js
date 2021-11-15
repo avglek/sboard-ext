@@ -1,4 +1,5 @@
-import { INFO_LEGEND_KEY, INFO_SPEC_KEY } from "./actionTypes";
+// Для окон информации справа о легенде и спецификации по регионам
+import { INFO_LEGEND_KEY, INFO_SPEC_KEY } from './actionTypes';
 
 export function informLegendKey(legend) {
   return {

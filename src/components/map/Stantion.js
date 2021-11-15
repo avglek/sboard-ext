@@ -1,3 +1,4 @@
+// Класс для станций
 export default class Stantion {
   constructor(ks, ms, km, nodes, region) {
     this.ks = ks;
@@ -8,9 +9,9 @@ export default class Stantion {
   }
 
   getNodesTxt() {
-    let txt = "";
+    let txt = '';
     for (const item of this.nodes) {
-      txt += item.name + ",";
+      txt += item.name + ',';
     }
     txt = txt.substr(0, txt.length - 1);
     return txt;

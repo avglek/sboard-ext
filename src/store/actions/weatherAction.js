@@ -1,11 +1,12 @@
-import DataService from "../../services/DataService";
+// Слой фактической погоды
+import DataService from '../../services/DataService';
 import {
   WEATHER_FETCH_ERROR,
   WEATHER_FETCH_SUCCESS,
   WEATHER_START_LOADING,
   WEATHER_WIN_OPEN,
   WEATHER_WIN_CLOSE,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -56,7 +57,7 @@ export function weatherFetchData(region) {
       const data = await dataService.getWeather(region);
       dispatch(weatherFetchSuccess(data, region));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(weatherFetchError(error));
     }
   };

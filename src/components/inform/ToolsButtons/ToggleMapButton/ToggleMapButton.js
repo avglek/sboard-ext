@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
-import { connect } from "react-redux";
-import classes from "./ToggleMapButton.module.css";
-import { toggleMainMap } from "../../../../store/actions/tabloAction";
-import { hiddenTootTip, showToolTip } from "../../../../utils/tabloUtils";
+// Компонент переключания карты
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
+import classes from './ToggleMapButton.module.css';
+import { toggleMainMap } from '../../../../store/actions/tabloAction';
+import { hiddenTootTip, showToolTip } from '../../../../utils/tabloUtils';
 
 const applicationInitialState = window.__INITIAL_STATE__;
 const mainmap = applicationInitialState.main;
@@ -10,29 +11,29 @@ const mainmap = applicationInitialState.main;
 let initStorage = {};
 
 function loadStorage() {
-  const mapLocal = localStorage.getItem("map");
+  const mapLocal = localStorage.getItem('map');
 
   if (mapLocal) {
     initStorage = JSON.parse(mapLocal);
 
     if (!initStorage.legend) {
-      localStorage.removeItem("map");
+      localStorage.removeItem('map');
 
       initStorage.url = mainmap.map.url;
       initStorage.legend = mainmap.map.img_leg;
-      initStorage.img = "./svg/icons/button/flat.svg";
+      initStorage.img = './svg/icons/button/flat.svg';
       initStorage.toggle = true;
-      initStorage.name = "Geo map";
+      initStorage.name = 'Geo map';
 
       const mapRaw = JSON.stringify(initStorage);
-      localStorage.setItem("map", mapRaw);
+      localStorage.setItem('map', mapRaw);
     }
   } else {
     initStorage.url = mainmap.map.url;
     initStorage.legend = mainmap.map.img_leg;
-    initStorage.img = "./svg/icons/button/flat.svg";
+    initStorage.img = './svg/icons/button/flat.svg';
     initStorage.toggle = true;
-    initStorage.name = "Geo map";
+    initStorage.name = 'Geo map';
   }
   return initStorage;
 }
@@ -49,22 +50,22 @@ const ToggleMapButton = ({ toggleMainMap, name, img, toggle }) => {
       mainMapObj = {
         url: mainmap.big_map.url,
         legend: mainmap.big_map.img_leg,
-        img: "./svg/icons/button/map.svg",
+        img: './svg/icons/button/map.svg',
         toggle: false,
-        name: "Symbol map",
+        name: 'Symbol map',
       };
     } else {
       mainMapObj = {
         url: mainmap.map.url,
         legend: mainmap.map.img_leg,
-        img: "./svg/icons/button/flat.svg",
+        img: './svg/icons/button/flat.svg',
         toggle: true,
-        name: "Geo map",
+        name: 'Geo map',
       };
     }
 
     const mapRaw = JSON.stringify(mainMapObj);
-    localStorage.setItem("map", mapRaw);
+    localStorage.setItem('map', mapRaw);
     toggleMainMap(mainMapObj);
   };
 
@@ -72,9 +73,9 @@ const ToggleMapButton = ({ toggleMainMap, name, img, toggle }) => {
     const x = e.pageX;
     const y = e.pageY;
 
-    const text = "Переключение<br/>вида карты";
+    const text = 'Переключение<br/>вида карты';
 
-    showToolTip(text, x, y, "down");
+    showToolTip(text, x, y, 'down');
   };
 
   const handleMouseLeave = () => {

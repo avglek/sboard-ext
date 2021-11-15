@@ -1,12 +1,12 @@
-import React from "react";
-import { connect } from "react-redux";
+// Компонент спецификации
+import React from 'react';
+import { connect } from 'react-redux';
 
 const SpecReg = (props) => {
-  
   if (props.SpecKey) {
     return (
       <div className={props.className}>
-        <img src={props.SpecKey} alt="specifecation" width="100%" />
+        <img src={props.SpecKey} alt='specifecation' width='100%' />
       </div>
     );
   } else {

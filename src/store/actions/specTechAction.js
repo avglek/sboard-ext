@@ -1,9 +1,10 @@
-import DataService from "../../services/DataService";
+// Специальные поезда
+import DataService from '../../services/DataService';
 import {
   SPEC_TECH_FETCH_ERROR,
   SPEC_TECH_FETCH_SUCCESS,
   SPEC_TECH_START_LOADING,
-} from "./actionTypes";
+} from './actionTypes';
 
 const dataService = new DataService();
 
@@ -34,7 +35,7 @@ export function specTechFetchData(region) {
       const data = await dataService.getSpecTech(region);
       dispatch(specTechFetchSuccess(data, region));
     } catch (error) {
-      console.log("Error:", error);
+      console.log('Error:', error);
       dispatch(specTechFetchError(error));
     }
   };
