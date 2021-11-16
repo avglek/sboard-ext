@@ -26,9 +26,10 @@ export async function addEvent({
   ) {
     await showDncSpeed(dncData, openModal, fetchDncUchData);
   }
-  if (abandonedData && !abandonedLoad) {
-    await showAbandoned(abandonedData, openModal, fetchAbandonedTrains);
-  }
+  // События и иконки по бошенным поездам
+  // if (abandonedData && !abandonedLoad) {
+  //   await showAbandoned(abandonedData, openModal, fetchAbandonedTrains);
+  // }
 }
 
 export function resetEvent() {

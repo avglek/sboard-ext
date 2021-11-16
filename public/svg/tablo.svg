@@ -2117,7 +2117,7 @@
                 </text>
                 <line x1="18" y1="104" x2="161" y2="104" id="Path-79" stroke="#DDDDDD"></line>
             </g>
-            <g id="reg_br_trains" transform="translate(0.000000, 328.000000)">
+            <g id="reg_br_trains" transform="translate(0.000000, 328.000000)" opacity="0">
                 <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="176" height="118" rx="6"></rect>
                 <g id="Group-24" transform="translate(8.000000, 14.000000)">
                     <path d="M3,2.04281037e-14 L3,8 C3,9.1045695 3.8954305,10 5,10 L27,10 C28.1045695,10 29,9.1045695 29,8 L29,2.04281037e-14 L29,2.04281037e-14 L3,2.04281037e-14 Z" id="Path-83" stroke="#979797" stroke-width="2"></path>

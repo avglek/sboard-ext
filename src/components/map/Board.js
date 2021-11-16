@@ -76,11 +76,13 @@ const Board = (props) => {
     }
   }, [props.dncData, props.dncRegion]);
 
-  useEffect(() => {
-    if (props.abandonedData && props.abandonedRegion === 0) {
-      showAbonedTrains(props.abandonedData);
-    }
-  }, [props.abandonedData, props.abandonedRegion]);
+  //Брошенные поезда
+
+  // useEffect(() => {
+  //   if (props.abandonedData && props.abandonedRegion === 0) {
+  //     showAbonedTrains(props.abandonedData);
+  //   }
+  // }, [props.abandonedData, props.abandonedRegion]);
 
   useEffect(() => {
     if (props.stantionItems) {
